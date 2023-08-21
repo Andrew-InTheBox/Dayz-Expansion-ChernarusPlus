@@ -1,0 +1,28 @@
+16:03:33.667 [Spatial Settings] Minimum Distance too low. setting to 120m
+16:03:33.671 [Spatial Settings] Minimum Distance too low. setting to 120m
+16:03:33.671 [Spatial AI] points Enabled
+16:03:33.671 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50
+16:03:33.671 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+16:03:33.671 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 100
+16:03:33.671 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+16:03:33.671 [Spatial AI] Trigger at location: <5807.000000, 320.000000, 7446.000000> - Radius: 25
+16:03:33.671 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 2:3
+16:03:33.671 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 150
+16:03:33.671 [Spatial AI] Safe: true - Faction: Civilian - Loadout: HumanLoadout.json - counts: 0:0
+16:03:33.671 [Spatial AI] Locations Enabled
+16:03:33.675 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+16:03:33.675 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+16:03:33.675 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+16:03:33.675 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+16:03:33.675 [Spatial AI] Spatial AI Enabled
+16:03:33.675 [Spatial AI] Next valid check in: 2786935ms
+16:08:05.792 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+16:08:05.792 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+16:08:05.792 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+16:08:05.792 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+16:08:38.714 [Killfeed] Blorpus9000 commited suicide with M9.
+16:08:44.773 [Expansion Quests] - InitQuestSystemClient - Got cached player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+16:08:53.757 [SpawnSelection] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) spawned at <9428.458008, 2.254453, 1826.218506>
+16:50:21.433 [Spatial AI] Next valid check in: 2711981ms
+17:35:33.414 [Spatial AI] Next valid check in: 2765114ms
+18:21:38.531 [Spatial AI] Next valid check in: 2946181ms

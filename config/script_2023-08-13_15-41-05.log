@@ -1,0 +1,25 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\config\script_2023-08-13_15-41-05.log started at 13.08. 15:41:05
+
+SCRIPT       : Registered 397 temporary action enum(s), UAN==397
+SCRIPT       : Registering faction type eAIFactionShamans ID -1484989417
+SCRIPT       : Registering faction type eAIFactionObservers ID -563736721
+SCRIPT       : Registering faction type eAIFactionInvincibleObservers ID -1227299746
+SCRIPT       : Registering faction type eAIFactionEast ID 90522109
+SCRIPT       : Registering faction type eAIFactionGuards ID 963933710
+SCRIPT       : Registering faction type eAIFactionRaiders ID 1535276022
+SCRIPT       : Registering faction type eAIFactionMercenaries ID 1629891834
+SCRIPT       : Registering faction type eAIFactionWest ID 113880155
+SCRIPT       : Registering faction type eAIFactionCivilian ID 1096178351
+SCRIPT       : Registering faction type eAIFactionPassive ID -1159399789
+SCRIPT       : Registering faction type eAIFactionInvincibleGuards ID 782746017
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT       : 15:41:06 [EXPANSION LOG]: DayZGame<42310590> Start time (local time) 2023-08-13 15:41:00
+SCRIPT       : 15:41:06 [EXPANSION LOG]: DayZGame<42310590> Start time (UTC) 2023-08-13 20:41:00
+SCRIPT       : 15:41:06 [EXPANSION LOG]: DayZGame<42310590> Runtime since start (seconds) 6.957
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'username'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'avatar_url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'content'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,151": Possible variable name conflict 'url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,172": Possible variable name conflict 'url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,180": Possible variable name conflict 'url'

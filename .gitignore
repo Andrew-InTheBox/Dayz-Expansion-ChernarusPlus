@@ -1,0 +1,9 @@
+#Ignore all directories
+/*/
+
+#Ignore executables and logs
+*.exe
+*.RPT
+*.ADM
+*.log
+*.dll

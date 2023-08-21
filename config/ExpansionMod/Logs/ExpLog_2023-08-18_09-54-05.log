@@ -1,0 +1,50 @@
+09:54:05.742 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+09:54:05.750 [Spatial AI] points Enabled
+09:54:05.750 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+09:54:05.750 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+09:54:05.750 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+09:54:05.750 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+09:54:05.750 [Spatial AI] Trigger at point: <5807.000000, 320.000000, 7446.000000> - Radius: 30
+09:54:05.750 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 2:3
+09:54:05.750 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 150
+09:54:05.750 [Spatial AI] Safe: true - Faction: Civilian - Loadout: HumanLoadout.json - counts: 0:0
+09:54:05.753 [Spatial AI] Locations Enabled
+09:54:05.753 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+09:54:05.753 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+09:54:05.753 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+09:54:05.753 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+09:54:06.320 [Spatial AI] Spatial AI Enabled
+09:54:06.320 [Spatial AI] Next valid check in: 1735047ms
+09:55:23.250 [Safezone] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<3708.559326, 402.012390, 5971.458984>) Entered the safezone
+09:55:23.250 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) joinded the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)
+09:55:23.273 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 8 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 100 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 101 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 103 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 104 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 105 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 106 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.273 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 107 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 108 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 109 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 110 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 111 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 112 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 113 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 114 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 115 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 116 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.277 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 117 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 118 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 119 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 120 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 121 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 122 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 123 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.281 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 124 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+09:55:23.789 [AI Patrol] Spawning 3 West bots at <4380.839355, 309.570007, 6097.102539>
+09:55:24.445 [AI Patrol] Spawning 3 West bots at <4034.143555, 291.798767, 5357.129883>
+09:55:55.675 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) left the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)

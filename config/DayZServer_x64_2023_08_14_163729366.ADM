@@ -1,0 +1,25 @@
+
+
+******************************************************************************
+AdminLog started on 2023-08-14 at 15:40:29
+15:43:11 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
+15:44:28 | [COT] 76561198081075225: Set Reputation To 1000 [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+15:46:24 | [COT] 76561198081075225: Teleported 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= to (Village | Novy Sobor, <7124.049316, 294.394318, 7773.065430>)
+15:47:01 | [COT] 76561198081075225: Spawned Entity 30rd KA-74 Mag (Mag_AK74_30Rnd<a15e8c10>, 1, 100) at <7122.541016, 294.488708, 7773.677246>
+15:48:08 | [COT] 76561198081075225: Spawned Entity 5rd CR-527 Mag (Mag_CZ527_5rnd<a15f7f70>, 1, 100) at <7109.851074, 294.691528, 7755.128418>
+15:49:02 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Tracer Rounds (Box_Base<a15d2a10>, -1, 100) at <7109.851074, 294.691528, 7755.128418>
+15:49:02 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Tracer Rounds (Box_Base<a1605cb0>, -1, 100) at <7109.851074, 294.691528, 7755.128418>
+15:49:03 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Tracer Rounds (Box_Base<a16072d0>, -1, 100) at <7109.851074, 294.691528, 7755.128418>
+15:51:13 | Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<7144.1, 7722.3, 294.0>)[HP: 99] hit by Infected into LeftArm(18) for 10 damage (MeleeZombiePolice)
+15:51:14 | Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<7145.0, 7723.9, 294.0>)[HP: 98] hit by Infected into LeftArm(18) for 10 damage (MeleeZombiePolice)
+15:51:38 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+15:52:07 | [COT] 76561198081075225: Spawned Entity 6-M7 Frag Grenade (M67Grenade<8ecbf760>, -1, 50) at <7144.007813, 294.017761, 7724.510742>
+15:52:07 | [COT] 76561198081075225: Spawned Entity 6-M7 Frag Grenade (M67Grenade<8ecba670>, -1, 50) at <7144.007813, 294.017761, 7724.510742>
+15:52:07 | [COT] 76561198081075225: Spawned Entity 6-M7 Frag Grenade (M67Grenade<8ecc02f0>, -1, 50) at <7144.007813, 294.017761, 7724.510742>
+15:52:07 | [COT] 76561198081075225: Spawned Entity 6-M7 Frag Grenade (M67Grenade<8ecbbd90>, -1, 50) at <7144.007813, 294.017761, 7724.510742>
+16:01:12 | [COT] 76561198081075225: Entered the Free Camera
+16:02:33 | [COT] 76561198081075225: Left the Free Camera
+16:02:59 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
+
+
+**********************************EOF****************************************

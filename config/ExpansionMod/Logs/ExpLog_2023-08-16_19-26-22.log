@@ -1,0 +1,24 @@
+19:26:22.789 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+19:26:22.796 [Spatial AI] points Enabled
+19:26:22.796 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+19:26:22.796 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+19:26:22.796 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+19:26:22.796 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+19:26:22.796 [Spatial AI] Trigger at point: <5807.000000, 320.000000, 7446.000000> - Radius: 30
+19:26:22.796 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 2:3
+19:26:22.796 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 150
+19:26:22.796 [Spatial AI] Safe: true - Faction: Civilian - Loadout: HumanLoadout.json - counts: 0:0
+19:26:22.796 [Spatial AI] Locations Enabled
+19:26:22.796 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+19:26:22.796 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+19:26:22.796 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+19:26:22.796 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+19:26:23.296 [Spatial AI] Spatial AI Enabled
+19:26:23.296 [Spatial AI] Next valid check in: 1968612ms
+19:27:37.343 [Safezone] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<3704.420898, 402.012390, 5987.125000>) Entered the safezone
+19:27:37.351 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) joinded the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)
+19:27:37.359 [Expansion Quests] - InitQuestSystemClient - Created new persistent player quest data for player UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:27:37.359 [Expansion Quests] - CompleteQuest - Player with UID 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= has completed quest 14
+19:27:40.867 [AI Patrol] Spawning 3 West bots at <4245.010254, 330.257629, 6065.127441>
+19:27:41.164 [AI Patrol] Spawning 3 West bots at <4489.095215, 305.674744, 5945.945313>
+19:27:57.726 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) left the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)

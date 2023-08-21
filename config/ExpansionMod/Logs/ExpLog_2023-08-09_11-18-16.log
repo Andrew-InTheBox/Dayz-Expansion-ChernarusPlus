@@ -1,0 +1,18 @@
+11:18:16.679 [Spatial Settings] Minimum Distance too low. setting to 120m
+11:18:16.683 [Spatial Settings] Minimum Distance too low. setting to 120m
+11:18:16.683 [Spatial AI] points Enabled
+11:18:16.683 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50
+11:18:16.683 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+11:18:16.683 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 100
+11:18:16.683 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+11:18:16.683 [Spatial AI] Trigger at location: <5807.000000, 320.000000, 7446.000000> - Radius: 25
+11:18:16.683 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 2:3
+11:18:16.683 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 150
+11:18:16.683 [Spatial AI] Safe: true - Faction: Civilian - Loadout: HumanLoadout.json - counts: 0:0
+11:18:16.683 [Spatial AI] Locations Enabled
+11:18:16.683 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+11:18:16.683 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+11:18:16.683 [Spatial AI] Trigger at location: <0.000000, 0.000000, 0.000000> - Radius: 50 - Spawn location: <0.000000, 0.000000, 0.000000>
+11:18:16.683 [Spatial AI] Faction: East - Loadout: NBCLoadout.json - counts: 0:4
+11:18:16.687 [Spatial AI] Spatial AI Enabled
+11:18:16.687 [Spatial AI] Next valid check in: 2670797ms

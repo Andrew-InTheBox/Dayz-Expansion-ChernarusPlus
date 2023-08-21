@@ -1,0 +1,61 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\DayZServer_x64.exe
+== "DayZServer_x64.exe" -config=serverDZ.cfg "-mod=" -port=2302 -profiles=config -cpuCount=4 -dologs -adminlog -netlog -freezecheck 
+=====================================================================
+Exe timestamp: 2023/07/27 17:06:07
+Current time:  2023/08/03 17:19:49
+
+Version 1.21.156300
+17:19:49.382 String "STR_server_shutdown" listed twice in "Global"
+17:19:49.395 Localization not present: STR_DATE_FORMAT_SHORT
+17:19:49.395 Localization not present: STR_TIME_FORMAT
+17:19:49.395 Localization not present: STR_CONFIG_CONTROLLER_NORMAL_LOOK
+17:19:49.395 Localization not present: STR_CONFIG_CONTROLLER_REVERSED_LOOK
+17:19:49.395 Localization not present: STR_MP_VALIDERROR
+17:19:49.395 Localization not present: STR_MP_CONNECTION_LOOSING
+17:19:49.395 Localization not present: STR_MSG_MP_NO_PASSWORD
+17:19:49.395 Localization not present: STR_MSG_LAUNCH_GAME
+17:19:49.395 Localization not present: STR_LOAD_INIT
+17:19:49.395 Localization not present: STR_LOAD_WORLD
+17:19:49.395 Localization not present: STR_LOAD_GAME
+17:19:49.395 Localization not present: STR_SAVE_GAME
+17:19:49.395 Localization not present: STR_MP_CONNECT
+17:19:49.395 Localization not present: STR_MP_DISCONNECT
+17:19:49.395 Localization not present: STR_MP_CONNECTING
+17:19:49.395 Localization not present: STR_MP_TIMEOUT
+17:19:49.395 Localization not present: STR_DISP_CLIENT_TEXT_EDIT
+17:19:49.395 Localization not present: STR_MP_LOGIN_QUEUE_FULL
+17:19:49.396 Localization not present: STR_DATE_FORMAT_SHORT
+17:19:49.396 Localization not present: STR_TIME_FORMAT
+17:19:49.396 Localization not present: STR_CONFIG_CONTROLLER_NORMAL_LOOK
+17:19:49.396 Localization not present: STR_CONFIG_CONTROLLER_REVERSED_LOOK
+17:19:49.396 Localization not present: STR_MP_VALIDERROR
+17:19:49.396 Localization not present: STR_MP_CONNECTION_LOOSING
+17:19:49.396 Localization not present: STR_MSG_MP_NO_PASSWORD
+17:19:49.396 Localization not present: STR_MSG_LAUNCH_GAME
+17:19:49.396 Localization not present: STR_LOAD_INIT
+17:19:49.396 Localization not present: STR_LOAD_WORLD
+17:19:49.396 Localization not present: STR_LOAD_GAME
+17:19:49.396 Localization not present: STR_SAVE_GAME
+17:19:49.396 Localization not present: STR_MP_CONNECT
+17:19:49.396 Localization not present: STR_MP_DISCONNECT
+17:19:49.396 Localization not present: STR_MP_CONNECTING
+17:19:49.396 Localization not present: STR_MP_TIMEOUT
+17:19:49.396 Localization not present: STR_DISP_CLIENT_TEXT_EDIT
+17:19:49.396 Localization not present: STR_MP_LOGIN_QUEUE_FULL
+17:19:49.405 Initializing stats manager.
+17:19:49.406 Stats config disabled.
+17:19:50.145 Updating base class All->AllVehicles, by DZ\data\config.bin/CfgVehicles/Man/
+17:19:50.145 Updating base class WeaponMode_Base->, by DZ\data\config.bin/Mode_SemiAuto/
+17:19:50.173 Updating base class Name->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/Hill/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/ViewPoint/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/RockArea/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/BorderCrossing/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationBroadleaf/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationFir/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationPalm/
+17:19:50.173 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationVineyard/
+17:19:50.251 Updating base class ->Rifle_Base, by DZ\weapons\firearms\m4\config.bin/cfgWeapons/M4A1_Base/
+17:19:50.251 Updating base class ->M4A1_Base, by DZ\weapons\firearms\m4\config.bin/cfgWeapons/M4A1/

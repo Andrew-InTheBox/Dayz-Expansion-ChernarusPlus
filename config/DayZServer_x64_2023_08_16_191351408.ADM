@@ -1,0 +1,22 @@
+
+
+******************************************************************************
+AdminLog started on 2023-08-14 at 17:58:09
+17:59:10 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
+18:01:21 | [COT] 76561198081075225: Entered the Free Camera
+18:01:34 | [COT] 76561198081075225: Left the Free Camera
+18:02:02 | [COT] 76561198081075225: Entered the Free Camera
+18:02:18 | [COT] 76561198081075225: Left the Free Camera
+18:03:48 | Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<2510.7, 6386.6, 307.6>)[HP: 99.75] hit by Infected into LeftArm(18) for 5 damage (MeleeZombie)
+18:04:11 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+18:05:09 | [COT] 76561198081075225: Spawned Entity Infected (ZmbM_FarmerFat_Base<97b06800>, -1, 100001) at <2593.359863, 308.662903, 6410.394043>
+18:05:09 | [COT] 76561198081075225: Spawned Entity Infected (ZmbM_FarmerFat_Base<97b008f0>, -1, 100001) at <2592.715332, 308.596313, 6410.301270>
+18:05:09 | [COT] 76561198081075225: Spawned Entity Infected (ZmbM_FarmerFat_Base<97b07d20>, -1, 100001) at <2592.620605, 308.629578, 6411.004395>
+18:05:10 | [COT] 76561198081075225: Spawned Entity Infected (ZmbM_FarmerFat_Base<97b028a0>, -1, 100001) at <2593.327148, 308.700775, 6411.076660>
+18:05:10 | [COT] 76561198081075225: Spawned Entity Infected (ZmbM_FarmerFat_Base<97b17010>, -1, 100001) at <2593.316650, 308.700348, 6411.075684>
+18:05:34 | [COT] 76561198081075225: Entered the Free Camera
+18:05:48 | [COT] 76561198081075225: Left the Free Camera
+18:06:11 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
+
+
+**********************************EOF****************************************

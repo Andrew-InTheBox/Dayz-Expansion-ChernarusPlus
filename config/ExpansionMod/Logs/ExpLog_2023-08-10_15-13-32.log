@@ -1,0 +1,16 @@
+15:13:33.753 [Spatial AI] Spatial AI Date: 7/8/2023
+15:13:33.757 [Spatial Settings] Settings File Out of date. Please delete and restart server.
+15:13:33.757 [Spatial Settings] Settings File Out of date. Please delete and restart server.
+15:13:33.757 [Spatial Settings] No Spatial Groups valid.
+15:13:33.757 [Spatial Settings] At least one valid group Required
+15:13:34.300 [Spatial Settings] Settings File Out of date. Please delete and restart server.
+15:13:34.304 [Spatial Settings] No Spatial Groups valid.
+15:13:34.304 [Spatial Settings] At least one valid group Required
+15:15:01.882 [Spatial Player Settings] WARNING: Couldn't find config file !
+15:15:01.882 [Spatial Player Settings] player config will be located in: $profile:ExpansionMod\AI\Spatial\
+15:15:01.906 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:15:01.906 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:15:01.906 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:15:01.906 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:16:00.289 [Killfeed] Blorpus9000 commited suicide with M9.
+15:16:21.371 [Expansion Quests] - InitQuestSystemClient - Got cached player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=

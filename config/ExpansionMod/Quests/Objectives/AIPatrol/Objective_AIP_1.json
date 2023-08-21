@@ -1,0 +1,53 @@
+{
+    "ConfigVersion": 18,
+    "ID": 1,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Kill all 4 units of the bandit patrol at the marked location",
+    "TimeLimit": -1,
+    "AIPatrol": {
+        "NPCUnits": 4,
+        "Waypoints": [
+            [
+                6914.7001953125,
+                403.0270080566406,
+                11381.7001953125
+            ],
+            [
+                6931.27001953125,
+                399.8599853515625,
+                11456.7001953125
+            ],
+            [
+                6891.919921875,
+                397.4549865722656,
+                11496.099609375
+            ],
+            [
+                6850.8798828125,
+                399.1470031738281,
+                11468.099609375
+            ],
+            [
+                6883.97998046875,
+                403.1919860839844,
+                11380.7998046875
+            ]
+        ],
+        "NPCSpeed": "WALK",
+        "NPCMode": "REVERSE",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "BanditLoadout",
+        "NPCAccuracyMin": 0.0,
+        "NPCAccuracyMax": 0.0,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 150.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1
+}

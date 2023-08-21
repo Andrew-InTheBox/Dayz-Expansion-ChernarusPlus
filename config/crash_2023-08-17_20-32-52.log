@@ -1,0 +1,23 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\config\crash_2023-08-17_20-32-52.log started at 17.08. 20:37:52
+
+
+
+------------------------------------
+ACBDESKTOP, 17.08 2023 20:37:52
+NULL pointer to instance
+Class:      'JMTeleportModule'
+Function: 'Server_Location'
+Stack trace:
+JM/COT/Scripts/5_Mission/communityonlinetools\modules\teleport\jmteleportmodule.c:477
+JM/COT/Scripts/5_Mission/communityonlinetools\modules\teleport\jmteleportmodule.c:497
+JM/COT/Scripts/5_Mission/communityonlinetools\modules\teleport\jmteleportmodule.c:218
+JM/CF/Scripts/4_World/communityframework\module\deprecated\jmmodulebase.c:84
+JM/CF/Scripts/3_Game/communityframework\module\cf_modulegameevent.c:18
+JM/CF/Scripts/3_Game/communityframework\module\cf_modulegamemanager.c:33
+JM/CF/Scripts/3_Game/communityframework\game\dayzgame.c:87
+DayZEditorLoader/scripts/3_Game/dayzeditorloader\dayzgame.c:10
+DayZExpansion/Core/Scripts/3_Game/dayzexpansion_core\dayzgame.c:270
+
+Runtime mode
+CLI params: config serverDZ.cfg mod @CF;@CommunityOnlineTools;@DabsFramework;@DayZ-Editor-Loader;@DayZ-Expansion-Animations;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@MMG-MightysMilitaryGear;@PvZmoD_CustomisableZombies serverMod _@DayZ-Dynamic-AI-Addon port 2302 profiles config cpuCount 4 adminlog  netlog  freezecheck  

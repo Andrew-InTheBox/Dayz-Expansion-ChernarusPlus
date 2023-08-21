@@ -1,0 +1,21 @@
+{
+    "ConfigVersion": 2,
+    "StorageID": 1,
+    "ClassName": "ExpansionPersonalStorageChest",
+    "DisplayName": "Personal Storage",
+    "DisplayIcon": "Backpack",
+    "Position": [
+        3696.4,
+        402.0,
+        5985.11
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "QuestID": -1,
+    "Reputation": 0,
+    "Faction": "",
+    "IsGlobalStorage": 1
+}

@@ -1,0 +1,60 @@
+{
+    "ConfigVersion": 15,
+    "ID": 6,
+    "Type": 1,
+    "Title": "Clear Village - Bandits",
+    "Descriptions": [
+        "PLACEHOLDER",
+        "PLACEHOLDER",
+        "PLACEHOLDER"
+    ],
+    "ObjectiveText": "Kill all bandits at the marked location.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 5000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RewardsForGroupOwnerOnly": 1,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [
+        3
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 18,
+            "ID": 1,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 18,
+            "ID": 1,
+            "ObjectiveType": 8
+        }
+    ],
+    "QuestColor": -930200403,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1
+}

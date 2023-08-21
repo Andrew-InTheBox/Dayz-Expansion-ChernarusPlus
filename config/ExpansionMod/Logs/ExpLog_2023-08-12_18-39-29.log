@@ -1,0 +1,9 @@
+18:39:30.742 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+18:39:30.750 [Spatial AI] points Enabled
+18:39:30.750 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+18:39:30.750 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+18:39:30.750 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+18:39:30.750 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+18:39:30.750 [Spatial AI] Locations Enabled
+18:39:31.281 [Spatial AI] Spatial AI Enabled
+18:39:31.281 [Spatial AI] Next valid check in: 1869072ms

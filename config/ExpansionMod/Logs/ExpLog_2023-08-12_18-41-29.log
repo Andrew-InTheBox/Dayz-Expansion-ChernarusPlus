@@ -1,0 +1,19 @@
+18:41:29.148 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+18:41:29.148 [Spatial AI] points Enabled
+18:41:29.148 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+18:41:29.148 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+18:41:29.148 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+18:41:29.148 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+18:41:29.148 [Spatial AI] Locations Enabled
+18:41:29.617 [Spatial AI] Spatial AI Enabled
+18:41:29.617 [Spatial AI] Next valid check in: 1728907ms
+18:42:44.132 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) joinded the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)
+18:42:44.156 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+18:42:44.156 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+18:42:44.156 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+18:42:44.156 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+18:43:41.968 [AI Patrol] Spawning 3 West bots at <4560.165039, 313.488739, 5736.187012>
+18:43:42.960 [Safezone] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<3723.322998, 401.645508, 6007.536133>) Entered the safezone
+18:43:46.609 [AI Patrol] Spawning 3 West bots at <3993.659424, 306.613525, 5435.879395>
+18:43:49.835 [Expansion Quests] - CompleteQuest - Player with UID 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= has completed quest 14
+18:44:22.812 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) left the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)

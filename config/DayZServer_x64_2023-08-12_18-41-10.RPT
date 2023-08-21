@@ -1,0 +1,368 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\DayZServer_x64.exe
+== "DayZServer_x64.exe" -config=serverDZ.cfg -mod=@CF;@CommunityOnlineTools;@DabsFramework;@DayZ-Editor-Loader;@DayZ-Expansion-Animations;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@PvZmoD_CustomisableZombies "-serverMod=_@DayZ-Dynamic-AI-Addon" -port=2302 -profiles=config -cpuCount=4 -adminlog -netlog -freezecheck 
+=====================================================================
+Exe timestamp: 2023/07/27 17:06:07
+Current time:  2023/08/12 18:41:13
+
+Version 1.21.156300
+18:41:13.310 [Inputs] Loading inputs default "bin/constants.xml"
+18:41:13.312 [Inputs] Loading inputs default "bin/specific.xml"
+18:41:13.313 [Inputs] Loading inputs default "JM/COT/Scripts/Data/Inputs.xml"
+18:41:13.313 !!! [Inputs] Cannot Register "UAObjectModuleDeleteOnCursor" non-existent input - Fix Preset!
+18:41:13.313 [Inputs] Loading inputs default "LIVEN/PvZmoD_CustomisableZombies/inputs.xml"
+18:41:13.314 [Inputs] Loading inputs default "DayZExpansion/Groups/Scripts/Data/Inputs.xml"
+18:41:13.314 [Inputs] Loading inputs default "DayZExpansion/Navigation/Scripts/Data/Inputs.xml"
+18:41:13.314 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.314 [Inputs] Loading inputs default "DayZExpansion/PlayerList/Scripts/Data/Inputs.xml"
+18:41:13.314 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.314 [Inputs] Loading inputs default "DayZExpansion/Scripts/Data/Inputs.xml"
+18:41:13.314 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.314 [Inputs] Loading inputs default "DayZExpansion/Vehicles/Scripts/Data/Inputs.xml"
+18:41:13.315 [Inputs] Loading inputs default "DayZExpansion/AI/Scripts/inputs.xml"
+18:41:13.315 [Inputs] Loading inputs default "DayZExpansion/BaseBuilding/Scripts/Data/Inputs.xml"
+18:41:13.315 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.316 [Inputs] Loading inputs default "DayZExpansion/Book/Scripts/Data/Inputs.xml"
+18:41:13.316 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.316 [Inputs] Loading inputs default "DayZExpansion/Chat/Scripts/Data/Inputs.xml"
+18:41:13.316 !!! [Inputs] Attempt to register duplicate exclusion group "chatexpansion"
+18:41:13.316 [Inputs] Loading inputs default "DayZExpansion/Quests/Scripts/Data/Inputs.xml"
+18:41:13.316 [Inputs] Loading inputs cfg "config\Users\Survivor\Server.core.xml"
+18:41:13.316 !!! [Inputs] Cannot read inputs cfg "config\Users\Survivor\Server.core.xml", parser error
+18:41:13.316 [Inputs] Loading inputs cfg "bin/core.xml"
+18:41:13.316 !!! [Inputs] Cannot load input preset "#STR_USER", file does not exist
+18:41:13.317 [Inputs] Exporting inputs cfg "config\Users\Survivor\Server.core.xml"
+18:41:33.830 [CE][Hive] :: Initializing OFFLINE
+18:41:33.830 [StorageDirs] :: Selected storage directory: C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\
+18:41:33.830 [CE][Hive] :: Loading core data ... 
+18:41:33.831 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+18:41:37.53 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+18:41:37.55 [CE][TypeSetup] :: 505 classes setuped...
+18:41:37.58 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+18:41:37.58 [CE][TypeSetup] :: 97 classes setuped...
+18:41:38.15 [CE][RegisterBind] :: 0 classes binded...
+18:41:38.15 [CE][RegisterConfig] :: 11252 config classes registered, 0 sub-counters...
+18:41:38.15 [CE][Hive] :: Loading map data ... 
+18:41:38.25 [CE][IgnoreList] "cfgignorelist.xml" :: loaded 19 types
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.59 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:41:38.60 [CE][LoadPrototype] :: loaded 413 prototypes
+18:41:38.60   799 containers, 10078 points
+18:41:38.60   66 dispatches, 239 proxies
+18:41:38.60 !!! [CE][LoadPrototype] 5 groups have no points...
+18:41:38.60 [CE][LoadPrototype] :: last group name: Land_Wreck_sed02_aban2_red_DE...
+18:41:38.63 [CE][LoadPrototype] :: loaded 0 prototypes
+18:41:38.63   55 containers, 232 points
+18:41:38.63   0 dispatches, 0 proxies
+18:41:38.63 [CE][LoadPrototype] :: last group name: Rail9...
+18:41:38.768 [CE][LoadMap] "Group" :: loaded 11709 groups, groups failed: 0, largest group range: 34.2
+18:41:38.770 [CE][LoadMap] "Dirt" :: loaded 0 groups, groups failed: 0, largest group range: 34.2
+18:41:39.32 [CE][Links] found 1908 total links between groups, of 11709
+18:41:39.32 [CE][LoadClusters] "Cluster" :: Loading files...
+18:41:39.190 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+18:41:39.318 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+18:41:39.445 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+18:41:39.570 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 50000 instances
+18:41:39.615 [CE][LoadClusters] :: file: "mapgroupcluster04", 9 types, 17347 instances
+18:41:39.622 [CE][Storage] ver:21 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\types.bin"
+18:41:39.622 [CE][Storage] ver:21 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\types.001"
+18:41:39.623 [CE][Storage] ver:21 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\types.002"
+18:41:39.623 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\types.bin".
+18:41:39.718 !!! [CE][offlineDB] :: No Shutdown message present.
+18:41:39.720 [CE][offlineDB] :: Loaded 47 dynamic events 225 total types.
+18:41:39.720 !!! [CE][DE] (VehicleTruck01) :: Unable to create child (Truck_01_Covered_Grey) as the type does not exist.
+18:41:39.720 [CE][offlineDB] :: Loaded 58 dynamic events 289 total types.
+18:41:39.732 !!! [CE][offlineDB] :: Type 'ChristmasTree' will be ignored. (Not spawnable. (Scope is not public?))
+18:41:39.738 !!! [CE][offlineDB] :: Type 'Expansion_M79' will be ignored. (Not spawnable. (Scope is not public?))
+18:41:39.738 !!! [CE][offlineDB] :: Type 'ExpansionFlaregun' will be ignored. (Not spawnable. (Scope is not public?))
+18:41:39.738 !!! [CE][offlineDB] :: Type 'Expansion_Longhorn' will be ignored. (Not spawnable. (Scope is not public?))
+18:41:39.841 !!! [CE][DE][SPAWNS] :: [WARNING] :: Skipping entry for non-existing event 'VehicleTransitBus'.
+18:41:39.842 [CE][DE][SPAWNS] :: Total positions: 987
+18:41:39.842 [CE][DE][GROUPS] :: Total eventgroups defined: 83, Eventgroups in use: 83
+18:41:39.845 [CE][Storage] ver:21 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\events.bin"
+18:41:39.846 [CE][Storage] ver:21 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\events.001"
+18:41:39.847 [CE][Storage] ver:21 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\events.002"
+18:41:39.847 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\events.bin".
+18:41:39.847 [CE][DynamicEvent] Load  Events:[58] Primary spawners: 58 Secondary spawners: 4
+18:41:39.851 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_000.bin"
+18:41:39.852 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_000.001"
+18:41:39.852 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_000.002"
+18:41:39.852 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_000.bin" 1013 items.
+18:41:40.315   1013 items loaded. (0 failed)
+18:41:40.319 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_001.bin"
+18:41:40.320 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_001.001"
+18:41:40.321 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_001.002"
+18:41:40.321 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_001.bin" 1933 items.
+18:41:41.58   1933 items loaded. (0 failed)
+18:41:41.63 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_002.bin"
+18:41:41.63 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_002.001"
+18:41:41.63 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_002.002"
+18:41:41.64 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_002.bin" 2792 items.
+18:41:42.20   2792 items loaded. (0 failed)
+18:41:42.24 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_003.bin"
+18:41:42.25 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_003.001"
+18:41:42.25 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_003.002"
+18:41:42.25 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_003.bin" 2538 items.
+18:41:42.951   2538 items loaded. (0 failed)
+18:41:42.955 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_004.bin"
+18:41:42.956 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_004.001"
+18:41:42.956 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_004.002"
+18:41:42.956 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_004.bin" 2100 items.
+18:41:43.711   2100 items loaded. (0 failed)
+18:41:43.717 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_005.bin"
+18:41:43.717 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_005.001"
+18:41:43.717 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_005.002"
+18:41:43.717 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_005.bin" 2365 items.
+18:41:44.512   2365 items loaded. (0 failed)
+18:41:44.517 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_006.bin"
+18:41:44.517 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_006.001"
+18:41:44.517 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_006.002"
+18:41:44.517 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_006.bin" 1688 items.
+18:41:45.123   1688 items loaded. (0 failed)
+18:41:45.127 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_007.bin"
+18:41:45.127 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_007.001"
+18:41:45.127 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_007.002"
+18:41:45.127 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_007.bin" 1648 items.
+18:41:45.721   1648 items loaded. (0 failed)
+18:41:45.726 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_008.bin"
+18:41:45.727 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_008.001"
+18:41:45.727 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_008.002"
+18:41:45.727 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_008.bin" 2346 items.
+18:41:46.582   2346 items loaded. (0 failed)
+18:41:46.587 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_009.bin"
+18:41:46.587 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_009.001"
+18:41:46.588 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_009.002"
+18:41:46.588 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_009.bin" 2995 items.
+18:41:47.674   2995 items loaded. (0 failed)
+18:41:47.679 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_010.bin"
+18:41:47.679 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_010.001"
+18:41:47.679 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_010.002"
+18:41:47.680 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_010.bin" 1997 items.
+18:41:48.445   1997 items loaded. (0 failed)
+18:41:48.449 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_011.bin"
+18:41:48.449 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_011.001"
+18:41:48.450 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_011.002"
+18:41:48.450 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\dynamic_011.bin" 194 items.
+18:41:48.526   194 items loaded. (0 failed)
+18:41:48.530 [CE][Storage] ver:26 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\building.bin"
+18:41:48.530 [CE][Storage] ver:26 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\building.001"
+18:41:48.530 [CE][Storage] ver:26 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\building.002"
+18:41:48.530 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\building.bin" 0 items.
+18:41:48.530   0 items loaded. (0 failed)
+18:41:48.534 [CE][Storage] ver:25 stamp:119, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\vehicles.bin"
+18:41:48.534 [CE][Storage] ver:25 stamp:116, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\vehicles.001"
+18:41:48.535 [CE][Storage] ver:25 stamp:117, valid:yes, name:"C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\vehicles.002"
+18:41:48.535 [CE][Storage] Restoring file "C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\mpmissions\Expansion.chernarusplus\storage_1\data\vehicles.bin" 292 items.
+18:41:49.394   292 items loaded. (0 failed)
+18:41:49.427 [CE][Hive] :: Storage load took:9.58 seconds, recovery stamp:119
+18:41:49.427   entity: 25706, building: 0
+18:41:49.427   no lifetime: 75
+18:41:49.427   pathgraph's: 611
+18:41:49.427 [CE][Hive] :: Initializing ... 
+18:41:49.470 [CE][InitializeMap] :: initialized: 0
+18:41:49.470 [CE][Hive] :: Initializing spawners ... 
+18:41:50.451 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:28374, Total in Map: 23839 at 0 (sec)
+18:41:50.451   tests:0, repeats:0 fails:0, overtime:0
+18:41:50.455 [CE][DynEvent] :: 58 types
+18:41:50.455 [00] AmbientHen
+18:41:50.455   Primary Spawner: "Ambient", active: yes, repeat: 1
+18:41:50.455 [01] AnimalBear
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [02] AnimalCow
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [03] AnimalDeer
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [04] AnimalGoat
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [05] AnimalPig
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [06] AnimalRoeDeer
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [07] AnimalSheep
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [08] AnimalWildBoar
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [09] AnimalWolf
+18:41:50.455   Primary Spawner: "Animal", active: yes, repeat: 1
+18:41:50.455 [10] InfectedArmy
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [11] InfectedArmyHard
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [12] InfectedCity
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [13] InfectedCityTier1
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [14] InfectedFirefighter
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [15] InfectedIndustrial
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [16] InfectedMedic
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [17] InfectedNBC
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [18] InfectedNBCYellow
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [19] InfectedPolice
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [20] InfectedPoliceHard
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [21] InfectedPrisoner
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [22] InfectedReligious
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [23] InfectedSanta
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [24] InfectedSolitude
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [25] InfectedVillage
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [26] InfectedVillageTier1
+18:41:50.455   Primary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [27] ItemPlanks
+18:41:50.455   Primary Spawner: "Item", active: yes, repeat: 1
+18:41:50.455 [28] Loot
+18:41:50.455   Primary Spawner: "Loot", active: yes, repeat: 2
+18:41:50.455 [29] StaticContaminatedArea
+18:41:50.455   Primary Spawner: "Static", active: yes, repeat: 1
+18:41:50.455 [30] StaticHeliCrash
+18:41:50.455   Primary Spawner: "Static", active: yes, repeat: 1
+18:41:50.455   Secondary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [31] StaticMilitaryConvoy
+18:41:50.455   Primary Spawner: "Static", active: yes, repeat: 1
+18:41:50.455   Secondary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [32] StaticPoliceSituation
+18:41:50.455   Primary Spawner: "Static", active: yes, repeat: 1
+18:41:50.455   Secondary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [33] StaticTrain
+18:41:50.455   Primary Spawner: "Static", active: yes, repeat: 1
+18:41:50.455   Secondary Spawner: "Infected", active: yes, repeat: 1
+18:41:50.455 [34] TrajectoryApple
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [35] TrajectoryConiferous
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [36] TrajectoryDeciduous
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [37] TrajectoryHumus
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [38] TrajectoryPear
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [39] TrajectoryPlum
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [40] TrajectoryStones
+18:41:50.455   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:41:50.455 [41] VehicleCivilianSedan
+18:41:50.455   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.455 [42] VehicleHatchback02
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [43] VehicleOffroad02
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [44] VehicleOffroadHatchback
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [45] VehicleSedan02
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [46] VehicleTruck01
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [47] VehicleUAZ
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [48] VehicleVodnik
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [49] VehicleBus
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [50] VehicleTractor
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [51] VehicleLandRover
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [52] VehicleMH6Helicopter
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [53] VehicleMerlinHelicopter
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [54] VehicleUh1hHelicopter
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [55] VehicleUtilityBoat
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [56] VehicleZodiacBoat
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [57] VehicleGyroHelicopter
+18:41:50.456   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:41:50.456 [CE][Hive] :: Initializing of spawners done.
+18:41:50.465 [CE][Hive] :: Init sequence finished.
+18:41:50.466 Player connect enabled
+18:41:52.126 [IdleMode] Entering IN - save processed
+18:42:27.12 [Login]: Adding player Blorpus9000 (22272017) to login queue at position 0
+18:42:27.12 [LoginMachine]: Add player Blorpus9000 (22272017 192.168.1.133:2316)
+18:42:27.12 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid ) Entering AuthPlayerLoginState
+18:42:28.158 [IdleMode] Leaving OUT
+18:42:29.295 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid ) Entering WaitAuthPlayerLoginState
+18:42:31.711 Player Blorpus9000 connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=).
+18:42:31.711 Player "Blorpus9000" is connected (steamID=76561198081075225)
+18:42:31.711 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid ) Entering WaitPlayerAssignedLoginState
+18:42:32.141 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering DBGetLoginTimeLoginState
+18:42:32.143 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering DBWaitLoginTimeLoginState
+18:42:35.143 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering DBGetCharacterLoginState
+18:42:35.144 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering CreateNetObjectsLoginState
+18:42:35.149 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering PreloadCamLoginState
+18:42:35.149 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering WaitPreloadCamLoginState
+18:42:44.291 [StateMachine]: Player Blorpus9000 (dpnid 22272017 uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) Entering GetLoadedCharLoginState
+18:42:44.320 <LOAD EXISTING CHAR>:
+    charID 1
+    playerID 1
+    dpnid 22272017
+    uid 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+18:42:50.247 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "AmmoBox_9x19_25rnd"
+18:42:50.348 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "Glock19"
+18:42:50.448 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "AmmoBox_Expansion_46x30_25rnd"
+18:42:50.547 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "Expansion_Taser_Yellow"
+18:42:50.748 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "Expansion_G36"
+18:42:50.848 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "SSG82"

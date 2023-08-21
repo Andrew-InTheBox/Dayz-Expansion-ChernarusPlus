@@ -1,0 +1,70 @@
+
+
+******************************************************************************
+AdminLog started on 2023-08-13 at 15:41:21
+15:47:54 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
+15:49:06 | [COT] 76561198081075225: Spawned Entity Hunter Pants (HunterPants_Autumn<9ccefa20>, -1, 150) at <3706.704590, 402.012482, 5992.572266>
+15:49:15 | [COT] 76561198081075225: Spawned Entity Quilted Jacket (QuiltedJacket_Black<9ccf89f0>, -1, 90) at <3706.704590, 402.012482, 5992.572266>
+15:49:22 | [COT] 76561198081075225: Spawned Entity Ballistic Helmet (BallisticHelmet_Green<9ccfa010>, -1, 75) at <3706.704590, 402.012482, 5992.572266>
+15:50:41 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<a6f682d0>, -1, 100) at <3706.704590, 402.012482, 5992.572266>
+15:50:41 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<a6f661a0>, -1, 100) at <3706.704590, 402.012482, 5992.572266>
+15:50:41 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<a6f677c0>, -1, 100) at <3706.704590, 402.012482, 5992.572266>
+15:50:41 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<a6f698f0>, -1, 100) at <3706.704590, 402.012482, 5992.572266>
+15:50:48 | Player "JB9200" is connected (id=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=)
+15:51:29 | [COT] 76561198081075225: Teleported [guid=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=] to <3706.704590, 402.012482, 5992.572266>
+15:51:32 | [COT] 76561198081075225: Teleported [guid=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=] to <3706.704590, 402.012482, 5992.572266>
+15:51:56 | [COT] 76561198081075225: Spawned Entity Jungle Boots (JungleBoots_Brown<a6f5bbb0>, -1, 150) at <3705.077637, 402.012451, 5994.090820>
+15:52:10 | [COT] 76561198081075225: Spawned Entity Wool Gloves (WoolGloves_Green<a6f712a0>, -1, 110) at <3705.077637, 402.012451, 5994.090820>
+15:53:29 | [COT] 76561198081075225: Set Reputation To 4000 [guid=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=]
+15:53:49 | [COT] 76561198081075225: Set Reputation To 1455 [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+15:57:33 | [COT] 76561198081075225: Spawned Entity Doe (Animal_CapraHircusF<a7c80cb0>, -1, 120) at <3721.104736, 402.570038, 6000.744629>
+15:58:59 | [COT] 76561198081075225: Set Reputation To 4000 [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+16:02:52 | [COT] 76561198081075225: Spawned Entity M1A SOCOM (Expansion_M1A<e5d191f0>, -1, 250) at <3704.314697, 402.012360, 5978.755371>
+16:03:45 | [COT] 76561198081075225: Spawned Entity 20rd M14 Mag (Mag_Expansion_M14_20Rnd<a8331ed0>, 1, 100) on 76561198126527598
+16:03:50 | [COT] 76561198081075225: Spawned Entity Boxed .308 WIN Rounds (AmmoBox_308Win_20Rnd<a832e780>, -1, 100) on 76561198126527598
+16:03:50 | [COT] 76561198081075225: Spawned Entity Boxed .308 WIN Rounds (AmmoBox_308Win_20Rnd<a832f290>, -1, 100) on 76561198126527598
+16:03:51 | [COT] 76561198081075225: Spawned Entity Boxed .308 WIN Rounds (AmmoBox_308Win_20Rnd<a8335620>, -1, 100) on 76561198126527598
+16:03:51 | [COT] 76561198081075225: Spawned Entity Boxed .308 WIN Rounds (AmmoBox_308Win_20Rnd<a8334b10>, -1, 100) on 76561198126527598
+16:03:57 | [COT] 76561198081075225: Spawned Entity FX-45 (FNX45_Base<e5d252f0>, -1, 150) on 76561198126527598
+16:04:03 | [COT] 76561198081075225: Spawned Entity Boxed .45 ACP Rounds (AmmoBox_45ACP_25rnd<a8336130>, -1, 100) on 76561198126527598
+16:04:04 | [COT] 76561198081075225: Spawned Entity Boxed .45 ACP Rounds (AmmoBox_45ACP_25rnd<a832fda0>, -1, 100) on 76561198126527598
+16:04:04 | [COT] 76561198081075225: Spawned Entity Boxed .45 ACP Rounds (AmmoBox_45ACP_25rnd<a833aea0>, -1, 100) on 76561198126527598
+16:04:29 | [COT] 76561198081075225: Spawned Entity 15rd FX-45 Mag (Mag_FNX45_15Rnd<a833b9b0>, 1, 100) on 76561198126527598
+16:04:33 | [COT] 76561198081075225: Spawned Entity FX-45 (FNX45_Base<e5d28f40>, -1, 150) at <3702.234375, 402.012421, 5978.429688>
+16:04:35 | [COT] 76561198081075225: Spawned Entity 15rd FX-45 Mag (Mag_FNX45_15Rnd<a8338d70>, 1, 100) at <3702.234375, 402.012421, 5978.429688>
+16:04:40 | [COT] 76561198081075225: Spawned Entity Boxed .45 ACP Rounds (AmmoBox_45ACP_25rnd<a8338260>, -1, 100) at <3702.234375, 402.012421, 5978.429688>
+16:05:05 | [COT] 76561198081075225: Spawned Entity Boxed .45 ACP Rounds (AmmoBox_45ACP_25rnd<a834a200>, -1, 100) at <3701.997070, 402.012421, 5978.940918>
+16:06:58 | [COT] 76561198081075225: Spawned Entity Honey (Honey<a83547f0>, 400, 40) at <3710.345215, 402.012421, 5997.566895>
+16:07:25 | [COT] 76561198081075225: Spawned Entity Head Torch (Headtorch_Grey<a83531d0>, -1, 25) at <3708.270020, 402.012421, 5995.998535>
+16:07:42 | [COT] 76561198081075225: Spawned Entity 9V Battery (Battery9V<a8357430>, 50, 20) at <3708.270020, 402.012421, 5995.998535>
+16:07:42 | [COT] 76561198081075225: Spawned Entity 9V Battery (Battery9V<a835e2d0>, 50, 20) at <3708.270020, 402.012421, 5995.998535>
+16:08:15 | [COT] 76561198081075225: Spawned Entity MMG CRYE-JPC Black (JPC_Vest_Base<a856f3c0>, -1, 250) at <3708.485840, 402.012421, 5995.482910>
+16:08:59 | [COT] 76561198081075225: Spawned Entity Hryvnia Banknotes Stack (ExpansionBanknoteHryvnia<a874af00>, 50000, 100) at <3696.005371, 402.012390, 5988.803223>
+16:13:48 | [COT] 76561198081075225: Spawned Entity Vodnik (ExpansionVodnik<896e27d0>, -1, 10000) at <3719.034668, 402.603058, 6003.187988>
+16:19:57 | [COT] 76561198081075225: Set rain to 0 0 0
+16:19:57 | [COT] 76561198081075225: Set storm to 0 0.8 4000
+16:19:57 | [COT] 76561198081075225: Set fog to 0.0682178 0 0
+16:19:57 | [COT] 76561198081075225: Set overcast to 0.462969 0 0
+16:19:57 | [COT] 76561198081075225: Set the date to 2023/9/21 11:30
+16:19:57 | [COT] 76561198081075225: Set wind to 11.8801 11.8801 1
+16:20:12 | [Chat - Global]("Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)): w
+16:24:43 | [COT] 76561198081075225: Set GodMode To true [guid=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=]
+16:24:49 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+16:35:10 | [COT] 76561198081075225: Spawned Entity Brown Bear (Animal_UrsusArctos<a7c93080>, -1, 800) at <4420.266113, 306.163696, 6288.004395>
+16:35:19 | [COT] 76561198081075225: Spawned Entity Cow (Animal_BosTaurusF<a7c91c60>, -1, 500) at <4420.266602, 306.163544, 6288.006836>
+16:35:24 | [COT] 76561198081075225: Spawned Entity Buck (Animal_CapraHircus<a7c944a0>, -1, 120) at <4420.290039, 306.420410, 6289.861816>
+16:35:29 | [COT] 76561198081075225: Spawned Entity Ram (Animal_OvisAries<a7c94eb0>, -1, 280) at <4420.430176, 305.663177, 6296.340332>
+16:35:36 | [COT] 76561198081075225: Spawned Entity Ram (Animal_OvisAries<a7c8fe30>, -1, 280) at <4420.275391, 306.336884, 6289.209961>
+16:36:07 | [COT] 76561198081075225: Spawned Entity Pig (Animal_SusDomesticus<a7c92670>, -1, 300) at <4420.275391, 306.337341, 6289.210449>
+16:36:11 | [COT] 76561198081075225: Spawned Entity Wild Hare (Animal_LepusEuropaeus<a7c93a90>, -1, 15) at <4420.274902, 306.336823, 6289.208984>
+16:36:14 | [COT] 76561198081075225: Spawned Entity Brown Bear (Animal_UrsusArctos<a7c958c0>, -1, 800) at <4420.274902, 306.336700, 6289.208984>
+16:36:59 | [COT] 76561198081075225: Spawned Entity Roebuck (Animal_CapreolusCapreolus<a7c90840>, -1, 160) at <4422.449707, 304.880768, 6303.187500>
+16:37:07 | [COT] 76561198081075225: Spawned Entity Roebuck (Animal_CapreolusCapreolus<a7c592c0>, -1, 160) at <4422.350098, 306.173157, 6296.535645>
+16:37:49 | AI "Eva" (group="" faction="East" pos=<4917.2, 6273.9, 290.9>) bled out
+16:38:48 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<abf00ae0>, -1, 100) at <4398.628906, 308.883453, 6220.709473>
+16:38:49 | [COT] 76561198081075225: Spawned Entity Boxed 5.45x39mm Rounds (AmmoBox_545x39_20Rnd<abf015f0>, -1, 100) at <4398.628906, 308.883453, 6220.709473>
+16:43:10 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
+16:43:12 | Player "JB9200"(id=b_yc4Onhw-D2uQBVhuw6XJrft-4R07aKo2PLIKDbPtE=) has been disconnected
+
+
+**********************************EOF****************************************

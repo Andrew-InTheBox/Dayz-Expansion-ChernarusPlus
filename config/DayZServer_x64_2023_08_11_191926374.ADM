@@ -1,0 +1,30 @@
+
+
+******************************************************************************
+AdminLog started on 2023-08-11 at 19:09:39
+19:10:51 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
+19:11:18 | [COT] 76561198081075225: Entered the Free Camera
+19:11:24 | [COT] 76561198081075225: Left the Free Camera
+19:11:34 | Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= pos=<5991.1, 7681.2, 307.9>)[HP: 91.59] hit by Infected into Torso(1) for 7.5 damage (MeleeZombieMale)
+19:12:05 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+19:13:28 | [COT] 76561198081075225: Set rain to 0 0 0
+19:13:28 | [COT] 76561198081075225: Set storm to 0 0.8 4000
+19:13:28 | [COT] 76561198081075225: Set fog to 0.0134485 0 0
+19:13:28 | [COT] 76561198081075225: Set overcast to 0.0593285 0 0
+19:13:28 | [COT] 76561198081075225: Set the date to 2023/9/20 10:33
+19:13:28 | [COT] 76561198081075225: Set wind to 15.7671 15.7671 1
+19:13:41 | [COT] 76561198081075225: Entered the Free Camera
+19:13:54 | [COT] 76561198081075225: Left the Free Camera
+19:14:59 | [COT] 76561198081075225: Spawned Entity Honey (Honey<f84f7d20>, 400, 40) at <5827.966797, 309.729736, 7476.905762>
+19:14:59 | [COT] 76561198081075225: Spawned Entity Honey (Honey<f84f9340>, 400, 40) at <5827.966797, 309.729736, 7476.905762>
+19:15:15 | [COT] 76561198081075225: Spawned Entity CR-527 (CZ527_Base<d8d255d0>, -1, 300) at <5827.966797, 309.729736, 7476.905762>
+19:15:27 | [COT] 76561198081075225: Spawned Entity Boxed 7.62x39mm Rounds (AmmoBox_762x39_20Rnd<f84f5bf0>, -1, 100) at <5827.966797, 309.729736, 7476.905762>
+19:15:27 | [COT] 76561198081075225: Spawned Entity Boxed 7.62x39mm Rounds (AmmoBox_762x39_20Rnd<f84e73a0>, -1, 100) at <5827.966797, 309.729736, 7476.905762>
+19:15:27 | [COT] 76561198081075225: Spawned Entity Boxed 7.62x39mm Rounds (AmmoBox_762x39_20Rnd<f84e2630>, -1, 100) at <5827.966797, 309.729736, 7476.905762>
+19:17:21 | [COT] 76561198081075225: Spawned Entity Canteen (Canteen<c1f080>, 1000, 100) at <5827.966797, 309.729736, 7476.905762>
+19:17:42 | [COT] 76561198081075225: Entered the Free Camera
+19:17:55 | [COT] 76561198081075225: Left the Free Camera
+19:18:01 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
+
+
+**********************************EOF****************************************

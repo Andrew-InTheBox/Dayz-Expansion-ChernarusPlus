@@ -1,0 +1,13 @@
+15:34:37.199 [Spatial Settings] Minimum Distance too low. setting to 120m
+15:34:37.199 [Spatial Settings] Minimum Distance too low. setting to 120m
+15:34:37.199 [Spatial AI] points Disabled
+15:34:37.199 [Spatial AI] Locations Disabled
+15:34:37.199 [Spatial AI] Spatial AI Enabled
+15:34:37.199 [Spatial AI] Next valid check in: 414774ms
+15:35:30.769 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:35:30.769 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 8 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:35:30.769 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:35:30.769 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:35:30.769 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+15:36:11.109 [AI Patrol] Spawning 3 West bots at <4824.470215, 261.873596, 6686.277344>
+15:38:17.523 [AI Patrol] Spawning 2 East bots at <4914.192383, 290.880066, 6274.122559>

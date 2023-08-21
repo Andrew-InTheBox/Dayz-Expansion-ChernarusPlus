@@ -1,0 +1,128 @@
+19:09:58.054 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+19:09:58.054 [Spatial Debug] Spatial::Triggers - Start
+19:09:58.054 [Spatial AI] points Enabled
+19:09:58.054 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+19:09:58.054 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+19:09:58.054 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+19:09:58.054 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+19:09:58.054 [Spatial AI] Locations Enabled
+19:09:58.054 [Spatial Debug] Spatial::Triggers - End
+19:09:58.523 [Spatial AI] Spatial AI Enabled
+19:09:58.523 [Spatial AI] Spatial Debug Mode on
+19:09:58.523 [Spatial Debug] Spatial::Stack - Start
+19:09:58.523 [Spatial Debug] Spatial::Check - Start
+19:09:58.523 [Spatial Debug] Spatial::Check - no players
+19:09:58.523 [Spatial Debug] Spatial::Stack - End
+19:09:58.523 [Spatial AI] Next valid check in: 60000ms
+19:11:04.531 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:11:04.531 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:11:04.531 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:11:04.531 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:11:19.328 [Spatial Debug] Spatial::Stack - Start
+19:11:19.328 [Spatial Debug] Spatial::Check - Start
+19:11:19.335 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:11:19.335 [Spatial Debug] player: Blorpus9000
+19:11:19.335 [Spatial Debug] now: 12 August 2023 @ 00:11
+19:11:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:11:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:11:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-23
+19:11:19.335 [Spatial Debug] Difference calc: 40
+19:11:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:11:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:11:19.335 [Spatial Debug] Spatial::Check - invalid player
+19:11:19.335 [Spatial Debug] Spatial::Check - End
+19:11:19.335 [Spatial Debug] Spatial::Stack - End
+19:11:19.335 [Spatial AI] Next valid check in: 60000ms
+19:12:19.328 [Spatial Debug] Spatial::Stack - Start
+19:12:19.328 [Spatial Debug] Spatial::Check - Start
+19:12:19.328 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:12:19.335 [Spatial Debug] player: Blorpus9000
+19:12:19.335 [Spatial Debug] now: 12 August 2023 @ 00:12
+19:12:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:12:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:12:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-22
+19:12:19.335 [Spatial Debug] Difference calc: 40
+19:12:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:12:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:12:19.335 [Spatial Debug] Spatial::Check - invalid player
+19:12:19.335 [Spatial Debug] Spatial::Check - End
+19:12:19.335 [Spatial Debug] Spatial::Stack - End
+19:12:19.335 [Spatial AI] Next valid check in: 60000ms
+19:13:19.335 [Spatial Debug] Spatial::Stack - Start
+19:13:19.335 [Spatial Debug] Spatial::Check - Start
+19:13:19.335 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:13:19.335 [Spatial Debug] player: Blorpus9000
+19:13:19.335 [Spatial Debug] now: 12 August 2023 @ 00:13
+19:13:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:13:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:13:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-21
+19:13:19.335 [Spatial Debug] Difference calc: 40
+19:13:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:13:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:13:19.343 [Spatial Debug] Spatial::Check - invalid player
+19:13:19.343 [Spatial Debug] Spatial::Check - End
+19:13:19.343 [Spatial Debug] Spatial::Stack - End
+19:13:19.343 [Spatial AI] Next valid check in: 60000ms
+19:14:19.335 [Spatial Debug] Spatial::Stack - Start
+19:14:19.335 [Spatial Debug] Spatial::Check - Start
+19:14:19.335 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:14:19.335 [Spatial Debug] player: Blorpus9000
+19:14:19.335 [Spatial Debug] now: 12 August 2023 @ 00:14
+19:14:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:14:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:14:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-20
+19:14:19.335 [Spatial Debug] Difference calc: 40
+19:14:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:14:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:14:19.335 [Spatial Debug] Spatial::Check - invalid player
+19:14:19.335 [Spatial Debug] Spatial::Check - End
+19:14:19.335 [Spatial Debug] Spatial::Stack - End
+19:14:19.335 [Spatial AI] Next valid check in: 60000ms
+19:15:19.335 [Spatial Debug] Spatial::Stack - Start
+19:15:19.335 [Spatial Debug] Spatial::Check - Start
+19:15:19.335 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:15:19.335 [Spatial Debug] player: Blorpus9000
+19:15:19.335 [Spatial Debug] now: 12 August 2023 @ 00:15
+19:15:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:15:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:15:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-19
+19:15:19.335 [Spatial Debug] Difference calc: 40
+19:15:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:15:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:15:19.335 [Spatial Debug] Spatial::Check - invalid player
+19:15:19.343 [Spatial Debug] Spatial::Check - End
+19:15:19.343 [Spatial Debug] Spatial::Stack - End
+19:15:19.343 [Spatial AI] Next valid check in: 60000ms
+19:16:19.335 [Spatial Debug] Spatial::Stack - Start
+19:16:19.335 [Spatial Debug] Spatial::Check - Start
+19:16:19.335 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:16:19.335 [Spatial Debug] player: Blorpus9000
+19:16:19.335 [Spatial Debug] now: 12 August 2023 @ 00:16
+19:16:19.335 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:16:19.335 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:16:19.335 [Spatial Debug] Difference: hours:0 - Minutes:-18
+19:16:19.335 [Spatial Debug] Difference calc: 40
+19:16:19.335 [Spatial Debug] Spatial::Check - user not old enough
+19:16:19.335 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:16:19.335 [Spatial Debug] Spatial::Check - invalid player
+19:16:19.335 [Spatial Debug] Spatial::Check - End
+19:16:19.343 [Spatial Debug] Spatial::Stack - End
+19:16:19.343 [Spatial AI] Next valid check in: 60000ms
+19:16:33.062 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) joinded the party "Blorpus" (id=0 ownerUID= ownerName=)
+19:16:33.062 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) created a party named Blorpus (BLPS)
+19:17:19.343 [Spatial Debug] Spatial::Stack - Start
+19:17:19.343 [Spatial Debug] Spatial::Check - Start
+19:17:19.343 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:17:19.343 [Spatial Debug] player: Blorpus9000
+19:17:19.343 [Spatial Debug] now: 12 August 2023 @ 00:17
+19:17:19.343 [Spatial Debug] Valid Time: 12 August 2023 @ 00:35
+19:17:19.343 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:17:19.343 [Spatial Debug] Difference: hours:0 - Minutes:-17
+19:17:19.343 [Spatial Debug] Difference calc: 40
+19:17:19.343 [Spatial Debug] Spatial::Check - user not old enough
+19:17:19.343 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:17:19.343 [Spatial Debug] Spatial::Check - invalid player
+19:17:19.343 [Spatial Debug] Spatial::Check - End
+19:17:19.343 [Spatial Debug] Spatial::Stack - End
+19:17:19.343 [Spatial AI] Next valid check in: 60000ms
+19:18:01.140 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) left the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)

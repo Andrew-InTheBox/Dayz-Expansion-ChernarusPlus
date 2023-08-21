@@ -1,0 +1,29 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\config\crash_2023-08-09_16-07-28.log started at 09.08. 16:11:35
+
+
+
+------------------------------------
+ACBDESKTOP, 09.08 2023 16:11:35
+
+Not an inventory item: AmmoBox_9x19_25rd
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:92
+DayZExpansion/Core/Scripts/4_World/dayzexpansion_core\static\expansionitemspawnhelper.c:158
+DayZExpansion/Core/Scripts/4_World/dayzexpansion_core\static\expansionitemspawnhelper.c:30
+DayZExpansion/SpawnSelection/Scripts/5_Mission/dayzexpansion_spawnselection\classes\modules\respawnhandler\expansionrespawnhandlermodule.c:680
+DayZExpansion/SpawnSelection/Scripts/5_Mission/dayzexpansion_spawnselection\classes\modules\respawnhandler\expansionrespawnhandlermodule.c:656
+DayZExpansion/SpawnSelection/Scripts/5_Mission/dayzexpansion_spawnselection\classes\modules\respawnhandler\expansionrespawnhandlermodule.c:625
+DayZExpansion/SpawnSelection/Scripts/5_Mission/dayzexpansion_spawnselection\classes\modules\respawnhandler\expansionrespawnhandlermodule.c:787
+DayZExpansion/SpawnSelection/Scripts/5_Mission/dayzexpansion_spawnselection\mission\missionserver.c:43
+scripts/5_Mission/mission\missionserver.c:512
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:120
+scripts/5_Mission/mission\missionserver.c:274
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:10
+scripts/3_Game/dayzgame.c:1692
+DabsFramework/scripts/3_Game/dabsframework\dayzgame.c:72
+JM/CF/Scripts/3_Game/communityframework\game\dayzgame.c:97
+
+Runtime mode
+CLI params: config serverDZ.cfg mod @CF;@CommunityOnlineTools;@DabsFramework;@DayZ-Expansion-Animations;@DayZ-Expansion-Bundle;@DayZ-Expansion-Licensed;@PvZmoD_CustomisableZombies serverMod _@DayZ-Dynamic-AI-Addon port 2302 profiles config cpuCount 4 adminlog  netlog  freezecheck  

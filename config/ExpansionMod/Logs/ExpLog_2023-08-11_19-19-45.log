@@ -1,0 +1,305 @@
+19:19:45.390 [Spatial AI] Spatial AI Date: 10/8/2023 R1
+19:19:45.398 [Spatial Debug] Spatial::Triggers - Start
+19:19:45.398 [Spatial AI] points Enabled
+19:19:45.398 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 50
+19:19:45.398 [Spatial AI] Safe: false - Faction: East - Loadout: EastLoadout.json - counts: 0:4
+19:19:45.398 [Spatial AI] Trigger at point: <0.000000, 0.000000, 0.000000> - Radius: 100
+19:19:45.398 [Spatial AI] Safe: false - Faction: West - Loadout: WestLoadout.json - counts: 0:5
+19:19:45.398 [Spatial AI] Locations Enabled
+19:19:45.398 [Spatial Debug] Spatial::Triggers - End
+19:19:45.890 [Spatial AI] Spatial AI Enabled
+19:19:45.890 [Spatial AI] Spatial Debug Mode on
+19:19:45.890 [Spatial Debug] Spatial::Stack - Start
+19:19:45.890 [Spatial Debug] Spatial::Check - Start
+19:19:45.890 [Spatial Debug] Spatial::Check - no players
+19:19:45.890 [Spatial Debug] Spatial::Stack - End
+19:19:45.890 [Spatial AI] Next valid check in: 60000ms
+19:20:52.210 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) joinded the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)
+19:20:52.218 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:20:52.218 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:20:52.218 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:20:52.218 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+19:21:05.796 [Spatial Debug] Spatial::Stack - Start
+19:21:05.796 [Spatial Debug] Spatial::Check - Start
+19:21:05.804 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:21:05.804 [Spatial Debug] player: Blorpus9000
+19:21:05.804 [Spatial Debug] now: 12 August 2023 @ 00:21
+19:21:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:21:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:21:05.804 [Spatial Debug] Difference: hours:0 - Minutes:24
+19:21:05.804 [Spatial Debug] Difference calc: 1
+19:21:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:21:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:21:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:21:05.804 [Spatial Debug] GroupID: 2601
+19:21:05.804 [Spatial Debug] Chance: 0.5 | random: 0.558758
+19:21:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:21:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:21:05.804 [Spatial Debug] Spatial::Check - End
+19:21:05.804 [Spatial Debug] Spatial::Stack - End
+19:21:05.804 [Spatial AI] Next valid check in: 60000ms
+19:22:05.796 [Spatial Debug] Spatial::Stack - Start
+19:22:05.796 [Spatial Debug] Spatial::Check - Start
+19:22:05.804 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:22:05.804 [Spatial Debug] player: Blorpus9000
+19:22:05.804 [Spatial Debug] now: 12 August 2023 @ 00:22
+19:22:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:22:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:22:05.804 [Spatial Debug] Difference: hours:0 - Minutes:25
+19:22:05.804 [Spatial Debug] Difference calc: 1
+19:22:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:22:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:22:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:22:05.804 [Spatial Debug] GroupID: 971
+19:22:05.804 [Spatial Debug] Chance: 0.5 | random: 0.786057
+19:22:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:22:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:22:05.804 [Spatial Debug] Spatial::Check - End
+19:22:05.804 [Spatial Debug] Spatial::Stack - End
+19:22:05.804 [Spatial AI] Next valid check in: 60000ms
+19:23:05.796 [Spatial Debug] Spatial::Stack - Start
+19:23:05.796 [Spatial Debug] Spatial::Check - Start
+19:23:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:23:05.796 [Spatial Debug] player: Blorpus9000
+19:23:05.804 [Spatial Debug] now: 12 August 2023 @ 00:23
+19:23:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:23:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:23:05.804 [Spatial Debug] Difference: hours:0 - Minutes:26
+19:23:05.804 [Spatial Debug] Difference calc: 1
+19:23:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:23:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:23:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:23:05.804 [Spatial Debug] GroupID: 2452
+19:23:05.804 [Spatial Debug] Chance: 0.5 | random: 0.138766
+19:23:05.804 [Spatial Debug] Spatial::Spawn - Start
+19:23:05.812 [Spatial AI] Player: Blorpus9000 Number: 1, Faction name: West, Loadout: WestLoadout.json
+19:23:05.812 [Spatial Debug] Spatial::Spawn - End
+19:23:05.812 [Spatial Debug] End GroupID: 2452
+19:23:05.812 [Spatial Debug] Spatial::LocalSpawn - End
+19:23:05.812 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:23:05.812 [Spatial Debug] Spatial::Check - invalid player
+19:23:05.812 [Spatial Debug] Spatial::Check - End
+19:23:05.812 [Spatial Debug] Spatial::Stack - End
+19:23:05.812 [Spatial AI] Next valid check in: 60000ms
+19:23:06.039 [Spatial AI] Spawning 1 West bots at <5567.198242, 307.933441, 7425.245117>
+19:24:05.796 [Spatial Debug] Spatial::Stack - Start
+19:24:05.796 [Spatial Debug] Spatial::Check - Start
+19:24:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:24:05.796 [Spatial Debug] player: Blorpus9000
+19:24:05.804 [Spatial Debug] now: 12 August 2023 @ 00:24
+19:24:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:24:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:24:05.804 [Spatial Debug] Difference: hours:0 - Minutes:27
+19:24:05.804 [Spatial Debug] Difference calc: 1
+19:24:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:24:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:24:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:24:05.804 [Spatial Debug] GroupID: 653
+19:24:05.804 [Spatial Debug] Chance: 0.5 | random: 0.590405
+19:24:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:24:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:24:05.804 [Spatial Debug] Spatial::Check - End
+19:24:05.804 [Spatial Debug] Spatial::Stack - End
+19:24:05.804 [Spatial AI] Next valid check in: 60000ms
+19:25:05.796 [Spatial Debug] Spatial::Stack - Start
+19:25:05.796 [Spatial Debug] Spatial::Check - Start
+19:25:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:25:05.796 [Spatial Debug] player: Blorpus9000
+19:25:05.804 [Spatial Debug] now: 12 August 2023 @ 00:25
+19:25:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:25:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:25:05.804 [Spatial Debug] Difference: hours:0 - Minutes:28
+19:25:05.804 [Spatial Debug] Difference calc: 1
+19:25:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:25:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:25:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:25:05.804 [Spatial Debug] GroupID: 1011
+19:25:05.804 [Spatial Debug] Chance: 0.5 | random: 0.540996
+19:25:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:25:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:25:05.804 [Spatial Debug] Spatial::Check - End
+19:25:05.804 [Spatial Debug] Spatial::Stack - End
+19:25:05.804 [Spatial AI] Next valid check in: 60000ms
+19:26:05.796 [Spatial Debug] Spatial::Stack - Start
+19:26:05.796 [Spatial Debug] Spatial::Check - Start
+19:26:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:26:05.804 [Spatial Debug] player: Blorpus9000
+19:26:05.804 [Spatial Debug] now: 12 August 2023 @ 00:26
+19:26:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:26:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:26:05.804 [Spatial Debug] Difference: hours:0 - Minutes:29
+19:26:05.804 [Spatial Debug] Difference calc: 1
+19:26:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:26:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:26:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:26:05.804 [Spatial Debug] GroupID: 4828
+19:26:05.804 [Spatial Debug] Chance: 0.5 | random: 0.567089
+19:26:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:26:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:26:05.804 [Spatial Debug] Spatial::Check - End
+19:26:05.804 [Spatial Debug] Spatial::Stack - End
+19:26:05.804 [Spatial AI] Next valid check in: 60000ms
+19:27:05.796 [Spatial Debug] Spatial::Stack - Start
+19:27:05.796 [Spatial Debug] Spatial::Check - Start
+19:27:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:27:05.796 [Spatial Debug] player: Blorpus9000
+19:27:05.804 [Spatial Debug] now: 12 August 2023 @ 00:27
+19:27:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:27:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:27:05.804 [Spatial Debug] Difference: hours:0 - Minutes:30
+19:27:05.804 [Spatial Debug] Difference calc: 1
+19:27:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:27:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:27:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:27:05.804 [Spatial Debug] GroupID: 2639
+19:27:05.804 [Spatial Debug] Chance: 0.5 | random: 0.358131
+19:27:05.804 [Spatial Debug] Spatial::Spawn - Start
+19:27:05.804 [Spatial AI] Player: Blorpus9000 Number: 2, Faction name: Guards, Loadout: NBCLoadout.json
+19:27:05.804 [Spatial Debug] Spatial::Spawn - End
+19:27:05.804 [Spatial Debug] End GroupID: 2639
+19:27:05.804 [Spatial Debug] Spatial::LocalSpawn - End
+19:27:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:27:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:27:05.804 [Spatial Debug] Spatial::Check - End
+19:27:05.804 [Spatial Debug] Spatial::Stack - End
+19:27:05.804 [Spatial AI] Next valid check in: 60000ms
+19:27:06.289 [Spatial AI] Spawning 2 Guard bots at <5789.210938, 320.029327, 7686.308105>
+19:28:05.796 [Spatial Debug] Spatial::Stack - Start
+19:28:05.796 [Spatial Debug] Spatial::Check - Start
+19:28:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:28:05.796 [Spatial Debug] player: Blorpus9000
+19:28:05.804 [Spatial Debug] now: 12 August 2023 @ 00:28
+19:28:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:28:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:28:05.804 [Spatial Debug] Difference: hours:0 - Minutes:31
+19:28:05.804 [Spatial Debug] Difference calc: 1
+19:28:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:28:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:28:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:28:05.804 [Spatial Debug] GroupID: 4870
+19:28:05.804 [Spatial Debug] Chance: 0.5 | random: 0.0676589
+19:28:05.804 [Spatial Debug] Spatial::Spawn - Start
+19:28:05.804 [Spatial AI] Player: Blorpus9000 Number: 2, Faction name: East, Loadout: EastLoadout.json
+19:28:05.804 [Spatial Debug] Spatial::Spawn - End
+19:28:05.804 [Spatial Debug] End GroupID: 4870
+19:28:05.804 [Spatial Debug] Spatial::LocalSpawn - End
+19:28:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:28:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:28:05.804 [Spatial Debug] Spatial::Check - End
+19:28:05.804 [Spatial Debug] Spatial::Stack - End
+19:28:05.804 [Spatial AI] Next valid check in: 60000ms
+19:28:06.648 [Spatial AI] Spawning 2 East bots at <5684.476074, 310.689636, 7510.185059>
+19:29:05.796 [Spatial Debug] Spatial::Stack - Start
+19:29:05.796 [Spatial Debug] Spatial::Check - Start
+19:29:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:29:05.796 [Spatial Debug] player: Blorpus9000
+19:29:05.804 [Spatial Debug] now: 12 August 2023 @ 00:29
+19:29:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:29:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:29:05.804 [Spatial Debug] Difference: hours:0 - Minutes:32
+19:29:05.804 [Spatial Debug] Difference calc: 1
+19:29:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:29:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:29:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:29:05.804 [Spatial Debug] GroupID: 3537
+19:29:05.804 [Spatial Debug] Chance: 0.5 | random: 0.603223
+19:29:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:29:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:29:05.804 [Spatial Debug] Spatial::Check - End
+19:29:05.804 [Spatial Debug] Spatial::Stack - End
+19:29:05.804 [Spatial AI] Next valid check in: 60000ms
+19:29:44.093 [AI Patrol] Spawning 3 West bots at <5418.877930, 339.856720, 8417.701172>
+19:30:05.796 [Spatial Debug] Spatial::Stack - Start
+19:30:05.796 [Spatial Debug] Spatial::Check - Start
+19:30:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:30:05.804 [Spatial Debug] player: Blorpus9000
+19:30:05.804 [Spatial Debug] now: 12 August 2023 @ 00:30
+19:30:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:30:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:30:05.804 [Spatial Debug] Difference: hours:0 - Minutes:33
+19:30:05.804 [Spatial Debug] Difference calc: 1
+19:30:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:30:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:30:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:30:05.804 [Spatial Debug] GroupID: 375
+19:30:05.804 [Spatial Debug] Chance: 0.5 | random: 0.38749
+19:30:05.804 [Spatial Debug] Spatial::Spawn - Start
+19:30:05.804 [Spatial AI] Player: Blorpus9000 Number: 3, Faction name: Shamans, Loadout: HumanLoadout.json
+19:30:05.804 [Spatial Debug] Spatial::Spawn - End
+19:30:05.804 [Spatial Debug] End GroupID: 375
+19:30:05.804 [Spatial Debug] Spatial::LocalSpawn - End
+19:30:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:30:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:30:05.804 [Spatial Debug] Spatial::Check - End
+19:30:05.804 [Spatial Debug] Spatial::Stack - End
+19:30:05.804 [Spatial AI] Next valid check in: 60000ms
+19:30:06.046 [Spatial AI] Spawning 3 Shaman bots at <5622.080566, 308.413940, 7441.114258>
+19:31:05.796 [Spatial Debug] Spatial::Stack - Start
+19:31:05.796 [Spatial Debug] Spatial::Check - Start
+19:31:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:31:05.796 [Spatial Debug] player: Blorpus9000
+19:31:05.804 [Spatial Debug] now: 12 August 2023 @ 00:31
+19:31:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:31:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:31:05.804 [Spatial Debug] Difference: hours:0 - Minutes:34
+19:31:05.804 [Spatial Debug] Difference calc: 1
+19:31:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:31:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:31:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:31:05.804 [Spatial Debug] GroupID: 691
+19:31:05.804 [Spatial Debug] Chance: 0.5 | random: 0.292425
+19:31:05.804 [Spatial Debug] Spatial::Spawn - Start
+19:31:05.804 [Spatial AI] Player: Blorpus9000 Number: 2, Faction name: East, Loadout: EastLoadout.json
+19:31:05.804 [Spatial Debug] Spatial::Spawn - End
+19:31:05.804 [Spatial Debug] End GroupID: 691
+19:31:05.804 [Spatial Debug] Spatial::LocalSpawn - End
+19:31:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:31:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:31:05.804 [Spatial Debug] Spatial::Check - End
+19:31:05.804 [Spatial Debug] Spatial::Stack - End
+19:31:05.804 [Spatial AI] Next valid check in: 60000ms
+19:31:06.148 [Spatial AI] Spawning 2 East bots at <5620.081543, 307.775940, 7420.057617>
+19:32:05.796 [Spatial Debug] Spatial::Stack - Start
+19:32:05.796 [Spatial Debug] Spatial::Check - Start
+19:32:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:32:05.796 [Spatial Debug] player: Blorpus9000
+19:32:05.804 [Spatial Debug] now: 12 August 2023 @ 00:32
+19:32:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:32:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:32:05.804 [Spatial Debug] Difference: hours:0 - Minutes:35
+19:32:05.804 [Spatial Debug] Difference calc: 1
+19:32:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:32:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:32:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:32:05.804 [Spatial Debug] GroupID: 952
+19:32:05.804 [Spatial Debug] Chance: 0.5 | random: 0.77205
+19:32:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:32:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:32:05.804 [Spatial Debug] Spatial::Check - End
+19:32:05.804 [Spatial Debug] Spatial::Stack - End
+19:32:05.804 [Spatial AI] Next valid check in: 60000ms
+19:33:05.796 [Spatial Debug] Spatial::Stack - Start
+19:33:05.796 [Spatial Debug] Spatial::Check - Start
+19:33:05.796 [Spatial Debug] Spatial::Check - loop :0 out of 2
+19:33:05.804 [Spatial Debug] player: Blorpus9000
+19:33:05.804 [Spatial Debug] now: 12 August 2023 @ 00:33
+19:33:05.804 [Spatial Debug] Valid Time: 11 August 2023 @ 23:56
+19:33:05.804 [Spatial Debug] birthday: 11 August 2023 @ 23:55
+19:33:05.804 [Spatial Debug] Difference: hours:0 - Minutes:36
+19:33:05.804 [Spatial Debug] Difference calc: 1
+19:33:05.804 [Spatial Debug] Spatial::CanSpawn - Start
+19:33:05.804 [Spatial Debug] Spatial::CanSpawn - End
+19:33:05.804 [Spatial Debug] Spatial::LocalSpawn - Start
+19:33:05.804 [Spatial Debug] GroupID: 3355
+19:33:05.804 [Spatial Debug] Chance: 0.5 | random: 0.571728
+19:33:05.804 [Spatial Debug] Spatial::Check - loop :1 out of 2
+19:33:05.804 [Spatial Debug] Spatial::Check - invalid player
+19:33:05.804 [Spatial Debug] Spatial::Check - End
+19:33:05.804 [Spatial Debug] Spatial::Stack - End
+19:33:05.804 [Spatial AI] Next valid check in: 60000ms
+19:33:16.523 [Party] Player "Blorpus9000" (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) left the party "Blorpus" (id=0 ownerUID=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= ownerName=Blorpus9000)
+19:34:05.796 [Spatial Debug] Spatial::Stack - Start
+19:34:05.796 [Spatial Debug] Spatial::Check - Start
+19:34:05.796 [Spatial Debug] Spatial::Check - no players
+19:34:05.796 [Spatial Debug] Spatial::Stack - End
+19:34:05.796 [Spatial AI] Next valid check in: 60000ms

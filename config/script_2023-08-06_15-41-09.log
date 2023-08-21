@@ -1,0 +1,371 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServerAug2\config\script_2023-08-06_15-41-09.log started at 06.08. 15:41:10
+
+SCRIPT       : Registered 395 temporary action enum(s), UAN==395
+SCRIPT       : Registering faction type eAIFactionShamans ID -1484989417
+SCRIPT       : Registering faction type eAIFactionObservers ID -563736721
+SCRIPT       : Registering faction type eAIFactionInvincibleObservers ID -1227299746
+SCRIPT       : Registering faction type eAIFactionEast ID 90522109
+SCRIPT       : Registering faction type eAIFactionGuards ID 963933710
+SCRIPT       : Registering faction type eAIFactionRaiders ID 1535276022
+SCRIPT       : Registering faction type eAIFactionMercenaries ID 1629891834
+SCRIPT       : Registering faction type eAIFactionWest ID 113880155
+SCRIPT       : Registering faction type eAIFactionCivilian ID 1096178351
+SCRIPT       : Registering faction type eAIFactionPassive ID -1159399789
+SCRIPT       : Registering faction type eAIFactionInvincibleGuards ID 782746017
+SCRIPT       : ... Backlit Effects Enabled
+SCRIPT       : 15:41:11 [EXPANSION LOG]: DayZGame<7275a5f0> Start time (local time) 2023-08-06 15:41:07
+SCRIPT       : 15:41:11 [EXPANSION LOG]: DayZGame<7275a5f0> Start time (UTC) 2023-08-06 20:41:07
+SCRIPT       : 15:41:11 [EXPANSION LOG]: DayZGame<7275a5f0> Runtime since start (seconds) 4.318
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'username'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'avatar_url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,19": Possible variable name conflict 'content'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,151": Possible variable name conflict 'url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,172": Possible variable name conflict 'url'
+SCRIPT    (W): @"JM/COT/Scripts/4_World/communityonlinetools\classes\webhook\jmwebhookdiscordmessage.c,180": Possible variable name conflict 'url'
+SCRIPT       : Expansion version: 1.8.20
+SCRIPT       : 15:41:25.109 [EXPANSION DEBUG]: [ExpansionDebugSettings] Load existing setting file:$profile:ExpansionMod\Settings\DebugSettings.json
+SCRIPT       : 15:41:25.109 [EXPANSION DEBUG]: [ExpansionLogSettings] Load existing setting file:$profile:ExpansionMod\Settings\LogsSettings.json
+SCRIPT       : 15:41:25.113 [EXPANSION DEBUG]: [ExpansionNotificationSettings] Load existing setting file:$profile:ExpansionMod\Settings\NotificationSettings.json
+SCRIPT       : 15:41:25.113 [EXPANSION DEBUG]: [ExpansionMonitoringSettings] Load existing setting file:$profile:ExpansionMod\Settings\MonitoringSettings.json
+SCRIPT       : 15:41:25.113 [EXPANSION DEBUG]: [ExpansionDamageSystemSettings] Load existing setting file:$profile:ExpansionMod\Settings\DamageSystemSettings.json
+SCRIPT       : 15:41:25.113 [EXPANSION DEBUG]: [ExpansionPartySettings] Load existing setting file:$profile:ExpansionMod\Settings\PartySettings.json
+SCRIPT       : 15:41:25.113 [EXPANSION DEBUG]: [ExpansionHardlineSettings] Load existing setting file:$mission:expansion\settings\HardlineSettings.json
+SCRIPT       : 15:41:25.117 [EXPANSION DEBUG]: [ExpansionMarketSettings] Load existing setting file:$mission:expansion\settings\MarketSettings.json
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 1 (Ammo)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 2 (Ammo_Boxes)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 3 (Armbands)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 4 (Assault_Rifles)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 5 (Backpacks)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 6 (Bandanas)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 7 (Batteries)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 8 (Bayonets)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 9 (Belts)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 10 (Blouses_And_Suits)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 11 (Boats)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 12 (Boots_And_Shoes)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 13 (Buttstocks)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 14 (Caps)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 15 (Cars)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 16 (Coats_And_Jackets)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 17 (Containers)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 18 (Crossbows)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 19 (Drinks)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 20 (Electronics)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 21 (Event)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 22 (Exchange)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 23 (Explosives_And_Grenades)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 24 (Eyewear)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 25 (Fish)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 26 (Fishing)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 27 (Flags)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 28 (Food)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 29 (Fruit_And_Vegetables)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 30 (Furnishings)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 31 (Gardening)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 32 (Ghillies)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 33 (Gloves)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 34 (Handguards)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 35 (Hats_And_Hoods)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 36 (Helicopters)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 37 (Helmets)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 38 (Holsters_And_Pouches)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 39 (Kits)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 40 (Knifes)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 41 (Launchers)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 42 (Lights)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 43 (Liquids)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 44 (Locks)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 45 (Magazines)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 46 (Masks)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 47 (Meat)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 48 (Medical)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 49 (Melee_Weapons)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 50 (Muzzles)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 51 (Navigation)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 52 (Optics)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 53 (Pants_And_Shorts)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 54 (Pistols)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 55 (Rifles)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 56 (Shirts_And_TShirts)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 57 (Shotguns)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 58 (Skirts_And_Dresses)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 59 (Sniper_Rifles)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 60 (Spraycans)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 61 (Submachine_Guns)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 62 (Supplies)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 63 (Sweaters_And_Hoodies)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 64 (Tents)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 65 (Tools)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 66 (Vehicle_Parts)
+SCRIPT       : ExpansionMarketSettings::LoadCategories - Adding category ID 67 (Vests)
+SCRIPT       : 15:41:25.234 [EXPANSION DEBUG]: [ExpansionAirdropSettings] Load existing setting file:$profile:ExpansionMod\Settings\AirdropSettings.json
+SCRIPT       : 15:41:25.382 [EXPANSION DEBUG]: [ExpansionMissionSettings] Load existing setting file:$profile:ExpansionMod\Settings\MissionSettings.json
+SCRIPT       : 15:41:25.382 [EXPANSION DEBUG]: [ExpansionMapSettings] Load existing setting file:$mission:expansion\settings\MapSettings.json
+SCRIPT       : 15:41:25.390 [EXPANSION DEBUG]: [ExpansionPersonalStorageNewSettings] Load existing setting file:$profile:ExpansionMod\Settings\PersonalStorageNewSettings.json
+SCRIPT       : 15:41:25.390 [EXPANSION DEBUG]: [ExpansionGeneralSettings] Load existing setting file:$profile:ExpansionMod\Settings\GeneralSettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionPlayerListSettings] Load existing setting file:$profile:ExpansionMod\Settings\PlayerListSettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionSocialMediaSettings] Load existing setting file:$profile:ExpansionMod\Settings\SocialMediaSettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionSpawnSettings] Load existing setting file:$mission:expansion\settings\SpawnSettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionVehicleSettings] Load existing setting file:$profile:ExpansionMod\Settings\VehicleSettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionAISettings] Load existing setting file:$profile:ExpansionMod\Settings\AISettings.json
+SCRIPT       : 15:41:25.394 [EXPANSION DEBUG]: [ExpansionAIPatrolSettings] Load existing setting file:$mission:expansion\settings\AIPatrolSettings.json
+SCRIPT       : 15:41:25.402 [EXPANSION DEBUG]: [ExpansionBaseBuildingSettings] Load existing setting file:$mission:expansion\settings\BaseBuildingSettings.json
+SCRIPT       : 15:41:25.402 [EXPANSION DEBUG]: [ExpansionRaidSettings] Load existing setting file:$profile:ExpansionMod\Settings\RaidSettings.json
+SCRIPT       : 15:41:25.402 [EXPANSION DEBUG]: [ExpansionTerritorySettings] Load existing setting file:$profile:ExpansionMod\Settings\TerritorySettings.json
+SCRIPT       : 15:41:25.406 [EXPANSION DEBUG]: [ExpansionChatSettings] Load existing setting file:$profile:ExpansionMod\Settings\ChatSettings.json
+SCRIPT       : [DefineTest] EXPANSIONMOD is defined
+SCRIPT       : [DefineTest] EXPANSIONMODAI is defined
+SCRIPT       : [DefineTest] EXPANSIONMODANIMATIONS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODBASEBUILDING is defined
+SCRIPT       : [DefineTest] EXPANSIONMODBOOK is defined
+SCRIPT       : [DefineTest] EXPANSIONMODCHAT is defined
+SCRIPT       : [DefineTest] EXPANSIONMODCORE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODGARAGE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODGROUPS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODHARDLINE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODKILLFEED is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMAPASSETS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMARKET is defined
+SCRIPT       : [DefineTest] EXPANSIONMODMISSIONS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODNAMETAGS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODNAVIGATION is defined
+SCRIPT       : [DefineTest] EXPANSIONMODP2PMARKET is defined
+SCRIPT       : [DefineTest] EXPANSIONMODPERSONALSTORAGE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODQUESTS is defined
+SCRIPT       : [DefineTest] EXPANSIONMODSPAWNSELECTION is defined
+SCRIPT       : [DefineTest] EXPANSIONMODVEHICLE is defined
+SCRIPT       : [DefineTest] EXPANSIONMODWEAPONS is defined
+SCRIPT       : [DefineTest] CfgMods:
+SCRIPT       : defaultAction
+SCRIPT       : DayZ
+SCRIPT       : DZ_Expansion_AI_Preload
+SCRIPT       : DZ_Expansion_Animations_Preload
+SCRIPT       : DZ_Expansion_BaseBuilding_Preload
+SCRIPT       : DZ_Expansion_Book_Preload
+SCRIPT       : DZ_Expansion_Chat_Preload
+SCRIPT       : DZ_Expansion_Core_Preload
+SCRIPT       : DZ_Expansion_Garage_Preload
+SCRIPT       : DZ_Expansion_Groups_Preload
+SCRIPT       : DZ_Expansion_Hardline_Preload
+SCRIPT       : DZ_Expansion_KillFeed_Preload
+SCRIPT       : DZ_Expansion_MapAssets_Preload
+SCRIPT       : DZ_Expansion_Market_Preload
+SCRIPT       : DZ_Expansion_Missions_Preload
+SCRIPT       : DZ_Expansion_ModStorage_Preload
+SCRIPT       : DZ_Expansion_NameTags_Preload
+SCRIPT       : DZ_Expansion_Navigation_Preload
+SCRIPT       : DZ_Expansion_P2PMarket_Preload
+SCRIPT       : DZ_Expansion_PersonalStorage_Preload
+SCRIPT       : DZ_Expansion_Preload
+SCRIPT       : DZ_Expansion_Quests_Preload
+SCRIPT       : DZ_Expansion_SpawnSelection_Preload
+SCRIPT       : DZ_Expansion_Vehicles_Preload
+SCRIPT       : DZ_Expansion_Weapons_Preload
+SCRIPT       : DZ_DabsFramework
+SCRIPT       : DZ_Expansion_DefineTest
+SCRIPT       : DZ_Expansion_MapAssets
+SCRIPT       : bliss
+SCRIPT       : JM_CommunityFramework
+SCRIPT       : JM_CommunityOnlineTools
+SCRIPT       : DZ_Expansion_ModStorage
+SCRIPT       : DZ_Expansion_Core
+SCRIPT       : DZ_Expansion_Garage
+SCRIPT       : DZ_Expansion_Groups
+SCRIPT       : DZ_Expansion_Market
+SCRIPT       : DZ_Expansion_Missions
+SCRIPT       : DZ_Expansion_NameTags
+SCRIPT       : DZ_Expansion_Navigation
+SCRIPT       : DZ_Expansion_NotificationScheduler
+SCRIPT       : DZ_Expansion_P2PMarket
+SCRIPT       : DZ_Expansion_PersonalStorage
+SCRIPT       : DZ_Expansion_PersonalStorageNew
+SCRIPT       : DZ_Expansion_PlayerList
+SCRIPT       : DZ_Expansion
+SCRIPT       : DZ_Expansion_SpawnSelection
+SCRIPT       : DZ_Expansion_VanillaFixes
+SCRIPT       : DZ_Expansion_Vehicles
+SCRIPT       : DZ_Expansion_Weapons
+SCRIPT       : DZ_Expansion_AI
+SCRIPT       : DZ_Expansion_BaseBuilding
+SCRIPT       : DZ_Expansion_Book
+SCRIPT       : DZ_Expansion_Chat
+SCRIPT       : DZ_Expansion_Hardline
+SCRIPT       : DZ_Expansion_Quests
+SCRIPT       : DZ_Expansion_VirtualContainerStorage
+SCRIPT       : DayZ_Expansion_AI_Dynamic
+SCRIPT       : 15:41:25.734 [EXPANSION DEBUG]: ModStorage v5
+SCRIPT       : 15:41:28.660 [EXPANSION DEBUG]: ExpansionTraderJudy<b4f7c020>::SetTraderObject ExpansionTraderObjectBase<4a3e6160> <4973.928711, 9.510984, 2436.782959>
+SCRIPT       : 15:41:28.660 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderJudy<b4f7c020> fileName Aircraft
+SCRIPT       : 15:41:28.671 [EXPANSION DEBUG]: ExpansionTraderJose<4a76c020>::SetTraderObject ExpansionTraderObjectBase<4a711c00> <14353.624023, 3.326771, 13229.217773>
+SCRIPT       : 15:41:28.671 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderJose<4a76c020> fileName Boats
+SCRIPT       : 15:41:28.679 [EXPANSION DEBUG]: ExpansionTraderEva<7c908020>::SetTraderObject ExpansionTraderObjectBase<4a7fcf90> <14378.793945, 3.325975, 13271.585938>
+SCRIPT       : 15:41:28.679 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderEva<7c908020> fileName Fishing
+SCRIPT       : 15:41:28.683 [EXPANSION DEBUG]: ExpansionTraderLewis<c2c1e020>::SetTraderObject ExpansionTraderObjectBase<4a8c4330> <1756.656372, 1.415564, 2027.359741>
+SCRIPT       : 15:41:28.683 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderLewis<c2c1e020> fileName Boats
+SCRIPT       : 15:41:28.687 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderStaticBase<2301dfb0> fileName Exchange
+SCRIPT       : 15:41:28.703 [EXPANSION DEBUG]: ExpansionTraderDenis<4a960010>::SetTraderObject ExpansionTraderObjectBase<4a9e4960> <3697.249512, 402.010010, 5977.625488>
+SCRIPT       : 15:41:28.703 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderDenis<4a960010> fileName Clothing
+SCRIPT       : 15:41:28.722 [EXPANSION DEBUG]: ExpansionTraderMaria<4aa52010>::SetTraderObject ExpansionTraderObjectBase<534f1dc0> <3696.455811, 402.010010, 5980.193359>
+SCRIPT       : 15:41:28.722 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderMaria<4aa52010> fileName Clothing_Accessories
+SCRIPT       : 15:41:28.734 [EXPANSION DEBUG]: ExpansionTraderQuinn<4aadb2a0>::SetTraderObject ExpansionTraderObjectBase<535ae260> <3710.121826, 402.010010, 5976.164063>
+SCRIPT       : 15:41:28.734 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderQuinn<4aadb2a0> fileName Consumables
+SCRIPT       : 15:41:28.753 [EXPANSION DEBUG]: ExpansionTraderNaomi<53651010>::SetTraderObject ExpansionTraderObjectBase<536d2dc0> <3708.786865, 402.010010, 5974.589844>
+SCRIPT       : 15:41:28.753 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderNaomi<53651010> fileName Weapons
+SCRIPT       : 15:41:28.769 [EXPANSION DEBUG]: ExpansionTraderSeth<91e04e0>::SetTraderObject ExpansionTraderObjectBase<5392dbe0> <3710.265137, 402.010010, 5973.340820>
+SCRIPT       : 15:41:28.769 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderSeth<91e04e0> fileName Attachments
+SCRIPT       : 15:41:28.777 [EXPANSION DEBUG]: ExpansionTraderRolf<91c5270>::SetTraderObject ExpansionTraderObjectBase<53a7ff60> <3698.172607, 402.010010, 5995.337402>
+SCRIPT       : 15:41:28.777 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderRolf<91c5270> fileName Vehicles
+SCRIPT       : 15:41:28.800 [EXPANSION DEBUG]: ExpansionTraderIndar<91e8100>::SetTraderObject ExpansionTraderObjectBase<53b47d90> <3714.531006, 402.138000, 5961.776367>
+SCRIPT       : 15:41:28.800 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderIndar<91e8100> fileName Components
+SCRIPT       : 15:41:28.804 [EXPANSION DEBUG]: ExpansionTraderJudy<91d88c0>::SetTraderObject ExpansionTraderObjectBase<53b551c0> <3729.029541, 402.651001, 5969.476563>
+SCRIPT       : 15:41:28.804 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderJudy<91d88c0> fileName Medicals
+SCRIPT       : 15:41:28.804 [EXPANSION DEBUG]: ExpansionTraderNaomi<91e42f0>::SetTraderObject ExpansionTraderObjectBase<53b5cec0> <3690.062988, 402.100067, 6006.763672>
+SCRIPT       : 15:41:28.804 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderNaomi<91e42f0> fileName Vehicle_Parts
+SCRIPT       : 15:41:28.812 [EXPANSION DEBUG]: ExpansionTraderJose<91ebf10>::SetTraderObject ExpansionTraderObjectBase<53bf29b0> <3699.629883, 402.010010, 5993.970215>
+SCRIPT       : 15:41:28.812 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderJose<91ebf10> fileName Spraycans
+SCRIPT       : 15:41:28.824 [EXPANSION DEBUG]: ExpansionTraderLinda<91d0ca0>::SetTraderObject ExpansionTraderObjectBase<53d3a490> <3674.669922, 406.760010, 5990.390137>
+SCRIPT       : 15:41:28.824 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderLinda<91d0ca0> fileName Special
+SCRIPT       : 15:41:28.832 [EXPANSION DEBUG]: ExpansionTraderNiki<91d4ab0>::SetTraderObject ExpansionTraderObjectBase<53ee5a30> <3699.030029, 402.013000, 5973.439941>
+SCRIPT       : 15:41:28.832 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderNiki<91d4ab0> fileName BuildingSupplies
+SCRIPT       : 15:41:28.839 [EXPANSION DEBUG]: ExpansionTraderFrancis<91efd20>::SetTraderObject ExpansionTraderObjectBase<53f04980> <1153.964844, 6.463035, 2409.763184>
+SCRIPT       : 15:41:28.839 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderFrancis<91efd20> fileName Attachments
+SCRIPT       : 15:41:28.847 [EXPANSION DEBUG]: ExpansionTraderKaito<91fb750>::SetTraderObject ExpansionTraderObjectBase<53fd4e30> <1117.021240, 5.495151, 2413.766357>
+SCRIPT       : 15:41:28.847 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderKaito<91fb750> fileName Components
+SCRIPT       : 15:41:28.855 [EXPANSION DEBUG]: ExpansionTraderCyril<91f3b30>::SetTraderObject ExpansionTraderObjectBase<540b7d70> <1136.987427, 5.908522, 2439.662598>
+SCRIPT       : 15:41:28.855 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderCyril<91f3b30> fileName Clothing
+SCRIPT       : 15:41:28.863 [EXPANSION DEBUG]: ExpansionTraderGuo<91f7940>::SetTraderObject ExpansionTraderObjectBase<54152e20> <1133.974854, 5.909700, 2442.412598>
+SCRIPT       : 15:41:28.863 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderGuo<91f7940> fileName Clothing_Accessories
+SCRIPT       : 15:41:28.871 [EXPANSION DEBUG]: ExpansionTraderBoris<91ff560>::SetTraderObject ExpansionTraderObjectBase<5420e9a0> <1123.468262, 15.349299, 2426.316162>
+SCRIPT       : 15:41:28.871 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderBoris<91ff560> fileName Exchange
+SCRIPT       : 15:41:28.875 [EXPANSION DEBUG]: ExpansionTraderLinda<542a7060>::SetTraderObject ExpansionTraderObjectBase<542141c0> <1135.892822, 5.908773, 2436.856689>
+SCRIPT       : 15:41:28.875 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderLinda<542a7060> fileName Consumables
+SCRIPT       : 15:41:28.878 [EXPANSION DEBUG]: ExpansionTraderKeiko<542c60e0>::SetTraderObject ExpansionTraderObjectBase<543a4530> <1130.731689, 5.951744, 2438.009277>
+SCRIPT       : 15:41:28.878 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderKeiko<542c60e0> fileName Medicals
+SCRIPT       : 15:41:28.890 [EXPANSION DEBUG]: ExpansionTraderHelga<542b2a90>::SetTraderObject ExpansionTraderObjectBase<544526b0> <1141.654419, 5.906255, 2421.591309>
+SCRIPT       : 15:41:28.890 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderHelga<542b2a90> fileName Special
+SCRIPT       : 15:41:28.894 [EXPANSION DEBUG]: ExpansionTraderFrida<542b68a0>::SetTraderObject ExpansionTraderObjectBase<583bbad0> <1120.135132, 5.600746, 2417.465820>
+SCRIPT       : 15:41:28.894 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderFrida<542b68a0> fileName Vehicles
+SCRIPT       : 15:41:28.902 [EXPANSION DEBUG]: ExpansionTraderHassan<542be4c0>::SetTraderObject ExpansionTraderObjectBase<584e8530> <1123.977905, 5.639271, 2417.411865>
+SCRIPT       : 15:41:28.902 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderHassan<542be4c0> fileName Vehicle_Parts
+SCRIPT       : 15:41:28.906 [EXPANSION DEBUG]: ExpansionTraderDenis<542aae70>::SetTraderObject ExpansionTraderObjectBase<584ec310> <1156.719727, 6.513331, 2406.355225>
+SCRIPT       : 15:41:28.906 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderDenis<542aae70> fileName Weapons
+SCRIPT       : 15:41:28.910 [EXPANSION DEBUG]: ExpansionTraderGabi<542ba6b0>::SetTraderObject ExpansionTraderObjectBase<585e5200> <1135.689941, 5.900000, 2423.300049>
+SCRIPT       : 15:41:28.914 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderGabi<542ba6b0> fileName BuildingSupplies
+SCRIPT       : 15:41:28.914 [EXPANSION DEBUG]: ExpansionTraderFrancis<542c22d0>::SetTraderObject ExpansionTraderObjectBase<585ea930> <11835.901367, 140.617874, 12474.744141>
+SCRIPT       : 15:41:28.914 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderFrancis<542c22d0> fileName Attachments
+SCRIPT       : 15:41:28.917 [EXPANSION DEBUG]: ExpansionTraderLinda<542c9ef0>::SetTraderObject ExpansionTraderObjectBase<585efe30> <11856.716797, 140.565109, 12461.438477>
+SCRIPT       : 15:41:28.917 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderLinda<542c9ef0> fileName Consumables
+SCRIPT       : 15:41:28.921 [EXPANSION DEBUG]: ExpansionTraderCyril<542aec80>::SetTraderObject ExpansionTraderObjectBase<585f61e0> <11855.000000, 140.605103, 12466.099609>
+SCRIPT       : 15:41:28.921 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderCyril<542aec80> fileName Clothing
+SCRIPT       : 15:41:28.925 [EXPANSION DEBUG]: ExpansionTraderGuo<542cdd00>::SetTraderObject ExpansionTraderObjectBase<585faa60> <11855.200195, 140.605103, 12470.487305>
+SCRIPT       : 15:41:28.925 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderGuo<542cdd00> fileName Clothing_Accessories
+SCRIPT       : 15:41:28.929 [EXPANSION DEBUG]: ExpansionTraderKaito<542d9730>::SetTraderObject ExpansionTraderObjectBase<587826e0> <11849.400391, 140.605087, 12466.200195>
+SCRIPT       : 15:41:28.929 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderKaito<542d9730> fileName Components
+SCRIPT       : 15:41:28.929 [EXPANSION DEBUG]: ExpansionTraderBoris<542dd540>::SetTraderObject ExpansionTraderObjectBase<58788950> <11858.202148, 140.615112, 12463.234375>
+SCRIPT       : 15:41:28.929 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderBoris<542dd540> fileName Exchange
+SCRIPT       : 15:41:28.933 [EXPANSION DEBUG]: ExpansionTraderKeiko<542d1b10>::SetTraderObject ExpansionTraderObjectBase<5878ddb0> <11853.218750, 140.605087, 12463.277344>
+SCRIPT       : 15:41:28.933 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderKeiko<542d1b10> fileName Medicals
+SCRIPT       : 15:41:28.933 [EXPANSION DEBUG]: ExpansionTraderGabi<542e1350>::SetTraderObject ExpansionTraderObjectBase<587937b0> <11833.200195, 140.605118, 12461.700195>
+SCRIPT       : 15:41:28.933 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderGabi<542e1350> fileName Special
+SCRIPT       : 15:41:28.941 [EXPANSION DEBUG]: ExpansionTraderElias<542d5920>::SetTraderObject ExpansionTraderObjectBase<5885df90> <11877.799805, 140.134796, 12441.599609>
+SCRIPT       : 15:41:28.941 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderElias<542d5920> fileName Vehicles
+SCRIPT       : 15:41:28.945 [EXPANSION DEBUG]: ExpansionTraderHassan<588aaf50>::SetTraderObject ExpansionTraderObjectBase<58862a40> <11878.674805, 140.134796, 12424.302734>
+SCRIPT       : 15:41:28.945 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderHassan<588aaf50> fileName Vehicle_Parts
+SCRIPT       : 15:41:28.945 [EXPANSION DEBUG]: ExpansionTraderDenis<58897900>::SetTraderObject ExpansionTraderObjectBase<58867cc0> <11833.576172, 140.605072, 12469.492188>
+SCRIPT       : 15:41:28.945 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderDenis<58897900> fileName Weapons
+SCRIPT       : 15:41:28.949 [EXPANSION DEBUG]: ExpansionTraderLinda<588aed60>::SetTraderObject ExpansionTraderObjectBase<5886c4a0> <11852.194336, 140.660980, 12472.387695>
+SCRIPT       : 15:41:28.949 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderLinda<588aed60> fileName BuildingSupplies
+SCRIPT       : 15:41:28.957 [EXPANSION DEBUG]: ExpansionTraderManua<5889f520>::SetTraderObject ExpansionTraderObjectBase<58942580> <11879.722656, 140.094788, 12435.959961>
+SCRIPT       : 15:41:28.957 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderManua<5889f520> fileName Spraycans
+SCRIPT       : 15:41:28.964 [EXPANSION DEBUG]: ExpansionTraderIrena<58893af0>::SetTraderObject ExpansionTraderObjectBase<58a65b10> <12160.279297, 140.580765, 12689.783203>
+SCRIPT       : 15:41:28.964 [EXPANSION DEBUG]: LoadMissionTradersFile trader ExpansionTraderIrena<58893af0> fileName Aircraft
+SCRIPT       : [ExpansionQuestPersistentServerData] Load existing configuration file:$profile:ExpansionMod\Quests\PersistentServerData.json
+SCRIPT       : [ExpansionQuestPersistentServerData] Load existing configuration file:$profile:ExpansionMod\Quests\PersistentServerData.json
+SCRIPT       : [ExpansionQuestObjectiveTravelConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Travel\Objective_T_1.json
+SCRIPT       : [ExpansionQuestObjectiveTravelConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Travel\Objective_T_2.json
+SCRIPT       : [ExpansionQuestObjectiveTravelConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Travel\Objective_T_3.json
+SCRIPT       : [ExpansionQuestObjectiveTravelConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Travel\Objective_T_4.json
+SCRIPT       : [ExpansionQuestObjectiveTargetConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Target\Objective_TA_1.json
+SCRIPT       : [ExpansionQuestObjectiveTargetConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Target\Objective_TA_2.json
+SCRIPT       : [ExpansionQuestObjectiveTargetConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Target\Objective_TA_3.json
+SCRIPT       : [ExpansionQuestObjectiveTargetConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Target\Objective_TA_4.json
+SCRIPT       : [ExpansionQuestObjectiveDeliveryConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Delivery\Objective_D_1.json
+SCRIPT       : [ExpansionQuestObjectiveDeliveryConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Delivery\Objective_D_2.json
+SCRIPT       : [ExpansionQuestObjectiveCollectionConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Collection\Objective_C_1.json
+SCRIPT       : [ExpansionQuestObjectiveCollectionConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Collection\Objective_C_2.json
+SCRIPT       : [ExpansionQuestObjectiveCollectionConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Collection\Objective_C_3.json
+SCRIPT       : [ExpansionQuestObjectiveTreasureHuntConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\TreasureHunt\Objective_TH_1.json
+SCRIPT       : [ExpansionQuestObjectiveActionConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Action\Objective_A_1.json
+SCRIPT       : [ExpansionQuestObjectiveActionConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Action\Objective_A_2.json
+SCRIPT       : [ExpansionQuestObjectiveCraftingConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\Crafting\Objective_CR_1.json
+SCRIPT       : [ExpansionQuestObjectiveAIPatrolConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\AIPatrol\Objective_AIP_1.json
+SCRIPT       : [ExpansionQuestObjectiveAICampConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\AICamp\Objective_AIC_1.json
+SCRIPT       : [ExpansionQuestObjectiveAIEscortConfig] Load existing configuration file:$profile:ExpansionMod\Quests\Objectives\AIVIP\Objective_AIESCORT_1.json
+SCRIPT       : [ExpansionQuestNPCData] Load existing configuration file:QuestNPC_1.json
+SCRIPT       : [ExpansionQuestNPCData] Load existing configuration file:QuestNPC_2.json
+SCRIPT       : [ExpansionQuestNPCData] Load existing configuration file:QuestNPC_3.json
+SCRIPT       : 15:41:44.507 [EXPANSION DEBUG]: ExpansionP2PTraderAIIrena<8537f0c0>::SetP2PTraderID - ID: 1
+SCRIPT       : ExpansionZonePolygon<c6f5a4c0> position=<12015.854492, 0.000000, 12591.097656> radius=419.633
+SCRIPT       : ExpansionZoneCircle<d9975830> position=<1143.140015, 0.000000, 2423.270020> radius=700
+SCRIPT       : ExpansionZoneCircle<d9976730> position=<3728.270020, 0.000000, 6003.600098> radius=500
+SCRIPT       : Found 3 zones!
+SCRIPT       : ExpansionMarketItem marketItem = ExpansionMarketItem<2a0bb2b0>
+SCRIPT       : int worth =   1
+SCRIPT       : 15:41:44.554 [EXPANSION DEBUG]: ExpansionQuestNPCAIDenis<8538f0e0>::OnEnterSafeZone
+SCRIPT       : bool m_Expansion_LeavingSafeZone = 0
+SCRIPT       : bool m_Expansion_IsInSafeZone = 0
+SCRIPT       : bool m_Expansion_IsInSafeZoneSynchRemote = 0
+SCRIPT       : 15:41:44.554 [EXPANSION DEBUG]: ExpansionP2PTraderAIIrena<8537f0c0>::OnEnterSafeZone
+SCRIPT       : bool m_Expansion_LeavingSafeZone = 0
+SCRIPT       : bool m_Expansion_IsInSafeZone = 0
+SCRIPT       : bool m_Expansion_IsInSafeZoneSynchRemote = 0
+SCRIPT       : [emote] ExpansionP2PTraderAIIrena:043 play emote id=46 IH=null
+SCRIPT       : 15:41:45.953 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK101:030913 at location { type=HANDS item=AK101:030889 parent=ExpansionQuestNPCAIDenis:044 }
+SCRIPT       : 15:41:45.953 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK_PlasticHndgrd:030914 at location { type=ATTACHMENT item=null parent=AK101:030913 slot=weaponHandguardAK }
+SCRIPT       : 15:41:45.953 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_AK101_30Rnd:030915 at location { type=ATTACHMENT item=null parent=AK101:030913 slot=magazine }
+SCRIPT       : [emote] ExpansionQuestNPCAIDenis:044 play emote id=46 IH=AK101:030913
+SCRIPT       : 15:41:46.847 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Aug:030890 at location { type=HANDS item=Aug:030897 parent=ExpansionQuestNPCAIElias:045 }
+SCRIPT       : 15:41:46.851 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_Aug_30Rnd:030889 at location { type=ATTACHMENT item=null parent=Aug:030890 slot=magazine }
+SCRIPT       : [emote] ExpansionQuestNPCAIElias:045 play emote id=14 IH=Aug:030890
+SCRIPT       : 15:42:17.824 [EXPANSION DEBUG]: ExpansionHardlineModule<35f5770> ::LoadPlayerData - Loaded player hardline data for player Blorpus9000[3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+SCRIPT       : ---- PlayerBase OnStoreLoad SUCCESS ----
+SCRIPT       : 15:42:28.199 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending 21 quest configs to client with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:42:28.199 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for 4 quests to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:42:30.585 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created FAL:030983 at location { type=HANDS item=FAL:030968 parent=eAI_SurvivorM_Mirek:049 }
+SCRIPT       : 15:42:30.585 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created ACOGOptic:030984 at location { type=ATTACHMENT item=null parent=FAL:030983 slot=weaponOptics }
+SCRIPT       : 15:42:30.585 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_FAL_20Rnd:030985 at location { type=ATTACHMENT item=null parent=FAL:030983 slot=magazine }
+SCRIPT       : 15:42:30.601 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AKM:030969 at location { type=HANDS item=AKM:030939 parent=eAI_SurvivorF_Gabi:047 }
+SCRIPT       : 15:42:30.601 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK_PlasticHndgrd:030968 at location { type=ATTACHMENT item=null parent=AKM:030969 slot=weaponHandguardAK }
+SCRIPT       : 15:42:30.601 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK_WoodBttstck:030970 at location { type=ATTACHMENT item=null parent=AKM:030969 slot=weaponButtstockAK }
+SCRIPT       : 15:42:30.601 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_AKM_30Rnd:030986 at location { type=ATTACHMENT item=null parent=AKM:030969 slot=magazine }
+SCRIPT       : 15:42:30.640 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK74:030940 at location { type=HANDS item=AK74:030954 parent=eAI_SurvivorF_Frida:048 }
+SCRIPT       : 15:42:30.644 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK74_Hndgrd:030939 at location { type=ATTACHMENT item=null parent=AK74:030940 slot=weaponHandguardAK }
+SCRIPT       : 15:42:30.644 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created AK_PlasticBttstck:030942 at location { type=ATTACHMENT item=null parent=AK74:030940 slot=weaponButtstockAK }
+SCRIPT       : 15:42:30.644 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_AK74_30Rnd:030941 at location { type=ATTACHMENT item=null parent=AK74:030940 slot=magazine }
+SCRIPT       : [emote] eAI_SurvivorM_Mirek:049 play emote id=8 IH=FAL:030983
+SCRIPT       : [emote] eAI_SurvivorF_Gabi:047 play emote id=32 IH=AKM:030969
+SCRIPT       : 15:43:43.179 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:43.179 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 8 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:43.179 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:43.179 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 9 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:48.507 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:48.507 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 8 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:48.511 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:48.511 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 9 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:57.488 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:57.488 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 8 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:57.488 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Quest configs already synched for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:43:57.488 [EXPANSION DEBUG]: ExpansionQuestModule<5fcd500> Sending player quest data for quest ID 9 to player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+SCRIPT       : 15:44:56.820 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created FAMAS:031023 at location { type=HANDS item=FAMAS:031009 parent=eAI_SurvivorM_Elias:050 }
+SCRIPT       : 15:44:56.820 [EXPANSION DEBUG]: ExpansionItemSpawnHelper::Clone - created Mag_FAMAS_25Rnd:031024 at location { type=ATTACHMENT item=null parent=FAMAS:031023 slot=magazine }
+SCRIPT       : JMCameraModule::RPC_Leave - timestamp 311.726
+SCRIPT       : JMCameraModule::Server_Leave - target SurvivorBase<e33f0060>
+SCRIPT       : JMCameraModule::Server_Leave - spectated player NULL
+SCRIPT       : JMCameraModule::RPC_Leave - timestamp 373.451
+SCRIPT       : JMCameraModule::Server_Leave - target SurvivorBase<e33f0060>
+SCRIPT       : JMCameraModule::Server_Leave - spectated player NULL
+SCRIPT       : [Logout]: New player 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= with logout time 3
+SCRIPT       : [emote] SurvivorM_Lewis:046 play emote id=14 IH=Glock19:030918
+SCRIPT       : 15:48:04.316 [EXPANSION DEBUG]: ExpansionQuestPersistentData<edae75f0> ~ExpansionQuestPersistentData (4)
+SCRIPT       : [Logout]: Player 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= finished

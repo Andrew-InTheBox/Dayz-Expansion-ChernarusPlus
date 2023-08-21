@@ -1,0 +1,14 @@
+14:50:31.566 [Spatial Settings] Minimum Distance too low. setting to 120m
+14:50:31.566 [Spatial Settings] Minimum Distance too low. setting to 120m
+14:50:31.570 [Spatial AI] points Disabled
+14:50:31.570 [Spatial AI] Locations Disabled
+14:50:31.570 [Spatial AI] Spatial AI Enabled
+14:50:31.570 [Spatial AI] Next valid check in: 344575ms
+14:51:38.414 [Expansion Quests] - InitQuestSystemClient - Loaded existing player quest data for player with UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+14:51:38.414 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 8 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+14:51:38.414 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 9 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+14:51:38.414 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 11 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+14:51:38.414 [Expansion Quests] - InitClientQuests_NormalQuests - Create new quest instance for quest: 14 - Creator UID: 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=
+14:55:06.300 [AI Patrol] Spawning 4 Civilian bots at <10032.635742, 175.782120, 10836.127930>
+14:55:06.597 [AI Patrol] Spawning 1 Raiders bots at <10424.861328, 112.586914, 10449.745117>
+14:56:35.562 [Spatial AI] Next valid check in: 455297ms
