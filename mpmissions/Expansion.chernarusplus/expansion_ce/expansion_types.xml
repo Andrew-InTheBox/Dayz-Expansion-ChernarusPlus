@@ -2144,7 +2144,7 @@
   </type>
   <type name="ExpansionVodnikWheel">
     <nominal>30</nominal>
-    <lifetime>2700</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>12</min>
     <quantmin>-1</quantmin>
@@ -2156,7 +2156,7 @@
   </type>
   <type name="ExpansionVodnikDoorDriver">
     <nominal>18</nominal>
-    <lifetime>2700</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>6</min>
     <quantmin>-1</quantmin>
@@ -2168,7 +2168,7 @@
   </type>
   <type name="ExpansionVodnikDoorCoDriver">
     <nominal>18</nominal>
-    <lifetime>2700</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>6</min>
     <quantmin>-1</quantmin>
