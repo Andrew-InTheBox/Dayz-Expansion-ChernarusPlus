@@ -1,28 +1,26 @@
 
 
 ******************************************************************************
-AdminLog started on 2023-08-20 at 14:47:20
-14:48:43 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
-14:49:13 | [COT] 76561198081075225: Spawned Entity Pioneer (Scout_Base<db4565f0>, -1, 250) at <3701.742188, 402.012390, 5983.082520>
-14:49:40 | [COT] 76561198081075225: Set Reputation To 4100 [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
-14:52:36 | [COT] 76561198081075225: Spawned Entity Vodnik (ExpansionVodnik<85f78e30>, -1, 10000) at <3743.750977, 403.025909, 5992.563965>
-14:53:23 | [COT] 76561198081075225: Spawned Entity Drybag Backpack (DryBag_Orange<a4afb860>, -1, 140) at <3779.533691, 403.593597, 5969.505859>
-14:53:24 | [COT] 76561198081075225: Spawned Entity Drybag Backpack (DryBag_Orange<a4afd990>, -1, 140) at <3779.533691, 403.593597, 5969.505859>
-14:55:22 | [COT] 76561198081075225: Spawned Entity Car Battery (CarBattery<a4aeb9f0>, 50, 200) at <13080.934570, 114.715187, 13127.315430>
-14:55:28 | [COT] 76561198081075225: Spawned Entity Spark Plug (SparkPlug<a4afe4a0>, -1, 20) at <13080.934570, 114.715187, 13127.315430>
-14:56:23 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
-14:56:33 | [COT] 76561198081075225: Spawned Entity Jerrycan (CanisterGasoline<956411d0>, 20000, 300) at <13083.060547, 114.708809, 13125.888672>
-14:56:40 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<95641d60>, 1000, 50) at <13083.060547, 114.708809, 13125.888672>
-14:56:40 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<9563e390>, 1000, 50) at <13083.060547, 114.708809, 13125.888672>
-14:56:40 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<95644010>, 1000, 50) at <13083.060547, 114.708809, 13125.888672>
-14:56:40 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<9563d800>, 1000, 50) at <13083.060547, 114.708809, 13125.888672>
-14:58:35 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<95645730>, 1000, 50) at <13082.114258, 114.770668, 13123.979492>
-14:58:35 | [COT] 76561198081075225: Spawned Entity Plastic Bottle (WaterBottle<9563ef20>, 1000, 50) at <13082.114258, 114.770668, 13123.979492>
-14:59:20 | [COT] 76561198081075225: Spawned Entity Tire Repair Kit (TireRepairKit<a4afce80>, 100, 100) at <13079.539063, 114.737022, 13128.431641>
-15:02:05 | [COT] 76561198081075225: Spawned Entity Merlin (ExpansionMerlin<92004dc0>, -1, 10000) at <13709.243164, 24.067987, 13398.937500>
-15:06:16 | [COT] 76561198081075225: Entered the Free Camera
-15:06:22 | [COT] 76561198081075225: Left the Free Camera
-15:06:53 | [COT] 76561198081075225: Spawned Entity Merlin (ExpansionMerlin<91ffc990>, -1, 10000) at <13010.560547, 134.532913, 12478.321289>
-15:07:24 | [COT] 76561198081075225: Spawned Entity Jerrycan (CanisterGasoline<95632a90>, 20000, 300) at <13016.102539, 133.875336, 12479.964844>
-15:07:24 | [COT] 76561198081075225: Spawned Entity Jerrycan (CanisterGasoline<9562c280>, 20000, 300) at <13016.102539, 133.875336, 12479.964844>
-15:14:16 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
+AdminLog started on 2023-08-24 at 19:20:48
+19:22:32 | Player "Blorpus9000" is connected (id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=)
+19:23:13 | [COT] 76561198081075225: Teleported 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= to (City | Zelenogorsk, <2796.812012, 202.097961, 5166.556152>)
+19:23:16 | [COT] 76561198081075225: Entered the Free Camera
+19:23:30 | [COT] 76561198081075225: Left the Free Camera
+19:23:39 | [COT] 76561198081075225: Set rain to 0 0 0
+19:23:39 | [COT] 76561198081075225: Set storm to 0 0.8 4000
+19:23:39 | [COT] 76561198081075225: Set fog to 0.00195897 0 0
+19:23:39 | [COT] 76561198081075225: Set overcast to 0.0211015 0 0
+19:23:39 | [COT] 76561198081075225: Set the date to 2023/9/20 5:30
+19:23:39 | [COT] 76561198081075225: Set wind to 12.3768 12.3768 1
+19:23:53 | [COT] 76561198081075225: Teleported 3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q= to (Local | Radio Zenit, <8078.583008, 457.800629, 9342.746094>)
+19:23:58 | [COT] 76561198081075225: Entered the Free Camera
+19:24:13 | [COT] 76561198081075225: Left the Free Camera
+19:24:22 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+19:24:24 | [COT] 76561198081075225: Set GodMode To false [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+19:24:25 | [COT] 76561198081075225: Set GodMode To true [guid=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=]
+19:24:32 | [COT] 76561198081075225: ESP: Viewing ESP
+19:25:08 | [COT] 76561198081075225: Entered the Free Camera
+19:25:17 | [COT] 76561198081075225: Left the Free Camera
+19:27:41 | [COT] 76561198081075225: Entered the Free Camera
+19:27:51 | [COT] 76561198081075225: Left the Free Camera
+19:28:07 | Player "Blorpus9000"(id=3I2KPiMwtNrbRzLe964-q3OrI2Ligr9LBcsFxmVIl3Q=) has been disconnected
