@@ -1,0 +1,416 @@
+Quest ID: 10
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 9
+Position: X=3193.590087890625, Y=296.7070007324219, Z=6090.56982421875
+
+
+Quest ID: 100
+Objective ID: 1
+Objective Type: 10
+
+
+Quest ID: 101
+Objective ID: 2
+Objective Type: 10
+
+
+Quest ID: 103
+Objective ID: 3
+Objective Type: 10
+
+
+Quest ID: 104
+Objective ID: 4
+Objective Type: 10
+
+
+Quest ID: 105
+Objective ID: 5
+Objective Type: 10
+
+
+Quest ID: 106
+Objective ID: 6
+Objective Type: 10
+
+
+Quest ID: 107
+Objective ID: 7
+Objective Type: 10
+
+
+Quest ID: 108
+Objective ID: 8
+Objective Type: 10
+
+
+Quest ID: 109
+Objective ID: 9
+Objective Type: 10
+
+
+Quest ID: 11
+Objective ID: 1
+Objective Type: 10
+
+
+Quest ID: 110
+Objective ID: 10
+Objective Type: 10
+
+
+Quest ID: 111
+Objective ID: 11
+Objective Type: 10
+
+
+Quest ID: 112
+Objective ID: 12
+Objective Type: 10
+
+
+Quest ID: 113
+Objective ID: 13
+Objective Type: 10
+
+
+Quest ID: 114
+Objective ID: 14
+Objective Type: 10
+
+
+Quest ID: 115
+Objective ID: 15
+Objective Type: 10
+
+
+Quest ID: 116
+Objective ID: 16
+Objective Type: 10
+
+
+Quest ID: 117
+Objective ID: 17
+Objective Type: 10
+
+
+Quest ID: 118
+Objective ID: 18
+Objective Type: 10
+
+
+Quest ID: 119
+Objective ID: 19
+Objective Type: 10
+
+
+Quest ID: 12
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 4
+
+
+Quest ID: 120
+Objective ID: 20
+Objective Type: 10
+
+
+Quest ID: 121
+Objective ID: 21
+Objective Type: 10
+
+
+Quest ID: 122
+Objective ID: 22
+Objective Type: 10
+
+
+Quest ID: 123
+Objective ID: 23
+Objective Type: 10
+
+
+Quest ID: 124
+Objective ID: 24
+Objective Type: 10
+
+
+Quest ID: 13
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 11
+Objective ID: 2
+Objective Type: 4
+
+
+Quest ID: 14
+Objective ID: 3
+Objective Type: 3
+Position: X=3706.27001953125, Y=402.0119934082031, Z=5987.080078125
+
+
+Quest ID: 15
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 2
+Objective Type: 10
+
+
+Quest ID: 16
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 4
+
+
+Quest ID: 17
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 18
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 19
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 20
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 200
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 3
+Position: X=4333.3701171875, Y=311.77899169921875, Z=6299.8798828125
+Objective ID: 1
+Objective Type: 8
+
+
+Quest ID: 201
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 6
+Objective Type: 3
+Position: X=752.951, Y=136.22, Z=5001.53
+Objective ID: 3
+Objective Type: 8
+
+
+Quest ID: 202
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 5
+Objective Type: 3
+Position: X=9158.0, Y=318.0, Z=8768.0
+Objective ID: 2
+Objective Type: 8
+
+
+Quest ID: 203
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 7
+Objective Type: 3
+Position: X=1520.56, Y=297.648, Z=9166.8
+Objective ID: 4
+Objective Type: 8
+
+
+Quest ID: 21
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 300
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 7
+
+
+Quest ID: 301
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 5
+Objective Type: 3
+Position: X=9158.0, Y=318.0, Z=8768.0
+Objective ID: 2
+Objective Type: 7
+
+
+Quest ID: 302
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 7
+
+
+Quest ID: 303
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 8
+Objective Type: 3
+Position: X=367.416, Y=424.042, Z=11034.2
+Objective ID: 4
+Objective Type: 7
+
+
+Quest ID: 4
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 1
+Objective Type: 6
+
+
+Quest ID: 400
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 9
+Position: X=3193.590087890625, Y=296.7070007324219, Z=6090.56982421875
+
+
+Quest ID: 401
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 2
+Objective Type: 9
+Position: X=4729.64990234375, Y=271.835205078125, Z=6823.1103515625
+
+
+Quest ID: 500
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 4
+
+
+Quest ID: 501
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 2
+Objective Type: 4
+
+
+Quest ID: 502
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 3
+Objective Type: 4
+
+
+Quest ID: 503
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 4
+Objective Type: 4
+
+
+Quest ID: 504
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 5
+Objective Type: 4
+
+
+Quest ID: 505
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 6
+Objective Type: 4
+
+
+Quest ID: 7
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 31
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 700
+NPC Name: Peter
+NPC Position: [3706.27001953125, 402.0119934082031, 5987.080078125]
+Objective ID: 1
+Objective Type: 5
+
+
+Quest ID: 701
+NPC Name: Steve
+NPC Position: [3192.199951171875, 296.7070007324219, 6093.31005859375]
+Objective ID: 2
+Objective Type: 5
+
+
+Quest ID: 8
+Objective ID: 2
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 800
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 2
+Objective Type: 3
+Position: X=2596.699951171875, Y=306.1000061035156, Z=6378.47021484375
+Objective ID: 1
+Objective Type: 2
+Position: X=2596.699951171875, Y=306.1000061035156, Z=6378.47021484375
+
+
+Quest ID: 801
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 2
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 802
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 3
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 803
+NPC Name: Quest Board
+NPC Position: [3706.610107421875, 403.25, 5983.39990234375]
+Objective ID: 4
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+
+
+Quest ID: 9
+Objective ID: 31
+Objective Type: 2
+Position: X=0.0, Y=0.0, Z=0.0
+

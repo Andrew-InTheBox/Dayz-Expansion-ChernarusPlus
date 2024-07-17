@@ -6,6 +6,19 @@ def load_json(file_path):
     with open(file_path, 'r') as f:
         return json.load(f)
 
+def extract_positions(data):
+    positions = []
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key == "Waypoints" and isinstance(value, list):
+                positions.extend(value)
+            elif isinstance(value, (dict, list)):
+                positions.extend(extract_positions(value))
+    elif isinstance(data, list):
+        for item in data:
+            positions.extend(extract_positions(item))
+    return positions
+
 def process_quests(quests_dir, objectives_dir, npcs_dir):
     quests = {}
     objectives = defaultdict(dict)
@@ -27,7 +40,12 @@ def process_quests(quests_dir, objectives_dir, npcs_dir):
             for obj_file in os.listdir(obj_type_dir):
                 if obj_file.endswith('.json'):
                     obj_data = load_json(os.path.join(obj_type_dir, obj_file))
-                    objectives[obj_type][obj_data['ID']] = obj_data['ObjectiveText']
+                    objectives[obj_type][obj_data['ID']] = {
+                        'ObjectiveText': obj_data['ObjectiveText'],
+                        'ID': obj_data['ID'],
+                        'ObjectiveType': obj_data['ObjectiveType'],
+                        'Positions': extract_positions(obj_data)
+                    }
 
     # Load and process Quests
     for quest_file in os.listdir(quests_dir):
@@ -37,9 +55,20 @@ def process_quests(quests_dir, objectives_dir, npcs_dir):
             for obj in quest_data['Objectives']:
                 obj_type = next((t for t in objectives.keys() if objectives[t].get(obj['ID'])), None)
                 if obj_type:
-                    quest_objectives.append(objectives[obj_type][obj['ID']])
+                    obj_info = objectives[obj_type][obj['ID']]
+                    quest_objectives.append({
+                        'Text': obj_info['ObjectiveText'],
+                        'ID': obj_info['ID'],
+                        'Type': obj_info['ObjectiveType'],
+                        'Positions': obj_info['Positions']
+                    })
                 else:
-                    quest_objectives.append(f"Unknown Objective (Type: {obj['ObjectiveType']}, ID: {obj['ID']})")
+                    quest_objectives.append({
+                        'Text': f"Unknown Objective (Type: {obj['ObjectiveType']}, ID: {obj['ID']})",
+                        'ID': obj['ID'],
+                        'Type': obj['ObjectiveType'],
+                        'Positions': []
+                    })
 
             # Process rewards
             rewards = []
@@ -59,8 +88,6 @@ def process_quests(quests_dir, objectives_dir, npcs_dir):
 
     return quests
 
-
-
 def generate_report(quests):
     report = []
     for quest_id, quest_data in quests.items():
@@ -68,7 +95,12 @@ def generate_report(quests):
         report.append(f"Title: {quest_data['Title']}")
         report.append("Objectives:")
         for obj in quest_data['Objectives']:
-            report.append(f"  - {obj}")
+            report.append(f"  - ID: {obj['ID']}, Type: {obj['Type']}")
+            report.append(f"    Text: {obj['Text']}")
+            if obj['Positions']:
+                report.append("    Positions:")
+                for pos in obj['Positions']:
+                    report.append(f"      {pos}")
         quest_giver = quest_data['QuestGiver']
         if isinstance(quest_giver, dict):
             report.append(f"Quest Giver: {quest_giver['Name']} at position {quest_giver['Position']}")
@@ -83,7 +115,6 @@ def generate_report(quests):
         report.append("")
     
     return "\n".join(report)
-
 
 # Usage
 quests_dir = './config/ExpansionMod/Quests/Quests'

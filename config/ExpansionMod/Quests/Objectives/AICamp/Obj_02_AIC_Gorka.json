@@ -2,7 +2,7 @@
     "ConfigVersion": 27,
     "ID": 2,
     "ObjectiveType": 8,
-    "ObjectiveText": "Kill all the police imposters at the marked location",
+    "ObjectiveText": "Kill all the police imposters lurking in gorka",
     "TimeLimit": -1,
     "Active": 1,
     "InfectedDeletionRadius": 50.0,

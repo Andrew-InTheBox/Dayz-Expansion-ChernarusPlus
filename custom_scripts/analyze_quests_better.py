@@ -1,0 +1,75 @@
+import os
+import json
+import glob
+
+def find_positions(data):
+    positions = []
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if key == "Position" and isinstance(value, list) and len(value) == 3:
+                positions.append(value)
+            elif isinstance(value, (dict, list)):
+                positions.extend(find_positions(value))
+    elif isinstance(data, list):
+        for item in data:
+            positions.extend(find_positions(item))
+    return positions
+
+def load_json(file_path):
+    with open(file_path, 'r') as f:
+        return json.load(f)
+
+def find_objective_file(objective_id, objective_type):
+    for obj_file in glob.glob('./config/ExpansionMod/Quests/Objectives/**/*.json', recursive=True):
+        data = load_json(obj_file)
+        if data.get('ID') == objective_id and data.get('ObjectiveType') == objective_type:
+            return data
+    return None
+
+def find_npc_file(npc_id):
+    for npc_file in glob.glob('./config/ExpansionMod/Quests/NPCs/*.json'):
+        data = load_json(npc_file)
+        if data.get('ID') == npc_id:
+            return data
+    return None
+
+def analyze_quests():
+    report = []
+    
+    for quest_file in glob.glob('./config/ExpansionMod/Quests/Quests/*.json'):
+        quest_data = load_json(quest_file)
+        quest_id = quest_data.get('ID')
+        
+        report.append(f"Quest ID: {quest_id}")
+        
+        # NPC information
+        npc_ids = quest_data.get('QuestGiverIDs', [])
+        for npc_id in npc_ids:
+            npc_data = find_npc_file(npc_id)
+            if npc_data:
+                npc_name = npc_data.get('NPCName', 'Unknown')
+                npc_position = npc_data.get('Position', [])
+                report.append(f"NPC Name: {npc_name}")
+                report.append(f"NPC Position: {npc_position}")
+        
+        # Objective information
+        for objective in quest_data.get('Objectives', []):
+            obj_id = objective.get('ID')
+            obj_type = objective.get('ObjectiveType')
+            
+            obj_data = find_objective_file(obj_id, obj_type)
+            if obj_data:
+                report.append(f"Objective ID: {obj_id}")
+                report.append(f"Objective Type: {obj_type}")
+                
+                positions = find_positions(obj_data)
+                for pos in positions:
+                    report.append(f"Position: X={pos[0]}, Y={pos[1]}, Z={pos[2]}")
+        
+        report.append("\n")  # Add a blank line between quests
+    
+    # Write report to file
+    with open('quest_analysis_report.txt', 'w') as f:
+        f.write('\n'.join(report))
+
+analyze_quests()
