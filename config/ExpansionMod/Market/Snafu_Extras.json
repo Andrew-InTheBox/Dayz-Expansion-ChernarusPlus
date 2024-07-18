@@ -1,27 +1,30 @@
 {
-    "m_Version": 8,
+    "m_Version": 12,
     "DisplayName": "Snafu_Extras",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
+    "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-	    {
+        {
             "ClassName": "SNAFU_SKS_Bayonet",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		{
+        {
             "ClassName": "GCGN_M1Garand_FlashHider",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -29,19 +32,21 @@
             "ClassName": "GCGN_M1Garand_Bayonet",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_AK_Mount_Base",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -49,19 +54,21 @@
             "ClassName": "SNAFU_Hunting_Mount_Base",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_Mosin_Mount_Base",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -69,19 +76,21 @@
             "ClassName": "SNAFU_TACGripColtA2_Tan",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_TACGripColtA2_OD",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -89,19 +98,21 @@
             "ClassName": "SNAFU_TACGripColtA2_Grey",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_TACGripColtA2_BK",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -109,19 +120,21 @@
             "ClassName": "SNAFU_GIGripColtA2",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFUUniversalLight",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -129,19 +142,21 @@
             "ClassName": "SNAFU_556_Barrel10",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_556_Barrel14",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -149,19 +164,21 @@
             "ClassName": "SNAFU_556_Barrel14_DV",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_556_Barrel16",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -169,22 +186,23 @@
             "ClassName": "SNAFU_PistolGripColtA2",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_PEQ1_Laser",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
+            "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         }
-		
-	]
-}	
+    ]
+}

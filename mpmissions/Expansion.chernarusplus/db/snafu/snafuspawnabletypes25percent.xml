@@ -1,4 +1,5 @@
-			<!-- Spawnable Types for Snafu - Created by Dirk -->
+<spawnabletypes>
+	<!-- Spawnable Types for Snafu - Created by Dirk -->
 	<type name="SNAFUKivaari_Black_GUN">
 		<attachments chance="0.25">
 			<item name="SNAFUKivaari_338_Supp" chance="1.00" />
@@ -40,7 +41,7 @@
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
@@ -85,7 +86,7 @@
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
@@ -130,7 +131,7 @@
 			<item name="SNAFU_Bipod" chance="0.50" />
 			<item name="SNAFU_ModBipod" chance="0.50" />
 		</attachments>
-			<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
@@ -176,7 +177,7 @@
 			<item name="SNAFU_AtlasBipod" chance="0.33" />
 			<item name="SNAFU_ModBipod" chance="0.33" />
 		</attachments>
-			<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
 	</type>
@@ -450,7 +451,7 @@
 			<item name="AK_PlasticHndgrd" chance="1.00" />
 		</attachments>
 	</type>
-		<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
+	<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="SNAFUAR15_SPR_Black_GUN">
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
@@ -486,7 +487,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -513,7 +514,7 @@
 			<item name="SNAFU_BMAG300_Black" chance="0.05" />
 		</attachments>
 	</type>
-			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
+	<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="SNAFUAR15_SPR_Tan_GUN">
 		<attachments chance="1.00">
 			<item name="SNAFU_HGMlok" chance="1.00" />
@@ -549,7 +550,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -601,7 +602,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AK12_Mag" chance="1.00" />
@@ -627,7 +628,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AK103_Mag" chance="1.00" />
@@ -654,7 +655,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
@@ -683,7 +684,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
@@ -712,7 +713,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
@@ -720,7 +721,7 @@
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
 		</attachments>
 	</type>
-				<!--  No suppressor slot on this gun but it does seem to take one, bit odd!  -->
+	<!--  No suppressor slot on this gun but it does seem to take one, bit odd!  -->
 	<type name="SNAFU_AEK545_Gun">
 		<attachments chance="0.25">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
@@ -742,7 +743,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_RPK16_Black_Mag" chance="0.34" />
@@ -750,7 +751,7 @@
 			<item name="SNAFU_RPK16_Tan_Mag" chance="0.33" />
 		</attachments>
 	</type>
-			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
+	<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="GCGN_M4A1">
 		<attachments chance="0.25">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
@@ -789,7 +790,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -831,7 +832,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
@@ -864,7 +865,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -932,7 +933,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="Mag_STANAG_30Rnd" chance="0.50" />
@@ -965,7 +966,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -982,7 +983,7 @@
 			<item name="SNAFU_CMAG60556_Tan" chance="0.09" />
 		</attachments>
 	</type>
-			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
+	<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="M4_6933_Gun">
 		<attachments chance="1.00">
 			<item name="SNAFU_MK10" chance="1.00" />
@@ -1014,7 +1015,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -1095,7 +1096,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -1133,7 +1134,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SG550_Mag" chance="1.00" />
@@ -1160,7 +1161,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1197,7 +1198,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1234,7 +1235,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1348,7 +1349,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1385,7 +1386,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1422,7 +1423,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1459,7 +1460,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -1475,7 +1476,7 @@
 			<item name="SNAFURSASS_Mag" chance="1.00" />
 		</attachments>
 	</type>
-			<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
+	<!--  According to Snafu in game description this gun will be removed next official DayZ update  -->
 	<type name="SR3_Vikhr_Gun">
 		<attachments chance="0.25">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
@@ -1500,10 +1501,10 @@
 		<attachments chance="0.25">
 			<item name="SNAFU_SR3HG" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="SNAFU_WSR3Stock" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="SNAFU_SR3Grip" chance="1.00" />
 		</attachments>
 		<attachments chance="0.25">
@@ -1558,7 +1559,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNHK417_Mag" chance="1.00" />
@@ -1589,7 +1590,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -1633,7 +1634,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SA58_30RND_BK" chance="0.28" />
@@ -1692,9 +1693,8 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
-
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
 			<item name="SNAFU_PMAG556_Grey" chance="0.09" />
@@ -1714,16 +1714,17 @@
 		<attachments chance="0.25">
 			<item name="SNAFU_HuntingOptic" chance="0.06" />
 			<item name="SNAFU_Nightforce" chance="0.06" />
-			<item name="SNAFU_Leupold_Mark8" chance="0.06" />		<attachments chance="0.25">
-			<item name="SNAFU_AFG_02_Black" chance="0.05" />
-			<item name="SNAFU_AFG_02_Tan" chance="0.05" />
-			<item name="SNAFU_AFG_02_OD" chance="0.05" />
-			<item name="SNAFUAR15_AFG" chance="0.05" />
-			<item name="SNAFUScar_AFG_BK" chance="0.05" />
-			<item name="SNAFUScar_AFG_Tan" chance="0.05" />
-			<item name="SNAFU_FGCR_Grip" chance="0.35" />
-			<item name="SNAFU_FGKAC_Grip" chance="0.35" />
-		</attachments>
+			<item name="SNAFU_Leupold_Mark8" chance="0.06" />
+			<attachments chance="0.25">
+				<item name="SNAFU_AFG_02_Black" chance="0.05" />
+				<item name="SNAFU_AFG_02_Tan" chance="0.05" />
+				<item name="SNAFU_AFG_02_OD" chance="0.05" />
+				<item name="SNAFUAR15_AFG" chance="0.05" />
+				<item name="SNAFUScar_AFG_BK" chance="0.05" />
+				<item name="SNAFUScar_AFG_Tan" chance="0.05" />
+				<item name="SNAFU_FGCR_Grip" chance="0.35" />
+				<item name="SNAFU_FGKAC_Grip" chance="0.35" />
+			</attachments>
 			<item name="SNAFU_Kahles" chance="0.06" />
 			<item name="SNAFU_Aimpoint_ACO" chance="0.06" />
 			<item name="SNAFU_Aimpoint_M5" chance="0.06" />
@@ -2520,7 +2521,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -2614,7 +2615,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="Mag_AK101_30Rnd" chance="1.00" />
@@ -2656,7 +2657,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AK308_Mag" chance="1.00" />
@@ -2691,7 +2692,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -2729,7 +2730,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -2767,7 +2768,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -2838,7 +2839,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -3009,7 +3010,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
@@ -3036,7 +3037,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
@@ -3063,7 +3064,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFUM1A_20rdMag" chance="1.00" />
@@ -3143,7 +3144,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFUMk12_20rdMag" chance="1.00" />
@@ -3170,7 +3171,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFUP90_50rdMag" chance="1.00" />
@@ -3207,7 +3208,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PMAG556_Black" chance="0.09" />
@@ -3305,7 +3306,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -3341,7 +3342,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -3429,7 +3430,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_AFG_02_Black" chance="0.05" />
@@ -3619,7 +3620,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3678,7 +3679,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3733,7 +3734,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3788,7 +3789,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3843,7 +3844,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3898,7 +3899,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -3958,7 +3959,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4020,7 +4021,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4082,7 +4083,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4144,7 +4145,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4206,7 +4207,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4268,7 +4269,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4326,7 +4327,7 @@
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_Standardized_Suppressor_Black" chance="0.50" />
-			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />		
+			<item name="SNAFU_LStandardized_Suppressor_Black" chance="0.50" />
 		</attachments>
 		<attachments chance="0.25">
 			<item name="SNAFU_PistolGripColtA2" chance="0.15" />
@@ -4373,10 +4374,10 @@
 		<attachments chance="0.25">
 			<item name="SNAFU_SR3HG" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="SNAFU_WSR3Stock" chance="1.00" />
 		</attachments>
-				<attachments chance="0.25">
+		<attachments chance="0.25">
 			<item name="SNAFU_SR3Grip" chance="1.00" />
 		</attachments>
 		<attachments chance="0.25">
@@ -4568,3 +4569,4 @@
 			<item name="SNAFUVSSK_5rdMag" chance="1.00" />
 		</attachments>
 	</type>
+</spawnabletypes>

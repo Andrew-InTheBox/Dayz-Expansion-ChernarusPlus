@@ -2,18 +2,25 @@ import os
 import json
 import glob
 
-def find_positions(data):
+def find_positions_and_waypoints(data):
     positions = []
+    waypoints = []
     if isinstance(data, dict):
         for key, value in data.items():
             if key == "Position" and isinstance(value, list) and len(value) == 3:
                 positions.append(value)
+            elif key == "Waypoints" and isinstance(value, list):
+                waypoints.extend(value)
             elif isinstance(value, (dict, list)):
-                positions.extend(find_positions(value))
+                pos, way = find_positions_and_waypoints(value)
+                positions.extend(pos)
+                waypoints.extend(way)
     elif isinstance(data, list):
         for item in data:
-            positions.extend(find_positions(item))
-    return positions
+            pos, way = find_positions_and_waypoints(item)
+            positions.extend(pos)
+            waypoints.extend(way)
+    return positions, waypoints
 
 def load_json(file_path):
     with open(file_path, 'r') as f:
@@ -62,9 +69,14 @@ def analyze_quests():
                 report.append(f"Objective ID: {obj_id}")
                 report.append(f"Objective Type: {obj_type}")
                 
-                positions = find_positions(obj_data)
+                positions, waypoints = find_positions_and_waypoints(obj_data)
                 for pos in positions:
                     report.append(f"Position: X={pos[0]}, Y={pos[1]}, Z={pos[2]}")
+                
+                if waypoints:
+                    report.append("Waypoints:")
+                    for i, wp in enumerate(waypoints, 1):
+                        report.append(f"  Waypoint {i}: X={wp[0]}, Y={wp[1]}, Z={wp[2]}")
         
         report.append("\n")  # Add a blank line between quests
     
