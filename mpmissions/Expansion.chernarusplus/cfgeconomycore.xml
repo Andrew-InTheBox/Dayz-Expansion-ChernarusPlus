@@ -63,12 +63,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	<!-- End mmg material -->
 	
-	<!-- rev guns -->
+	<!-- rev guns 
 	<ce folder="db/rev">
 		<file name="revguns_spawnabletypes.xml" type="spawnabletypes" />
 		<file name="revguns_types.xml" type="types" />
 	</ce>
-	<!-- end of rev guns -->
+	-->
 	
 	<!-- snafu guns -->
 	<ce folder="db/snafu">
