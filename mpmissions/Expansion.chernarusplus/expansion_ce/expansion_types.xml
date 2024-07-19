@@ -776,6 +776,7 @@
     <category name="vehiclesparts" />
     <usage name="Industrial" />
   </type>
+  <![CDATA[
   <!-- HELICOPTERS -->
   <type name="ExpansionMh6">
     <nominal>0</nominal>
@@ -1073,6 +1074,7 @@
     <lifetime>120</lifetime>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
+    ]]>
   <!-- BOATS -->
   <type name="ExpansionUtilityBoat">
     <nominal>0</nominal>
@@ -2010,6 +2012,7 @@
     <tag name="shelves" />
     <usage name="Industrial" />
   </type>
+  <![CDATA[
   <type name="ExpansionHelicopterBattery">
     <nominal>24</nominal>
     <lifetime>43200</lifetime>
@@ -2062,6 +2065,7 @@
     <usage name="Industrial" />
     <usage name="Military" />
   </type>
+  ]]>
   <type name="ExpansionBusWheel">
     <nominal>6</nominal>
     <lifetime>2700</lifetime>

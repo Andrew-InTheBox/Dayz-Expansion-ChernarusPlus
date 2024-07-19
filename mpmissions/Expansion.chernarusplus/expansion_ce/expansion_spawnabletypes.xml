@@ -1048,6 +1048,7 @@
 		<hoarder />
 	</type>
 	<!-- EXPANSION VEHICLES -->
+	<![CDATA[
 	<!-- HELICOPTERS -->
 	<type name="ExpansionMh6">
 		<attachments chance="1.00">
@@ -1635,6 +1636,7 @@
 			<item name="HeadlightH7" chance="0.40" />
         </attachments>
 	</type>
+	]]>
 	<!-- CARS -->
 	<type name="ExpansionUAZ">
 		<attachments chance="1.00">

@@ -151,6 +151,7 @@
             <child lootmax="0" lootmin="0" max="5" min="1" type="Expansion_Landrover_Blue"/>
         </children>
     </event>
+    <![CDATA[
 	<!-- HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
         <nominal>2</nominal>
@@ -225,6 +226,7 @@
             <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h_Resistance"/>
         </children>
     </event>
+    ]]>
 	<!-- BOATS -->
 	<event name="VehicleUtilityBoat">
         <nominal>3</nominal>
