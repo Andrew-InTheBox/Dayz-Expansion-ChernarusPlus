@@ -24,9 +24,9 @@ def update_stock_thresholds(file_path, max_threshold, min_threshold):
 
 if __name__ == "__main__":
     directory = './config/ExpansionMod/Market/'
-    file_name = 'Vehicle_Parts.json'
+    file_name = 'Snafu_Ammo.json'
     file_path = os.path.join(directory, file_name)
-    max_threshold = 50
-    min_threshold = 10
+    max_threshold = 1
+    min_threshold = 1
 
     update_stock_thresholds(file_path, max_threshold, min_threshold)
