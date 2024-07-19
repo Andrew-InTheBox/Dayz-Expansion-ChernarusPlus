@@ -1488,34 +1488,8 @@
 		<pos x="12865" y="63.4724" z="15123.1" a="32.4625"/>
 	</event>
 
-	<![CDATA[
 	<!-- EXPANSION HELICOPTERS -->
-	<event name="VehicleMH6Helicopter">
-		<!-- Airfield Vyvor -->
-		<pos x="4169.207031" y="338.414795" z="10990.304688" a="71.035965" />
-		<!-- Prison Island -->
-		<pos x="2610.090576" y="21.751432" z="1306.517334" a="14.250560" />
-		<!-- Military Base Tisy -->
-		<pos x="1689.941284" y="451.738586" z="14343.285156" a="0.000000" />
-	</event>
-	<event name="VehicleMerlinHelicopter">
-		<!-- Airfield Vyvor -->
-		<pos x="4655.32" y="339.012" z="10313.3" a="-115.7" />
-	</event>
-	<event name="VehicleUh1hHelicopter">
-		<!-- Airfield Vybor -->
-		<pos x="4096.730957" y="342.045197" z="10652.285156" a="26.790075" />
-		<!-- Military Base Kamensk -->
-		<pos x="8007.443848" y="342.698883" z="14627.948242" a="29.346302" />
-		<!-- Biathlon Arena -->
-		<pos x="504.444275" y="424.994934" z="11237.218750" a="10.636043" />
-	</event>
-	<event name="VehicleGyroHelicopter">
-		<!-- Airfield Balota -->
-		<pos x="5030.672363" y="9.536390" z="2356.444824" a="40.269878" />
-	</event>
-	]]>
-	
+
 	<!-- EXPANSION BOATS -->
 	<event name="VehicleUtilityBoat">
 		<!-- Prison Island -->
