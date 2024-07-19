@@ -21,4 +21,5 @@ The following mods are used in this setup:
 - **MMG-MightysMilitaryGear**
 - **PvZmoD_CustomizableZombies**
 - **MoreWolves**
+- **SNAFUWeapons**
 - **_DayZ-Dynamic-AI-Addon** (server-side)
