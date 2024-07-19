@@ -1,3 +1,5 @@
+# Utility to remove items by class name from market.json files, put this in the /config/ExpansionMod/Market directory, feed it the file name, and run it
+
 import json
 import os
 

@@ -1487,6 +1487,8 @@
 		<!-- Dobroe -->
 		<pos x="12865" y="63.4724" z="15123.1" a="32.4625"/>
 	</event>
+
+	<![CDATA[
 	<!-- EXPANSION HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
 		<!-- Airfield Vyvor -->
@@ -1512,6 +1514,8 @@
 		<!-- Airfield Balota -->
 		<pos x="5030.672363" y="9.536390" z="2356.444824" a="40.269878" />
 	</event>
+	]]>
+	
 	<!-- EXPANSION BOATS -->
 	<event name="VehicleUtilityBoat">
 		<!-- Prison Island -->
@@ -1566,7 +1570,7 @@
 		<!-- Military Base Tisy -->
 		<pos x="1689.941284" z="14343.285156" a="0.000000" />
 		<!-- Airfield Vyvor -->
-		<pos x="4675.005859" z="10362.887695" a="304.364269" />
+		<pos x="4672.75" z="10343.3" a="339.9" />
 		<!-- Airfield Vybor -->
 		<pos x="4096.730957" z="10652.285156" a="26.790075" />
 		<!-- Military Base Kamensk -->
