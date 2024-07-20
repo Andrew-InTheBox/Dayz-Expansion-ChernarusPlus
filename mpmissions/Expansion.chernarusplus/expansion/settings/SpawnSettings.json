@@ -362,6 +362,11 @@
                 "ClassName": "Apple",
                 "Quantity": -1,
                 "Attachments": []
+            },
+            {
+                "ClassName": "Chemlight_Green",
+                 "Quantity": -1,
+                 "Attachments": []
             }
         ],
         "PantsGear": [],
