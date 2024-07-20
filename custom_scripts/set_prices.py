@@ -10,10 +10,10 @@ def adjust_prices(input_file):
     # Iterate through items and adjust prices
     for item in data.get('Items', []):
         # Multiply MaxPriceThreshold by 3
-        max_price = item.get('MaxPriceThreshold', 0) * 0.067
+        max_price = item.get('MaxPriceThreshold', 0) * 5.0
         
         # Set MinPriceThreshold to 75% of new MaxPriceThreshold
-        min_price = max_price * 0.75
+        min_price = max_price * 0.80
 
         # Ensure neither value is zero and min is less than max
         max_price = max(1, max_price)
