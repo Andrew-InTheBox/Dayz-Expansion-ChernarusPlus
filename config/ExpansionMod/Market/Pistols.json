@@ -186,6 +186,19 @@
                 "mag_expansion_m9_15rnd"
             ],
             "Variants": []
+        },
+        {
+            "ClassName": "expansion_taser_yellow",
+            "MaxPriceThreshold": 4500,
+            "MinPriceThreshold": 3960,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "expansion_taser_black"
+            ]
         }
     ]
 }
