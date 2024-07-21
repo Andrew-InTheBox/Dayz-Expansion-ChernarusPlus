@@ -138,6 +138,20 @@
                 "mag_expansion_m14_10rnd"
             ],
             "Variants": []
+        },
+        {
+            "ClassName": "M14",
+            "MaxPriceThreshold": 8920,
+            "MinPriceThreshold": 7710,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "Mag_M14_10_Rnd",
+                "Mag_M14_20_Rnd"
+            ],
+            "Variants": []
         }
     ]
 }
