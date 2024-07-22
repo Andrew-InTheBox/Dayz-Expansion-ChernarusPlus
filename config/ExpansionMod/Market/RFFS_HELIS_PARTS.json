@@ -1688,6 +1688,17 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "RFFSHeli_hydraulic_fluid",
+            "MaxPriceThreshold": 1700,
+            "MinPriceThreshold": 1360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }
