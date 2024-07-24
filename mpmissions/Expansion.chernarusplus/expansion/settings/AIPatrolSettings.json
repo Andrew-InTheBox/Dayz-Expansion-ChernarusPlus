@@ -3,7 +3,7 @@
     "Enabled": 1,
     "DespawnTime": 600.0,
     "RespawnTime": -1.0,
-    "MinDistRadius": 200.0,
+    "MinDistRadius": 120.0,
     "MaxDistRadius": 350.0,
     "DespawnRadius": 1000.0,
     "AccuracyMin": -1.0,

@@ -402,27 +402,27 @@
 		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="Bear_Beige">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="1.00">
+			<item name="ACOGOptic" chance="0.50" />
+			<item name="PorkCan" chance="0.50" />
 		</cargo>
 	</type>
 	<type name="Bear_Dark">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="1.00">
+			<item name="ACOGOptic_6x" chance="0.50" />
+			<item name="PorkCan" chance="0.50" />
 		</cargo>
 	</type>
 	<type name="Bear_Pink">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="1.00">
+			<item name="ACOGOptic_6x" chance="0.50" />
+			<item name="PorkCan" chance="0.50" />
 		</cargo>
 	</type>
 	<type name="Bear_White">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="1.00">
+			<item name="ACOGOptic" chance="0.50" />
+			<item name="PorkCan" chance="0.50" />
 		</cargo>
 	</type>
 	<type name="ShortJeans_Black">
