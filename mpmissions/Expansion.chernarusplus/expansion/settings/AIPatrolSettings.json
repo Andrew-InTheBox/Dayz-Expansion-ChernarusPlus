@@ -1,10 +1,10 @@
 {
-    "m_Version": 18,
+    "m_Version": 20,
     "Enabled": 1,
     "DespawnTime": 600.0,
     "RespawnTime": -1.0,
     "MinDistRadius": 120.0,
-    "MaxDistRadius": 350.0,
+    "MaxDistRadius": 400.0,
     "DespawnRadius": 1000.0,
     "AccuracyMin": -1.0,
     "AccuracyMax": -1.0,
@@ -15,10 +15,11 @@
     "ObjectPatrols": [
         {
             "Name": "Wreck_UH1Y",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "AK101-MMG",
+            "Loadout": "AK101-MMG",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -35,7 +36,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
@@ -46,10 +47,11 @@
         },
         {
             "Name": "Wreck_Mi8_Crashed",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "VSS-MMG",
+            "Loadout": "VSS-MMG",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -66,7 +68,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
@@ -77,10 +79,11 @@
         },
         {
             "Name": "Police Car Wreck",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "PoliceLoadout",
+            "Loadout": "PoliceLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -97,7 +100,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
@@ -108,10 +111,11 @@
         },
         {
             "Name": "Police Car Wreck II",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "PoliceLoadout",
+            "Loadout": "PoliceLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -128,7 +132,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
@@ -139,10 +143,11 @@
         },
         {
             "Name": "Contam area static",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "NBCLoadout",
+            "Loadout": "NBCLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -159,7 +164,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 150.0,
             "Chance": 1.0,
@@ -170,10 +175,11 @@
         },
         {
             "Name": "Contam area dynamic",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "NBCLoadout",
+            "Loadout": "NBCLoadout",
             "Units": [],
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -190,7 +196,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 150.0,
             "Chance": 1.0,
@@ -203,10 +209,11 @@
     "Patrols": [
         {
             "Name": "Pogorevka",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
             "FormationLooseness": 5.0,
-            "LoadoutFile": "CZ550-Human",
+            "Loadout": "CZ550-Human",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -233,33 +240,34 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4085.17,
-                    361.495,
-                    5822.62
+                    4085.169921875,
+                    361.4949951171875,
+                    5822.6201171875
                 ],
                 [
-                    4144.26,
-                    349.812,
-                    5963.15
+                    4144.259765625,
+                    349.81201171875,
+                    5963.14990234375
                 ],
                 [
-                    4145.26,
-                    348.03,
-                    6097.91
+                    4145.259765625,
+                    348.0299987792969,
+                    6097.91015625
                 ],
                 [
-                    4107.16,
-                    342.748,
-                    6250.74
+                    4107.16015625,
+                    342.74798583984377,
+                    6250.740234375
                 ]
             ]
         },
         {
             "Name": "Pogorevka II",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
             "FormationLooseness": 5.0,
-            "LoadoutFile": "FAMAS-East",
+            "Loadout": "FAMAS-East",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -286,38 +294,39 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4537.9,
-                    293.354,
-                    6241.13
+                    4537.89990234375,
+                    293.35400390625,
+                    6241.1298828125
                 ],
                 [
-                    4581.2,
-                    294.496,
-                    6039.4
+                    4581.2001953125,
+                    294.4960021972656,
+                    6039.39990234375
                 ],
                 [
-                    4538.97,
-                    305.218,
-                    5850.99
+                    4538.97021484375,
+                    305.2179870605469,
+                    5850.990234375
                 ],
                 [
-                    4504.09,
-                    340.936,
-                    5560.09
+                    4504.08984375,
+                    340.9360046386719,
+                    5560.08984375
                 ],
                 [
-                    4432.62,
-                    339.098,
-                    5468.56
+                    4432.6201171875,
+                    339.0979919433594,
+                    5468.56005859375
                 ]
             ]
         },
         {
             "Name": "Vybor SW Airfield",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
             "FormationLooseness": 5.0,
-            "LoadoutFile": "FAL-East",
+            "Loadout": "FAL-East",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -344,28 +353,29 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4439.6,
-                    338.819,
-                    9482.06
+                    4439.60009765625,
+                    338.8190002441406,
+                    9482.0595703125
                 ],
                 [
-                    4403.28,
-                    339.301,
-                    9558.96
+                    4403.27978515625,
+                    339.3009948730469,
+                    9558.9599609375
                 ],
                 [
-                    4418.46,
-                    338.231,
-                    9637.94
+                    4418.4599609375,
+                    338.2309875488281,
+                    9637.9404296875
                 ]
             ]
         },
         {
             "Name": "SW of Vybor Countryside",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
             "FormationLooseness": 5.0,
-            "LoadoutFile": "SKS-East",
+            "Loadout": "SKS-East",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -392,28 +402,29 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    3138.91,
-                    286.409,
-                    8863.8
+                    3138.909912109375,
+                    286.40899658203127,
+                    8863.7998046875
                 ],
                 [
-                    3024.95,
-                    277.752,
+                    3024.949951171875,
+                    277.75201416015627,
                     8543.75
                 ],
                 [
                     3166.5,
-                    278.451,
-                    8420.66
+                    278.45098876953127,
+                    8420.66015625
                 ]
             ]
         },
         {
             "Name": "Vyshnaya Dubrovka",
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "Scout-MMG",
+            "Loadout": "Scout-MMG",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -430,7 +441,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -463,10 +474,11 @@
         },
         {
             "Name": "Stary Sobor",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "SSG82-East",
+            "Loadout": "SSG82-East",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -483,7 +495,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -493,28 +505,29 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    6530.96,
-                    354.894,
-                    8368.56
+                    6530.9599609375,
+                    354.8940124511719,
+                    8368.5595703125
                 ],
                 [
-                    6285.73,
-                    334.181,
-                    8092.01
+                    6285.72998046875,
+                    334.1809997558594,
+                    8092.009765625
                 ],
                 [
-                    6119.96,
-                    315.706,
-                    7963.4
+                    6119.9599609375,
+                    315.70599365234377,
+                    7963.39990234375
                 ]
             ]
         },
         {
             "Name": "Kumyrna - Guglovo",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "SKS-MMG",
+            "Loadout": "SKS-MMG",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -531,7 +544,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -541,38 +554,39 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8325.64,
-                    298.175,
-                    6052.71
+                    8325.6396484375,
+                    298.17498779296877,
+                    6052.7099609375
                 ],
                 [
-                    8398.2,
-                    335.561,
-                    6342.3
+                    8398.2001953125,
+                    335.5610046386719,
+                    6342.2998046875
                 ],
                 [
-                    8363.9,
-                    353.384,
-                    6494.44
+                    8363.900390625,
+                    353.3840026855469,
+                    6494.43994140625
                 ],
                 [
-                    8345.55,
-                    356.268,
-                    6753
+                    8345.5498046875,
+                    356.26800537109377,
+                    6753.0
                 ],
                 [
-                    8251.02,
-                    354.235,
-                    7094.1
+                    8251.01953125,
+                    354.2349853515625,
+                    7094.10009765625
                 ]
             ]
         },
         {
             "Name": "Severograd - Svergino",
+            "Persist": 0,
             "Faction": "Raiders",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "VSS-East",
+            "Loadout": "VSS-East",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -589,7 +603,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -625,7 +639,7 @@
                 ],
                 [
                     8643.5234375,
-                    123.58162689208984,
+                    123.58162689208985,
                     13609.8486328125
                 ],
                 [
@@ -635,7 +649,7 @@
                 ],
                 [
                     8792.484375,
-                    119.34481048583984,
+                    119.34481048583985,
                     13479.8671875
                 ],
                 [
@@ -695,7 +709,7 @@
                 ],
                 [
                     8566.7470703125,
-                    116.35537719726562,
+                    116.35537719726563,
                     13563.6884765625
                 ],
                 [
@@ -710,17 +724,18 @@
                 ],
                 [
                     8586.0478515625,
-                    103.66409301757812,
+                    103.66409301757813,
                     13442.435546875
                 ]
             ]
         },
         {
             "Name": "Vyshnaya Dubrovka II",
+            "Persist": 0,
             "Faction": "Civilian",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "GorkaLoadout",
+            "Loadout": "GorkaLoadout",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -737,7 +752,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -748,12 +763,12 @@
             "Waypoints": [
                 [
                     9963.3466796875,
-                    55.640098571777344,
+                    55.640098571777347,
                     10900.8447265625
                 ],
                 [
                     9965.3984375,
-                    54.729034423828125,
+                    54.729034423828128,
                     10969.5361328125
                 ],
                 [
@@ -765,10 +780,11 @@
         },
         {
             "Name": "Elektro - Cherno Midway",
+            "Persist": 0,
             "Faction": "West",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "EastLoadout",
+            "Loadout": "EastLoadout",
             "Units": [],
             "NumberOfAI": 2,
             "Behaviour": "ALTERNATE",
@@ -785,7 +801,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -811,12 +827,12 @@
                 ],
                 [
                     8794.23046875,
-                    55.971900939941406,
+                    55.971900939941409,
                     2417.0
                 ],
                 [
                     8756.990234375,
-                    55.852901458740234,
+                    55.852901458740237,
                     2370.0
                 ],
                 [
@@ -843,10 +859,11 @@
         },
         {
             "Name": "Kamehka",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "VSS-MMG",
+            "Loadout": "VSS-MMG",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -863,7 +880,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -873,12 +890,12 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1583.5799560546875,
+                    1583.5799560546876,
                     292.8039855957031,
                     2961.0
                 ],
                 [
-                    1600.8399658203125,
+                    1600.8399658203126,
                     294.2919921875,
                     3006.0
                 ],
@@ -888,23 +905,24 @@
                     3029.0
                 ],
                 [
-                    1652.8900146484375,
+                    1652.8900146484376,
                     297.989990234375,
                     3079.60009765625
                 ],
                 [
-                    1685.6300048828125,
-                    297.55499267578125,
+                    1685.6300048828126,
+                    297.55499267578127,
                     3080.0
                 ]
             ]
         },
         {
             "Name": "NW Vybor Airfield",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "ASVAL-MMG",
+            "Loadout": "ASVAL-MMG",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -921,7 +939,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -931,28 +949,29 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    3338.59,
-                    359.469,
-                    10386.4
+                    3338.590087890625,
+                    359.468994140625,
+                    10386.400390625
                 ],
                 [
-                    3401.07,
-                    364.707,
-                    10523.6
+                    3401.070068359375,
+                    364.7070007324219,
+                    10523.599609375
                 ],
                 [
-                    3698.05,
-                    346.426,
+                    3698.050048828125,
+                    346.4259948730469,
                     10690.5
                 ]
             ]
         },
         {
             "Name": "NE Vybor Airfield",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "VSS-Human",
+            "Loadout": "VSS-Human",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -969,7 +988,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -979,12 +998,12 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1583.5799560546875,
+                    1583.5799560546876,
                     292.8039855957031,
                     2961.0
                 ],
                 [
-                    1600.8399658203125,
+                    1600.8399658203126,
                     294.2919921875,
                     3006.0
                 ],
@@ -994,23 +1013,24 @@
                     3029.0
                 ],
                 [
-                    1652.8900146484375,
+                    1652.8900146484376,
                     297.989990234375,
                     3079.60009765625
                 ],
                 [
-                    1685.6300048828125,
-                    297.55499267578125,
+                    1685.6300048828126,
+                    297.55499267578127,
                     3080.0
                 ]
             ]
         },
         {
             "Name": "Kamehka II",
+            "Persist": 0,
             "Faction": "East",
             "Formation": "",
             "FormationLooseness": 0.0,
-            "LoadoutFile": "M4A1-MMG",
+            "Loadout": "M4A1-MMG",
             "Units": [],
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
@@ -1027,7 +1047,7 @@
             "DamageReceivedMultiplier": -1.0,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
-            "DespawnRadius": -2.200000047683716,
+            "DespawnRadius": -2.0,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
@@ -1037,19 +1057,19 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    3964.51,
-                    336.218,
-                    10849.7
+                    3964.510009765625,
+                    336.2179870605469,
+                    10849.7001953125
                 ],
                 [
-                    3974.41,
-                    336.89,
-                    10988.7
+                    3974.409912109375,
+                    336.8900146484375,
+                    10988.7001953125
                 ],
                 [
-                    4060.1,
-                    339.064,
-                    11136.2
+                    4060.10009765625,
+                    339.0639953613281,
+                    11136.2001953125
                 ]
             ]
         }
