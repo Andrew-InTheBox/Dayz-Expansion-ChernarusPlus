@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 28,
-    "ID": 9,
+    "ID": 11,
     "ObjectiveType": 3,
-    "ObjectiveText": "Approach the radio tower",
+    "ObjectiveText": "Approach the castle ruins",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        8544.83,
-        405.405,
-        9121.26
+        7007.87,
+        371.208,
+        11477.2
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Get there",

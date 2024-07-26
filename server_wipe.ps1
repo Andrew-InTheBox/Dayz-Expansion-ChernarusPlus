@@ -11,15 +11,21 @@ $pathsToRemove = @(
     "config\ExpansionMod\Quests\PlayerData\*"
 )
 
-# Loop through each path and remove the files/directories
-foreach ($path in $pathsToRemove) {
-    $fullPath = Join-Path -Path $basePath -ChildPath $path
-    if (Test-Path $fullPath) {
-        Remove-Item -Path $fullPath -Recurse -Force
-        Write-Host "Removed: $fullPath"
-    } else {
-        Write-Host "Path not found: $fullPath"
-    }
-}
+# Prompt for confirmation
+$confirmation = Read-Host "Are you sure you want to delete the specified files? (yes/no)"
 
-Write-Host "Server data wipe complete."
+if ($confirmation -eq 'yes') {
+    # Loop through each path and remove the files/directories
+    foreach ($path in $pathsToRemove) {
+        $fullPath = Join-Path -Path $basePath -ChildPath $path
+        if (Test-Path $fullPath) {
+            Remove-Item -Path $fullPath -Recurse -Force
+            Write-Host "Removed: $fullPath"
+        } else {
+            Write-Host "Path not found: $fullPath"
+        }
+    }
+    Write-Host "Server data wipe complete."
+} else {
+    Write-Host "Operation cancelled. No files were deleted."
+}
