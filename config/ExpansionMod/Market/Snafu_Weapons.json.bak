@@ -14,10 +14,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUKivaari_10rdMag",
-                "SNAFUKivaari_25rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": [
                 "SNAFUKivaari_Tan_GUN",
                 "SNAFUKivaari_Grey_GUN",
@@ -32,9 +29,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_M1918A2_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -45,9 +40,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_U100_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -58,9 +51,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_M14_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -71,9 +62,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_M76_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -84,10 +73,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_SKS_10Rnd_Mag",
-                "SNAFU_SKS_30Rnd_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -109,9 +95,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_FRF2_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -166,9 +150,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SN_Mp443_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -179,9 +161,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SN_M9_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -192,9 +172,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SN_USP_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -216,9 +194,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUVECTOR_9mm_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -229,9 +205,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUVECTOR_45acp_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -310,9 +284,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_RPK16_Black_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": [
                 "SNAFU_RPK16_Green",
                 "SNAFU_RPK16_Tan"
@@ -348,9 +320,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "GCGN_HK416_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -372,9 +342,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "GCGN_HK416_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -385,9 +353,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SN_Auto_Shotgun_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -525,9 +491,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SR3_Vikhr_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -538,9 +502,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "GCGN_M700_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -584,11 +546,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUM24_Mag",
-                "SNAFUM24_Mag",
-                "GCGN_M249_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -621,9 +579,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "GCGN_M200_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -645,9 +601,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUAX50_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -689,9 +643,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "GCGN_M249_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -775,9 +727,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_MP9_30rnd_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -788,9 +738,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_Fort12_12rnd_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -801,9 +749,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_MPX_30rnd_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -825,9 +771,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_AS50_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -838,9 +782,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFU_Agram_32rnd_Mag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -884,9 +826,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUAPS_20rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -911,9 +851,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUASh12_20rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -935,9 +873,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUGM6Lynx_5rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -961,9 +897,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUKH9_30rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -988,9 +922,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUM96_5rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1012,9 +944,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUMk12_20rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1025,9 +955,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUP90_50rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1049,9 +977,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUSRSA2_10rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1062,9 +988,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUTac21_5rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1075,10 +999,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUUzi_32rdMag",
-                "SNAFUUzi_72rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1089,9 +1010,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUAUG_30rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1113,9 +1032,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUDVL10M2_5rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1126,9 +1043,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUPPSKN_30rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1139,9 +1054,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUThompsonMk2_30rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1152,9 +1065,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUAlligator_5rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1202,9 +1113,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUPPSh_71rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1215,9 +1124,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFURPD_100rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1228,9 +1135,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFURPD_100rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -1241,9 +1146,7 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "SNAFUSten_32rdMag"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
