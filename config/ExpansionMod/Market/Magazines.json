@@ -621,6 +621,20 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "Mag_AK101_30Rnd_Black",
+            "MaxPriceThreshold": 2620,
+            "MinPriceThreshold": 1310,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Mag_AK101_30Rnd"
+            ]
         }
     ]
 }
+

@@ -117,17 +117,6 @@
             "QuantityPercent": -1
         },
         {
-            "ClassName": "MMG_tactical_pouch_atacs",
-            "SpawnAttachments": [],
-            "Variants": [],
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1
-        },
-        {
             "ClassName": "MMG_mk5_utility_pouch_atacs",
             "SpawnAttachments": [],
             "Variants": [],
@@ -305,17 +294,6 @@
         },
         {
             "ClassName": "MMG_combatpants_atacs",
-            "SpawnAttachments": [],
-            "Variants": [],
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1
-        },
-        {
-            "ClassName": "MMG_tactical_pants_atacs",
             "SpawnAttachments": [],
             "Variants": [],
             "MaxPriceThreshold": 1500,

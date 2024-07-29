@@ -587,7 +587,8 @@
             "SpawnAttachments": [
                 "SNAFUM24_Mag",
                 "SNAFUM24_Mag",
-                "GCGN_M249_Mag"
+                "GCGN_M249_Mag",
+                "SNAFU_M249Grip"
             ],
             "Variants": []
         },
@@ -624,7 +625,11 @@
             "SpawnAttachments": [
                 "GCGN_M200_Mag"
             ],
-            "Variants": []
+            "Variants": [
+                "GCGN_M200_TAN",
+                "GCGN_M200_GREEN",
+                "GCGN_M200_SNOW"
+            ]
         },
         {
             "ClassName": "SNAFU_AWM_Gun",
@@ -713,18 +718,9 @@
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "GCGN_M200_Tan",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
+            "SpawnAttachments": [
+                "aa12_mag"
+            ],
             "Variants": []
         },
         {
@@ -1354,6 +1350,38 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_M300BK",
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "SNAFU_M300Mag"
+            ],
+            "Variants": [
+                "SNAFU_M300Green",
+                "SNAFU_M300TAN"
+            ]
+        },
+        {
+            "ClassName": "SNAFU_MK4710Gun",
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "SNAFU_MK47_Stock",
+                "SNAFU_MK47Muzzel"
+            ],
+            "Variants": [
+                "SNAFU_MK4716GUN"
+            ]
         }
     ]
 }
