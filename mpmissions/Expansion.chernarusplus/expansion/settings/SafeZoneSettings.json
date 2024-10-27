@@ -1,5 +1,5 @@
 {
-    "m_Version": 10,
+    "m_Version": 11,
     "Enabled": 1,
     "FrameRateCheckSafeZoneInMs": 0,
     "CircleZones": [
@@ -24,30 +24,31 @@
         {
             "Positions": [
                 [
-                    12074.8,
+                    12074.7998046875,
                     140.0,
-                    12751.4
+                    12751.400390625
                 ],
                 [
                     12275.5,
-                    140.012,
-                    12635.4
+                    140.01199340820313,
+                    12635.400390625
                 ],
                 [
-                    11961.4,
-                    142.171,
+                    11961.400390625,
+                    142.17100524902345,
                     12360.5
                 ],
                 [
-                    11742.7,
-                    142.049,
-                    12449
+                    11742.7001953125,
+                    142.0489959716797,
+                    12449.0
                 ]
             ]
         }
     ],
     "CylinderZones": [],
     "ActorsPerTick": 5,
+    "DisablePlayerCollision": 0,
     "DisableVehicleDamageInSafeZone": 1,
     "EnableForceSZCleanup": 1,
     "ItemLifetimeInSafeZone": 3600.0,

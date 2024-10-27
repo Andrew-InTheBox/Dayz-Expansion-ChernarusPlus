@@ -1036,7 +1036,7 @@ class Expansion_Reloading_Start_Reloading_Transition_0: eAITransition {
 		if (!fsm.weapon || fsm.weapon.IsDamageDestroyed())
 		return FAIL;
 		if (!unit.eAI_HasAmmoForFirearm(fsm.weapon, dst.magazine)) return FAIL;
-		#ifdef DIAG
+		#ifdef EXTRACE_DIAG
 		if (!dst.magazine)
 		EXTrace.Start0(EXTrace.AI, this, "Reloading " + fsm.weapon + " from internal mag");
 		else
@@ -1515,7 +1515,7 @@ class Expansion_Master_TakeItemToHands_State_0: eAIState {
 			{
 				//! Try to put current hand item in inventory (shoulder slot or cargo), drop if not possible
 				if (!unit.eAI_TakeItemToInventoryDropShoulderImpl(hands))
-				unit.eAI_DropItem(hands);
+				unit.eAI_DropItem(hands, false, true, false);
 				else if (unit.m_eAI_LastDroppedItem == item)
 				unit.eAI_ThreatOverride(item, false);
 				else
