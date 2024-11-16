@@ -1,0 +1,33 @@
+****** Son kullanıcı Lisans Anlaşması ******
+
+
+Bu Lisans Sözleşmesi ("Sözleşme") sizinle ("Lisans Sahibi") BattlEye Innovations e.K. ("Lisans Veren"). Bu Sözleşmenin koşulları, BattlEye hile önleme yazılımının ("BattlEye") tüm mevcut ve gelecekteki sürümleri ve güncellemeleri için geçerlidir.
+
+
+Lisans Sahibi BattlEye'ı kurarak, etkinleştirerek veya kullanarak bu Sözleşmenin tüm koşullarını kabul etmiş olur. Lisans Veren, Lisans Alana özel olarak verilmeyen ve devredilmeyen tüm hakları saklı tutar.
+
+
+Lisans Alan aşağıdakileri anlar, kabul eder ve kabul eder:
+
+- Lisans Veren, Lisans Alana BattlEye'ı yalnızca ticari olmayan amaçlarla kullanması için münhasır olmayan ve devredilemez bir lisans verir. Bu nedenle Lisans Alan BattlEye'ın sahibi değildir, Lisans Veren BattlEye'ın sahibi olarak kalır.
+
+- Lisans Veren, BattlEye'ı herhangi bir garanti olmaksızın "olduğu gibi" sağlar. Lisans Veren, BattlEye'ın doğru ve hatasız çalışmasını garanti etmez ve Lisans Veren, BattlEye'ın kullanılmasından kaynaklanan herhangi bir hasardan sorumlu değildir.
+
+- Lisans Alan, BattlEye'ı hiçbir şekilde kaynak koda dönüştüremez, parçalarına ayıramaz, tersine mühendislik uygulayamaz, değiştiremez veya yeniden dağıtamaz.
+
+- BattlEye, Lisans Alana bildirimde bulunmaksızın otomatik olarak, zaman zaman güncellemeleri indirecek ve kuracaktır.
+
+- BattlEye, Lisans Alanın tüm rasgele erişim belleğini (RAM) ve Lisans Alanın sistemindeki oyunla ilgili ve sistemle ilgili tüm dosya ve klasörleri hile programı tanımlama algoritmaları kullanarak tarayabilir, bu tür algoritmaların sonuçlarını diğer bağlı bilgisayarlara ve/veya Lisans Verene rapor edebilir ve bu tür bilgileri yalnızca hile programlarının kullanımını önlemek ve tespit etmek amacıyla saklayın. BattlEye, yalnızca bu amacı karşılamak için kesinlikle taranması ve/veya raporlanması gereken verileri tarar ve/veya raporlar.
+
+- BattlEye ayrıca Lisans Alanın İnternet Protokolü adresini, oyun hesabı adını ve tanımlayıcısını, oyun içi takma adını ve cihaz tanımlayıcıları ve donanım seri numaraları dahil ancak bunlarla sınırlı olmamak üzere sistemle ilgili ve donanımla ilgili bilgileri rapor edebilir ve saklayabilir.
+
+- Lisans Veren, Lisans Alan'ın gizliliğine değer verir ve bunu her zaman korumak için elinden gelenin en iyisini yapar. BattlEye, burada özellikle belirtilen herhangi bir bilgi/veri dışında herhangi bir kişisel olarak tanımlanabilir bilgiyi veya kişisel veriyi raporlamaz.
+
+- Lisans Veren, BattlEye tarafından toplanan tüm bilgileri Avrupa ve/veya ABD'de bulunan sunucularda saklar. Lisans Veren, bilgileri ortakları ve/veya bağlı kuruluşları ile paylaşabilir.
+
+- Lisans Sahibi, BattlEye'ın istilacı yapısının hile programlarını önleme ve tespit etme amacını ve hedefini karşılamak için gerekli olduğunu kabul eder.
+
+- Lisans Veren, Lisans Alana herhangi bir nedenle ve herhangi bir bildirimde bulunmaksızın herhangi bir zamanda lisansı feshedebilir.
+
+
+Bu Lisans Sözleşmesi, Lisans Veren ile Lisans Alan arasındaki tüm sözleşmeyi oluşturur ve önceki tüm beyanların yerine geçer.

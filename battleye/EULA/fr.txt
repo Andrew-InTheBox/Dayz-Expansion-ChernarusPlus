@@ -1,0 +1,33 @@
+﻿****** Contrat de licence utilisateur final ******
+
+
+Le présent contrat de licence ("Contrat") est conclu entre vous (le "Licencié") et BattlEye Innovations e.K. (le "Concédant"). Les termes de ce Contrat s'appliquent à toutes les versions et mises à jour actuelles et futures du logiciel anti-triche BattlEye ("BattlEye").
+
+
+En installant, activant ou utilisant BattlEye, le Licencié accepte toutes les conditions du présent Contrat. Le Concédant se réserve tous les droits qui ne sont pas spécifiquement accordés et transférés au Licencié.
+
+
+Le Détenteur de la licence comprend, reconnaît et accepte ce qui suit :
+
+- Le Concédant accorde au Licencié une licence non exclusive et non transférable d'utilisation de BattlEye à des fins non commerciales uniquement. Le Licencié n'est donc pas propriétaire de BattlEye, le Concédant reste le propriétaire de BattlEye.
+
+- Le Concédant fournit BattlEye sur une base "telle quelle" sans garantie d'aucune sorte. Le Concédant ne garantit pas le fonctionnement correct et sans erreur de BattlEye et n'est pas responsable des dommages causés par l'utilisation de BattlEye.
+
+- Le licencié ne peut pas décompiler, désassembler, faire de l'ingénierie inverse, modifier ou redistribuer BattlEye de quelque façon que ce soit.
+
+- BattlEye téléchargera et installera automatiquement, sans en avertir le licencié, des mises à jour de temps à autre.
+
+- BattlEye peut analyser l'ensemble de la mémoire vive (RAM) du Détenteur de licence, ainsi que tous les fichiers et dossiers liés au jeu et au système sur le système du Détenteur de licence en utilisant des algorithmes permettant d'identifier les programmes de triche, communiquer les résultats de ces algorithmes à d'autres ordinateurs connectés et/ou au Concédant et stocker ces informations dans le seul but de prévenir et de détecter l'utilisation de programmes de triche. BattlEye ne scanne et/ou ne rapporte que les données qui doivent absolument être scannées et/ou rapportées pour atteindre cet objectif.
+
+- BattlEye peut également signaler et stocker l'adresse de protocole Internet, le nom et l'identifiant du compte du jeu, le surnom du jeu, ainsi que les informations relatives au système et au matériel, y compris, mais sans s'y limiter, les identifiants et les numéros de série du matériel.
+
+- Le Concédant accorde une grande importance à la vie privée du Licencié et fait tout son possible pour la protéger à tout moment. BattlEye ne rapporte aucune information personnellement identifiable ou donnée personnelle, à l'exception des informations/données spécifiquement mentionnées dans les présentes.
+
+- Le Concédant stocke toutes les informations recueillies par BattlEye sur des serveurs situés en Europe et/ou aux États-Unis. Le Concédant peut partager ces informations avec ses partenaires et/ou sociétés affiliées.
+
+- Le licencié reconnaît que la nature invasive de BattlEye est nécessaire pour atteindre son but et son objectif de prévention et de détection des programmes de triche.
+
+- Le concédant est autorisé à résilier la licence à tout moment, pour quelque raison que ce soit et sans préavis au licencié.
+
+
+Le présent contrat de licence constitue l'intégralité de l'accord entre le concédant et le licencié et remplace toute déclaration antérieure.
