@@ -2383,7 +2383,7 @@
 		</attachments>
 	</type>
 	<type name="Snafu_pkp_Black_GUN">
-		<attachments chance="0.25">
+		<attachments chance="0.50">
 			<item name="SNAFU_AKHuntingOptic" chance="0.08" />
 			<item name="SNAFU_AKNightforce" chance="0.08" />
 			<item name="SNAFU_AKLeupold_Mark8" chance="0.08" />
@@ -2404,7 +2404,7 @@
 			<item name="SNAFU_PKPBIPOD" chance="0.50" />
 			<item name="SNAFU_NPKPBIPOD" chance="0.50" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.50">
 			<item name="Snafu_pkp_250RND_Mag" chance="1.00" />
 		</attachments>
 	</type>
