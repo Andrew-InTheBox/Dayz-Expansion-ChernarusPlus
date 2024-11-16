@@ -73,12 +73,12 @@
 	</type>
 	<type name="MMG_JPC_Vest_alpine">
 		<attachments chance="1.00">
-			<item name="MMG_Mag_Pouch_alpine" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_alpine" 	chance="0.20" />
-			<item name="MMG_ammo_pouch_alpine" 	chance="0.20" />
-			<item name="MMG_bottle_alpine" 		chance="0.20" />
-			<item name="MMG_sheath_alpine" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
+			<item name="MMG_Mag_Pouch_alpine" 	chance="0.50" />
+			<item name="MMG_Med_Pouch_alpine" 	chance="0.50" />
+			<item name="MMG_ammo_pouch_alpine" 	chance="0.50" />
+			<item name="MMG_bottle_alpine" 		chance="0.50" />
+			<item name="MMG_sheath_alpine" 		chance="0.50" />
+			<item name="MMG_nbc_pouch" 			chance="0.20" />
 		</attachments>
 	</type>
 	<type name="MMG_JPC_Vest_ucp">
@@ -184,12 +184,12 @@
 	</type>
 	<type name="MMG_tt_vest_alpine">
 		<attachments chance="1.00">
-			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
-			<item name="MMG_double_magpouch_alpine" 		chance="0.20" />
-			<item name="MMG_Med_Pouch_alpine" 			chance="0.20" />
-			<item name="MMG_ammo_Pouch_alpine" 			chance="0.20" />
-			<item name="MMG_bottle_alpine" 				chance="0.20" />
-			<item name="MMG_nbc_pouch" 					chance="0.05" />
+			<item name="MMG_double_magpouch_alpine" 		chance="0.50" />
+			<item name="MMG_double_magpouch_alpine" 		chance="0.50" />
+			<item name="MMG_Med_Pouch_alpine" 			chance="0.50" />
+			<item name="MMG_ammo_Pouch_alpine" 			chance="0.50" />
+			<item name="MMG_bottle_alpine" 				chance="0.50" />
+			<item name="MMG_nbc_pouch" 					chance="0.20" />
 		</attachments>
 	</type>
 	<type name="MMG_tt_vest_ucp">

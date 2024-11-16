@@ -1,5 +1,6 @@
 {
     "ClassName": "",
+    "Include": "",
     "Chance": 1.0,
     "Quantity": {
         "Min": 0.0,
@@ -12,6 +13,7 @@
             "Items": [
                 {
                     "ClassName": "Hoodie_Black",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -31,6 +33,7 @@
                 },
                 {
                     "ClassName": "Hoodie_Blue",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -50,6 +53,7 @@
                 },
                 {
                     "ClassName": "Hoodie_Brown",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -69,6 +73,7 @@
                 },
                 {
                     "ClassName": "Hoodie_Green",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -88,6 +93,7 @@
                 },
                 {
                     "ClassName": "Hoodie_Grey",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -107,6 +113,7 @@
                 },
                 {
                     "ClassName": "Hoodie_Red",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -126,6 +133,7 @@
                 },
                 {
                     "ClassName": "Shirt_BlueCheck",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -145,6 +153,7 @@
                 },
                 {
                     "ClassName": "Shirt_BlueCheckBright",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -164,6 +173,7 @@
                 },
                 {
                     "ClassName": "Shirt_GreenCheck",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -183,6 +193,7 @@
                 },
                 {
                     "ClassName": "Shirt_PlaneBlack",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -202,6 +213,7 @@
                 },
                 {
                     "ClassName": "Shirt_RedCheck",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -221,6 +233,7 @@
                 },
                 {
                     "ClassName": "Shirt_WhiteCheck",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -245,6 +258,7 @@
             "Items": [
                 {
                     "ClassName": "Jeans_Black",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -264,6 +278,7 @@
                 },
                 {
                     "ClassName": "Jeans_Blue",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -283,6 +298,7 @@
                 },
                 {
                     "ClassName": "Jeans_BlueDark",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -302,6 +318,7 @@
                 },
                 {
                     "ClassName": "Jeans_Brown",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -321,6 +338,7 @@
                 },
                 {
                     "ClassName": "Jeans_Green",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -340,6 +358,7 @@
                 },
                 {
                     "ClassName": "Jeans_Grey",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -364,6 +383,7 @@
             "Items": [
                 {
                     "ClassName": "AthleticShoes_Black",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -383,6 +403,7 @@
                 },
                 {
                     "ClassName": "AthleticShoes_Blue",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -402,6 +423,7 @@
                 },
                 {
                     "ClassName": "AthleticShoes_Brown",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -421,6 +443,7 @@
                 },
                 {
                     "ClassName": "AthleticShoes_Green",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -440,6 +463,7 @@
                 },
                 {
                     "ClassName": "AthleticShoes_Grey",
+                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
