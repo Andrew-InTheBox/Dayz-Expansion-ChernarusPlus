@@ -47,19 +47,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="db/mmg">
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
 		<file name="mmg_types_ADMINGEAR.xml" type="types" />
-		<file name="mmg_types_alpine.xml" type="types" />
-		<file name="mmg_types_atacs.xml" type="types" />
-		<file name="mmg_types_black.xml" type="types" />
-		<file name="mmg_types_carbines.xml" type="types" />
-		<file name="mmg_types_dark_woodland.xml" type="types" />
-		<file name="mmg_types_erdl.xml" type="types" />
-		<file name="mmg_types_green.xml" type="types" />
-		<file name="mmg_types_multicam.xml" type="types" />
-		<file name="mmg_types_multicamblack.xml" type="types" />
-		<file name="mmg_types_multicam_tropic.xml" type="types" />
-		<file name="mmg_types_NBC+NVG.xml" type="types" />
-		<file name="mmg_types_tan.xml" type="types" />
-		<file name="mmg_types_ucp.xml" type="types" />
+		<file name="mmg_bare_types.xml" type="types" />
 	</ce>
 	<!-- End mmg material -->
 	
@@ -73,7 +61,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<!-- snafu guns -->
 	<ce folder="db/snafu">
 		<file name="snafuspawnabletypes25percent.xml" type="spawnabletypes" />
-		<file name="SNAFU_types.xml" type="types" />
+		<file name="SNAFU_bare_types.xml" type="types" />
 	</ce>
 	<!-- end of snafu guns -->
 
