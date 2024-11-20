@@ -2166,8 +2166,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2192,8 +2195,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2206,8 +2212,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2307,8 +2316,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2333,8 +2345,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2347,8 +2362,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2448,8 +2466,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2474,8 +2495,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2488,8 +2512,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2589,8 +2616,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2615,8 +2645,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2629,8 +2662,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}
@@ -2730,8 +2766,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 				item = unit.eAI_GetWeaponToUse(true, preferExplosiveAmmo);
 				if (item)
 				{
-					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-					return FAIL;
+					if (hands)
+					{
+						if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+						return FAIL;
+					}
 					dst.item = item;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
@@ -2756,8 +2795,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			}
 			if (item)
 			{
-				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || unit.eAI_WeaponSelection(hands, item))
-				return FAIL;
+				if (hands)
+				{
+					if (item == hands || item.Expansion_GetHierarchyRootItem() == hands || !unit.eAI_WeaponSelection(hands, item))
+					return FAIL;
+				}
 				dst.item = item;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
@@ -2770,8 +2812,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 		item = unit.GetMeleeWeaponToUse();
 		if (item)
 		{
-			if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
-			return FAIL;
+			if (hands)
+			{
+				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
+				return FAIL;
+			}
 			dst.item = item;
 			return SUCCESS;
 		}

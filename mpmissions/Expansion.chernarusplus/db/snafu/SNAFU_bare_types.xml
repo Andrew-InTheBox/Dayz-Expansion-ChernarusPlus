@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="SNAFU_NPKPBIPOD">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27,10 +27,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Snafu_pkp_Black_GUN">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
