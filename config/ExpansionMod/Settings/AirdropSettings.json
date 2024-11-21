@@ -111,7 +111,7 @@
                 "ZmbF_MilkMaidOld_Green",
                 "ZmbF_MilkMaidOld_Grey"
             ],
-            "ItemCount": 20,
+            "ItemCount": 15,
             "InfectedCount": 15,
             "SpawnInfectedForPlayerCalledDrops": 0,
             "Loot": [
@@ -135,7 +135,7 @@
                 },
                 {
                     "Name": "WeaponCleaningKit",
-                    "Chance": 0.50000001311302187,
+                    "Chance": 1.0,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
@@ -170,33 +170,6 @@
                             "Attachments": []
                         }
                     ],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "WeaponCleaningKit",
-                    "Chance": 1.0,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "ChernarusMap",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
-                {
-                    "Name": "ExpansionGPS",
-                    "Chance": 0.05000000074505806,
-                    "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
                     "Min": 0,
@@ -240,6 +213,11 @@
                     "Attachments": [
                         {
                             "Name": "UniversalLight",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_UMP_25Rnd",
                             "Chance": 1.0,
                             "Attachments": []
                         }
@@ -343,18 +321,16 @@
                             "Name": "HuntingOptic",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "mag_cz527_5rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
                     "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "CZ527",
-                            "Chance": 0.4000000059604645,
-                            "Attachments": []
-                        }
-                    ]
+                    "Min": 0
                 },
                 {
                     "Name": "CZ75",
@@ -364,45 +340,21 @@
                             "Name": "TLRLight",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "PistolSuppressor",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_CZ75_15Rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
                     "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "CZ75",
-                            "Chance": 0.10000000149011612,
-                            "Attachments": [
-                                {
-                                    "Name": "TLRLight",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                },
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "CZ75",
-                            "Chance": 0.20000000298023225,
-                            "Attachments": [
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "CZ75",
-                            "Chance": 0.5,
-                            "Attachments": []
-                        }
-                    ]
+                    "Min": 0
                 },
                 {
                     "Name": "FNX45",
@@ -412,45 +364,21 @@
                             "Name": "TLRLight",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "PistolSuppressor",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_FNX45_15Rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
                     "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.15000000596046449,
-                            "Attachments": [
-                                {
-                                    "Name": "TLRLight",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                },
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.15000000596046449,
-                            "Attachments": [
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.5,
-                            "Attachments": []
-                        }
-                    ]
+                    "Min": 0
                 },
                 {
                     "Name": "Glock19",
@@ -460,50 +388,32 @@
                             "Name": "TLRLight",
                             "Chance": 1.0,
                             "Attachments": []
+                        },
+                        {
+                            "Name": "PistolSuppressor",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "Mag_Glock_15Rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
                         }
                     ],
                     "QuantityPercent": -1,
                     "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.10000000149011612,
-                            "Attachments": [
-                                {
-                                    "Name": "TLRLight",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                },
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.15000000596046449,
-                            "Attachments": [
-                                {
-                                    "Name": "PistolSuppressor",
-                                    "Chance": 1.0,
-                                    "Attachments": []
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "FNX45",
-                            "Chance": 0.5,
-                            "Attachments": []
-                        }
-                    ]
+                    "Min": 0
                 },
                 {
                     "Name": "MKII",
                     "Chance": 0.20000000298023225,
-                    "Attachments": [],
+                    "Attachments": [
+                        {
+                            "Name": "Mag_MKII_10Rnd",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        }
+                    ],
                     "QuantityPercent": -1,
                     "Max": -1,
                     "Min": 0,
@@ -2532,7 +2442,7 @@
             "Container": "ExpansionAirdropContainer_Medical",
             "FallSpeed": 4.5,
             "Usage": 0,
-            "Weight": 5.0,
+            "Weight": 3.0,
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -2635,15 +2545,6 @@
             "InfectedCount": 15,
             "SpawnInfectedForPlayerCalledDrops": 0,
             "Loot": [
-                {
-                    "Name": "Bear_Pink",
-                    "Chance": 0.10000000149011612,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": []
-                },
                 {
                     "Name": "FirstAidKit",
                     "Chance": 2.440000057220459,
@@ -3103,73 +3004,13 @@
                     ]
                 },
                 {
-                    "Name": "MedicalScrubsPants_Blue",
-                    "Chance": 0.23999999463558198,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "MedicalScrubsPants_White",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        },
-                        {
-                            "Name": "MedicalScrubsPants_Green",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        }
-                    ]
-                },
-                {
-                    "Name": "MedicalScrubsShirt_Blue",
-                    "Chance": 0.23999999463558198,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "MedicalScrubsShirt_White",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        },
-                        {
-                            "Name": "MedicalScrubsShirt_Green",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        }
-                    ]
-                },
-                {
                     "Name": "NioshFaceMask",
-                    "Chance": 0.07999999821186066,
+                    "Chance": 0.10,
                     "Attachments": [],
                     "QuantityPercent": -1,
                     "Max": -1,
                     "Min": 0,
                     "Variants": []
-                },
-                {
-                    "Name": "SurgicalGloves_Blue",
-                    "Chance": 0.23999999463558198,
-                    "Attachments": [],
-                    "QuantityPercent": -1,
-                    "Max": -1,
-                    "Min": 0,
-                    "Variants": [
-                        {
-                            "Name": "SurgicalGloves_LightBlue",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        },
-                        {
-                            "Name": "SurgicalGloves_Green",
-                            "Chance": 1.0,
-                            "Attachments": []
-                        }
-                    ]
                 }
             ]
         },
@@ -3187,7 +3028,7 @@
                 "ZmbM_PatrolNormal_Flat",
                 "ZmbM_PatrolNormal_Summer"
             ],
-            "ItemCount": 25,
+            "ItemCount": 20,
             "InfectedCount": 20,
             "SpawnInfectedForPlayerCalledDrops": 0,
             "Loot": [
