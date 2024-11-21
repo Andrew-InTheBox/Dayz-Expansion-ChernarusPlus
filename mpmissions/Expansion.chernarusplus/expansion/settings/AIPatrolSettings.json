@@ -761,7 +761,7 @@
             ]
         },
         {
-            "Name": "MB Kamensk",
+            "Name": "MB-Kamensk",
             "Persist": 0,
             "Faction": "Raiders",
             "Formation": "",
@@ -948,29 +948,19 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1583.5799560546876,
-                    292.8039855957031,
-                    2961.0
+                    945.633,
+                    26.7617,
+                    2504.06
                 ],
                 [
-                    1600.8399658203126,
-                    294.2919921875,
-                    3006.0
+                    1630.23,
+                    20.7767,
+                    2443.56
                 ],
                 [
-                    1631.43994140625,
-                    295.4079895019531,
-                    3029.0
-                ],
-                [
-                    1652.8900146484376,
-                    297.989990234375,
-                    3079.60009765625
-                ],
-                [
-                    1685.6300048828126,
-                    297.55499267578127,
-                    3080.0
+                    2164.2,
+                    43.697,
+                    2510.78
                 ]
             ]
         },
@@ -1318,6 +1308,52 @@
                     4880.71,
                     331.398,
                     8660.33
+                ]
+            ]
+        },
+        {
+            "Name": "Storozh-Prison-Island",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "",
+            "FormationLooseness": 5.0,
+            "Loadout": "PoliceLoadout",
+            "Units": [],
+            "NumberOfAI": 2,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -2.0,
+            "MaxDistRadius": -2.0,
+            "DespawnRadius": -2.0,
+            "MinSpreadRadius": 1.0,
+            "MaxSpreadRadius": 100.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    2560.93,
+                    19.9451,
+                    1333.43
+                ],
+                [
+                    2732.89,
+                    23.3878,
+                    1302.31
                 ]
             ]
         }

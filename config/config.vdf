@@ -10,33 +10,17 @@
 				"ipv6check_udp_state"		"bad"
 				"CMWebSocket"
 				{
-					"cmp1-lax1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-iad1.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"ext2-par1.steamserver.net:27021"
 					{
 						"LastPingTimestamp"		"0"
 					}
 					"cmp2-iad1.steamserver.net:27018"
 					{
-						"LastPingTimestamp"		"0"
-						"LastPingValue"		"51"
-						"LastLoadValue"		"19"
-					}
-					"cmp2-lhr1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
+						"LastPingTimestamp"		"1732148966"
+						"LastPingValue"		"163"
+						"LastLoadValue"		"17"
 					}
 					"ext2-par1.steamserver.net:27032"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp2-iad1.steamserver.net:27019"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -44,15 +28,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp1-atl3.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-lhr1.steamserver.net:27019"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"ext1-par1.steamserver.net:443"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -60,17 +36,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp1-ord1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"1732147431"
-						"LastPingValue"		"40"
-						"LastLoadValue"		"17"
-					}
 					"cmp2-dfw1.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp1-lax1.steamserver.net:443"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -78,15 +44,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp2-lax1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-dfw1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp1-atl3.steamserver.net:27018"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -94,15 +52,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp1-lhr1.steamserver.net:27019"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"ext2-par1.steamserver.net:27019"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"ext1-par1.steamserver.net:27022"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -110,47 +60,25 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp2-ord1.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"1732147528"
-						"LastPingValue"		"53"
-						"LastLoadValue"		"17"
-					}
 					"cmp1-iad1.steamserver.net:27018"
 					{
-						"LastPingTimestamp"		"1732147529"
+						"LastPingTimestamp"		"0"
 						"LastPingValue"		"109"
 						"LastLoadValue"		"17"
 					}
-					"cmp1-ord1.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-iad1.steamserver.net:27020"
 					{
-						"LastPingTimestamp"		"1732147529"
+						"LastPingTimestamp"		"0"
 						"LastPingValue"		"104"
 						"LastLoadValue"		"17"
 					}
-					"cmp1-iad1.steamserver.net:27019"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-lax1.steamserver.net:443"
 					{
-						"LastPingTimestamp"		"1732147529"
+						"LastPingTimestamp"		"0"
 						"LastPingValue"		"94"
 						"LastLoadValue"		"7"
 					}
-					"cmp1-iad1.steamserver.net:27020"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp2-ord1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp1-sea1.steamserver.net:443"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -158,15 +86,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp2-sea1.steamserver.net:443"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp1-dfw1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp2-atl3.steamserver.net:443"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -174,15 +94,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp2-atl3.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"cmp1-lhr1.steamserver.net:27018"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"cmp2-lhr1.steamserver.net:27020"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -190,15 +102,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"cmp1-lhr1.steamserver.net:27020"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"ext1-par1.steamserver.net:27021"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"ext1-par1.steamserver.net:27036"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -206,15 +110,7 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"ext1-par1.steamserver.net:27035"
-					{
-						"LastPingTimestamp"		"0"
-					}
 					"ext1-par1.steamserver.net:27032"
-					{
-						"LastPingTimestamp"		"0"
-					}
-					"ext1-par1.steamserver.net:27024"
 					{
 						"LastPingTimestamp"		"0"
 					}
@@ -222,7 +118,101 @@
 					{
 						"LastPingTimestamp"		"0"
 					}
-					"ext1-par1.steamserver.net:27029"
+					"cmp1-ord1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1732148966"
+						"LastPingValue"		"59"
+						"LastLoadValue"		"15"
+					}
+					"cmp2-ord1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-lax1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1732148966"
+						"LastPingValue"		"58"
+						"LastLoadValue"		"8"
+					}
+					"cmp1-ord1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"1732148966"
+						"LastPingValue"		"168"
+						"LastLoadValue"		"17"
+					}
+					"cmp1-iad1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-sea1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-sea1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-lax1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-atl3.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-atl3.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-lax1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-atl3.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-atl3.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-iad1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-lhr1.steamserver.net:27018"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp2-lhr1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-lhr1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"cmp1-lhr1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27031"
 					{
 						"LastPingTimestamp"		"0"
 					}
