@@ -770,10 +770,10 @@
         <tag name="floor" />
     </type>
     <type name="RFFSHeli_hydraulic_fluid">
-        <nominal>0</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

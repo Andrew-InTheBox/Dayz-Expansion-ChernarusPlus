@@ -42,7 +42,7 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
             "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MaxAccuracy": 0.8,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -55,7 +55,7 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
             "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MaxAccuracy": 0.8,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -68,7 +68,7 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
             "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MaxAccuracy": 0.8,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -81,7 +81,7 @@
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
             "Spatial_MinAccuracy": 0.4,
-            "Spatial_MaxAccuracy": 0.7,
+            "Spatial_MaxAccuracy": 0.8,
             "Spatial_UnlimitedReload": 0
         }
     ],
