@@ -1,7 +1,7 @@
 {
     "Version": 20,
-    "Spatial_MinTimer": 70.0,
-    "Spatial_MaxTimer": 90.0,
+    "Spatial_MinTimer": 60.0,
+    "Spatial_MaxTimer": 85.0,
     "MinDistance": 120,
     "MaxDistance": 220,
     "HuntMode": 1,
@@ -10,7 +10,7 @@
     "Audio_Enabled": 0,
     "EngageTimer": 8.0,
     "CleanupTimer": 10.0,
-    "PlayerChecks": -2,
+    "PlayerChecks": -3,
     "MaxAI": 3,
     "GroupDifficulty": 0,
     "MinimumPlayerDistance": 0,

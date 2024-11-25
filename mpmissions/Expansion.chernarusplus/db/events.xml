@@ -819,10 +819,10 @@
         <children/>
     </event>
     <event name="StaticPoliceCar">
-        <nominal>40</nominal>
-        <min>30</min>
-        <max>50</max>
-        <lifetime>2400d</lifetime>
+        <nominal>32</nominal>
+        <min>25</min>
+        <max>42</max>
+        <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>500</distanceradius>
@@ -833,8 +833,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="3" max="27" min="12" type="Land_Wreck_sed01_aban1_police"/>
-            <child lootmax="5" lootmin="3" max="27" min="12" type="Land_Wreck_sed01_aban2_police"/>
+            <child lootmax="5" lootmin="3" max="22" min="12" type="Land_Wreck_sed01_aban1_police"/>
+            <child lootmax="5" lootmin="3" max="22" min="12" type="Land_Wreck_sed01_aban2_police"/>
         </children>
     </event>
     <event name="StaticPoliceSituation">

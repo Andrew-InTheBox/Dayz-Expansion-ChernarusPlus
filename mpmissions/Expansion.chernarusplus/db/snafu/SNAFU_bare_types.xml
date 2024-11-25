@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="SNAFU_NPKPBIPOD">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>3</min>
@@ -14,7 +14,7 @@
         <value name="Tier4"/>
     </type>
         <type name="Snafu_pkp_250RND_Mag">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>3</min>

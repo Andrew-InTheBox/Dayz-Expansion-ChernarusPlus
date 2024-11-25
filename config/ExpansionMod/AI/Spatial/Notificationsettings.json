@@ -6,10 +6,10 @@
             "StartTime": 0.0,
             "StopTime": 24.0,
             "AgeTime": 1.2999999523162842,
-            "MessageType": 1,
+            "MessageType": 2,
             "MessageTitle": "Hunter killer AI",
             "MessageText": [
-                "Enemies nearby"
+                "Enemied detected nearby"
             ]
         },
         {
