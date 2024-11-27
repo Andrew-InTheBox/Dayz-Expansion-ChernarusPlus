@@ -41,8 +41,8 @@
             "Spatial_Name": "East",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.6,
-            "Spatial_MaxAccuracy": 0.8,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -54,8 +54,8 @@
             "Spatial_Name": "East",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.6,
-            "Spatial_MaxAccuracy": 0.8,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -67,8 +67,8 @@
             "Spatial_Name": "East",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.6,
-            "Spatial_MaxAccuracy": 0.8,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         },
 		{
@@ -80,8 +80,8 @@
             "Spatial_Name": "East",
             "Spatial_Lootable": 1,
             "Spatial_Chance": 0.99,
-            "Spatial_MinAccuracy": 0.6,
-            "Spatial_MaxAccuracy": 0.8,
+            "Spatial_MinAccuracy": 0.65,
+            "Spatial_MaxAccuracy": 0.85,
             "Spatial_UnlimitedReload": 0
         }
     ],
