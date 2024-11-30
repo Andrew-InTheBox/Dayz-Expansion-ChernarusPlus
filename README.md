@@ -23,6 +23,7 @@ The following mods are required for this project. These are located in directori
 - **MoreWolves**
 - **SNAFUWeapons**
 - **RedFalcon Helis**
+- **MetroWatchPack OG**
 - **_DayZ-Dynamic-AI-Addon** (server-side)
 
 Make sure you have these mods installed to ensure full functionality of the quests and other custom features provided in this project.
