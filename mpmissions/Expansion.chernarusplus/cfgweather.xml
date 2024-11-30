@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <weather reset="1" enable="1">
     <overcast>
-        <!-- Set initial conditions to clear -->
-        <current actual="0.2" time="120" duration="120" />
+        <current actual="0.35" time="120" duration="240" />
         <limits min="0.0" max="1.0" />
-        <!-- Increased minimum time between changes to reduce frequency -->
-        <timelimits min="1200" max="1800" />
-        <changelimits min="0.0" max="0.7" />
+        <!-- Increased minimum time between changes -->
+        <timelimits min="800" max="900" />
+        <!-- Reduced maximum change to make it harder to reach rain threshold -->
+        <changelimits min="0.0" max="0.8" />
     </overcast>
     <fog>
-        <current actual="0.0" time="120" duration="120" />
-        <limits min="0.0" max="1.0" />
-        <timelimits min="900" max="1800" />
-        <changelimits min="0.0" max="0.5" />
+        <current actual="0.05" time="120" duration="240" />
+        <limits min="0.02" max="0.08" />
+        <timelimits min="900" max="900" />
+        <changelimits min="0.0" max="1.0" />
     </fog>
     <rain>
-        <current actual="0.0" time="120" duration="120" />
+        <current actual="0.0" time="60" duration="120" />
         <limits min="0.0" max="1.0" />
-        <timelimits min="600" max="900" />
-        <changelimits min="0.0" max="0.6" />
-        <!-- Key change: Make rain require higher overcast to trigger -->
-        <thresholds min="0.7" max="1.0" end="300" />
+        <!-- Slightly longer times between changes -->
+        <timelimits min="90" max="180" />
+        <changelimits min="0.0" max="1.0" />
+        <!-- Key changes for less rain -->
+        <thresholds min="0.7" max="1.0" end="60" />
     </rain>
-    <wind>
-        <maxspeed>20</maxspeed>
-        <params min="0.0" max="1.0" frequency="30" />
-    </wind>
-    <storm density="1.0" threshold="0.7" timeout="25"/>
+    <windMagnitude>
+        <current actual="8.0" time="120" duration="240" />
+        <limits min="0.0" max="20.0" />
+        <timelimits min="120" max="240" />
+        <changelimits min="0.0" max="20.0" />
+    </windMagnitude>
+    <windDirection>
+        <current actual="0.0" time="120" duration="240" />
+        <limits min="-3.14" max="3.14" />
+        <timelimits min="60" max="120" />
+        <changelimits min="-1.0" max="1.0" />
+    </windDirection>
+    <snowfall>
+        <current actual="0.0" time="0" duration="32768" />
+        <limits min="0.0" max="0.0" />
+        <timelimits min="300" max="3600" />
+        <changelimits min="0.0" max="0.0" />
+        <thresholds min="1.0" max="1.0" end="120" />
+    </snowfall>
+    <storm density="1.0" threshold="0.9" timeout="45"/>
 </weather>
