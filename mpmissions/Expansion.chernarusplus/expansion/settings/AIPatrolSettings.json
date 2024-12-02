@@ -1353,7 +1353,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
-            "UseRandomWaypointAsStartPoint": 1,
+            "UseRandomWaypointAsStartPoint": 0,
             "Waypoints": [
                 [
                     9507.66,
