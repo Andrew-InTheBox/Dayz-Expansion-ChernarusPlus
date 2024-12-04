@@ -1256,15 +1256,15 @@
 	</type>
 	<type name="MMG_camelback_alpine">
 		<attachments chance="1.00">
-			<item name="PersonalRadio" 			chance="0.33" />
+			<item name="PersonalRadio" 			chance="0.20" />
 			<item name="Chemlight_Blue" 		chance="0.05" />
 			<item name="Chemlight_Green" 		chance="0.05" />
 			<item name="Chemlight_Red" 			chance="0.05" />
 			<item name="Chemlight_White" 		chance="0.05" />
 			<item name="Chemlight_yellow" 		chance="0.05" />
-			<item name="MMG_Med_Pouch_alpine" 	chance="0.20" />
-			<item name="MMG_bottle_alpine" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
+			<item name="MMG_Med_Pouch_alpine" 	chance="1.0" />
+			<item name="MMG_bottle_alpine" 		chance="1.0" />
+			<item name="MMG_nbc_pouch" 			chance="0.25" />
 		</attachments>
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
