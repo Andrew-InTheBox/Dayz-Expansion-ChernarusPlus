@@ -4,11 +4,6 @@
 	<!-- GENERAL Territories Section -->
 	<territories>
 
-<!-- More Wolves - Part1of2 (Insert) BEGIN -->
-		<file path="env/morewolves_territories.xml" />
-		<file path="env/morebears_territories.xml" />
-<!-- More Wolves - Part1of2 (Insert) END -->
-
 		<file path="env/cattle_territories.xml" />
 		<file path="env/sheep_goat_territories.xml" />
 		<file path="env/red_deer_territories.xml" />
@@ -20,6 +15,8 @@
 		<file path="env/hare_territories.xml" />
 		<file path="env/zombie_territories.xml" />
 		<file path="env/bear_territories.xml" />
+		<file path="env/hare_territories.xml" />
+		<file path="env/fox_territories.xml" />
 
 		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
 			<file usable="red_deer_territories" />
@@ -48,44 +45,6 @@
 		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
 			<file usable="bear_territories"/>
 		</territory>
-		
-		<!-- More Wolves - Part2of2 (Insert) BEGIN -->
-		<!-- MOREWOLVES -->
-		<territory type="Ambient" name="AmbientWolf" behavior="DZWolfGroupBeh">
-			<file usable="morewolves_territories" />
-			<!-- different agent types - class has to begin with AgentType:w -->
-			<agent type="Male" chance="1">
-				<spawn configName="Animal_InfectedWolf" chance="1" />
-			</agent>
-			<agent type="Female" chance="3">
-				<spawn configName="Animal_GermanShepherd" chance="1" />
-			</agent>
-
-			<item name="globalCountMax" val="30" />
-			<item name="zoneCountMin" val="0" />
-			<item name="zoneCountMax" val="3" />
-			<item name="playerSpawnRadiusNear" val="100" />
-			<item name="playerSpawnRadiusFar" val="200" />
-		</territory>
-		
-		<!-- MOREBEARS -->
-		<territory type="Ambient" name="AmbientBear" behavior="BlissBearGroupBeh">
-			<file usable="morebears_territories" />
-			<!-- different agent types - class has to begin with AgentType:w -->
-			<agent type="Male" chance="1">
-				<spawn configName="Animal_InfectedBear" chance="1" />
-			</agent>
-			<agent type="Female" chance="3">
-				<spawn configName="Animal_InfectedBear" chance="1" />
-			</agent>
-
-			<item name="globalCountMax" val="30" />
-			<item name="zoneCountMin" val="1" />
-			<item name="zoneCountMax" val="1" />
-			<item name="playerSpawnRadiusNear" val="100" />
-			<item name="playerSpawnRadiusFar" val="200" />
-		</territory>
-<!-- More Wolves - Part2of2 (Insert) END -->
 
 		<!-- HEN -->
 		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
@@ -114,15 +73,23 @@
 			<agent type="Male" chance="1">
 				<spawn configName="Animal_LepusEuropaeus" chance="1" />
 			</agent>
-			<agent type="Female" chance="3">
+			<agent type="Female" chance="1">
 				<spawn configName="Animal_LepusEuropaeus" chance="1" />
 			</agent>
-
-			<item name="globalCountMax" val="0" />
-			<item name="zoneCountMin" val="3" />
-			<item name="zoneCountMax" val="5" />
-			<item name="playerSpawnRadiusNear" val="15" />
-			<item name="playerSpawnRadiusFar" val="200" />
+			<item name="zoneTouchDisableEditPeriodSec" val="300" />
+		</territory>
+		
+		<!-- FOX -->
+		<territory type="Ambient" name="AmbientFox" behavior="DZAmbientLifeGroupBeh">
+			<file usable="fox_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_VulpesVulpes" chance="1" />
+			</agent>
+			<agent type="Female" chance="1">
+				<spawn configName="Animal_VulpesVulpes" chance="1" />
+			</agent>
+			<item name="zoneTouchDisableEditPeriodSec" val="450" />
 		</territory>
 		
 		<!-- INFECTED -->
