@@ -1,6 +1,7 @@
 {
-    "m_Version": 22,
+    "m_Version": 24,
     "Enabled": 1,
+    "FormationScale": -1.0,
     "DespawnTime": 1800.0,
     "RespawnTime": 2400.0,
     "MinDistRadius": 175.0,
@@ -12,12 +13,89 @@
     "NoiseInvestigationDistanceLimit": -1.0,
     "DamageMultiplier": -1.0,
     "DamageReceivedMultiplier": -1.0,
+    "LoadBalancingCategories": {
+        "Global": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 10,
+                "MaxPatrols": 10
+            },
+            {
+                "MinPlayers": 11,
+                "MaxPlayers": 20,
+                "MaxPatrols": 8
+            },
+            {
+                "MinPlayers": 21,
+                "MaxPlayers": 30,
+                "MaxPatrols": 6
+            },
+            {
+                "MinPlayers": 31,
+                "MaxPlayers": 40,
+                "MaxPatrols": 4
+            },
+            {
+                "MinPlayers": 41,
+                "MaxPlayers": 50,
+                "MaxPatrols": 2
+            },
+            {
+                "MinPlayers": 51,
+                "MaxPlayers": 255,
+                "MaxPatrols": 0
+            }
+        ],
+        "Example": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "Quest": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": -1
+            }
+        ],
+        "ObjectPatrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ],
+        "HelicopterWreck": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 3
+            }
+        ],
+        "ContaminatedArea": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 2
+            }
+        ],
+        "Patrol": [
+            {
+                "MinPlayers": 0,
+                "MaxPlayers": 255,
+                "MaxPatrols": 5
+            }
+        ]
+    },
     "ObjectPatrols": [
         {
             "Name": "Wreck_UH1Y",
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -45,6 +123,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "HelicopterWreck",
             "ClassName": "Wreck_UH1Y"
         },
         {
@@ -52,6 +131,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -79,6 +159,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "HelicopterWreck",
             "ClassName": "Wreck_Mi8_Crashed"
         },
         {
@@ -86,6 +167,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "PoliceLoadout",
             "Units": [],
@@ -113,6 +195,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "ClassName": "Land_Wreck_sed01_aban1_police"
         },
         {
@@ -120,6 +203,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "PoliceLoadout",
             "Units": [],
@@ -147,6 +231,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "ClassName": "Land_Wreck_sed01_aban2_police"
         },
         {
@@ -154,6 +239,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "NBCLoadout",
             "Units": [],
@@ -181,6 +267,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "ContaminatedArea",
             "ClassName": "ContaminatedArea_Static"
         },
         {
@@ -188,6 +275,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 0.0,
             "Loadout": "NBCLoadout",
             "Units": [],
@@ -215,6 +303,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "ContaminatedArea",
             "ClassName": "ContaminatedArea_Dynamic"
         }
     ],
@@ -224,6 +313,7 @@
             "Persist": 1,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
@@ -251,6 +341,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -265,6 +356,7 @@
             "Persist": 1,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
@@ -292,6 +384,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -306,6 +399,7 @@
             "Persist": 1,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
@@ -333,6 +427,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -347,6 +442,7 @@
             "Persist": 1,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
@@ -374,6 +470,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -388,6 +485,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -415,6 +513,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -444,6 +543,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "SurvivorLoadout",
             "Units": [],
@@ -471,6 +571,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -505,6 +606,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 7.0,
             "Loadout": "TTSKOLoadout",
             "Units": [],
@@ -532,6 +634,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -556,6 +659,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 7.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -583,27 +687,28 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4940.88,
-                    333.895,
-                    10414.7
+                    4940.8798828125,
+                    333.8949890136719,
+                    10414.7001953125
                 ],
                 [
-                    4800.7,
-                    339.226,
-                    10513.1
+                    4800.7001953125,
+                    339.22601318359377,
+                    10513.099609375
                 ],
                 [
-                    4709.74,
-                    339.076,
-                    10605.4
+                    4709.740234375,
+                    339.07598876953127,
+                    10605.400390625
                 ],
                 [
-                    4598.48,
-                    338.746,
-                    10771.7
+                    4598.47998046875,
+                    338.7460021972656,
+                    10771.7001953125
                 ]
             ]
         },
@@ -612,6 +717,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "RANDOM",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -639,6 +745,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -663,6 +770,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -690,22 +798,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    10787.1,
-                    76.1788,
-                    10034.2
+                    10787.099609375,
+                    76.17880249023438,
+                    10034.2001953125
                 ],
                 [
-                    10360,
-                    120.509,
-                    10224.9
+                    10360.0,
+                    120.50900268554688,
+                    10224.900390625
                 ],
                 [
-                    9913.56,
-                    164.858,
-                    10499.3
+                    9913.5595703125,
+                    164.85800170898438,
+                    10499.2998046875
                 ]
             ]
         },
@@ -714,6 +823,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -741,17 +851,18 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    6351.54,
-                    330.172,
-                    8081.83
+                    6351.5400390625,
+                    330.1719970703125,
+                    8081.830078125
                 ],
                 [
-                    5853.87,
-                    310.917,
-                    7510.54
+                    5853.8701171875,
+                    310.9169921875,
+                    7510.5400390625
                 ]
             ]
         },
@@ -760,6 +871,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -787,6 +899,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -821,6 +934,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -848,17 +962,18 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8410.47,
-                    346.913,
-                    7035.9
+                    8410.4697265625,
+                    346.9129943847656,
+                    7035.89990234375
                 ],
                 [
-                    8283.37,
-                    437.232,
-                    7561.92
+                    8283.3701171875,
+                    437.23199462890627,
+                    7561.919921875
                 ],
                 [
                     8363.900390625,
@@ -866,9 +981,9 @@
                     6494.43994140625
                 ],
                 [
-                    8124.83,
-                    426.001,
-                    8508.15
+                    8124.830078125,
+                    426.0010070800781,
+                    8508.150390625
                 ]
             ]
         },
@@ -877,6 +992,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -904,22 +1020,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8149.15,
-                    338.505,
-                    14648.6
+                    8149.14990234375,
+                    338.5050048828125,
+                    14648.599609375
                 ],
                 [
-                    7983.92,
-                    347.514,
+                    7983.919921875,
+                    347.5140075683594,
                     14716.5
                 ],
                 [
-                    7743.33,
-                    360.507,
-                    14836.3
+                    7743.330078125,
+                    360.5069885253906,
+                    14836.2998046875
                 ]
             ]
         },
@@ -928,6 +1045,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -955,17 +1073,18 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    9876.49,
-                    164.562,
-                    10315.7
+                    9876.490234375,
+                    164.56199645996095,
+                    10315.7001953125
                 ],
                 [
-                    10055.1,
-                    154,
-                    10549.2
+                    10055.099609375,
+                    154.0,
+                    10549.2001953125
                 ]
             ]
         },
@@ -974,6 +1093,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -1001,27 +1121,28 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8149.15,
-                    338.505,
-                    14648.6
+                    8149.14990234375,
+                    338.5050048828125,
+                    14648.599609375
                 ],
                 [
-                    7983.92,
-                    347.514,
+                    7983.919921875,
+                    347.5140075683594,
                     14716.5
                 ],
                 [
-                    7743.33,
-                    360.507,
-                    14836.3
+                    7743.330078125,
+                    360.5069885253906,
+                    14836.2998046875
                 ],
                 [
-                    8539.91,
-                    16.5488,
-                    3074.78
+                    8539.91015625,
+                    16.548799514770509,
+                    3074.780029296875
                 ]
             ]
         },
@@ -1030,6 +1151,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 15.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -1057,22 +1179,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    945.633,
-                    26.7617,
-                    2504.06
+                    945.6329956054688,
+                    26.761699676513673,
+                    2504.06005859375
                 ],
                 [
-                    1630.23,
-                    20.7767,
-                    2443.56
+                    1630.22998046875,
+                    20.77669906616211,
+                    2443.56005859375
                 ],
                 [
-                    2164.2,
-                    43.697,
-                    2510.78
+                    2164.199951171875,
+                    43.696998596191409,
+                    2510.780029296875
                 ]
             ]
         },
@@ -1081,6 +1204,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "WestLoadout",
             "Units": [],
@@ -1108,6 +1232,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1132,6 +1257,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 15.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -1159,17 +1285,18 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1759.32,
-                    23.9572,
-                    2422.08
+                    1759.3199462890626,
+                    23.957199096679689,
+                    2422.080078125
                 ],
                 [
-                    2131.15,
-                    91.1734,
-                    3092.93
+                    2131.14990234375,
+                    91.17340087890625,
+                    3092.929931640625
                 ]
             ]
         },
@@ -1178,6 +1305,7 @@
             "Persist": 0,
             "Faction": "West",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "WestLoadout",
             "Units": [],
@@ -1205,6 +1333,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1229,6 +1358,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 7.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -1256,6 +1386,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1275,6 +1406,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 7.0,
             "Loadout": "BanditLoadout",
             "Units": [],
@@ -1302,6 +1434,7 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
@@ -1326,6 +1459,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -1353,32 +1487,33 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    9333.93,
-                    352.95,
-                    9089.45
+                    9333.9296875,
+                    352.95001220703127,
+                    9089.4501953125
                 ],
                 [
-                    9369.37,
-                    312.43,
-                    8839.59
+                    9369.3701171875,
+                    312.42999267578127,
+                    8839.58984375
                 ],
                 [
-                    9455,
-                    303.896,
-                    8817.67
+                    9455.0,
+                    303.89599609375,
+                    8817.669921875
                 ],
                 [
-                    9434.63,
-                    298.235,
-                    8672.37
+                    9434.6298828125,
+                    298.2349853515625,
+                    8672.3701171875
                 ],
                 [
-                    9315.33,
-                    296.262,
-                    8607.48
+                    9315.330078125,
+                    296.2619934082031,
+                    8607.48046875
                 ]
             ]
         },
@@ -1387,6 +1522,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 10.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
@@ -1414,22 +1550,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    4435.58,
-                    338.846,
-                    8076.74
+                    4435.580078125,
+                    338.84600830078127,
+                    8076.740234375
                 ],
                 [
-                    4630.94,
-                    320.674,
-                    8212.78
+                    4630.93994140625,
+                    320.67401123046877,
+                    8212.7802734375
                 ],
                 [
-                    4877.43,
-                    331.155,
-                    8442.9
+                    4877.43017578125,
+                    331.1549987792969,
+                    8442.900390625
                 ]
             ]
         },
@@ -1438,6 +1575,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 5.0,
             "Loadout": "PoliceLoadout",
             "Units": [],
@@ -1465,17 +1603,18 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    2560.93,
-                    19.9451,
-                    1333.43
+                    2560.929931640625,
+                    19.945100784301759,
+                    1333.4300537109376
                 ],
                 [
-                    2732.89,
-                    23.3878,
-                    1302.31
+                    2732.889892578125,
+                    23.387800216674806,
+                    1302.31005859375
                 ]
             ]
         },
@@ -1484,6 +1623,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 8.0,
             "Loadout": "WestLoadout",
             "Units": [],
@@ -1511,21 +1651,22 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    8030.52,
-                    323.739,
-                    14525.2
+                    8030.52001953125,
+                    323.739013671875,
+                    14525.2001953125
                 ],
                 [
-                    8051.32,
-                    339.81,
-                    14621.1
+                    8051.31982421875,
+                    339.80999755859377,
+                    14621.099609375
                 ],
                 [
-                    8103.38,
-                    341.759,
+                    8103.3798828125,
+                    341.7590026855469,
                     14683.0
                 ]
             ]
@@ -1535,6 +1676,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 15.0,
             "Loadout": "WestLoadout",
             "Units": [],
@@ -1562,22 +1704,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1661.52,
-                    435.286,
-                    13602.6
+                    1661.52001953125,
+                    435.2860107421875,
+                    13602.599609375
                 ],
                 [
-                    1763.52,
+                    1763.52001953125,
                     434.25,
-                    13668.4
+                    13668.400390625
                 ],
                 [
-                    1857.89,
-                    433.109,
-                    13723.2
+                    1857.8900146484376,
+                    433.1090087890625,
+                    13723.2001953125
                 ]
             ]
         },
@@ -1586,6 +1729,7 @@
             "Persist": 0,
             "Faction": "East",
             "Formation": "",
+            "FormationScale": -1.0,
             "FormationLooseness": 15.0,
             "Loadout": "EastLoadout",
             "Units": [],
@@ -1613,22 +1757,23 @@
             "WaypointInterpolation": "",
             "DespawnTime": -1.0,
             "RespawnTime": -2.0,
+            "LoadBalancingCategory": "",
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
-                    1412.99,
-                    463.284,
-                    14129.6
+                    1412.989990234375,
+                    463.28399658203127,
+                    14129.599609375
                 ],
                 [
-                    1507.6,
-                    455.503,
-                    14136.2
+                    1507.5999755859376,
+                    455.50299072265627,
+                    14136.2001953125
                 ],
                 [
-                    1727.11,
-                    447.731,
-                    13951.8
+                    1727.1099853515626,
+                    447.7309875488281,
+                    13951.7998046875
                 ]
             ]
         }
