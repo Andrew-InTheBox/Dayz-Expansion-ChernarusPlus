@@ -18,22 +18,22 @@
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 10,
-                "MaxPatrols": 10
+                "MaxPatrols": 30
             },
             {
                 "MinPlayers": 11,
                 "MaxPlayers": 20,
-                "MaxPatrols": 8
+                "MaxPatrols": 20
             },
             {
                 "MinPlayers": 21,
                 "MaxPlayers": 30,
-                "MaxPatrols": 6
+                "MaxPatrols": 10
             },
             {
                 "MinPlayers": 31,
                 "MaxPlayers": 40,
-                "MaxPatrols": 4
+                "MaxPatrols": 5
             },
             {
                 "MinPlayers": 41,
@@ -44,13 +44,6 @@
                 "MinPlayers": 51,
                 "MaxPlayers": 255,
                 "MaxPatrols": 0
-            }
-        ],
-        "Example": [
-            {
-                "MinPlayers": 0,
-                "MaxPlayers": 255,
-                "MaxPatrols": -1
             }
         ],
         "Quest": [
@@ -64,28 +57,28 @@
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 5
+                "MaxPatrols": 10
             }
         ],
         "HelicopterWreck": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 3
+                "MaxPatrols": 10
             }
         ],
         "ContaminatedArea": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 2
+                "MaxPatrols": 10
             }
         ],
         "Patrol": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 5
+                "MaxPatrols": 30
             }
         ]
     },
@@ -317,7 +310,7 @@
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
-            "NumberOfAI": 4,
+            "NumberOfAI": 1,
             "Behaviour": "ROAMING",
             "LootingBehaviour": "ALL",
             "Speed": "WALK",
@@ -360,7 +353,7 @@
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
-            "NumberOfAI": 4,
+            "NumberOfAI": 1,
             "Behaviour": "ROAMING",
             "LootingBehaviour": "ALL",
             "Speed": "WALK",
@@ -403,7 +396,7 @@
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
-            "NumberOfAI": 4,
+            "NumberOfAI": 1,
             "Behaviour": "ROAMING",
             "LootingBehaviour": "ALL",
             "Speed": "WALK",
@@ -446,7 +439,7 @@
             "FormationLooseness": 5.0,
             "Loadout": "PlayerSurvivorLoadout",
             "Units": [],
-            "NumberOfAI": 4,
+            "NumberOfAI": 1,
             "Behaviour": "ROAMING",
             "LootingBehaviour": "ALL",
             "Speed": "WALK",
@@ -477,6 +470,436 @@
                     12361.2001953125,
                     10.333900451660157,
                     9687.7099609375
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Krasnostav",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11142.6,
+                    199.061,
+                    12273.6
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-PopIvan",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    6381.3,
+                    384.405,
+                    6592.6
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Krona",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    1481.93,
+                    297.442,
+                    9211.29
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Putoshka",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3065.6,
+                    304.566,
+                    7943.78
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Zvir",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    535.313,
+                    151.021,
+                    5368.01
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Zelenogorsk",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    2449.97,
+                    194.783,
+                    4944.22
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-Storozh",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    2624.35,
+                    22.2616,
+                    1321.54
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-VolchiyPik",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    341.17,
+                    154.157,
+                    2711.81
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-NovoyaPetrovka",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    3437.43,
+                    202.476,
+                    12719.0
+                ]
+            ]
+        },
+        {
+            "Name": "ROAMING-StaryYar",
+            "Persist": 1,
+            "Faction": "West",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 5.0,
+            "Loadout": "PlayerSurvivorLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "ROAMING",
+            "LootingBehaviour": "ALL",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 0,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": 5.0,
+            "MaxDistRadius": 12000.0,
+            "DespawnRadius": 12000.0,
+            "MinSpreadRadius": 15.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 1200.0,
+            "LoadBalancingCategory": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    5237.05,
+                    481.259,
+                    14976.2
                 ]
             ]
         },
