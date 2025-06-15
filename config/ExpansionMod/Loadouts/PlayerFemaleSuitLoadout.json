@@ -1,6 +1,5 @@
 {
     "ClassName": "",
-    "Include": "",
     "Chance": 1.0,
     "Quantity": {
         "Min": 0.0,
@@ -13,7 +12,6 @@
             "Items": [
                 {
                     "ClassName": "WomanSuit_Blue",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -33,7 +31,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_Brown",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -53,7 +50,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_DarkGrey",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -73,7 +69,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_Khaki",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -93,7 +88,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_LightGrey",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -113,7 +107,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_White",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -133,7 +126,6 @@
                 },
                 {
                     "ClassName": "WomanSuit_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -158,7 +150,6 @@
             "Items": [
                 {
                     "ClassName": "SlacksPants_Blue",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -178,7 +169,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_Brown",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -198,7 +188,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_DarkGrey",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -218,7 +207,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_Khaki",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -238,7 +226,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_LightGrey",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -258,7 +245,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_White",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -278,7 +264,6 @@
                 },
                 {
                     "ClassName": "SlacksPants_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -303,7 +288,6 @@
             "Items": [
                 {
                     "ClassName": "DressShoes_White",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -323,7 +307,6 @@
                 },
                 {
                     "ClassName": "DressShoes_Beige",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -343,7 +326,6 @@
                 },
                 {
                     "ClassName": "DressShoes_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -363,7 +345,6 @@
                 },
                 {
                     "ClassName": "DressShoes_Brown",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -383,7 +364,6 @@
                 },
                 {
                     "ClassName": "DressShoes_Sunburst",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -407,7 +387,6 @@
     "InventoryCargo": [
         {
             "ClassName": "Apple",
-            "Include": "",
             "Chance": 0.10000000149011612,
             "Quantity": {
                 "Min": 0.0,
@@ -421,8 +400,7 @@
         },
         {
             "ClassName": "BandageDressing",
-            "Include": "",
-            "Chance": 0.15000000596046449,
+            "Chance": 0.15000000596046448,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0

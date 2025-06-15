@@ -1,6 +1,5 @@
 {
     "ClassName": "",
-    "Include": "",
     "Chance": 1.0,
     "Quantity": {
         "Min": 0.0,
@@ -13,7 +12,6 @@
             "Items": [
                 {
                     "ClassName": "FirefighterJacket_Beige",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -33,7 +31,6 @@
                 },
                 {
                     "ClassName": "FirefighterJacket_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -58,7 +55,6 @@
             "Items": [
                 {
                     "ClassName": "FirefightersPants_Beige",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -78,7 +74,6 @@
                 },
                 {
                     "ClassName": "FirefightersPants_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -103,7 +98,6 @@
             "Items": [
                 {
                     "ClassName": "WorkingBoots_Beige",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -123,7 +117,6 @@
                 },
                 {
                     "ClassName": "WorkingBoots_Grey",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -143,7 +136,6 @@
                 },
                 {
                     "ClassName": "WorkingBoots_Yellow",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -168,7 +160,6 @@
             "Items": [
                 {
                     "ClassName": "ReflexVest",
-                    "Include": "",
                     "Chance": 0.10000000149011612,
                     "Quantity": {
                         "Min": 0.0,
@@ -193,7 +184,6 @@
             "Items": [
                 {
                     "ClassName": "FirefightersHelmet_Red",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -213,7 +203,6 @@
                 },
                 {
                     "ClassName": "FirefightersHelmet_White",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -233,7 +222,6 @@
                 },
                 {
                     "ClassName": "FirefightersHelmet_Yellow",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -258,7 +246,6 @@
             "Items": [
                 {
                     "ClassName": "WorkingGloves_Beige",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -278,7 +265,6 @@
                 },
                 {
                     "ClassName": "WorkingGloves_Black",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -298,7 +284,6 @@
                 },
                 {
                     "ClassName": "WorkingGloves_Brown",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -318,7 +303,6 @@
                 },
                 {
                     "ClassName": "WorkingGloves_Yellow",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -343,7 +327,6 @@
             "Items": [
                 {
                     "ClassName": "CivilianBelt",
-                    "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -368,8 +351,7 @@
             "Items": [
                 {
                     "ClassName": "FirefighterAxe",
-                    "Include": "",
-                    "Chance": 0.30000001192092898,
+                    "Chance": 0.30000001192092896,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -388,7 +370,6 @@
                 },
                 {
                     "ClassName": "Crowbar",
-                    "Include": "",
                     "Chance": 0.10000000149011612,
                     "Quantity": {
                         "Min": 0.0,
