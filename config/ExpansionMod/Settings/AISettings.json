@@ -1,10 +1,10 @@
 {
     "m_Version": 13,
-    "AccuracyMin": 0.800000011920929,
-    "AccuracyMax": 0.9200000166893005,
-    "ThreatDistanceLimit": 350.0,
+    "AccuracyMin": 0.80,
+    "AccuracyMax": 0.90,
+    "ThreatDistanceLimit": 375.0,
     "NoiseInvestigationDistanceLimit": 750.0,
-    "DamageMultiplier": 1.149999976158142,
+    "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,
     "Admins": [
         "76561198081075225"
