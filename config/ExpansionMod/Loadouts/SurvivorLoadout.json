@@ -2652,7 +2652,7 @@
                 },
                 {
                     "ClassName": "Mag_MP5_30Rnd",
-                    "Chance": 0.40,
+                    "Chance": 0.4,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -2717,10 +2717,10 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2730,10 +2730,10 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2743,10 +2743,10 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2756,10 +2756,10 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2785,10 +2785,10 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2814,10 +2814,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2829,10 +2829,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2844,10 +2844,10 @@
                 },
                 {
                     "ClassName": "Ammo_Expansion_338",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2911,10 +2911,10 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2924,10 +2924,10 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2937,10 +2937,10 @@
                 },
                 {
                     "ClassName": "Ammo_762x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -2950,10 +2950,10 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -2979,10 +2979,10 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3008,10 +3008,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3023,10 +3023,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3038,10 +3038,10 @@
                 },
                 {
                     "ClassName": "Ammo_Expansion_338",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3372,10 +3372,10 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3385,10 +3385,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3398,10 +3398,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3411,10 +3411,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -3424,10 +3424,10 @@
                 },
                 {
                     "ClassName": "Ammo_545x39",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3453,10 +3453,10 @@
                 },
                 {
                     "ClassName": "Ammo_308Win",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3482,10 +3482,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3497,10 +3497,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {
@@ -3512,10 +3512,10 @@
                 },
                 {
                     "ClassName": "Ammo_Expansion_338",
-                    "Chance": 0.33,
+                    "Chance": 0.2,
                     "Quantity": {
-                        "Min": 0.6,
-                        "Max": 0.8
+                        "Min": 0.2,
+                        "Max": 0.4
                     },
                     "Health": [
                         {

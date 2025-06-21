@@ -145,10 +145,10 @@
                         },
                         {
                             "ClassName": "Ammo_762x39",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [],
                             "InventoryAttachments": [],
@@ -158,10 +158,10 @@
                         },
                         {
                             "ClassName": "Ammo_545x39",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -187,10 +187,10 @@
                         },
                         {
                             "ClassName": "Ammo_308Win",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -216,10 +216,10 @@
                         },
                         {
                             "ClassName": "Ammo_12gaSlug",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -231,10 +231,10 @@
                         },
                         {
                             "ClassName": "Ammo_12gaPellets",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -246,10 +246,10 @@
                         },
                         {
                             "ClassName": "Ammo_Expansion_338",
-                            "Chance": 0.33,
+                            "Chance": 0.2,
                             "Quantity": {
-                                "Min": 0.6,
-                                "Max": 0.8
+                                "Min": 0.2,
+                                "Max": 0.4
                             },
                             "Health": [
                                 {
@@ -532,10 +532,10 @@
                                 {
                                     "ClassName": "Ammo_762x54",
                                     "Include": "",
-                                    "Chance": 0.4,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -552,10 +552,10 @@
                                 {
                                     "ClassName": "Ammo_762x39",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -572,10 +572,10 @@
                                 {
                                     "ClassName": "Ammo_556x45",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -592,10 +592,10 @@
                                 {
                                     "ClassName": "Ammo_9x19",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -612,10 +612,10 @@
                                 {
                                     "ClassName": "Ammo_45ACP",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -632,10 +632,10 @@
                                 {
                                     "ClassName": "Ammo_308Win",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -652,10 +652,10 @@
                                 {
                                     "ClassName": "Ammo_12gaPellets",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -672,10 +672,10 @@
                                 {
                                     "ClassName": "Ammo_12gaSlug",
                                     "Include": "",
-                                    "Chance": 0.33,
+                                    "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
@@ -694,8 +694,8 @@
                                     "Include": "",
                                     "Chance": 0.2,
                                     "Quantity": {
-                                        "Min": 0.6,
-                                        "Max": 0.8
+                                        "Min": 0.2,
+                                        "Max": 0.4
                                     },
                                     "Health": [
                                         {
