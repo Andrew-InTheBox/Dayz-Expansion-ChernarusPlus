@@ -43,9 +43,4 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="expansion_events.xml" type="events" />
 	</ce>
 	
-	<!-- metro watch mod -->
-	<ce folder="db/metro_watch">
-		<file name="spawnabletypes.xml" type="spawnabletypes" />
-		<file name="MetroWatch_types.xml" type="types" />
-	</ce>
 </economycore>
