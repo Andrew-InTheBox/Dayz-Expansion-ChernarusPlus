@@ -1,7 +1,7 @@
 {
-    "m_Version": 13,
-    "AccuracyMin": 0.80,
-    "AccuracyMax": 0.90,
+    "m_Version": 14,
+    "AccuracyMin": 0.800000011920929,
+    "AccuracyMax": 0.8999999761581421,
     "ThreatDistanceLimit": 375.0,
     "NoiseInvestigationDistanceLimit": 750.0,
     "DamageMultiplier": 1.0,
@@ -19,5 +19,7 @@
     "FormationScale": 1.0,
     "PlayerFactions": [],
     "LogAIHitBy": 1,
-    "LogAIKilled": 1
+    "LogAIKilled": 1,
+    "EnableZombieVehicleAttackHandler": 0,
+    "EnableZombieVehicleAttackPhysics": 0
 }

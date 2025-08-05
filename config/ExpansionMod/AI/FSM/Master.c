@@ -198,6 +198,7 @@ class Expansion_Vehicles_Sitting_OpenVehicleDoor_Transition_0: eAITransition {
 		Class.CastTo(dst, _fsm.GetState("Expansion_Vehicles_OpenVehicleDoor_State_0"));
 	}
 	override int Guard() {
+		if (unit.IsUnconscious()) return FAIL;
 		auto group = unit.GetGroup();
 		if (!group) return FAIL;
 		auto leader = group.GetFormationLeader();
@@ -224,6 +225,7 @@ class Expansion_Vehicles_OpenVehicleDoor_GetOutVehicle_Transition_0: eAITransiti
 		Class.CastTo(dst, _fsm.GetState("Expansion_Vehicles_GetOutVehicle_State_0"));
 	}
 	override int Guard() {
+		if (unit.IsUnconscious()) return FAIL;
 		if (!unit.IsInTransport()) return FAIL;
 		if (!src.transport.CrewCanGetThrough(src.seat) || !src.transport.IsAreaAtDoorFree(src.seat)) return FAIL;
 		return SUCCESS;
@@ -1315,6 +1317,7 @@ class Expansion_Master_Vehicles_State_0: eAIState {
 		if (m_SubFSM.Update(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
 		auto group = unit.GetGroup();
 		if (!group) return EXIT;
+		if (!unit.IsInTransport() && unit.GetThreatToSelf() >= 0.4) return EXIT;
 		auto leader = group.GetFormationLeader();
 		//! @note leader can only briefly be null (disconnected/killed).
 		//! We wait until a new leader has been determined (which may be the current unit).
