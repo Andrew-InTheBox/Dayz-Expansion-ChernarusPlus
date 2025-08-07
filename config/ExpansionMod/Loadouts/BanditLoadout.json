@@ -8035,6 +8035,19 @@
                                             "Sets": []
                                         },
                                         {
+                                            "ClassName": "Mag_AK101_30Rnd",
+                                            "Chance": 0.5,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        },
+                                        {
                                             "ClassName": "AK_PlasticBttstck",
                                             "Chance": 0.30000001192092896,
                                             "Quantity": {
@@ -8192,7 +8205,23 @@
                                     ]
                                 }
                             ],
-                            "InventoryCargo": [],
+                            "InventoryCargo": [
+                                {
+                                    "ClassName": "Ammo_556x45",
+                                    "Chance": 1.0,
+                                    "Quantity": {
+                                        "Min": 1.0,
+                                        "Max": 1.0
+                                    },
+                                    "Health": [
+                                        {
+                                            "Min": 1,
+                                            "Max": 1,
+                                            "Zone": ""
+                                        }
+                                    ]
+                                }
+                            ],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
                         }
@@ -8465,6 +8494,79 @@
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WEAPON",
+            "Chance": 0.5,
+            "Quantity": {
+                "Min": 0.0,
+                "Max": 0.0
+            },
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "M79",
+                            "Chance": 1.0,
+                            "Quantity": {
+                                "Min": 0.0,
+                                "Max": 0.0
+                            },
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [
+                                {
+                                    "ClassName": "Ammo_40mm_Explosive",
+                                    "Chance": 1.0,
+                                    "Quantity": {
+                                        "Min": 1.0,
+                                        "Max": 1.0
+                                    },
+                                    "Health": [],
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [],
+                                    "ConstructionPartsBuilt": [],
+                                    "Sets": []
+                                }
+                            ],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Ammo_40mm_Explosive",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 1.0,
+                        "Max": 1.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_40mm_Explosive",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 1.0,
+                        "Max": 1.0
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -9083,10 +9185,10 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.2,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.2,
-                        "Max": 0.4
+                        "Min": 1.0,
+                        "Max": 1.0
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -9096,7 +9198,7 @@
                 },
                 {
                     "ClassName": "Ammo_762x54",
-                    "Chance": 0.2,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.2,
                         "Max": 0.4

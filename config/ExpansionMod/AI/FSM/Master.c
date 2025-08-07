@@ -1243,7 +1243,7 @@ class Expansion_Master_FollowFormation_State_0: eAIState {
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
 		if (speedLimit > 0)
-		unit.SetMovementSpeedLimit(speedLimit);  //! Restore speed limit
+		unit.SetMovementSpeedLimit(unit.m_eAI_SpeedLimitPreference);  //! Restore speed limit
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
 		if (!group) return EXIT;
