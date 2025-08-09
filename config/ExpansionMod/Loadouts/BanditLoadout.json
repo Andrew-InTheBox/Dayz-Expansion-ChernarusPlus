@@ -9325,7 +9325,7 @@
                 },
                 {
                     "ClassName": "AmmoBox_308Win_20Rnd",
-                    "Chance": 0.33,
+                    "Chance": 0.10,
                     "Quantity": {
                         "Min": 0.6,
                         "Max": 0.8
@@ -9519,7 +9519,7 @@
                 },
                 {
                     "ClassName": "AmmoBox_308Win_20Rnd",
-                    "Chance": 0.33,
+                    "Chance": 0.10,
                     "Quantity": {
                         "Min": 0.6,
                         "Max": 0.8
@@ -9897,10 +9897,10 @@
             "InventoryCargo": [
                 {
                     "ClassName": "Ammo_12gaSlug",
-                    "Chance": 0.2,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.2,
-                        "Max": 0.4
+                        "Min": 1.0,
+                        "Max": 1.0
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -9910,10 +9910,10 @@
                 },
                 {
                     "ClassName": "Ammo_12gaPellets",
-                    "Chance": 0.2,
+                    "Chance": 1.0,
                     "Quantity": {
-                        "Min": 0.2,
-                        "Max": 0.4
+                        "Min": 1.0,
+                        "Max": 1.0
                     },
                     "Health": [],
                     "InventoryAttachments": [],
@@ -9993,7 +9993,7 @@
                 },
                 {
                     "ClassName": "AmmoBox_308Win_20Rnd",
-                    "Chance": 0.33,
+                    "Chance": 0.10,
                     "Quantity": {
                         "Min": 0.6,
                         "Max": 0.8

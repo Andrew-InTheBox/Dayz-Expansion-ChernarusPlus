@@ -300,7 +300,7 @@
                         },
                         {
                             "ClassName": "AmmoBox_308Win_20Rnd",
-                            "Chance": 0.33,
+                            "Chance": 0.20,
                             "Quantity": {
                                 "Min": 0.6,
                                 "Max": 0.8
