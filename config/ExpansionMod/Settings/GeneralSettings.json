@@ -7,7 +7,7 @@
     "GravecrossTimeThreshold": 1200.0,
     "GravecrossSpawnTimeDelay": 30.0,
     "Mapping": {
-        "UseCustomMappingModule": 0,
+        "UseCustomMappingModule": 1,
         "Mapping": [
             "BerezhkiCave",
             "Berezino",
@@ -63,7 +63,7 @@
             "SvetRoadForestNoCollision",
             "TisyNoCollision"
         ],
-        "BuildingInteriors": 0,
+        "BuildingInteriors": 1,
         "Interiors": [
             "Land_Barn_Brick2",
             "Land_Barn_Metal_Big",
@@ -87,9 +87,11 @@
             "Land_House_2W03",
             "Land_Rail_Station_Big"
         ],
-        "BuildingIvys": 0
+        "BuildingIvys": 1
     },
-    "EnableLamps": 2,
+    "EnableLamps": 1, 
+    "LampAmount_OneInX": 3,
+    "LampSelectionMode": "FARTHEST_RANDOM",
     "EnableGenerators": 0,
     "EnableLighthouses": 1,
     "EnableHUDNightvisionOverlay": 1,

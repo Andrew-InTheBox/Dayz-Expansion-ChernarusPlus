@@ -1,7 +1,7 @@
 {
-    "m_Version": 14,
-    "AccuracyMin": 0.82,
-    "AccuracyMax": 0.92,
+    "m_Version": 15,
+    "AccuracyMin": 0.8199999928474426,
+    "AccuracyMax": 0.9200000166893005,
     "ThreatDistanceLimit": 375.0,
     "NoiseInvestigationDistanceLimit": 750.0,
     "DamageMultiplier": 1.0,
@@ -21,5 +21,9 @@
     "LogAIHitBy": 1,
     "LogAIKilled": 1,
     "EnableZombieVehicleAttackHandler": 0,
-    "EnableZombieVehicleAttackPhysics": 0
+    "EnableZombieVehicleAttackPhysics": 0,
+    "LightingConfigMinNightVisibilityMeters": {
+        "0": 100.0,
+        "1": 10.0
+    }
 }

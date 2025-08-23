@@ -391,149 +391,25 @@ class Expansion_Vehicles_FSM_0: eAIFSM {
 ExpansionFSM Create_Expansion_Vehicles_FSM_0(ExpansionFSMOwnerType owner, ExpansionState parentState) {
 	return new Expansion_Vehicles_FSM_0(owner, parentState);
 }
-class Expansion_Fighting_Positioning_State_0: eAIState {
+class Expansion_Fighting_Positioning_State_0: ExpansionState_Fighting_Positioning {
 	Expansion_Fighting_FSM_0 fsm;
-	vector position;
-	float time;
-	float movementDirection;
 	void Expansion_Fighting_Positioning_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Fighting_Positioning_State_0";
 		m_Name = "Positioning";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		time = 0;
-		if (unit.eAI_ShouldGetUp())
-		unit.Expansion_GetUp();
+		super.OnEntry(Event, From);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
-		unit.OverrideMovementDirection(false, 0);
+		super.OnExit(Event, Aborted, To);
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.eAI_IsChangingStance())
+		if (super.OnUpdate(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
 		return CONTINUE;
-		bool wantsLower = false;
-		bool wantsRaise = false;
-		float speed = unit.Expansion_GetMovementSpeed();
-		int timeSinceLastFire = GetGame().GetTime() - fsm.LastFireTime;
-		if (fsm.LastFireTime > 0 && timeSinceLastFire > fsm.TimeBetweenFiring && speed > 0)
-		wantsLower = true;
-		auto target = unit.GetTarget();
-		if (target)
-		{
-			position = target.GetPosition(false);
-			fsm.DistanceToTargetSq = target.GetDistanceSq(true);
-			bool shouldBeMeleeing = false;
-			auto hands = unit.GetHumanInventory().GetEntityInHands();
-			auto targetEntity = target.GetEntity();
-			auto itemTarget = ItemBase.Cast(targetEntity);
-			if (itemTarget && (!itemTarget.Expansion_IsExplosive() || target.GetCachedThreat(true) > 0.4))
-			{
-				wantsLower = true;
-			}
-			else if (!hands)
-			{
-				shouldBeMeleeing = true;
-			}
-			else if (hands.IsWeapon())
-			{
-				if (fsm.DistanceToTargetSq <= unit.m_eMeleeCombat.eAI_GetRangeSq())
-				shouldBeMeleeing = true;
-			}
-			else if (hands.IsMeleeWeapon())
-			{
-				shouldBeMeleeing = true;
-			}
-			float minDist;
-			float minDistSq;
-			if (shouldBeMeleeing)
-			{
-				float rangeSq = unit.m_eMeleeCombat.eAI_GetRangeSq();
-				float raiseRangeSqMult = 1;
-				float lowerRangeSqMult = 1;
-				//! Only adjust range multipliers if not a creature (animal) since animal attacks cannot be blocked
-				//! so we want to raise later and lower earlier
-				if (!target.IsCreature() && ((!unit.IsRaised() && Math.RandomInt(0, 5) == 2) || (unit.IsRaised() && !unit.IsWeaponRaiseCompleted())))
-				{
-					if (!unit.IsSprintFull() && (target.IsRaised() || target.IsFighting()))
-					{
-						//! (range * n)^2 == range^2 * n^2
-						raiseRangeSqMult = 2.25;  //! 1.5^2
-						lowerRangeSqMult = 9;  //! 3^2
-					}
-				}
-				if (fsm.DistanceToTargetSq <= rangeSq * raiseRangeSqMult || target.IsUnconscious())
-				wantsRaise = true;
-				else if (fsm.DistanceToTargetSq > rangeSq * lowerRangeSqMult)
-				wantsLower = true;
-				if (target.IsUnconscious())
-				minDist = 2.0;
-				else
-				minDist = 1.0;
-			}
-			else if (!wantsLower)
-			{
-				minDist = 2.0;
-				if (unit.m_eAI_IsInCover)
-				wantsRaise = true;
-			}
-			minDistSq = minDist * minDist;
-			if (targetEntity && !itemTarget && (fsm.DistanceToTargetSq <= minDistSq || (unit.m_eAI_PositionIsFinal && unit.eAI_IsUnreachable(minDist, position))))
-			{
-				time += DeltaTime;
-				if (!movementDirection || time > Math.RandomIntInclusive(1, 3))
-				{
-					if (Math.RandomIntInclusive(0, 1))
-					movementDirection = Math.RandomFloat(135, 180);
-					else
-					movementDirection = Math.RandomFloat(-135, -180);
-				}
-				unit.OverrideMovementDirection(true, movementDirection);
-				unit.OverrideMovementSpeed(true, 2);
-			}
-			else
-			{
-				unit.OverrideMovementDirection(false, 0);
-				if (itemTarget && itemTarget.Expansion_IsExplosive() && wantsLower && fsm.DistanceToTargetSq < target.GetMinDistanceSq())
-				unit.OverrideMovementSpeed(true, 3);
-				else
-				unit.OverrideMovementSpeed(false, 0);
-				time = 0;
-				movementDirection = 0;
-			}
-			if ((!itemTarget && ((hands && hands.IsWeapon()) || target.GetMinDistance() > 0.0 || !target.CanMeleeIfClose())) || (itemTarget && itemTarget.Expansion_IsDanger()))
-			{
-				unit.OverrideTargetPosition(target);
-			}
-			else
-			{
-				unit.OverrideTargetPosition(position);
-			}
-			if (hands && (hands.IsWeapon() || fsm.DistanceToTargetSq <= 100.0))
-			{
-				if (hands.HasEnergyManager() && !hands.GetCompEM().IsWorking() && hands.GetCompEM().CanSwitchOn())
-				hands.GetCompEM().SwitchOn();
-			}
-		}
-		else
-		{
-			unit.OverrideMovementDirection(false, 0);
-			unit.OverrideMovementSpeed(false, 0);
-			unit.OverrideTargetPosition(unit.GetPosition() + unit.GetDirection() * speed * 0.333333);
-		}
-		if (wantsRaise && unit.CanRaiseWeapon())
-		{
-			unit.RaiseWeapon(true);
-		}
-		else if (wantsLower || !unit.CanRaiseWeapon())
-		{
-			unit.RaiseWeapon(false);
-			unit.eAI_AdjustStance(fsm.LastFireTime, timeSinceLastFire, fsm.TimeBetweenFiringAndGettingUp);
-		}
-		return EXIT;
 	}
 }
-class Expansion_Fighting_Evade_State_0: eAIState {
+class Expansion_Fighting_Evade_State_0: ExpansionState_Fighting_Evade {
 	Expansion_Fighting_FSM_0 fsm;
 	void Expansion_Fighting_Evade_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
@@ -541,182 +417,50 @@ class Expansion_Fighting_Evade_State_0: eAIState {
 		m_Name = "Evade";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		unit.eAI_ForceSideStep(Math.RandomFloat(0.3, 0.5));
-		unit.OverrideMovementSpeed(true, 3);
-		auto target = unit.GetTarget();
-		if (target)
-		unit.OverrideTargetPosition(target);
+		super.OnEntry(Event, From);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
-		unit.OverrideMovementSpeed(false, 0);
+		super.OnExit(Event, Aborted, To);
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.eAI_IsSideStepping())
+		if (super.OnUpdate(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
 		return CONTINUE;
-		return EXIT;
 	}
 }
-class Expansion_Fighting_FireWeapon_State_0: eAIState {
+class Expansion_Fighting_FireWeapon_State_0: ExpansionState_Fighting_FireWeapon {
 	Expansion_Fighting_FSM_0 fsm;
-	float time;
-	eAITarget target;
-	Weapon_Base weapon;
 	void Expansion_Fighting_FireWeapon_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Fighting_FireWeapon_State_0";
 		m_Name = "FireWeapon";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		unit.RaiseWeapon(true);
-		time = 0;
-		fsm.LastFireTime = GetGame().GetTime();
-		bool adjustStance = unit.eAI_AdjustStance(weapon, fsm.DistanceToTargetSq);
-		#ifdef DIAG
-		if (adjustStance)
-		EXTrace.Print(EXTrace.AI, unit, "eAI_AdjustStance " + typename.EnumToString(eAIStance, unit.eAI_GetStance()));
-		#endif
+		super.OnEntry(Event, From);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
+		super.OnExit(Event, Aborted, To);
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.eAI_IsChangingStance())
+		if (super.OnUpdate(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
 		return CONTINUE;
-		if (!target)
-		return EXIT;
-		auto lowPosition = target.GetPosition(false);
-		auto aimPosition = lowPosition + target.GetAimOffset();
-		time += DeltaTime;
-		unit.OverrideTargetPosition(target);
-		if (!unit.IsRaised() || !unit.IsWeaponRaiseCompleted())
-		{
-			unit.RaiseWeapon(true);
-			if (time >= 0.5)
-			{
-				time = 0;
-				return EXIT;
-			}
-			// waiting for the weapon to be raised
-			return CONTINUE;
-		}
-		auto neck = unit.GetBonePositionWS(unit.GetBoneIndexByName("neck"));
-		auto direction = vector.Direction(neck, aimPosition).Normalized();
-		auto weapon = unit.GetHumanInventory().GetEntityInHands();
-		float threshold;
-		if (weapon && weapon.ShootsExplosiveAmmo())
-		threshold = 0.96875;
-		else
-		threshold = 0.875;
-		if (vector.Dot(unit.GetAimDirection(), direction) < threshold)
-		{
-			if (time >= 0.5)
-			{
-				time = 0;
-				return EXIT;
-			}
-			// waiting for unit to face target
-			return CONTINUE;
-		}
-		unit.TryFireWeapon();
-		return EXIT;
 	}
 }
-class Expansion_Fighting_Melee_State_0: eAIState {
+class Expansion_Fighting_Melee_State_0: ExpansionState_Fighting_Melee {
 	Expansion_Fighting_FSM_0 fsm;
-	float time;
-	eAITarget target;
-	float movementDirection;
-	bool isFighting;
 	void Expansion_Fighting_Melee_State_0(ExpansionFSM _fsm) {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Fighting_Melee_State_0";
 		m_Name = "Melee";
 	}
 	override void OnEntry(string Event, ExpansionState From) {
-		time = 0;
-		movementDirection = 0;
-		fsm.LastFireTime = GetGame().GetTime();
-		unit.Expansion_GetUp(true);
+		super.OnEntry(Event, From);
 	}
 	override void OnExit(string Event, bool Aborted, ExpansionState To) {
-		unit.OverrideMovementDirection(false, 0);
-		unit.Notify_Melee(false);
-		if (target)
-		{
-			target.m_SkipMelee = false;
-		}
+		super.OnExit(Event, Aborted, To);
 	}
 	override int OnUpdate(float DeltaTime, int SimulationPrecision) {
-		if (unit.eAI_IsChangingStance())
+		if (super.OnUpdate(DeltaTime, SimulationPrecision) == EXIT) return EXIT;
 		return CONTINUE;
-		if (!target)
-		return EXIT;
-		auto lowPosition = target.GetPosition(false);
-		time += DeltaTime;
-		if (target.IsMechanicalTrap())
-		unit.OverrideTargetPosition(target);
-		else
-		unit.OverrideTargetPosition(lowPosition);
-		fsm.DistanceToTargetSq = target.GetDistanceSq(true);
-		if (unit.IsFighting())
-		{
-			isFighting = true;
-			//! If we are already meleeing, wait until raised again to avoid awkward animation
-			if (!unit.IsRaised() || !unit.IsWeaponRaiseCompleted())
-			{
-				unit.RaiseWeapon(true);
-				if (time < 0.5)
-				{
-					//! waiting for the weapon to be raised
-					return CONTINUE;
-				}
-			}
-		}
-		else
-		{
-			if (isFighting)
-			{
-				isFighting = false;
-				time = 0;
-			}
-		}
-		vector direction = vector.Direction(unit.GetPosition(), lowPosition).Normalized();
-		float dot = vector.Dot(unit.GetDirection(), direction);
-		//! 1 in 5 chance to move backwards if target is player and fighting
-		if (target.IsPlayer() && (movementDirection || (target.IsFighting() && Math.RandomInt(0, 5) == 2)) && dot >= 0.5 && time < Math.RandomFloat(0.5, 1.0))
-		{
-			if (!movementDirection)
-			{
-				if (Math.RandomIntInclusive(0, 1))
-				movementDirection = Math.RandomFloat(135, 180);
-				else
-				movementDirection = Math.RandomFloat(-135, -180);
-			}
-			unit.OverrideMovementDirection(true, movementDirection);
-			unit.OverrideMovementSpeed(true, 2);
-			return EXIT;
-		}
-		if (dot < 0.866 && (!target.IsInanimate() || target.IsMechanicalTrap()) && !target.GetEntity().GetParent())
-		{
-			if (time < Math.RandomFloat(1.5, 3.0))
-			{
-				if (fsm.DistanceToTargetSq < 1.0)
-				{
-					if (Math.RandomIntInclusive(0, 1))
-					movementDirection = Math.RandomFloat(135, 180);
-					else
-					movementDirection = Math.RandomFloat(-135, -180);
-					unit.OverrideMovementDirection(true, movementDirection);
-					unit.OverrideMovementSpeed(true, 2);
-				}
-				//! waiting for unit to face target
-				return EXIT;
-			}
-		}
-		unit.Notify_Melee();
-		time = 0;
-		movementDirection = 0;
-		unit.OverrideMovementDirection(false, 0);
-		return EXIT;
 	}
 }
 class Expansion_Fighting__Melee_Transition_0: eAITransition {
@@ -733,13 +477,13 @@ class Expansion_Fighting__Melee_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (!unit.CanRaiseWeapon() || !unit.eAI_HasLOS()) return FAIL;
 		if (unit.eAI_ShouldBandage() && unit.GetBandageToUse()) return FAIL;
-		dst.target = unit.GetTarget();
-		if (!dst.target) return FAIL;
-		if (!dst.target.IsMeleeViable() || dst.target.GetThreat() < 0.4) return FAIL;
-		if (dst.target.ShouldAvoid()) return FAIL;
+		dst.m_Target = unit.GetTarget();
+		if (!dst.m_Target) return FAIL;
+		if (!dst.m_Target.IsMeleeViable() || dst.m_Target.GetThreat() < 0.4) return FAIL;
+		if (dst.m_Target.ShouldAvoid()) return FAIL;
 		if (unit.m_eAI_HasProjectileWeaponInHands)
 		{
-			if (unit.eAI_SkipMelee("skipping melee", dst.target, false))
+			if (unit.eAI_SkipMelee("skipping melee", dst.m_Target, false))
 			return FAIL;
 		}
 		return SUCCESS;
@@ -761,7 +505,7 @@ class Expansion_Fighting__Evade_Transition_0: eAITransition {
 	override int Guard() {
 		int missionTime = GetGame().GetTime();
 		Weapon_Base aiWeapon;
-		if (Class.CastTo(aiWeapon, unit.GetHumanInventory().GetEntityInHands()) && missionTime - fsm.LastEvadeTime < Math.RandomInt(2500, 5000)) return FAIL;
+		if (Class.CastTo(aiWeapon, unit.GetHumanInventory().GetEntityInHands()) && missionTime - unit.m_eAI_LastEvadeTime < Math.RandomInt(2500, 5000)) return FAIL;
 		auto target = unit.GetTarget();
 		if (!target) return FAIL;
 		auto targetPlayer = DayZPlayerImplement.Cast(target.GetEntity());
@@ -776,7 +520,7 @@ class Expansion_Fighting__Evade_Transition_0: eAITransition {
 		if (Math.RandomInt(0, 5) > 0) return FAIL;  //! 1 in 5 chance to evade
 		if (unit.eAI_IsDangerousAltitude()) return FAIL;  //! Don't evade if high above ground
 		if (unit.m_eAI_IsOnLadder) return FAIL;
-		fsm.LastEvadeTime = missionTime;
+		unit.m_eAI_LastEvadeTime = missionTime;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -796,12 +540,12 @@ class Expansion_Fighting__FireWeapon_Transition_0: eAITransition {
 	override int Guard() {
 		if (unit.IsRestrained()) return FAIL;
 		// we are aiming at something?
-		dst.target = unit.GetTarget();
-		if (!dst.target) return FAIL;
+		dst.m_Target = unit.GetTarget();
+		if (!dst.m_Target) return FAIL;
 		PlayerBase player;
-		EntityAI targetEntity = dst.target.GetEntity();
+		EntityAI targetEntity = dst.m_Target.GetEntity();
 		ItemBase itemTarget;
-		float dist = dst.target.GetDistance();
+		float dist = dst.m_Target.GetDistance();
 		if (!targetEntity)
 		{
 			return FAIL;
@@ -826,23 +570,22 @@ class Expansion_Fighting__FireWeapon_Transition_0: eAITransition {
 			return FAIL;
 		}
 		if (unit.IsFighting()) return FAIL;
-		if (!Class.CastTo(dst.weapon, unit.GetItemInHands()) || dst.weapon.IsDamageDestroyed()) return FAIL;
-		if (!unit.CanRaiseWeapon() || !dst.target.m_LOS) return FAIL;
-		if (!dst.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.weapon)) return FAIL;
-		if (unit.Expansion_GetVisibility(dist) == 0.0) return FAIL;
+		if (!Class.CastTo(dst.m_Weapon, unit.GetItemInHands()) || dst.m_Weapon.IsDamageDestroyed()) return FAIL;
+		if (!unit.CanRaiseWeapon() || !dst.m_Target.m_LOS) return FAIL;
+		if (!dst.m_Weapon.Expansion_IsChambered()) return FAIL;
+		if (unit.GetWeaponManager().CanUnjam(dst.m_Weapon)) return FAIL;
 		float minDist;
-		if (dst.weapon.ShootsExplosiveAmmo())
-		minDist = dst.weapon.Expansion_GetMinSafeFiringDistance();
-		if (dst.target.IsExplosive())
-		minDist = Math.Max(dst.target.GetMinDistance(), minDist);
+		if (dst.m_Weapon.ShootsExplosiveAmmo())
+		minDist = dst.m_Weapon.Expansion_GetMinSafeFiringDistance();
+		if (dst.m_Target.IsExplosive())
+		minDist = Math.Max(dst.m_Target.GetMinDistance(), minDist);
 		if (minDist)
 		{
 			//! Avoid firing if within minDist
 			if (dist < minDist) return FAIL;
 			//! Avoid firing if other friendly units within minDist from tgt
 			float minDistSq = minDist * minDist;
-			vector aimPosition = dst.target.GetPosition() + dst.target.GetAimOffset();
+			vector aimPosition = dst.m_Target.GetPosition() + dst.m_Target.GetAimOffset();
 			vector min = Vector(aimPosition[0] - minDist, aimPosition[1] - minDist, aimPosition[2] - minDist);
 			vector max = Vector(aimPosition[0] + minDist, aimPosition[1] + minDist, aimPosition[2] + minDist);
 			array<EntityAI> entities = {};
@@ -896,11 +639,6 @@ class Expansion_Fighting__Positioning_Transition_0: eAITransition {
 	override string GetEvent() { return ""; }
 }
 class Expansion_Fighting_FSM_0: eAIFSM {
-	int LastFireTime;
-	int TimeBetweenFiring = 10000;
-	int TimeBetweenFiringAndGettingUp = 15000;
-	int LastEvadeTime;
-	float DistanceToTargetSq;
 	void Expansion_Fighting_FSM_0(ExpansionFSMOwnerType owner, ExpansionState parentState) {
 		m_Name = "Fighting";
 		m_DefaultState = "Expansion_Fighting_Positioning_State_0";
@@ -1011,14 +749,19 @@ class Expansion_Reloading_Start_Reloading_Transition_0: eAITransition {
 	override int Guard() {
 		if (!fsm.weapon || fsm.weapon.IsDamageDestroyed())
 		return FAIL;
-		if (!unit.eAI_HasAmmoForFirearm(fsm.weapon, dst.magazine)) return FAIL;
+		if (!fsm.magazine && !fsm.weapon.Expansion_HasAmmo(fsm.magazine))
+		{
+			if (!unit.eAI_HasAmmoForFirearm(fsm.weapon, fsm.magazine))
+			return FAIL;
+		}
 		#ifdef EXTRACE_DIAG
-		if (!dst.magazine)
+		if (!fsm.magazine)
 		EXTrace.Start0(EXTrace.AI, this, "Reloading " + fsm.weapon + " from internal mag");
 		else
-		EXTrace.Start0(EXTrace.AI, this, "Reloading " + fsm.weapon + " from mag " + dst.magazine);
+		EXTrace.Start0(EXTrace.AI, this, "Reloading " + fsm.weapon + " from mag " + fsm.magazine);
 		#endif
 		dst.weapon = fsm.weapon;
+		dst.magazine = fsm.magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1112,6 +855,7 @@ class Expansion_Reloading__Start_Transition_0: eAITransition {
 }
 class Expansion_Reloading_FSM_0: eAIFSM {
 	Weapon_Base weapon;
+	Magazine magazine;
 	int last_attempt_time;
 	int failed_attempts;
 	void Expansion_Reloading_FSM_0(ExpansionFSMOwnerType owner, ExpansionState parentState) {
@@ -1740,13 +1484,55 @@ class Expansion_Master_Idle_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
-		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
+		Weapon_Base weapon;
+		if (!Class.CastTo(weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
-		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
-		if (dst.sub_fsm.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.sub_fsm.weapon)) return FAIL;
+		if (weapon.IsDamageDestroyed()) return SUCCESS;
+		Magazine magazine;
+		if (weapon.Expansion_IsChambered())
+		{
+			if (!unit.eAI_IsSafeToFillMag()) return FAIL;
+			int mi = weapon.GetCurrentMuzzle();
+			if (weapon.HasInternalMagazine(mi))
+			{
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! even if chamber is not empty
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				return FAIL;
+				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+				return FAIL;
+			}
+			else
+			{
+				//! If this is a gun with attached mag and we are not in combat, reload when mag is empty
+				//! even if chamber is not empty
+				Magazine currentMag = weapon.GetMagazine(mi);
+				if (currentMag)
+				{
+					int ammoCount = currentMag.GetAmmoCount();
+					//! Don't reload if attached mag is still at capacity
+					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					return FAIL;
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					//! Don't swap magazine if attached mag is not empty
+					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					return FAIL;
+				}
+				else
+				{
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					if (magazine.IsAmmoPile())
+					return FAIL;
+				}
+			}
+		}
+		if (unit.GetWeaponManager().CanUnjam(weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
 		if (!unit.GetActionManager() || unit.GetActionManager().GetRunningAction()) return FAIL;
+		dst.sub_fsm.weapon = weapon;
+		dst.sub_fsm.magazine = magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1769,13 +1555,55 @@ class Expansion_Master_TraversingWaypoints_Weapon_Reloading_Transition_0: eAITra
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
-		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
+		Weapon_Base weapon;
+		if (!Class.CastTo(weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
-		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
-		if (dst.sub_fsm.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.sub_fsm.weapon)) return FAIL;
+		if (weapon.IsDamageDestroyed()) return SUCCESS;
+		Magazine magazine;
+		if (weapon.Expansion_IsChambered())
+		{
+			if (!unit.eAI_IsSafeToFillMag()) return FAIL;
+			int mi = weapon.GetCurrentMuzzle();
+			if (weapon.HasInternalMagazine(mi))
+			{
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! even if chamber is not empty
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				return FAIL;
+				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+				return FAIL;
+			}
+			else
+			{
+				//! If this is a gun with attached mag and we are not in combat, reload when mag is empty
+				//! even if chamber is not empty
+				Magazine currentMag = weapon.GetMagazine(mi);
+				if (currentMag)
+				{
+					int ammoCount = currentMag.GetAmmoCount();
+					//! Don't reload if attached mag is still at capacity
+					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					return FAIL;
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					//! Don't swap magazine if attached mag is not empty
+					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					return FAIL;
+				}
+				else
+				{
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					if (magazine.IsAmmoPile())
+					return FAIL;
+				}
+			}
+		}
+		if (unit.GetWeaponManager().CanUnjam(weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
 		if (!unit.GetActionManager() || unit.GetActionManager().GetRunningAction()) return FAIL;
+		dst.sub_fsm.weapon = weapon;
+		dst.sub_fsm.magazine = magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1798,13 +1626,55 @@ class Expansion_Master_FollowFormation_Weapon_Reloading_Transition_0: eAITransit
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
-		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
+		Weapon_Base weapon;
+		if (!Class.CastTo(weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
-		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
-		if (dst.sub_fsm.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.sub_fsm.weapon)) return FAIL;
+		if (weapon.IsDamageDestroyed()) return SUCCESS;
+		Magazine magazine;
+		if (weapon.Expansion_IsChambered())
+		{
+			if (!unit.eAI_IsSafeToFillMag()) return FAIL;
+			int mi = weapon.GetCurrentMuzzle();
+			if (weapon.HasInternalMagazine(mi))
+			{
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! even if chamber is not empty
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				return FAIL;
+				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+				return FAIL;
+			}
+			else
+			{
+				//! If this is a gun with attached mag and we are not in combat, reload when mag is empty
+				//! even if chamber is not empty
+				Magazine currentMag = weapon.GetMagazine(mi);
+				if (currentMag)
+				{
+					int ammoCount = currentMag.GetAmmoCount();
+					//! Don't reload if attached mag is still at capacity
+					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					return FAIL;
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					//! Don't swap magazine if attached mag is not empty
+					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					return FAIL;
+				}
+				else
+				{
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					if (magazine.IsAmmoPile())
+					return FAIL;
+				}
+			}
+		}
+		if (unit.GetWeaponManager().CanUnjam(weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
 		if (!unit.GetActionManager() || unit.GetActionManager().GetRunningAction()) return FAIL;
+		dst.sub_fsm.weapon = weapon;
+		dst.sub_fsm.magazine = magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1827,13 +1697,55 @@ class Expansion_Master_Flank_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
-		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
+		Weapon_Base weapon;
+		if (!Class.CastTo(weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
-		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
-		if (dst.sub_fsm.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.sub_fsm.weapon)) return FAIL;
+		if (weapon.IsDamageDestroyed()) return SUCCESS;
+		Magazine magazine;
+		if (weapon.Expansion_IsChambered())
+		{
+			if (!unit.eAI_IsSafeToFillMag()) return FAIL;
+			int mi = weapon.GetCurrentMuzzle();
+			if (weapon.HasInternalMagazine(mi))
+			{
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! even if chamber is not empty
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				return FAIL;
+				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+				return FAIL;
+			}
+			else
+			{
+				//! If this is a gun with attached mag and we are not in combat, reload when mag is empty
+				//! even if chamber is not empty
+				Magazine currentMag = weapon.GetMagazine(mi);
+				if (currentMag)
+				{
+					int ammoCount = currentMag.GetAmmoCount();
+					//! Don't reload if attached mag is still at capacity
+					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					return FAIL;
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					//! Don't swap magazine if attached mag is not empty
+					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					return FAIL;
+				}
+				else
+				{
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					if (magazine.IsAmmoPile())
+					return FAIL;
+				}
+			}
+		}
+		if (unit.GetWeaponManager().CanUnjam(weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
 		if (!unit.GetActionManager() || unit.GetActionManager().GetRunningAction()) return FAIL;
+		dst.sub_fsm.weapon = weapon;
+		dst.sub_fsm.magazine = magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1856,13 +1768,55 @@ class Expansion_Master_Fighting_Weapon_Reloading_Transition_0: eAITransition {
 		if (unit.IsRestrained()) return FAIL;
 		if (unit.IsUnconscious()) return FAIL;
 		if (unit.IsSwimming()) return FAIL;
-		if (!Class.CastTo(dst.sub_fsm.weapon, unit.GetItemInHands())) return FAIL;
+		Weapon_Base weapon;
+		if (!Class.CastTo(weapon, unit.GetItemInHands())) return FAIL;
 		//! Allow sub-FSM to handle destroyed weapon so it gets dropped
-		if (dst.sub_fsm.weapon.IsDamageDestroyed()) return SUCCESS;
-		if (dst.sub_fsm.weapon.Expansion_IsChambered()) return FAIL;
-		if (unit.GetWeaponManager().CanUnjam(dst.sub_fsm.weapon)) return FAIL;
+		if (weapon.IsDamageDestroyed()) return SUCCESS;
+		Magazine magazine;
+		if (weapon.Expansion_IsChambered())
+		{
+			if (!unit.eAI_IsSafeToFillMag()) return FAIL;
+			int mi = weapon.GetCurrentMuzzle();
+			if (weapon.HasInternalMagazine(mi))
+			{
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! even if chamber is not empty
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				return FAIL;
+				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+				return FAIL;
+			}
+			else
+			{
+				//! If this is a gun with attached mag and we are not in combat, reload when mag is empty
+				//! even if chamber is not empty
+				Magazine currentMag = weapon.GetMagazine(mi);
+				if (currentMag)
+				{
+					int ammoCount = currentMag.GetAmmoCount();
+					//! Don't reload if attached mag is still at capacity
+					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					return FAIL;
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					//! Don't swap magazine if attached mag is not empty
+					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					return FAIL;
+				}
+				else
+				{
+					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
+					return FAIL;
+					if (magazine.IsAmmoPile())
+					return FAIL;
+				}
+			}
+		}
+		if (unit.GetWeaponManager().CanUnjam(weapon)) return FAIL;
 		// don't move to the state if the action manager is operating
 		if (!unit.GetActionManager() || unit.GetActionManager().GetRunningAction()) return FAIL;
+		dst.sub_fsm.weapon = weapon;
+		dst.sub_fsm.magazine = magazine;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -1931,7 +1885,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 				}
 				else if (target.IsZombie())
 				{
-					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_AcuteDangerPlayerTargetCount == 0 && unit.m_eAI_AcuteDangerTargetCount <= 1 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
+					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_SilentAttackViabilityTime > 2.0 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
 					{
 						preferMelee = true;
 						if (!hasMeleeInHands)
@@ -2089,7 +2043,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 				}
 				else if (target.IsZombie())
 				{
-					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_AcuteDangerPlayerTargetCount == 0 && unit.m_eAI_AcuteDangerTargetCount <= 1 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
+					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_SilentAttackViabilityTime > 2.0 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
 					{
 						preferMelee = true;
 						if (!hasMeleeInHands)
@@ -2247,7 +2201,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 				}
 				else if (target.IsZombie())
 				{
-					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_AcuteDangerPlayerTargetCount == 0 && unit.m_eAI_AcuteDangerTargetCount <= 1 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
+					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_SilentAttackViabilityTime > 2.0 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
 					{
 						preferMelee = true;
 						if (!hasMeleeInHands)
@@ -2405,7 +2359,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 				}
 				else if (target.IsZombie())
 				{
-					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_AcuteDangerPlayerTargetCount == 0 && unit.m_eAI_AcuteDangerTargetCount <= 1 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
+					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_SilentAttackViabilityTime > 2.0 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
 					{
 						preferMelee = true;
 						if (!hasMeleeInHands)
@@ -2563,7 +2517,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 				}
 				else if (target.IsZombie())
 				{
-					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_AcuteDangerPlayerTargetCount == 0 && unit.m_eAI_AcuteDangerTargetCount <= 1 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
+					if ((hasMeleeInHands || (!hands.eAI_IsSilent() && GetGame().GetTime() - dst.requestSwapToMeleeForZombieTime > 60000)) && unit.m_eAI_SilentAttackViabilityTime > 2.0 && unit.eAI_HasLOS() && unit.GetHealth01() > 0.8)
 					{
 						preferMelee = true;
 						if (!hasMeleeInHands)
