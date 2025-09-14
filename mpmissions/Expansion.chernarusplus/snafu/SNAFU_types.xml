@@ -16,10 +16,40 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AKTrijicon_Docter">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>4</min>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFU_MTrijicon_Docter">
+        <nominal>5</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFU_Trijicon_Docter">
+        <nominal>3</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
