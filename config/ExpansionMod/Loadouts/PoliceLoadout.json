@@ -761,7 +761,7 @@
     "Sets": [
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1079,7 +1079,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1349,7 +1349,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.5,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1427,7 +1427,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.70,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1505,7 +1505,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.70,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0

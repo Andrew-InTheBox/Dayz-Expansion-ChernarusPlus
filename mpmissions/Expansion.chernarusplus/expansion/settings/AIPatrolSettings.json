@@ -2585,6 +2585,164 @@
                     13951.7998046875
                 ]
             ]
+        },
+        {
+            "Name": "MB-Tisy-III",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 15.0,
+            "Loadout": "WestLoadout",
+            "Units": [],
+            "NumberOfAI": 3,
+            "Behaviour": "ALTERNATE",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    1431.28,
+                    446.177,
+                    13643.7
+                ],
+                [
+                    1455.17,
+                    441.332,
+                    13595.7
+                ],
+                [
+                    1471.68,
+                    441.048,
+                    13613
+                ],
+                [
+                    1482.82,
+                    438.965,
+                    13560.8
+                ],
+                [
+                    1480.94,
+                    438.853,
+                    13550.8
+                ],
+                [
+                    1439.96,
+                    443.827,
+                    13567.1
+                ],
+                [
+                    1386.31,
+                    447.876,
+                    13630.3
+                ],
+                [
+                    1429.82,
+                    446.836,
+                    13676.6
+                ],
+                [
+                    1472.5,
+                    447.59,
+                    13716.5
+                ]
+            ]
+        },
+        {
+            "Name": "Druzhba-Camp",
+            "Persist": 0,
+            "Faction": "East",
+            "Formation": "RANDOM",
+            "FormationScale": -1.0,
+            "FormationLooseness": 15.0,
+            "Loadout": "BanditLoadout",
+            "Units": [],
+            "NumberOfAI": 1,
+            "Behaviour": "LOOP",
+            "LootingBehaviour": "DEFAULT",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "JOG",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 4,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "NoiseInvestigationDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "DamageReceivedMultiplier": -1.0,
+            "CanBeTriggeredByAI": 0,
+            "MinDistRadius": -1.0,
+            "MaxDistRadius": -1.0,
+            "DespawnRadius": -1.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "DespawnTime": -1.0,
+            "RespawnTime": -1.0,
+            "LoadBalancingCategory": "",
+            "ObjectClassName": "",
+            "WaypointInterpolation": "",
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    11452,
+                    167.771,
+                    10688.1
+                ],
+                [
+                    11419,
+                    159.958,
+                    10669
+                ],
+                [
+                    11409.8,
+                    157.797,
+                    10621.7
+                ],
+                [
+                    11420.1,
+                    147.774,
+                    10564.7
+                ],
+                [
+                    11475.1,
+                    155.257,
+                    10589.8
+                ],
+                [
+                    11558.7,
+                    159.414,
+                    10675.1
+                ],
+                [
+                    11529,
+                    166.404,
+                    10687.8
+                ]
+            ]
         }
     ]
 }

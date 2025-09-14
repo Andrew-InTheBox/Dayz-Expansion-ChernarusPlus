@@ -1495,9 +1495,9 @@ class Expansion_Master_Idle_Weapon_Reloading_Transition_0: eAITransition {
 			int mi = weapon.GetCurrentMuzzle();
 			if (weapon.HasInternalMagazine(mi))
 			{
-				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is below 60% capacity
 				//! even if chamber is not empty
-				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) * 0.6)
 				return FAIL;
 				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 				return FAIL;
@@ -1510,13 +1510,13 @@ class Expansion_Master_Idle_Weapon_Reloading_Transition_0: eAITransition {
 				if (currentMag)
 				{
 					int ammoCount = currentMag.GetAmmoCount();
-					//! Don't reload if attached mag is still at capacity
-					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					//! Don't reload if attached mag is still at 40% capacity or higher
+					if (ammoCount >= currentMag.GetAmmoMax() * 0.4)
 					return FAIL;
 					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 					return FAIL;
-					//! Don't swap magazine if attached mag is not empty
-					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					//! Don't swap magazine if attached mag is not empty and not unlimited reload
+					if (!magazine.IsAmmoPile() && ammoCount > 0 && !unit.eAI_IsTargetUnlimitedReload())
 					return FAIL;
 				}
 				else
@@ -1566,9 +1566,9 @@ class Expansion_Master_TraversingWaypoints_Weapon_Reloading_Transition_0: eAITra
 			int mi = weapon.GetCurrentMuzzle();
 			if (weapon.HasInternalMagazine(mi))
 			{
-				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is below 60% capacity
 				//! even if chamber is not empty
-				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) * 0.6)
 				return FAIL;
 				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 				return FAIL;
@@ -1581,13 +1581,13 @@ class Expansion_Master_TraversingWaypoints_Weapon_Reloading_Transition_0: eAITra
 				if (currentMag)
 				{
 					int ammoCount = currentMag.GetAmmoCount();
-					//! Don't reload if attached mag is still at capacity
-					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					//! Don't reload if attached mag is still at 40% capacity or higher
+					if (ammoCount >= currentMag.GetAmmoMax() * 0.4)
 					return FAIL;
 					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 					return FAIL;
-					//! Don't swap magazine if attached mag is not empty
-					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					//! Don't swap magazine if attached mag is not empty and not unlimited reload
+					if (!magazine.IsAmmoPile() && ammoCount > 0 && !unit.eAI_IsTargetUnlimitedReload())
 					return FAIL;
 				}
 				else
@@ -1637,9 +1637,9 @@ class Expansion_Master_FollowFormation_Weapon_Reloading_Transition_0: eAITransit
 			int mi = weapon.GetCurrentMuzzle();
 			if (weapon.HasInternalMagazine(mi))
 			{
-				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is below 60% capacity
 				//! even if chamber is not empty
-				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) * 0.6)
 				return FAIL;
 				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 				return FAIL;
@@ -1652,13 +1652,13 @@ class Expansion_Master_FollowFormation_Weapon_Reloading_Transition_0: eAITransit
 				if (currentMag)
 				{
 					int ammoCount = currentMag.GetAmmoCount();
-					//! Don't reload if attached mag is still at capacity
-					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					//! Don't reload if attached mag is still at 40% capacity or higher
+					if (ammoCount >= currentMag.GetAmmoMax() * 0.4)
 					return FAIL;
 					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 					return FAIL;
-					//! Don't swap magazine if attached mag is not empty
-					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					//! Don't swap magazine if attached mag is not empty and not unlimited reload
+					if (!magazine.IsAmmoPile() && ammoCount > 0 && !unit.eAI_IsTargetUnlimitedReload())
 					return FAIL;
 				}
 				else
@@ -1708,9 +1708,9 @@ class Expansion_Master_Flank_Weapon_Reloading_Transition_0: eAITransition {
 			int mi = weapon.GetCurrentMuzzle();
 			if (weapon.HasInternalMagazine(mi))
 			{
-				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is below 60% capacity
 				//! even if chamber is not empty
-				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) * 0.6)
 				return FAIL;
 				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 				return FAIL;
@@ -1723,13 +1723,13 @@ class Expansion_Master_Flank_Weapon_Reloading_Transition_0: eAITransition {
 				if (currentMag)
 				{
 					int ammoCount = currentMag.GetAmmoCount();
-					//! Don't reload if attached mag is still at capacity
-					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					//! Don't reload if attached mag is still at 40% capacity or higher
+					if (ammoCount >= currentMag.GetAmmoMax() * 0.4)
 					return FAIL;
 					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 					return FAIL;
-					//! Don't swap magazine if attached mag is not empty
-					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					//! Don't swap magazine if attached mag is not empty and not unlimited reload
+					if (!magazine.IsAmmoPile() && ammoCount > 0 && !unit.eAI_IsTargetUnlimitedReload())
 					return FAIL;
 				}
 				else
@@ -1779,9 +1779,9 @@ class Expansion_Master_Fighting_Weapon_Reloading_Transition_0: eAITransition {
 			int mi = weapon.GetCurrentMuzzle();
 			if (weapon.HasInternalMagazine(mi))
 			{
-				//! If this is a gun with internal mag and we are not in combat, reload when mag is not at capacity
+				//! If this is a gun with internal mag and we are not in combat, reload when mag is below 60% capacity
 				//! even if chamber is not empty
-				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) - 1)
+				if (weapon.GetInternalMagazineCartridgeCount(mi) >= weapon.GetInternalMagazineMaxCartridgeCount(mi) * 0.6)
 				return FAIL;
 				if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 				return FAIL;
@@ -1794,13 +1794,13 @@ class Expansion_Master_Fighting_Weapon_Reloading_Transition_0: eAITransition {
 				if (currentMag)
 				{
 					int ammoCount = currentMag.GetAmmoCount();
-					//! Don't reload if attached mag is still at capacity
-					if (ammoCount >= currentMag.GetAmmoMax() - 1)
+					//! Don't reload if attached mag is still at 40% capacity or higher
+					if (ammoCount >= currentMag.GetAmmoMax() * 0.4)
 					return FAIL;
 					if (!unit.eAI_HasAmmoForFirearm(weapon, magazine))
 					return FAIL;
-					//! Don't swap magazine if attached mag is not empty
-					if (!magazine.IsAmmoPile() && ammoCount > 0)
+					//! Don't swap magazine if attached mag is not empty and not unlimited reload
+					if (!magazine.IsAmmoPile() && ammoCount > 0 && !unit.eAI_IsTargetUnlimitedReload())
 					return FAIL;
 				}
 				else
@@ -1856,6 +1856,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 				dst.item = unit.GetBandageToUse();
 				if (dst.item)
 				{
+					dst.allowDrop = true;
 					return SUCCESS;
 				}
 			}
@@ -1927,6 +1928,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 						return FAIL;
 					}
 					dst.item = item;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
 				}
@@ -1936,6 +1938,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 				if (target.GetDistanceSq(true) <= 4.0 && target.GetThreat() > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
@@ -1956,6 +1959,7 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 					return FAIL;
 				}
 				dst.item = item;
+				dst.allowDrop = true;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
@@ -1971,8 +1975,11 @@ class Expansion_Master_Idle_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
 				return FAIL;
+				if (preferMelee && unit.eAI_GetThreatOverride(item))
+				return FAIL;
 			}
 			dst.item = item;
+			dst.allowDrop = !preferMelee;
 			return SUCCESS;
 		}
 		return FAIL;
@@ -2014,6 +2021,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 				dst.item = unit.GetBandageToUse();
 				if (dst.item)
 				{
+					dst.allowDrop = true;
 					return SUCCESS;
 				}
 			}
@@ -2085,6 +2093,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 						return FAIL;
 					}
 					dst.item = item;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
 				}
@@ -2094,6 +2103,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 				if (target.GetDistanceSq(true) <= 4.0 && target.GetThreat() > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
@@ -2114,6 +2124,7 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 					return FAIL;
 				}
 				dst.item = item;
+				dst.allowDrop = true;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
@@ -2129,8 +2140,11 @@ class Expansion_Master_Flank_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
 				return FAIL;
+				if (preferMelee && unit.eAI_GetThreatOverride(item))
+				return FAIL;
 			}
 			dst.item = item;
+			dst.allowDrop = !preferMelee;
 			return SUCCESS;
 		}
 		return FAIL;
@@ -2172,6 +2186,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 				dst.item = unit.GetBandageToUse();
 				if (dst.item)
 				{
+					dst.allowDrop = true;
 					return SUCCESS;
 				}
 			}
@@ -2243,6 +2258,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 						return FAIL;
 					}
 					dst.item = item;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
 				}
@@ -2252,6 +2268,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 				if (target.GetDistanceSq(true) <= 4.0 && target.GetThreat() > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
@@ -2272,6 +2289,7 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 					return FAIL;
 				}
 				dst.item = item;
+				dst.allowDrop = true;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
@@ -2287,8 +2305,11 @@ class Expansion_Master_Fighting_TakeItemToHands_Transition_0: eAITransition {
 			{
 				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
 				return FAIL;
+				if (preferMelee && unit.eAI_GetThreatOverride(item))
+				return FAIL;
 			}
 			dst.item = item;
+			dst.allowDrop = !preferMelee;
 			return SUCCESS;
 		}
 		return FAIL;
@@ -2330,6 +2351,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 				dst.item = unit.GetBandageToUse();
 				if (dst.item)
 				{
+					dst.allowDrop = true;
 					return SUCCESS;
 				}
 			}
@@ -2401,6 +2423,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 						return FAIL;
 					}
 					dst.item = item;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
 				}
@@ -2410,6 +2433,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 				if (target.GetDistanceSq(true) <= 4.0 && target.GetThreat() > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
@@ -2430,6 +2454,7 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 					return FAIL;
 				}
 				dst.item = item;
+				dst.allowDrop = true;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
@@ -2445,8 +2470,11 @@ class Expansion_Master_TraversingWaypoints_TakeItemToHands_Transition_0: eAITran
 			{
 				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
 				return FAIL;
+				if (preferMelee && unit.eAI_GetThreatOverride(item))
+				return FAIL;
 			}
 			dst.item = item;
+			dst.allowDrop = !preferMelee;
 			return SUCCESS;
 		}
 		return FAIL;
@@ -2488,6 +2516,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 				dst.item = unit.GetBandageToUse();
 				if (dst.item)
 				{
+					dst.allowDrop = true;
 					return SUCCESS;
 				}
 			}
@@ -2559,6 +2588,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 						return FAIL;
 					}
 					dst.item = item;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee or target and weapon to use is not current hand item or better than " + hands);
 					return SUCCESS;
 				}
@@ -2568,6 +2598,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 				if (target.GetDistanceSq(true) <= 4.0 && target.GetThreat() > 0.1 && !unit.eAI_IsItemObstructed(targetItem))
 				{
 					dst.item = targetItem;
+					dst.allowDrop = true;
 					EXTrace.Print(EXTrace.AI, unit, "Taking target " + targetItem + " to hands because not prefering melee but prefering target over " + hands);
 					return SUCCESS;
 				}
@@ -2588,6 +2619,7 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 					return FAIL;
 				}
 				dst.item = item;
+				dst.allowDrop = true;
 				EXTrace.Print(EXTrace.AI, unit, "Taking " + item + " to hands because not prefering melee and weapon to use is not current hand item or better than " + hands);
 				return SUCCESS;
 			}
@@ -2603,8 +2635,11 @@ class Expansion_Master_FollowFormation_TakeItemToHands_Transition_0: eAITransiti
 			{
 				if (item == hands || item.Expansion_GetHierarchyRootItem() == hands)
 				return FAIL;
+				if (preferMelee && unit.eAI_GetThreatOverride(item))
+				return FAIL;
 			}
 			dst.item = item;
+			dst.allowDrop = !preferMelee;
 			return SUCCESS;
 		}
 		return FAIL;
