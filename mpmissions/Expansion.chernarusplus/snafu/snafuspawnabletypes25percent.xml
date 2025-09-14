@@ -1,4 +1,6 @@
-			<!-- Spawnable Types for Snafu - Created by Dirk -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>		
+<!-- Spawnable Types for Snafu - Created by Dirk -->
 	<type name="SNAFUAPS">
 		<attachments chance="0.25">
 			<item name="PistolSuppressor" chance="1.00" />
@@ -48,4 +50,4 @@
 			<item name="SNAFU_PMAG556_Black" chance="0.50" />
 			<item name="SNAFU_CMAG30556_Black" chance="1.0" />
 		</attachments>
-	</type>
+</spawnabletypes>
