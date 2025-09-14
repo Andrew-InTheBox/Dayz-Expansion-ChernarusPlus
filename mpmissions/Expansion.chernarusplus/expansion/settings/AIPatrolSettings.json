@@ -2118,7 +2118,7 @@
             "FormationLooseness": 10.0,
             "Loadout": "GorkaLoadout",
             "Units": [],
-            "NumberOfAI": 2,
+            "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
             "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",
