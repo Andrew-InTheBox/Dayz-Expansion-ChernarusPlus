@@ -46,7 +46,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<!-- snafu -->
 	<ce folder="snafu">
 		<file name="SNAFU_types.xml" type="types" />
-		<file name="snafuspawnabletypes25percent.xml" type="spawnabletypes" />
+		<file name="snafuspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 	
 </economycore>

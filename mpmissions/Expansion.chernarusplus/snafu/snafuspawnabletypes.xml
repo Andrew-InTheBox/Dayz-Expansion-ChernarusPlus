@@ -50,4 +50,5 @@
 			<item name="SNAFU_PMAG556_Black" chance="0.50" />
 			<item name="SNAFU_CMAG30556_Black" chance="1.0" />
 		</attachments>
+	</type>
 </spawnabletypes>
