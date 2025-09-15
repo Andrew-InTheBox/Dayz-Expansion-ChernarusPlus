@@ -46,9 +46,14 @@
 		<attachments chance="1.00">
 			<item name="SNAFU_FGCR_Grip" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="SNAFU_PMAG556_Black" chance="0.50" />
-			<item name="SNAFU_CMAG30556_Black" chance="1.0" />
+		<attachments chance="0.40">
+			<item name="SNAFU_PMAG556_Black" chance="0.33" />
+			<item name="SNAFU_CMAG30556_Black" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="SNAFU_AWM_Gun">
+		<attachments chance="0.33">
+			<item name="SNAFU_AWM_Mag" chance="1.00" />
 		</attachments>
 	</type>
 </spawnabletypes>

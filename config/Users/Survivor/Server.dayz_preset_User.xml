@@ -1002,6 +1002,15 @@
             <btn name="kN" />
         </btn>
     </input>
+    <input name="UAExpansionPlayerListToggle">
+        <btn name="kPause" />
+    </input>
+    <input name="UAExpansionEarplugsToggle">
+        <btn name="kP" />
+    </input>
+    <input name="UAExpansionAutoRunToggle">
+        <btn name="kZ" />
+    </input>
     <input name="eAICommandMenu">
         <btn name="kT" />
     </input>
