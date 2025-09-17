@@ -31,21 +31,6 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_MTrijicon_Docter">
-        <nominal>5</nominal>
-        <restock>1800</restock>
-        <lifetime>7200</lifetime>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="SNAFU_Trijicon_Docter">
         <nominal>3</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
@@ -60,27 +45,41 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="SNAFU_Ammo_45_70mm">
-        <nominal>65</nominal>
+    <type name="SNAFU_Trijicon_Docter">
+        <nominal>5</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>60</min>
-        <quantmin>10</quantmin>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFU_Ammo_45_70mm">
+        <nominal>80</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>75</min>
+        <quantmin>20</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
         <usage name="Village"/>
-        <usage name="Town"/>
     </type>
     <type name="SNAFU_Ammo_500_SW">
         <nominal>65</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>60</min>
-        <quantmin>15</quantmin>
-        <quantmax>55</quantmax>
+        <quantmin>20</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
