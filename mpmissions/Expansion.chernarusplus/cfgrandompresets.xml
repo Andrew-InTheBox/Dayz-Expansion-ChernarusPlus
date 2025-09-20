@@ -455,7 +455,7 @@
 				<item name="PoliceCap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
-				<item name="PoliceVest" chance="1.00" />
+				<item name="PoliceVest" chance="0.25" />
 		</attachments>
 		
 		<!--PRISONER ATTACHMENTS-->

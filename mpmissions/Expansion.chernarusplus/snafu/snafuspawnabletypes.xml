@@ -34,8 +34,8 @@
 			<item name="SNAFU_MK15" chance="1.00" />
 		</attachments>
 		<attachments chance="0.25">
-			<item name="SNAFU_Trijicon_Docter" chance="0.06" />
-			<item name="SNAFU_Tango6T_Black" chance="0.06" />
+			<item name="SNAFU_Trijicon_Docter" chance="0.20" />
+			<item name="SNAFU_Tango6T_Black" chance="0.20" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
