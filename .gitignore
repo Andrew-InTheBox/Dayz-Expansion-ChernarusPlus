@@ -1,4 +1,8 @@
 /@*/
+_@*/
+.env
+config/DataCache/cache.ch
+dayz.gproj
 *.exe
 *.RPT
 *.ADM
@@ -8,6 +12,7 @@
 *.pbo
 *.bin
 *.vdf
+*.mdmp
 *.ebo
 /battlefield
 /bliss
@@ -17,3 +22,11 @@
 /mpmissions/Expansion.chernarusplus/storage_1/
 /appcache
 /logs
+sakhal/addons/
+/battleye
+.continueignore
+.vscode/
+__pycache__/
+.mypy_cache/
+/tmp
+config/ExpansionMod/Settings/SocialMediaSettings.json
