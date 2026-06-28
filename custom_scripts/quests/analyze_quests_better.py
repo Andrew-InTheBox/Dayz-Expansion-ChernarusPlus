@@ -2,8 +2,8 @@ import os
 import json
 import glob
 
-# Get the path to the parent directory of custom_scripts
-base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Get the repo root from custom_scripts/quests.
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Function to create the correct path
 def get_config_path(*args):
@@ -90,7 +90,9 @@ def analyze_quests():
         report.append("\n")  # Add a blank line between quests
     
     # Write report to file
-    with open(os.path.join(base_path, 'custom_scripts', 'quest_analysis_report.txt'), 'w') as f:
+    output_path = os.path.join(base_path, 'custom_scripts', 'quests', 'output', 'quest_analysis_report.txt')
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w') as f:
         f.write('\n'.join(report))
 
 
