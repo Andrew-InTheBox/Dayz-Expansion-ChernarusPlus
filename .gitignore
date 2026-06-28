@@ -28,5 +28,7 @@ sakhal/addons/
 .vscode/
 __pycache__/
 .mypy_cache/
+custom_scripts/*/output/*
+!custom_scripts/*/output/.gitkeep
 /tmp
 config/ExpansionMod/Settings/SocialMediaSettings.json
