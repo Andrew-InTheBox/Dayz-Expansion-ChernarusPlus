@@ -1,5 +1,5 @@
 {
-	"version": 122,
+	"version": 123,
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
@@ -9,14 +9,14 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": false,
+		"disablePersonalLight": true,
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
-			"staminaKgToStaminaPercentPenalty": 1.45,
+			"staminaKgToStaminaPercentPenalty": 1.75,
 			"staminaMinCap": 5.0,
 			"sprintSwimmingStaminaModifier": 1.0,
 			"sprintLadderStaminaModifier": 1.0,
@@ -44,14 +44,19 @@
 			"staminaDepletionSpeed": 10.0,
 			"healthDepletionSpeed": 10.0,
 			"shockDepletionSpeed": 10.0
+		},
+		"WeaponObstructionData":
+		{
+			"staticMode": 1,
+			"dynamicMode": 1
 		}
 	},
 	"WorldsData":
 	{
-		"lightingConfig": 1,
+		"lightingConfig": 0,
 		"objectSpawnersArr": [],
-		"environmentMinTemps": [-3.0, -2.0, 0.0, 4.0, 9.0, 14.0, 18.0, 17.0, 12.0, 7.0, 4.0, 0.0],
-		"environmentMaxTemps": [3.0, 5.0, 7.0, 14.0, 19.0, 24.0, 26.0, 25.0, 21.0, 16.0, 10.0, 5.0],
+		"environmentMinTemps": [-6, -4, -1, 1, 5, 11, 15, 14, 12, 9, 5, 1],
+		"environmentMaxTemps": [0, 2, 4, 11, 16, 20, 22, 21, 15, 11, 6, 2],
 		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0]
 	},
 	"BaseBuildingData":
@@ -68,6 +73,7 @@
 			"disableHeightPlacementCheck": false,
 			"disableIsUnderwaterCheck": false,
 			"disableIsInTerrainCheck": false,
+			"disableColdAreaBuildingCheck": false,
 			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
 		"ConstructionData":
@@ -98,5 +104,9 @@
 		"ignoreNavItemsOwnership": false,
 		"displayPlayerPosition": false,
 		"displayNavInfo": true
+	},
+	"VehicleData":
+	{
+		"boatDecayMultiplier": 1
 	}
 }

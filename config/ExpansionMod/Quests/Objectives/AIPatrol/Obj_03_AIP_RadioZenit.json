@@ -1,54 +1,22 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 3,
     "ObjectiveType": 7,
     "ObjectiveText": "Clean out the radio tower yard",
     "TimeLimit": -1,
     "Active": 1,
+    "MaxDistance": 300.0,
+    "MinDistance": 0.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": [],
     "AISpawn": {
-        "NumberOfAI": 4,
-        "NPCName": "Quest Target",
-        "Waypoints": [
-            [
-                8060.54,
-                458.862,
-                9320.52
-            ],
-            [
-                8061.1,
-                457.719,
-                9347.98
-            ],
-            [
-                8085.14,
-                455.423,
-                9369.19
-            ],
-            [
-                8108.37,
-                456.088,
-                9351.37
-            ],
-            [
-                8121.84,
-                457.994,
-                9318.2
-            ]
-        ],
-        "Behaviour": 2,
-        "Formation": "WEDGE",
-        "Loadout": "AK101-Human",
+        "Name": "Quest Target",
+        "Persist": 0,
         "Faction": "West",
-        "Speed": 1.5,
-        "ThreatSpeed": 3.0,
-        "MinAccuracy": 0.4000000059604645,
-        "MaxAccuracy": 0.70,
-        "CanBeLooted": 1,
-        "UnlimitedReload": 1,
-        "ThreatDistanceLimit": 200.0,
-        "DamageMultiplier": 1.0,
-        "DamageReceivedMultiplier": 1.2,
-        "ClassNames": [
+        "Formation": "WEDGE",
+        "FormationLooseness": 0.0,
+        "Loadout": "AK101-Human",
+        "Units": [
             "eAI_SurvivorF_Eva",
             "eAI_SurvivorF_Frida",
             "eAI_SurvivorF_Gabi",
@@ -81,15 +49,55 @@
             "eAI_SurvivorM_Seth",
             "eAI_SurvivorM_Taiki"
         ],
+        "NumberOfAI": 4,
+        "Behaviour": "ALTERNATE",
+        "Speed": "WALK",
+        "UnderThreatSpeed": "SPRINT",
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
         "SniperProneDistanceThreshold": 300.0,
-        "RespawnTime": 1.0,
+        "AccuracyMin": 0.4000000059604645,
+        "AccuracyMax": 0.699999988079071,
+        "ThreatDistanceLimit": 200.0,
+        "NoiseInvestigationDistanceLimit": -1.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.2000000476837159,
+        "MinDistRadius": 10.0,
+        "MaxDistRadius": 300.0,
+        "DespawnRadius": 600.0,
+        "MinSpreadRadius": 0.0,
+        "MaxSpreadRadius": 0.0,
+        "Chance": 1.0,
+        "WaypointInterpolation": "",
         "DespawnTime": 1.0,
-        "MinDistanceRadius": 10.0,
-        "MaxDistanceRadius": 300.0,
-        "DespawnRadius": 600.0
-    },
-    "MaxDistance": 300.0,
-    "MinDistance": 0.0,
-    "AllowedWeapons": [],
-    "AllowedDamageZones": []
+        "RespawnTime": 1.0,
+        "UseRandomWaypointAsStartPoint": 1,
+        "Waypoints": [
+            [
+                8060.5400390625,
+                458.86199951171877,
+                9320.51953125
+            ],
+            [
+                8061.10009765625,
+                457.718994140625,
+                9347.98046875
+            ],
+            [
+                8085.14013671875,
+                455.4230041503906,
+                9369.1904296875
+            ],
+            [
+                8108.3701171875,
+                456.0880126953125,
+                9351.3701171875
+            ],
+            [
+                8121.83984375,
+                457.9939880371094,
+                9318.2001953125
+            ]
+        ]
+    }
 }

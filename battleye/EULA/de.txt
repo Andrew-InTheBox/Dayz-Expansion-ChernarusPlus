@@ -1,0 +1,33 @@
+****** Endbenutzer-Lizenzvertrag ******
+
+
+Diese Lizenzvereinbarung ("Vereinbarung") wird zwischen Ihnen (dem "Lizenznehmer") und BattlEye Innovations e.K. (dem "Lizenzgeber") geschlossen. Die Bedingungen dieses Vertrages gelten für alle aktuellen und zukünftigen Versionen und Updates der Anti-Cheat-Software BattlEye ("BattlEye").
+
+
+Durch die Installation, Aktivierung oder Nutzung von BattlEye erklärt sich der Lizenznehmer mit allen Bestimmungen dieses Vertrages einverstanden. Der Lizenzgeber behält sich alle Rechte vor, die nicht ausdrücklich gewährt und an den Lizenznehmer übertragen wurden.
+
+
+Der Lizenznehmer versteht, anerkennt und stimmt dem Folgenden zu:
+
+- Der Lizenzgeber gewährt dem Lizenznehmer eine nicht-exklusive und nicht-übertragbare Lizenz zur Nutzung von BattlEye ausschließlich für nicht-kommerzielle Zwecke. Der Lizenznehmer ist daher nicht Eigentümer von BattlEye, der Lizenzgeber bleibt Eigentümer von BattlEye.
+
+- Der Lizenzgeber stellt BattlEye im Ist-Zustand ohne jegliche Garantie zur Verfügung. Der Lizenzgeber garantiert weder das korrekte, fehlerfreie Funktionieren von BattlEye noch ist er für Schäden verantwortlich, die durch die Verwendung von BattlEye entstehen.
+
+- Der Lizenznehmer darf BattlEye in keiner Weise dekompilieren, disassemblieren, zurückentwickeln, modifizieren oder weiterverteilen.
+
+- BattlEye wird von Zeit zu Zeit automatisch, ohne Benachrichtigung des Lizenznehmers, Updates herunterladen und installieren.
+
+- BattlEye ist berechtigt, den gesamten Arbeitsspeicher (RAM) des Lizenznehmers sowie alle spiel- und systembezogenen Dateien und Ordner auf dem System des Lizenznehmers mit Hilfe von Algorithmen zur Erkennung von Cheat-Programmen zu scannen, die Ergebnisse dieser Algorithmen an andere angeschlossene Computer und/oder an den Lizenzgeber zu melden und diese Informationen ausschließlich zu dem Zweck zu speichern, die Verwendung von Cheat-Programmen zu verhindern und zu erkennen. BattlEye scannt und/oder meldet nur Daten, die unbedingt gescannt und/oder gemeldet werden müssen, um diesen Zweck zu erfüllen.
+
+- BattlEye darf darüber hinaus die Internetprotokolladresse des Lizenznehmers, den Namen und die Kennung des Spielkontos, den Spitznamen im Spiel sowie system- und hardwarebezogene Informationen, einschließlich, aber nicht beschränkt auf Gerätekennungen und Hardwareseriennummern, melden und speichern.
+
+- Der Lizenzgeber schätzt die Privatsphäre des Lizenznehmers und tut sein Möglichstes, um sie jederzeit zu schützen. BattlEye meldet keine persönlich identifizierbaren Informationen oder persönlichen Daten, mit Ausnahme der hier ausdrücklich genannten Informationen/Daten.
+
+- Der Lizenzgeber speichert alle von BattlEye gesammelten Informationen auf Servern, die sich in Europa und/oder in den USA befinden. Der Lizenzgeber kann die Informationen mit seinen Partnern und/oder verbundenen Unternehmen teilen.
+
+- Der Lizenznehmer erkennt an, dass die invasive Natur von BattlEye notwendig ist, um den Zweck und das Ziel der Verhinderung und Erkennung von Cheat-Programmen zu erreichen.
+
+- Der Lizenzgeber ist berechtigt, die Lizenz jederzeit ohne Angabe von Gründen und ohne Benachrichtigung des Lizenznehmers zu kündigen.
+
+
+Diese Lizenzvereinbarung stellt die gesamte Vereinbarung zwischen dem Lizenzgeber und dem Lizenznehmer dar und ersetzt alle früheren Erklärungen.

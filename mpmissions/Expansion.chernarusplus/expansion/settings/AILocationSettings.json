@@ -1,0 +1,2560 @@
+{
+    "m_Version": 2,
+    "RoamingLocations": [
+        {
+            "Name": "Settlement_Chernogorsk",
+            "Position": [
+                6778.619140625,
+                0.0,
+                2321.77392578125
+            ],
+            "Radius": 1000.0,
+            "Type": "Capital",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Novodmitrovsk",
+            "Position": [
+                11339.76953125,
+                0.0,
+                14391.0498046875
+            ],
+            "Radius": 1000.0,
+            "Type": "Capital",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Novoselki",
+            "Position": [
+                6115.91015625,
+                0.0,
+                3256.360107421875
+            ],
+            "Radius": 200.0,
+            "Type": "Suburb",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Dubovo",
+            "Position": [
+                6754.509765625,
+                0.0,
+                3595.257080078125
+            ],
+            "Radius": 200.0,
+            "Type": "Suburb",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Vysotovo",
+            "Position": [
+                5701.240234375,
+                0.0,
+                2556.110107421875
+            ],
+            "Radius": 200.0,
+            "Type": "Suburb",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Zelenogorsk",
+            "Position": [
+                2796.0,
+                0.0,
+                5166.0
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Berezino",
+            "Position": [
+                12372.3828125,
+                0.0,
+                9760.9814453125
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Elektrozavodsk",
+            "Position": [
+                10286.6796875,
+                0.0,
+                1992.77001953125
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_NovayaPetrovka (Novaya Petrovka)",
+            "Position": [
+                3477.1689453125,
+                0.0,
+                12931.2431640625
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Gorka",
+            "Position": [
+                9524.0,
+                0.0,
+                8945.0
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Solnechny",
+            "Position": [
+                13487.7236328125,
+                0.0,
+                6225.8837890625
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_StarySobor (Stary Sobor)",
+            "Position": [
+                6114.0,
+                0.0,
+                7849.0
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Vybor",
+            "Position": [
+                3909.8310546875,
+                0.0,
+                9019.6142578125
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Severograd",
+            "Position": [
+                8168.48388671875,
+                0.0,
+                12573.6015625
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Bor",
+            "Position": [
+                3316.406005859375,
+                0.0,
+                4070.966064453125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Svetloyarsk",
+            "Position": [
+                13989.740234375,
+                0.0,
+                13263.7802734375
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Krasnostav",
+            "Position": [
+                11203.1669921875,
+                0.0,
+                12340.8076171875
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_ChernayaPolyana (Chernaya Polyana)",
+            "Position": [
+                12158.5400390625,
+                0.0,
+                13770.2197265625
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Polyana",
+            "Position": [
+                10794.0,
+                0.0,
+                8160.0
+            ],
+            "Radius": 500.0,
+            "Type": "City",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Tulga",
+            "Position": [
+                12768.0,
+                0.0,
+                4384.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Msta",
+            "Position": [
+                11333.7900390625,
+                0.0,
+                5421.39990234375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Staroye",
+            "Position": [
+                10212.51953125,
+                0.0,
+                5385.0498046875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Shakhovka",
+            "Position": [
+                9728.6396484375,
+                0.0,
+                6567.2998046875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Dolina",
+            "Position": [
+                11285.169921875,
+                0.0,
+                6633.580078125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Orlovets",
+            "Position": [
+                12250.0,
+                0.0,
+                7253.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_NovySobor (Novy Sobor)",
+            "Position": [
+                7123.6298828125,
+                0.0,
+                7774.6298828125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kabanino",
+            "Position": [
+                5300.7099609375,
+                0.0,
+                8645.900390625
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Mogilevka",
+            "Position": [
+                7650.41015625,
+                0.0,
+                5096.4599609375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Nadezhdino",
+            "Position": [
+                5894.0,
+                0.0,
+                4780.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Guglovo",
+            "Position": [
+                8445.0,
+                0.0,
+                6579.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kamyshovo",
+            "Position": [
+                12170.0,
+                0.0,
+                3458.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Pusta",
+            "Position": [
+                9197.0,
+                0.0,
+                3873.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Dubrovka",
+            "Position": [
+                10324.298828125,
+                0.0,
+                9888.2373046875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_VyshnayaDubrovka (Vyshnaya Dubrovka)",
+            "Position": [
+                9926.8232421875,
+                0.0,
+                10468.9189453125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Khelm",
+            "Position": [
+                12329.26953125,
+                0.0,
+                10771.009765625
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Olsha",
+            "Position": [
+                13402.0,
+                0.0,
+                12898.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Gvozdno",
+            "Position": [
+                8644.7509765625,
+                0.0,
+                11934.115234375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Grishino",
+            "Position": [
+                5980.0,
+                0.0,
+                10257.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Rogovo",
+            "Position": [
+                4802.0,
+                0.0,
+                6748.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Pogorevka",
+            "Position": [
+                4445.0,
+                0.0,
+                6322.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Pustoshka",
+            "Position": [
+                3137.944091796875,
+                0.0,
+                7890.9248046875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kozlovka",
+            "Position": [
+                4402.0,
+                0.0,
+                4736.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Karmanovka",
+            "Position": [
+                12700.6279296875,
+                0.0,
+                14691.3115234375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Balota",
+            "Position": [
+                4527.580078125,
+                0.0,
+                2465.320068359375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Komarovo",
+            "Position": [
+                3702.0,
+                0.0,
+                2440.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kamenka",
+            "Position": [
+                1981.0,
+                0.0,
+                2207.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Myshkino",
+            "Position": [
+                2048.0,
+                0.0,
+                7258.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Pavlovo",
+            "Position": [
+                1693.97998046875,
+                0.0,
+                3858.64990234375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Lopatino",
+            "Position": [
+                2801.0,
+                0.0,
+                10029.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Vyshnoye",
+            "Position": [
+                6629.0,
+                0.0,
+                6051.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Prigorodki",
+            "Position": [
+                7760.0,
+                0.0,
+                3336.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Drozhino",
+            "Position": [
+                3374.0,
+                0.0,
+                4861.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Sosnovka",
+            "Position": [
+                2556.0,
+                0.0,
+                6307.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Nizhneye",
+            "Position": [
+                12824.8798828125,
+                0.0,
+                8097.7001953125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Pulkovo",
+            "Position": [
+                5015.0,
+                0.0,
+                5607.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Berezhki",
+            "Position": [
+                15020.0,
+                0.0,
+                13905.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Turovo",
+            "Position": [
+                13630.0,
+                0.0,
+                14146.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_BelayaPolyana (Belaya Polyana)",
+            "Position": [
+                14166.0,
+                0.0,
+                14968.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Dobroye",
+            "Position": [
+                12996.0,
+                0.0,
+                15066.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Nagornoye",
+            "Position": [
+                9286.0,
+                0.0,
+                14677.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Svergino",
+            "Position": [
+                9493.51953125,
+                0.0,
+                13875.26953125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Ratnoye",
+            "Position": [
+                6195.8779296875,
+                0.0,
+                12761.8017578125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kamensk",
+            "Position": [
+                6748.7412109375,
+                0.0,
+                14430.0458984375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Krasnoye",
+            "Position": [
+                6411.3740234375,
+                0.0,
+                15029.9609375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_StaryYar (Stary Yar)",
+            "Position": [
+                4987.85986328125,
+                0.0,
+                14992.9755859375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Polesovo",
+            "Position": [
+                5955.73681640625,
+                0.0,
+                13558.0458984375
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Tisy",
+            "Position": [
+                3441.64990234375,
+                0.0,
+                14799.5498046875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Topolniki",
+            "Position": [
+                2913.7451171875,
+                0.0,
+                12366.357421875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Zaprudnoye",
+            "Position": [
+                5214.0,
+                0.0,
+                12792.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Sinystok",
+            "Position": [
+                1538.2779541015626,
+                0.0,
+                11904.578125
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Vavilovo",
+            "Position": [
+                2263.0,
+                0.0,
+                11103.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kumyrna",
+            "Position": [
+                8300.0,
+                0.0,
+                6054.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Kalinovka",
+            "Position": [
+                7448.0,
+                0.0,
+                13406.0
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Bogatyrka",
+            "Position": [
+                1453.6199951171876,
+                0.0,
+                8870.919921875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_SvyatoyRomanSkiResort (Svyatoy-Roman Ski Resort)",
+            "Position": [
+                638.0,
+                0.0,
+                11667.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_SKVSChBiathlonArena (SKVSCh Biathlon Arena)",
+            "Position": [
+                357.0,
+                0.0,
+                11142.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Zvir",
+            "Position": [
+                577.3300170898438,
+                0.0,
+                5317.419921875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Zabolotye",
+            "Position": [
+                1256.8590087890626,
+                0.0,
+                9993.259765625
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Galkino",
+            "Position": [
+                1102.6800537109376,
+                0.0,
+                8798.26953125
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Arsenovo",
+            "Position": [
+                8509.6611328125,
+                0.0,
+                13918.6279296875
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Stroytel",
+            "Position": [
+                7017.6298828125,
+                0.0,
+                4365.2099609375
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Romashka",
+            "Position": [
+                8177.60205078125,
+                0.0,
+                10980.2890625
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Kometa",
+            "Position": [
+                10271.697265625,
+                0.0,
+                3558.22802734375
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Druzhba",
+            "Position": [
+                11437.0,
+                0.0,
+                10695.0
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Nadezhda",
+            "Position": [
+                7279.9677734375,
+                0.0,
+                7014.35009765625
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_YouthPioneer (Youth Pioneer)",
+            "Position": [
+                11155.8251953125,
+                0.0,
+                7074.14306640625
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_ProudChernarus (Proud Chernarus)",
+            "Position": [
+                3199.616943359375,
+                0.0,
+                6174.93212890625
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Shkolnik",
+            "Position": [
+                14856.5029296875,
+                0.0,
+                14571.0283203125
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Pobeda",
+            "Position": [
+                3703.382080078125,
+                0.0,
+                14876.3837890625
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Camp_Metalurg",
+            "Position": [
+                1035.406005859375,
+                0.0,
+                6677.3828125
+            ],
+            "Radius": 100.0,
+            "Type": "Camp",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Zelenayagora (Zelenaya gora)",
+            "Position": [
+                3767.169921875,
+                0.0,
+                6010.5400390625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Dichina",
+            "Position": [
+                4618.0,
+                0.0,
+                7821.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Novylug (Novy lug)",
+            "Position": [
+                9251.0,
+                0.0,
+                11360.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Staryeluga (Starye luga)",
+            "Position": [
+                6919.0,
+                0.0,
+                8995.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Vysota",
+            "Position": [
+                6591.6298828125,
+                0.0,
+                3400.0
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Kopyto",
+            "Position": [
+                7871.47900390625,
+                0.0,
+                3869.10205078125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Grubyeskaly (Grubye skaly)",
+            "Position": [
+                13115.0595703125,
+                0.0,
+                11900.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Chernyles (Cherny les)",
+            "Position": [
+                9031.0,
+                0.0,
+                7803.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Altar",
+            "Position": [
+                8143.39990234375,
+                0.0,
+                9159.6796875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_RadioZenit (Radio Zenit)",
+            "Position": [
+                8080.009765625,
+                0.0,
+                9341.6796875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_PikKozlova (Pik Kozlova)",
+            "Position": [
+                8850.169921875,
+                0.0,
+                2880.530029296875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Pustoykhrebet (Pustoy khrebet)",
+            "Position": [
+                10890.0,
+                0.0,
+                5665.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Bashnya",
+            "Position": [
+                4178.27001953125,
+                0.0,
+                11771.2197265625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Veresnik",
+            "Position": [
+                4440.169921875,
+                0.0,
+                8070.5400390625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Kurgan",
+            "Position": [
+                3368.52001953125,
+                0.0,
+                5296.8701171875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Kustryk",
+            "Position": [
+                4912.8798828125,
+                0.0,
+                5063.4501953125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Vetryanayagora (Vetryanaya gora)",
+            "Position": [
+                3892.739990234375,
+                0.0,
+                4200.58984375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Kalmyk",
+            "Position": [
+                6903.77978515625,
+                0.0,
+                4919.66015625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_PopIvan (Pop Ivan)",
+            "Position": [
+                6420.259765625,
+                0.0,
+                6570.66015625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Erbenka",
+            "Position": [
+                2842.916015625,
+                0.0,
+                4014.81103515625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Lesnoykhrebet (Lesnoy khrebet)",
+            "Position": [
+                8122.77001953125,
+                0.0,
+                7815.5400390625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Vysokiykamen (Vysokiy kamen)",
+            "Position": [
+                8940.1904296875,
+                0.0,
+                4380.52001953125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Dobry",
+            "Position": [
+                10552.900390625,
+                0.0,
+                3061.030029296875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Baranchik",
+            "Position": [
+                10153.1474609375,
+                0.0,
+                6208.52099609375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Malinovka",
+            "Position": [
+                10897.7001953125,
+                0.0,
+                7575.58984375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Dubina",
+            "Position": [
+                11107.900390625,
+                0.0,
+                8474.830078125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Klen",
+            "Position": [
+                11473.5107421875,
+                0.0,
+                11315.392578125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Chernayagora (Chernaya gora)",
+            "Position": [
+                10280.81640625,
+                0.0,
+                12053.927734375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Zolotar",
+            "Position": [
+                10179.0,
+                0.0,
+                11998.0
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Ostry",
+            "Position": [
+                10792.7470703125,
+                0.0,
+                12829.50390625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Olsha",
+            "Position": [
+                12975.7001953125,
+                0.0,
+                12775.2001953125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Marine_Rify",
+            "Position": [
+                13931.73046875,
+                0.0,
+                11288.6103515625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Chortovzamok (Chortov zamok)",
+            "Position": [
+                6883.23876953125,
+                0.0,
+                11501.2880859375
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Zub",
+            "Position": [
+                6574.27978515625,
+                0.0,
+                5573.85009765625
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Rog",
+            "Position": [
+                11267.2060546875,
+                0.0,
+                4293.0361328125
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Grozovypereval (Grozovy pereval)",
+            "Position": [
+                3318.1201171875,
+                0.0,
+                15250.5498046875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Sosnovypereval (Sosnovy pereval)",
+            "Position": [
+                2687.39990234375,
+                0.0,
+                6590.27978515625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_PerevalOreshka (Oreshka pereval)",
+            "Position": [
+                9822.19140625,
+                0.0,
+                6088.79296875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Turovskiypereval (Turovskiy pereval)",
+            "Position": [
+                14674.2412109375,
+                0.0,
+                14089.3056640625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Tridoliny (Tri doliny)",
+            "Position": [
+                12764.4697265625,
+                0.0,
+                5412.2099609375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Grozovyedoly (Grozovye doly)",
+            "Position": [
+                10403.982421875,
+                0.0,
+                14793.16796875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Klyuch",
+            "Position": [
+                9282.5703125,
+                0.0,
+                13476.669921875
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Lysayagora (Lysaya gora)",
+            "Position": [
+                6722.458984375,
+                0.0,
+                14050.419921875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Skalka",
+            "Position": [
+                5758.0,
+                0.0,
+                14486.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Vidy",
+            "Position": [
+                785.0540161132813,
+                0.0,
+                14398.8154296875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Tumannyverkh (Tumanny verkh)",
+            "Position": [
+                331.2239990234375,
+                0.0,
+                12982.990234375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Adamovka",
+            "Position": [
+                5340.66015625,
+                0.0,
+                11380.009765625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Shishok",
+            "Position": [
+                3559.31298828125,
+                0.0,
+                9422.26953125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Settlement_Skalisty",
+            "Position": [
+                13715.4541015625,
+                0.0,
+                3118.780029296875
+            ],
+            "Radius": 200.0,
+            "Type": "Village",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Storozh",
+            "Position": [
+                2816.60107421875,
+                0.0,
+                1277.9599609375
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MysGolova (Mys Golova)",
+            "Position": [
+                8286.052734375,
+                0.0,
+                2405.597900390625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Drakon",
+            "Position": [
+                11191.0,
+                0.0,
+                2443.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Otmel",
+            "Position": [
+                11581.25,
+                0.0,
+                3213.239990234375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MysKrutoy (Mys Krutoy)",
+            "Position": [
+                13578.1904296875,
+                0.0,
+                3976.820068359375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Tokarnya",
+            "Position": [
+                8890.4775390625,
+                0.0,
+                5672.55322265625
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Ostrog",
+            "Position": [
+                2655.73388671875,
+                0.0,
+                2264.632080078125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Maryanka",
+            "Position": [
+                2789.0,
+                0.0,
+                3386.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Polonina",
+            "Position": [
+                1004.4860229492188,
+                0.0,
+                4242.869140625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Kalinka",
+            "Position": [
+                3346.5,
+                0.0,
+                11292.0966796875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Kikimora",
+            "Position": [
+                1812.0,
+                0.0,
+                6200.0
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_BolshoyKotel (Bolshoy Kotel)",
+            "Position": [
+                714.6489868164063,
+                0.0,
+                6520.43115234375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Simurg",
+            "Position": [
+                134.0,
+                0.0,
+                7569.990234375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Volchiypik (Volchiy pik)",
+            "Position": [
+                320.2539978027344,
+                0.0,
+                2719.26904296875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Krona",
+            "Position": [
+                1493.0,
+                0.0,
+                9270.33984375
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_TriKresta (Tri Kresta)",
+            "Position": [
+                301.0,
+                0.0,
+                9478.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Rostoki",
+            "Position": [
+                744.4500122070313,
+                0.0,
+                8647.8603515625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Makosh",
+            "Position": [
+                7849.72021484375,
+                0.0,
+                6480.18994140625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Klenovyipereval (Klenovyi pereval)",
+            "Position": [
+                10862.7021484375,
+                0.0,
+                11585.51171875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Zmeinykhrebet (Zmeiny khrebet)",
+            "Position": [
+                11446.169921875,
+                0.0,
+                13606.919921875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Sokol",
+            "Position": [
+                12001.0,
+                0.0,
+                14813.0
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Krutyeskaly (Krutye skaly)",
+            "Position": [
+                14880.6298828125,
+                0.0,
+                13671.759765625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Bogat",
+            "Position": [
+                7058.01123046875,
+                0.0,
+                12023.5712890625
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Dubnik",
+            "Position": [
+                3298.2900390625,
+                0.0,
+                10330.8896484375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Viselitsa",
+            "Position": [
+                12722.1572265625,
+                0.0,
+                7504.0498046875
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Dazhbog",
+            "Position": [
+                6581.0,
+                0.0,
+                8590.0
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Medvezhilugi (Medvezhi lugi)",
+            "Position": [
+                9641.0,
+                0.0,
+                13236.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Voron",
+            "Position": [
+                13517.9296875,
+                0.0,
+                3311.2451171875
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Ruin_Gnomovzamok (Gnomov zamok)",
+            "Position": [
+                7446.9150390625,
+                0.0,
+                9097.169921875
+            ],
+            "Radius": 100.0,
+            "Type": "Ruin",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_KarerKrasnayaZarya (Karer Krasnaya Zarya)",
+            "Position": [
+                8565.3486328125,
+                0.0,
+                13418.68359375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Matveyevo",
+            "Position": [
+                4281.0,
+                0.0,
+                7380.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Kotka",
+            "Position": [
+                5873.7001953125,
+                0.0,
+                6883.240234375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_Chernyeskaly (Chernye skaly)",
+            "Position": [
+                3932.572021484375,
+                0.0,
+                14599.49609375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_SvyatoyRoman (Svyatoy roman)",
+            "Position": [
+                84.83200073242188,
+                0.0,
+                11901.24609375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Koman",
+            "Position": [
+                1660.6519775390626,
+                0.0,
+                7415.6611328125
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Hill_Mayak",
+            "Position": [
+                12323.8134765625,
+                0.0,
+                4553.10693359375
+            ],
+            "Radius": 100.0,
+            "Type": "Hill",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MB_VMC (Military base VMC)",
+            "Position": [
+                4497.0,
+                0.0,
+                8291.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MB_Tisy (Military base Tisy)",
+            "Position": [
+                1570.0,
+                0.0,
+                14069.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MB_Kamensk (Military base Kamensk)",
+            "Position": [
+                7838.81201171875,
+                0.0,
+                14704.8232421875
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MB_Zeleno (Military base Zeleno)",
+            "Position": [
+                2410.375,
+                0.0,
+                5133.68115234375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_MB_Pavlovo (Military base Pavlovo)",
+            "Position": [
+                2016.0,
+                0.0,
+                3408.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_AF_Balota (Airfield Balota)",
+            "Position": [
+                5082.03076171875,
+                0.0,
+                2376.327880859375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_AF_Krasno (Airfield Krasno)",
+            "Position": [
+                12100.6806640625,
+                0.0,
+                12573.896484375
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "Local_AF_Vybor (Airfield Vybor)",
+            "Position": [
+                4428.0,
+                0.0,
+                10179.0
+            ],
+            "Radius": 100.0,
+            "Type": "Local",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Elektro",
+            "Position": [
+                10309.912109375,
+                0.0,
+                2092.202880859375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Prigorodki",
+            "Position": [
+                8056.0341796875,
+                0.0,
+                3264.907958984375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Cherno",
+            "Position": [
+                6540.6259765625,
+                0.0,
+                2638.77490234375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Balota",
+            "Position": [
+                4399.2587890625,
+                0.0,
+                2309.39697265625
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Komarovo",
+            "Position": [
+                3670.6669921875,
+                0.0,
+                2397.52490234375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Kamenka",
+            "Position": [
+                1877.93505859375,
+                0.0,
+                2168.55908203125
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Zeleno",
+            "Position": [
+                2485.26611328125,
+                0.0,
+                5214.6640625
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Vavilovo",
+            "Position": [
+                1991.5030517578126,
+                0.0,
+                11289.48828125
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Novaya",
+            "Position": [
+                3534.425048828125,
+                0.0,
+                12537.0947265625
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Severograd",
+            "Position": [
+                7846.5810546875,
+                0.0,
+                12401.48828125
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Novo",
+            "Position": [
+                11610.908203125,
+                0.0,
+                14133.7021484375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Svetlo",
+            "Position": [
+                13970.47265625,
+                0.0,
+                13486.34375
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Berezino",
+            "Position": [
+                12989.84375,
+                0.0,
+                10200.6728515625
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Solnich",
+            "Position": [
+                13146.109375,
+                0.0,
+                7094.47216796875
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Solnich2",
+            "Position": [
+                13356.109375,
+                0.0,
+                6154.47216796875
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Kamyshovo",
+            "Position": [
+                11970.96875,
+                0.0,
+                3548.722900390625
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "RailroadStation_Dobroye",
+            "Position": [
+                12860.658203125,
+                0.0,
+                15050.220703125
+            ],
+            "Radius": 100.0,
+            "Type": "RailroadStation",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Novaya",
+            "Position": [
+                3469.172119140625,
+                0.0,
+                13135.1650390625
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Vybor",
+            "Position": [
+                3857.656005859375,
+                0.0,
+                8946.1396484375
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Sinys",
+            "Position": [
+                1439.0799560546876,
+                0.0,
+                12011.259765625
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Vavil",
+            "Position": [
+                2220.840087890625,
+                0.0,
+                11075.830078125
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Lopat",
+            "Position": [
+                2720.719970703125,
+                0.0,
+                9978.1396484375
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Pustosh",
+            "Position": [
+                3051.43994140625,
+                0.0,
+                7804.68017578125
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Pogorev",
+            "Position": [
+                4480.7099609375,
+                0.0,
+                6462.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Kabanin",
+            "Position": [
+                5382.0,
+                0.0,
+                8589.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Stary",
+            "Position": [
+                6056.080078125,
+                0.0,
+                7715.35009765625
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Novy",
+            "Position": [
+                7166.9599609375,
+                0.0,
+                7526.009765625
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Grishino",
+            "Position": [
+                5983.0,
+                0.0,
+                10305.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Severo",
+            "Position": [
+                7986.0,
+                0.0,
+                12732.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Gorka",
+            "Position": [
+                9503.0,
+                0.0,
+                8805.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Mogi",
+            "Position": [
+                7562.0,
+                0.0,
+                5149.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Nadez",
+            "Position": [
+                5906.0,
+                0.0,
+                4844.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Cherno",
+            "Position": [
+                6607.0,
+                0.0,
+                2418.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Kozlov",
+            "Position": [
+                4394.0,
+                0.0,
+                4629.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Komar",
+            "Position": [
+                3676.0,
+                0.0,
+                2501.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Pavlovo",
+            "Position": [
+                1655.0,
+                0.0,
+                3851.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Zeleno",
+            "Position": [
+                2854.0,
+                0.0,
+                5282.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Elektro",
+            "Position": [
+                10212.0,
+                0.0,
+                2295.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Kamys",
+            "Position": [
+                12155.0,
+                0.0,
+                3514.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Staroye",
+            "Position": [
+                10106.0,
+                0.0,
+                5457.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Dolina",
+            "Position": [
+                11217.0,
+                0.0,
+                6564.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Solnich",
+            "Position": [
+                13383.0,
+                0.0,
+                6225.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Polana",
+            "Position": [
+                10676.0,
+                0.0,
+                7989.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Berezino",
+            "Position": [
+                12272.0,
+                0.0,
+                9474.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Krasno",
+            "Position": [
+                11257.0,
+                0.0,
+                12211.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Svetlo",
+            "Position": [
+                14013.0,
+                0.0,
+                13335.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Cpol",
+            "Position": [
+                12110.0,
+                0.0,
+                13779.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        },
+        {
+            "Name": "LocalOffice_Novo",
+            "Position": [
+                11564.0,
+                0.0,
+                14742.0
+            ],
+            "Radius": 100.0,
+            "Type": "LocalOffice",
+            "Enabled": 1
+        }
+    ],
+    "ExcludedRoamingBuildings": [
+        "Land_CementWorks_Hall2_Grey",
+        "Land_Factory_Small",
+        "Land_House_1W09",
+        "Land_House_2W03",
+        "Land_HouseBlock_1F4",
+        "Land_Boathouse",
+        "Land_Mine_Building",
+        "Land_Shed_W2",
+        "Land_Tenement_Big",
+        "Land_Misc_Toilet_Mobile",
+        "Land_Ship_Medium2"
+    ],
+    "NoGoAreas": []
+}

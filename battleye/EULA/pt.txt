@@ -1,0 +1,33 @@
+****** Contrato de Licença de Usuário Final ******
+
+
+Este Contrato de Licença ("Contrato") é feito entre você (o "Licenciado") e BattlEye Innovations e.K. (o "Licenciador"). Os termos deste Contrato aplicam-se a todas as versões atuais e futuras e atualizações do software BattlEye anti-cheat ("BattlEye").
+
+
+Ao instalar, habilitar ou utilizar o BattlEye, o Licenciado concorda com todos os termos deste Contrato. O Licenciado se reserva todos os direitos não especificamente concedidos e transferidos ao Licenciado.
+
+
+O Licenciado compreende, reconhece e concorda com o seguinte:
+
+- O Licenciante concede ao Licenciado uma licença não exclusiva e intransferível para utilizar o BattlEye somente para fins não comerciais. O Licenciado, portanto, não é proprietário do BattlEye, o Licenciador permanece proprietário do BattlEye.
+
+- O Licenciador fornece o BattlEye "como está", sem qualquer tipo de garantia. O Licenciador não garante o funcionamento correto e livre de erros do BattlEye nem é responsável por qualquer dano causado pelo uso do BattlEye.
+
+- O licenciado não pode descompilar, desmontar, fazer engenharia reversa, modificar ou redistribuir o BattlEye de forma alguma.
+
+- O BattlEye irá automaticamente, sem aviso prévio ao Licenciado, baixar e instalar atualizações de tempos em tempos.
+
+- O BattlEye pode escanear toda a memória de acesso aleatório (RAM) do Licenciado, e quaisquer arquivos e pastas relacionados ao jogo e ao sistema no sistema do Licenciado usando algoritmos de identificação de programas fraudulentos, relatar resultados de tais algoritmos para outros computadores conectados e/ou para o Licenciador e armazenar tais informações com o único propósito de prevenir e detectar o uso de programas fraudulentos. BattlEye somente escaneia e/ou relata dados que absolutamente precisam ser escaneados e/ou relatados para atender a este propósito.
+
+- O BattlEye pode ainda reportar e armazenar o endereço do Protocolo de Internet do Licenciado, nome e identificador da conta do jogo, apelido no jogo e informações relacionadas ao sistema e ao hardware, incluindo, mas não se limitando a, identificadores de dispositivos e números de série de hardware.
+
+- O licenciador valoriza a privacidade do licenciado e faz o máximo para protegê-lo o tempo todo. BattlEye não relata nenhuma informação ou dados pessoais pessoalmente identificáveis, exceto por qualquer informação/dados especificamente mencionados aqui.
+
+- O Licenciador armazena todas as informações coletadas pelo BattlEye em servidores localizados na Europa e/ou nos EUA. O Licenciador pode compartilhar as informações com seus parceiros e/ou afiliados.
+
+- O licenciado reconhece que a natureza invasiva do BattlEye é necessária para cumprir sua finalidade e objetivo de prevenir e detectar programas fraudulentos.
+
+- O Licenciador está autorizado a cancelar a licença a qualquer momento por qualquer motivo e sem aviso prévio ao Licenciado.
+
+
+Este Contrato de Licença constitui o acordo integral entre o Licenciador e o Licenciado e substitui quaisquer declarações anteriores.

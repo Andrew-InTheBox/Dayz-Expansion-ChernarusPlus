@@ -1,14 +1,14 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 7,
     "ObjectiveType": 3,
     "ObjectiveText": "Approach the castle with caution",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        1464.27,
-        298.108,
-        9241.72
+        1520.56005859375,
+        297.64801025390627,
+        9166.7998046875
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Get there",

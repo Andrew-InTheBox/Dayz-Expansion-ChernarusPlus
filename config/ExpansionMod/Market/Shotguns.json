@@ -42,7 +42,7 @@
         {
             "ClassName": "saiga",
             "MaxPriceThreshold": 15020,
-            "MinPriceThreshold": 7510,
+            "MinPriceThreshold": 12010,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -56,7 +56,7 @@
         {
             "ClassName": "expansion_benellim4",
             "MaxPriceThreshold": 7880,
-            "MinPriceThreshold": 3940,
+            "MinPriceThreshold": 6840,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

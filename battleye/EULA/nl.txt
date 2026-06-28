@@ -1,0 +1,33 @@
+****** Licentieovereenkomst voor eindgebruikers ******
+
+
+Deze Licentieovereenkomst ("Overeenkomst") wordt gesloten tussen u (de "Licentiehouder") en BattlEye Innovations e.K. (de "Licentiegever"). De voorwaarden van deze Overeenkomst zijn van toepassing op alle huidige en toekomstige versies en updates van BattlEye anti-cheatsoftware ("BattlEye").
+
+
+Door BattlEye te installeren, in te schakelen of te gebruiken, gaat de Licentiehouder akkoord met alle voorwaarden van deze Overeenkomst. Licentiegever behoudt zich alle rechten voor die niet specifiek aan Licentienemer zijn verleend en overgedragen.
+
+
+Licentiehouder begrijpt, erkent en stemt in met het volgende:
+
+- Licentiegever verleent Licentienemer een niet-exclusieve en niet-overdraagbare licentie om BattlEye uitsluitend voor niet-commerciële doeleinden te gebruiken. Licentiehouder is derhalve geen eigenaar van BattlEye, Licentiegever blijft eigenaar van BattlEye.
+
+- Licentiegever levert BattlEye op een "as is" basis zonder garantie van welke aard dan ook. Licentiegever garandeert niet de juiste, foutloze werking van BattlEye, noch is Licentiegever verantwoordelijk voor enige schade die wordt veroorzaakt door het gebruik van BattlEye.
+
+- Licentiehouder mag BattlEye op geen enkele wijze decompileren, disassembleren, reverse-engineeren, wijzigen of herdistribueren.
+
+- BattlEye zal automatisch, zonder voorafgaande kennisgeving aan de Licentiehouder, van tijd tot tijd updates downloaden en installeren.
+
+- BattlEye mag het volledige RAM-geheugen (random access memory) van de Licentiehouder en alle spelgerelateerde en systeemgerelateerde bestanden en mappen op het systeem van de Licentiehouder scannen met gebruikmaking van algoritmen die cheatprogramma's identificeren, de resultaten van dergelijke algoritmen rapporteren aan andere aangesloten computers en/of aan Licentiegever en dergelijke informatie opslaan met als enig doel het gebruik van cheatprogramma's te voorkomen en op te sporen. BattlEye scant en/of rapporteert alleen gegevens die absoluut moeten worden gescand en/of gerapporteerd om aan dit doel te voldoen.
+
+- BattlEye mag verder rapporteren en opslaan Licentiehouder's Internet Protocol adres, game account naam en identificatie, in-game bijnaam, en systeem- en hardware-gerelateerde informatie met inbegrip van, maar niet beperkt tot, apparaat identificaties en hardware serienummers.
+
+- Licentiegever waardeert de privacy van de Licentiehouder en doet zijn uiterste best om deze te allen tijde te beschermen. BattlEye rapporteert geen persoonlijk identificeerbare informatie of persoonlijke gegevens behalve de informatie/gegevens die hierin specifiek worden vermeld.
+
+- Licentiegever slaat alle door BattlEye verzamelde informatie op servers op die zich in Europa en/of de VS bevinden. Licentieverstrekker mag de informatie delen met zijn partners en/of gelieerde ondernemingen.
+
+- Licentiehouder erkent dat de invasieve aard van BattlEye noodzakelijk is om te voldoen aan zijn doel en doelstelling om cheat-programma's te voorkomen en op te sporen.
+
+- Het is Licentieverstrekker toegestaan de licentie te allen tijde te beëindigen om welke reden dan ook en zonder kennisgeving aan Licentiehouder.
+
+
+Deze Licentieovereenkomst vormt de gehele overeenkomst tussen Licentiegever en Licentienemer en vervangt alle voorgaande verklaringen.

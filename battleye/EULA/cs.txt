@@ -1,0 +1,33 @@
+****** Licenční smlouva s koncovým uživatelem ******
+
+
+Tato licenční smlouva (dále jen "smlouva") je uzavřena mezi vámi (dále jen "nabyvatel licence") a společností BattlEye Innovations e.K. (dále jen "poskytovatel licence"). Podmínky této smlouvy se vztahují na všechny současné i budoucí verze a aktualizace anti-cheatovacího softwaru BattlEye ("BattlEye").
+
+
+Instalací, povolením nebo používáním BattlEye souhlasí držitel licence se všemi podmínkami této smlouvy. Poskytovatel licence si vyhrazuje veškerá práva, která nebyla výslovně udělena a převedena na Držitele licence.
+
+
+Držitel licence rozumí následujícím skutečnostem, bere je na vědomí a souhlasí s nimi:
+
+- Poskytovatel licence uděluje Držiteli licence nevýhradní a nepřenosnou licenci k používání aplikace BattlEye pouze pro nekomerční účely. Držitel licence tedy nevlastní BattlEye, vlastníkem BattlEye zůstává Poskytovatel licence.
+
+- Poskytovatel licence poskytuje BattlEye ve stavu, v jakém je, bez jakékoli záruky. Poskytovatel licence nezaručuje správné a bezchybné fungování aplikace BattlEye ani neodpovídá za škody způsobené používáním aplikace BattlEye.
+
+- Nabyvatel licence nesmí BattlEye dekompilovat, rozebírat, zpětně analyzovat, upravovat nebo jakkoli šířit.
+
+- Aplikace BattlEye bude čas od času automaticky, bez upozornění Držitele licence, stahovat a instalovat aktualizace.
+
+- BattlEye může skenovat celou paměť RAM (random access memory) Držitele licence a všechny soubory a složky související s hrou a systémem v systému Držitele licence pomocí algoritmů identifikujících podvodné programy, hlásit výsledky těchto algoritmů ostatním připojeným počítačům a/nebo Poskytovateli licence a ukládat tyto informace výhradně za účelem prevence a odhalování používání podvodných programů. BattlEye skenuje a/nebo hlásí pouze data, která je nezbytně nutné skenovat a/nebo hlásit pro splnění tohoto účelu.
+
+- BattlEye může dále hlásit a ukládat adresu internetového protokolu Držitele licence, název a identifikátor herního účtu, přezdívku ve hře a informace související se systémem a hardwarem, mimo jiné včetně identifikátorů zařízení a sériových čísel hardwaru.
+
+- Poskytovatel licence si váží soukromí Držitele licence a dělá vše pro to, aby ho vždy chránil. Společnost BattlEye nezveřejňuje žádné informace umožňující identifikaci osob ani osobní údaje s výjimkou informací/údajů výslovně uvedených v tomto dokumentu.
+
+- Poskytovatel licence ukládá veškeré informace shromážděné společností BattlEye na serverech umístěných v Evropě a/nebo v USA. Poskytovatel licence může tyto informace sdílet se svými partnery a/nebo přidruženými společnostmi.
+
+- Nabyvatel licence bere na vědomí, že invazivní povaha aplikace BattlEye je nezbytná pro splnění jejího účelu a cíle, kterým je prevence a odhalování podvodných programů.
+
+- Poskytovatel licence je oprávněn licenci kdykoli ukončit z jakéhokoli důvodu a bez předchozího upozornění držitele licence.
+
+
+Tato licenční smlouva představuje úplnou dohodu mezi poskytovatelem licence a nabyvatelem licence a nahrazuje veškerá předchozí prohlášení.

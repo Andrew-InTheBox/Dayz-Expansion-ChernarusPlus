@@ -1,14 +1,14 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 6,
     "ObjectiveType": 3,
     "ObjectiveText": "Approach the area",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        752.951,
-        136.22,
-        5001.53
+        752.9509887695313,
+        136.22000122070313,
+        5001.52978515625
     ],
     "MaxDistance": 20.0,
     "MarkerName": "Approach the area",

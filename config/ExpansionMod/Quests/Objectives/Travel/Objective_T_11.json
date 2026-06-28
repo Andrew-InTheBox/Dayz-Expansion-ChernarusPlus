@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 11,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Approach the castle ruins",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        7007.87,
+        371.208,
+        11477.2
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Get there",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

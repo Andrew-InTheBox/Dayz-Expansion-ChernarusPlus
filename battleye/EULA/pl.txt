@@ -1,0 +1,33 @@
+****** Umowa Licencyjna Użytkownika Końcowego ******
+
+
+Niniejsza Umowa Licencyjna ("Umowa") jest zawarta pomiędzy Tobą ("Licencjobiorca") a BattlEye Innovations e.K. ("Licencjodawca"). Warunki tej umowy mają zastosowanie do wszystkich obecnych i przyszłych wersji oraz aktualizacji oprogramowania anty-cheat BattlEye ("BattlEye").
+
+
+Instalując, włączając lub używając BattlEye, Licencjobiorca zgadza się z wszystkimi warunkami niniejszej Umowy. Licencjodawca zastrzega sobie wszystkie prawa, które nie zostały wyraźnie przyznane i przekazane Licencjobiorcy.
+
+
+Licencjobiorca rozumie, przyjmuje do wiadomości i zgadza się z następującymi warunkami:
+
+- Licencjodawca udziela Licencjobiorcy niewyłącznej i niezbywalnej licencji na korzystanie z BattlEye wyłącznie do celów niekomercyjnych. Licencjobiorca nie jest zatem właścicielem BattlEye, Licencjodawca pozostaje właścicielem BattlEye.
+
+- Licencjodawca zapewnia BattlEye na zasadzie "tak jak jest" bez gwarancji jakiegokolwiek rodzaju. Licencjodawca nie gwarantuje poprawnego, bezbłędnego działania BattlEye, ani nie jest odpowiedzialny za jakiekolwiek szkody spowodowane przez użycie BattlEye.
+
+- Licencjobiorca nie może dekompilować, dezasemblować, odtwarzać kodu źródłowego, modyfikować lub redystrybuować BattlEye w jakikolwiek sposób.
+
+- BattlEye będzie automatycznie, bez powiadomienia Licencjobiorcy, pobierać i instalować aktualizacje od czasu do czasu.
+
+- BattlEye może skanować całą pamięć losową (RAM) Licencjobiorcy oraz wszelkie związane z grą i systemem pliki i foldery w systemie Licencjobiorcy, używając algorytmów identyfikujących programy oszukujące, raportować wyniki takich algorytmów do innych podłączonych komputerów i/lub do Licencjodawcy i przechowywać takie informacje wyłącznie w celu zapobiegania i wykrywania korzystania z programów oszukujących. BattlEye tylko skanuje i/lub raportuje dane, które absolutnie muszą być skanowane i/lub raportowane, aby osiągnąć ten cel.
+
+- BattlEye może dalej raportować i przechowywać adres protokołu internetowego Licencjobiorcy, nazwę konta gry i identyfikator, pseudonim w grze oraz informacje związane z systemem i sprzętem, w tym, ale nie wyłącznie, identyfikatory urządzeń i numery seryjne sprzętu.
+
+- Licencjodawca ceni prywatność Licencjobiorcy i robi wszystko, co w jego mocy, aby ją chronić przez cały czas. BattlEye nie zgłasza żadnych informacji umożliwiających identyfikację osoby lub danych osobowych, z wyjątkiem informacji/danych wyraźnie wymienionych w niniejszym dokumencie.
+
+- Licencjodawca przechowuje wszystkie informacje zebrane przez BattlEye na serwerach zlokalizowanych w Europie i/lub USA. Licencjodawca może udostępniać te informacje swoim partnerom i/lub podmiotom stowarzyszonym.
+
+- Licencjobiorca przyjmuje do wiadomości, że inwazyjna natura BattlEye jest niezbędna do osiągnięcia jego celu, jakim jest zapobieganie i wykrywanie programów oszukujących.
+
+- Licencjodawca ma prawo zakończyć licencję w dowolnym momencie z dowolnego powodu i bez powiadomienia Licencjobiorcy.
+
+
+Niniejsza Umowa Licencyjna stanowi całość porozumienia pomiędzy Licencjodawcą a Licencjobiorcą i zastępuje wszelkie wcześniejsze oświadczenia.

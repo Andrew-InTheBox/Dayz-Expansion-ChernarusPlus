@@ -1,17 +1,19 @@
 {
-    "m_Version": 8,
+    "m_Version": 12,
     "DisplayName": "Snafu_Bipods",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
+    "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
-	    {
+        {
             "ClassName": "SNAFU_Bipod",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -19,19 +21,21 @@
             "ClassName": "SNAFU_PKPBIPOD",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_NPKPBIPOD",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -39,22 +43,23 @@
             "ClassName": "SNAFU_AtlasBipod",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
-		        {
+        {
             "ClassName": "SNAFU_ModBipod",
             "MaxPriceThreshold": 500,
             "MinPriceThreshold": 400,
-            "SellPricePercent": -1,
-            "MaxStockThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
+            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         }
-		
-	]
-}	
+    ]
+}

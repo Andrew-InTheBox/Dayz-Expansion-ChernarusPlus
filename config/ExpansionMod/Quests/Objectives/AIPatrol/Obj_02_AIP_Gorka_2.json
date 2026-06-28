@@ -1,59 +1,22 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 7,
     "ObjectiveText": "Kill all the police imposters patrolling around Gorka",
     "TimeLimit": -1,
     "Active": 1,
+    "MaxDistance": 300.0,
+    "MinDistance": 0.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": [],
     "AISpawn": {
-        "NumberOfAI": 5,
-        "NPCName": "Quest Target",
-        "Waypoints": [
-            [
-                8121.84,
-                457.994,
-                9318.2
-            ],
-            [
-                9617.26,
-                297.61,
-                8818.91
-            ],
-            [
-                9566.63,
-                303.968,
-                8850.11
-            ],
-            [
-                9529.28,
-                304.002,
-                8848.18
-            ],
-            [
-                9514.05,
-                303.26,
-                8796.76
-            ],
-            [
-                9551.59,
-                300.532,
-                8787.25
-            ]
-        ],
-        "Behaviour": 1,
-        "Formation": "WEDGE",
-        "Loadout": "PoliceLoadout",
+        "Name": "Quest Target",
+        "Persist": 0,
         "Faction": "West",
-        "Speed": 1.5,
-        "ThreatSpeed": 3.0,
-        "MinAccuracy": 0.4000000059604645,
-        "MaxAccuracy": 0.70,
-        "CanBeLooted": 1,
-        "UnlimitedReload": 1,
-        "ThreatDistanceLimit": 200.0,
-        "DamageMultiplier": 1.0,
-        "DamageReceivedMultiplier": 1.2,
-        "ClassNames": [
+        "Formation": "WEDGE",
+        "FormationLooseness": 0.0,
+        "Loadout": "PoliceLoadout",
+        "Units": [
             "eAI_SurvivorF_Eva",
             "eAI_SurvivorF_Frida",
             "eAI_SurvivorF_Gabi",
@@ -86,15 +49,55 @@
             "eAI_SurvivorM_Seth",
             "eAI_SurvivorM_Taiki"
         ],
+        "NumberOfAI": 5,
+        "Behaviour": "LOOP",
+        "Speed": "WALK",
+        "UnderThreatSpeed": "SPRINT",
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
         "SniperProneDistanceThreshold": 300.0,
-        "RespawnTime": 1.0,
+        "AccuracyMin": 0.4000000059604645,
+        "AccuracyMax": 0.699999988079071,
+        "ThreatDistanceLimit": 200.0,
+        "NoiseInvestigationDistanceLimit": -1.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.2000000476837159,
+        "MinDistRadius": 10.0,
+        "MaxDistRadius": 300.0,
+        "DespawnRadius": 600.0,
+        "MinSpreadRadius": 0.0,
+        "MaxSpreadRadius": 0.0,
+        "Chance": 1.0,
+        "WaypointInterpolation": "",
         "DespawnTime": 1.0,
-        "MinDistanceRadius": 10.0,
-        "MaxDistanceRadius": 300.0,
-        "DespawnRadius": 600.0
-    },
-    "MaxDistance": 300.0,
-    "MinDistance": 0.0,
-    "AllowedWeapons": [],
-    "AllowedDamageZones": []
+        "RespawnTime": 1.0,
+        "UseRandomWaypointAsStartPoint": 1,
+        "Waypoints": [
+            [
+                9617.259765625,
+                297.6099853515625,
+                8818.91015625
+            ],
+            [
+                9566.6298828125,
+                303.9679870605469,
+                8850.1103515625
+            ],
+            [
+                9529.2802734375,
+                304.00201416015627,
+                8848.1796875
+            ],
+            [
+                9514.0498046875,
+                303.260009765625,
+                8796.759765625
+            ],
+            [
+                9551.58984375,
+                300.5320129394531,
+                8787.25
+            ]
+        ]
+    }
 }

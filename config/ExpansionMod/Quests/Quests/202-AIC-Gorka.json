@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 1200,
+            "Amount": 3000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -43,12 +43,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 27,
+            "ConfigVersion": 28,
             "ID": 5,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 27,
+            "ConfigVersion": 28,
             "ID": 2,
             "ObjectiveType": 8
         }

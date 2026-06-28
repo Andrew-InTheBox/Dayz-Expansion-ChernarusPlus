@@ -9,7 +9,7 @@
         {
             "ClassName": "headlighth7_box",
             "MaxPriceThreshold": 190,
-            "MinPriceThreshold": 100,
+            "MinPriceThreshold": 140,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -20,7 +20,7 @@
         {
             "ClassName": "headlighth7",
             "MaxPriceThreshold": 320,
-            "MinPriceThreshold": 160,
+            "MinPriceThreshold": 240,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -31,7 +31,7 @@
         {
             "ClassName": "carradiator",
             "MaxPriceThreshold": 1270,
-            "MinPriceThreshold": 640,
+            "MinPriceThreshold": 950,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -42,7 +42,7 @@
         {
             "ClassName": "tirerepairkit",
             "MaxPriceThreshold": 1550,
-            "MinPriceThreshold": 780,
+            "MinPriceThreshold": 1160,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -53,7 +53,7 @@
         {
             "ClassName": "sparkplug",
             "MaxPriceThreshold": 380,
-            "MinPriceThreshold": 190,
+            "MinPriceThreshold": 280,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -64,7 +64,7 @@
         {
             "ClassName": "glowplug",
             "MaxPriceThreshold": 550,
-            "MinPriceThreshold": 270,
+            "MinPriceThreshold": 410,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -75,7 +75,7 @@
         {
             "ClassName": "expansionigniterplug",
             "MaxPriceThreshold": 320,
-            "MinPriceThreshold": 160,
+            "MinPriceThreshold": 240,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -86,7 +86,7 @@
         {
             "ClassName": "expansionhydraulichoses",
             "MaxPriceThreshold": 1310,
-            "MinPriceThreshold": 660,
+            "MinPriceThreshold": 980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -97,7 +97,7 @@
         {
             "ClassName": "hatchbackhood",
             "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2380,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -111,7 +111,7 @@
         {
             "ClassName": "hatchbacktrunk",
             "MaxPriceThreshold": 4010,
-            "MinPriceThreshold": 2010,
+            "MinPriceThreshold": 3010,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -125,7 +125,7 @@
         {
             "ClassName": "hatchbackdoors_driver",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -139,7 +139,7 @@
         {
             "ClassName": "hatchbackdoors_codriver",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -153,7 +153,7 @@
         {
             "ClassName": "hatchbackwheel",
             "MaxPriceThreshold": 3880,
-            "MinPriceThreshold": 1940,
+            "MinPriceThreshold": 2910,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -164,7 +164,7 @@
         {
             "ClassName": "hatchback_02_hood",
             "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2380,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -178,7 +178,7 @@
         {
             "ClassName": "hatchback_02_trunk",
             "MaxPriceThreshold": 4010,
-            "MinPriceThreshold": 2010,
+            "MinPriceThreshold": 3010,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -192,7 +192,7 @@
         {
             "ClassName": "hatchback_02_door_1_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -206,7 +206,7 @@
         {
             "ClassName": "hatchback_02_door_1_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -220,7 +220,7 @@
         {
             "ClassName": "hatchback_02_door_2_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -234,7 +234,7 @@
         {
             "ClassName": "hatchback_02_door_2_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -248,7 +248,7 @@
         {
             "ClassName": "hatchback_02_wheel",
             "MaxPriceThreshold": 3880,
-            "MinPriceThreshold": 1940,
+            "MinPriceThreshold": 2910,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -259,7 +259,7 @@
         {
             "ClassName": "civsedanhood",
             "MaxPriceThreshold": 4220,
-            "MinPriceThreshold": 2110,
+            "MinPriceThreshold": 3160,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -273,7 +273,7 @@
         {
             "ClassName": "civsedantrunk",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -287,7 +287,7 @@
         {
             "ClassName": "civsedandoors_driver",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -301,7 +301,7 @@
         {
             "ClassName": "civsedandoors_codriver",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -315,7 +315,7 @@
         {
             "ClassName": "civsedandoors_backleft",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -329,7 +329,7 @@
         {
             "ClassName": "civsedandoors_backright",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -343,7 +343,7 @@
         {
             "ClassName": "civsedanwheel",
             "MaxPriceThreshold": 4650,
-            "MinPriceThreshold": 2330,
+            "MinPriceThreshold": 3490,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -354,7 +354,7 @@
         {
             "ClassName": "sedan_02_hood",
             "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2380,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -368,7 +368,7 @@
         {
             "ClassName": "sedan_02_trunk",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -382,7 +382,7 @@
         {
             "ClassName": "sedan_02_door_1_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -396,7 +396,7 @@
         {
             "ClassName": "sedan_02_door_1_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -410,7 +410,7 @@
         {
             "ClassName": "sedan_02_door_2_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -424,7 +424,7 @@
         {
             "ClassName": "sedan_02_door_2_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -438,7 +438,7 @@
         {
             "ClassName": "sedan_02_wheel",
             "MaxPriceThreshold": 3880,
-            "MinPriceThreshold": 1940,
+            "MinPriceThreshold": 2910,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -449,7 +449,7 @@
         {
             "ClassName": "truck_01_hood",
             "MaxPriceThreshold": 4220,
-            "MinPriceThreshold": 2110,
+            "MinPriceThreshold": 3160,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -463,7 +463,7 @@
         {
             "ClassName": "truck_01_door_1_1",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -477,7 +477,7 @@
         {
             "ClassName": "truck_01_door_2_1",
             "MaxPriceThreshold": 5280,
-            "MinPriceThreshold": 2640,
+            "MinPriceThreshold": 3960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -491,7 +491,7 @@
         {
             "ClassName": "truck_01_wheel",
             "MaxPriceThreshold": 4650,
-            "MinPriceThreshold": 2330,
+            "MinPriceThreshold": 3490,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -502,7 +502,7 @@
         {
             "ClassName": "truck_01_wheeldouble",
             "MaxPriceThreshold": 7750,
-            "MinPriceThreshold": 3880,
+            "MinPriceThreshold": 5810,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -513,7 +513,7 @@
         {
             "ClassName": "offroad_02_hood",
             "MaxPriceThreshold": 3170,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2380,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -524,7 +524,7 @@
         {
             "ClassName": "offroad_02_trunk",
             "MaxPriceThreshold": 4010,
-            "MinPriceThreshold": 2010,
+            "MinPriceThreshold": 3010,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -535,7 +535,7 @@
         {
             "ClassName": "offroad_02_door_1_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -546,7 +546,7 @@
         {
             "ClassName": "offroad_02_door_1_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -557,7 +557,7 @@
         {
             "ClassName": "offroad_02_door_2_1",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -568,7 +568,7 @@
         {
             "ClassName": "offroad_02_door_2_2",
             "MaxPriceThreshold": 4750,
-            "MinPriceThreshold": 2370,
+            "MinPriceThreshold": 3560,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -579,7 +579,7 @@
         {
             "ClassName": "offroad_02_wheel",
             "MaxPriceThreshold": 3880,
-            "MinPriceThreshold": 1940,
+            "MinPriceThreshold": 2910,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -590,7 +590,7 @@
         {
             "ClassName": "expansiontractordoorsdriver",
             "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1050,
+            "MinPriceThreshold": 1580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -601,7 +601,7 @@
         {
             "ClassName": "expansiontractordoorscodriver",
             "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1050,
+            "MinPriceThreshold": 1580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -612,7 +612,7 @@
         {
             "ClassName": "expansiontractorbackwheel",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -623,7 +623,7 @@
         {
             "ClassName": "expansiontractorfrontwheel",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -634,7 +634,7 @@
         {
             "ClassName": "expansionuazdoorhood",
             "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1050,
+            "MinPriceThreshold": 1580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -645,7 +645,7 @@
         {
             "ClassName": "expansionuazdoordriver",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -656,7 +656,7 @@
         {
             "ClassName": "expansionuazdoorcodriver",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -667,7 +667,7 @@
         {
             "ClassName": "expansionuazdoorcargo1",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -678,7 +678,7 @@
         {
             "ClassName": "expansionuazdoorcargo2",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -689,7 +689,7 @@
         {
             "ClassName": "expansionuazwheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -700,7 +700,7 @@
         {
             "ClassName": "expansion_landrover_hood",
             "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1050,
+            "MinPriceThreshold": 1580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -711,7 +711,7 @@
         {
             "ClassName": "expansion_landrover_driverdoor",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -722,7 +722,7 @@
         {
             "ClassName": "expansion_landrover_codriverdoor",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -733,7 +733,7 @@
         {
             "ClassName": "expansion_landrover_left",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -744,7 +744,7 @@
         {
             "ClassName": "expansion_landrover_right",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -755,7 +755,7 @@
         {
             "ClassName": "expansion_landrover_trunk",
             "MaxPriceThreshold": 2100,
-            "MinPriceThreshold": 1050,
+            "MinPriceThreshold": 1580,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -766,7 +766,7 @@
         {
             "ClassName": "expansion_landrover_wheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -777,7 +777,7 @@
         {
             "ClassName": "expansionvodnikdoordriver",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -788,7 +788,7 @@
         {
             "ClassName": "expansionvodnikdoorcodriver",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -799,7 +799,7 @@
         {
             "ClassName": "expansionvodnikwheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -810,7 +810,7 @@
         {
             "ClassName": "expansionmerlinbackwheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -821,7 +821,7 @@
         {
             "ClassName": "expansionmerlinfrontwheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -832,7 +832,7 @@
         {
             "ClassName": "expansionuh1hdoor_1_1",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -843,7 +843,7 @@
         {
             "ClassName": "expansionuh1hdoor_1_2",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -854,7 +854,7 @@
         {
             "ClassName": "expansionuh1hdoor_2_1",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -865,7 +865,7 @@
         {
             "ClassName": "expansionuh1hdoor_2_2",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -876,7 +876,7 @@
         {
             "ClassName": "expansion_mh6_door_1_1",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -889,7 +889,7 @@
         {
             "ClassName": "expansion_mh6_door_1_2",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -902,7 +902,7 @@
         {
             "ClassName": "expansion_mh6_door_2_1",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -915,7 +915,7 @@
         {
             "ClassName": "expansion_mh6_door_2_2",
             "MaxPriceThreshold": 2620,
-            "MinPriceThreshold": 1310,
+            "MinPriceThreshold": 1960,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -928,7 +928,7 @@
         {
             "ClassName": "expansionbuswheel",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -939,7 +939,7 @@
         {
             "ClassName": "expansionbuswheeldouble",
             "MaxPriceThreshold": 3150,
-            "MinPriceThreshold": 1580,
+            "MinPriceThreshold": 2360,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -950,7 +950,7 @@
         {
             "ClassName": "expansioncarkey",
             "MaxPriceThreshold": 1310,
-            "MinPriceThreshold": 660,
+            "MinPriceThreshold": 980,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -961,7 +961,7 @@
         {
             "ClassName": "expansionkeychain_red",
             "MaxPriceThreshold": 520,
-            "MinPriceThreshold": 260,
+            "MinPriceThreshold": 390,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,

@@ -1,69 +1,22 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 4,
     "ObjectiveType": 7,
     "ObjectiveText": "Clean out the trails",
     "TimeLimit": -1,
     "Active": 1,
+    "MaxDistance": 300.0,
+    "MinDistance": 0.0,
+    "AllowedWeapons": [],
+    "AllowedDamageZones": [],
     "AISpawn": {
-        "NumberOfAI": 5,
-        "NPCName": "Quest Target",
-        "Waypoints": [
-            [
-                203.036,
-                456.069,
-                11138.3
-            ],
-            [
-                214.878,
-                453.577,
-                11108.4
-            ],
-            [
-                128.714,
-                455.898,
-                11040.1
-            ],
-            [
-                110.61,
-                449.478,
-                10960.3
-            ],
-            [
-                168.45,
-                447.213,
-                10952.1
-            ],
-            [
-                215.63,
-                446.472,
-                11026.1
-            ],
-            [
-                285.235,
-                442.496,
-                11089.9
-            ],
-            [
-                233.604,
-                454.381,
-                11137.3
-            ]
-        ],
-        "Behaviour": 1,
-        "Formation": "WEDGE",
-        "Loadout": "AK101-Human",
+        "Name": "Quest Target",
+        "Persist": 0,
         "Faction": "West",
-        "Speed": 1.8,
-        "ThreatSpeed": 3.0,
-        "MinAccuracy": 0.4000000059604645,
-        "MaxAccuracy": 0.70,
-        "CanBeLooted": 1,
-        "UnlimitedReload": 1,
-        "ThreatDistanceLimit": 150.0,
-        "DamageMultiplier": 1.0,
-        "DamageReceivedMultiplier": 1.2,
-        "ClassNames": [
+        "Formation": "WEDGE",
+        "FormationLooseness": 0.0,
+        "Loadout": "AK101-Human",
+        "Units": [
             "eAI_SurvivorF_Eva",
             "eAI_SurvivorF_Frida",
             "eAI_SurvivorF_Gabi",
@@ -96,15 +49,70 @@
             "eAI_SurvivorM_Seth",
             "eAI_SurvivorM_Taiki"
         ],
+        "NumberOfAI": 5,
+        "Behaviour": "LOOP",
+        "Speed": "WALK",
+        "UnderThreatSpeed": "SPRINT",
+        "CanBeLooted": 1,
+        "UnlimitedReload": 1,
         "SniperProneDistanceThreshold": 300.0,
-        "RespawnTime": 1.0,
+        "AccuracyMin": 0.4000000059604645,
+        "AccuracyMax": 0.699999988079071,
+        "ThreatDistanceLimit": 150.0,
+        "NoiseInvestigationDistanceLimit": -1.0,
+        "DamageMultiplier": 1.0,
+        "DamageReceivedMultiplier": 1.2000000476837159,
+        "MinDistRadius": 10.0,
+        "MaxDistRadius": 300.0,
+        "DespawnRadius": 600.0,
+        "MinSpreadRadius": 0.0,
+        "MaxSpreadRadius": 0.0,
+        "Chance": 1.0,
+        "WaypointInterpolation": "",
         "DespawnTime": 1.0,
-        "MinDistanceRadius": 10.0,
-        "MaxDistanceRadius": 300.0,
-        "DespawnRadius": 600.0
-    },
-    "MaxDistance": 300.0,
-    "MinDistance": 0.0,
-    "AllowedWeapons": [],
-    "AllowedDamageZones": []
+        "RespawnTime": 1.0,
+        "UseRandomWaypointAsStartPoint": 1,
+        "Waypoints": [
+            [
+                203.03599548339845,
+                456.0690002441406,
+                11138.2998046875
+            ],
+            [
+                214.8780059814453,
+                453.5769958496094,
+                11108.400390625
+            ],
+            [
+                128.71400451660157,
+                455.89801025390627,
+                11040.099609375
+            ],
+            [
+                110.61000061035156,
+                449.4779968261719,
+                10960.2998046875
+            ],
+            [
+                168.4499969482422,
+                447.2130126953125,
+                10952.099609375
+            ],
+            [
+                215.6300048828125,
+                446.47198486328127,
+                11026.099609375
+            ],
+            [
+                285.2349853515625,
+                442.4960021972656,
+                11089.900390625
+            ],
+            [
+                233.60400390625,
+                454.3810119628906,
+                11137.2998046875
+            ]
+        ]
+    }
 }

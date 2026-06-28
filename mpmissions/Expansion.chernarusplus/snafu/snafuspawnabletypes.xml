@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>		
+<!-- Spawnable Types for Snafu - Created by Dirk -->
+	<type name="SNAFUAPS">
+		<attachments chance="0.25">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.33">
+			<item name="SNAFUAPS_20rdMag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SNAFUMarlin1895">
+		<attachments chance="0.25">
+			<item name="SNAFU_Trijicon_Docter" chance="0.06" />
+			<item name="SNAFU_Tango6T_Black" chance="0.06" />
+		</attachments>
+	</type>
+	<type name="SNAFUP90">
+		<attachments chance="0.25">
+			<item name="SNAFU_Trijicon_Docter" chance="0.06" />
+			<item name="SNAFU_Tango6T_Black" chance="0.06" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="SNAFUP90_50rdMag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SNAFURPD">
+		<attachments chance="0.40">
+			<item name="SNAFURPD_100rdMag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SNAFU_ADAR_Modular16_GUN">
+		<attachments chance="1.00">
+			<item name="SNAFU_MK15" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="SNAFU_Trijicon_Docter" chance="0.20" />
+			<item name="SNAFU_Tango6T_Black" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SNAFU_PRSGen3_Stock" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SNAFU_PistolGripColtA2" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SNAFU_FGCR_Grip" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="SNAFU_PMAG556_Black" chance="0.33" />
+			<item name="SNAFU_CMAG30556_Black" chance="0.33" />
+		</attachments>
+	</type>
+	<type name="SNAFU_AWM_Gun">
+		<attachments chance="0.33">
+			<item name="SNAFU_AWM_Mag" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

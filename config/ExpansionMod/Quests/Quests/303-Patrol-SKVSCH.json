@@ -8,7 +8,7 @@
         "Get to the trailhead and look around.",
         "Nice work, we could use more people like you. Here is your reward."
     ],
-    "ObjectiveText": "Kill all units at the radio zenit building",
+    "ObjectiveText": "Get those guys at SKVSCH.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 1800,
+            "Amount": 2500,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -43,12 +43,12 @@
     "IsAchievement": 0,
     "Objectives": [
         {
-            "ConfigVersion": 27,
+            "ConfigVersion": 28,
             "ID": 8,
             "ObjectiveType": 3
         },
         {
-            "ConfigVersion": 27,
+            "ConfigVersion": 28,
             "ID": 4,
             "ObjectiveType": 7
         }
