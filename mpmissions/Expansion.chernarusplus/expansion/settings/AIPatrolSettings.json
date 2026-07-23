@@ -29,35 +29,35 @@
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 30
+                "MaxPatrols": 35
             }
         ],
         "ObjectPatrol": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 30
+                "MaxPatrols": 35
             }
         ],
         "HelicopterWreck": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 15
+                "MaxPatrols": 35
             }
         ],
         "ContaminatedArea": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 15
+                "MaxPatrols": 35
             }
         ],
         "Patrol": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 35
+                "MaxPatrols": 45
             }
         ]
     },
@@ -71,8 +71,8 @@
             "FormationLooseness": 3.0,
             "Loadout": "BanditLoadout",
             "Units": [],
-            "NumberOfAI": 5,
-            "NumberOfAIMax": 0,
+            "NumberOfAI": 3,
+            "NumberOfAIMax": 5,
             "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "NONE",
             "Speed": "WALK",
@@ -119,8 +119,8 @@
             "FormationLooseness": 3.0,
             "Loadout": "BanditLoadout",
             "Units": [],
-            "NumberOfAI": 5,
-            "NumberOfAIMax": 0,
+            "NumberOfAI": 3,
+            "NumberOfAIMax": 5,
             "Behaviour": "HALT_OR_ALTERNATE",
             "LootingBehaviour": "NONE",
             "Speed": "WALK",

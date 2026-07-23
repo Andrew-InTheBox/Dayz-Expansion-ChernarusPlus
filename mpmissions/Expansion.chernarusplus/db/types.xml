@@ -15858,10 +15858,10 @@
         <category name="clothes"/>
     </type>
     <type name="PlateCarrierVest_Winter">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16106,10 +16106,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="PressVest_Blue">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16121,10 +16121,10 @@
         <value name="Tier4"/>
     </type>
     <type name="PressVest_LightBlue">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

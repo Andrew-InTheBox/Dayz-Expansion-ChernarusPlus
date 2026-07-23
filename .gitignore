@@ -1,5 +1,9 @@
-/@*/
-_@*/
+# Keep Workshop metadata stubs so a fresh checkout can discover and sync mods.
+# Ignore all other downloaded payload beneath client and server-side mod folders.
+/@*/*
+!/@*/meta.cpp
+/_@*/*
+!/_@*/meta.cpp
 .env
 config/DataCache/cache.ch
 dayz.gproj
