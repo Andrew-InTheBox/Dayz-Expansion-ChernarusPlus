@@ -25,7 +25,7 @@ set "serverConfig=serverDZ.cfg"
 ::Server profile folder
 set "serverProfile=config"
 ::Logical CPU cores to use (Equal or less than available)
-set "serverCPU=4"
+set "serverCPU=2"
 
 :: SteamCMD configuration (required for auto-updating mods)
 :: Override any of these in .env for machine-specific config
