@@ -1,0 +1,2 @@
+Info: '$profile:ExpansionMod\Settings\DebugSettings.json' has moved to '$profile:ExpansionMod\Settings\CoreSettings.json'.
+Feel free to delete this ReadMe file at your convenience.

@@ -1,20 +1,27 @@
 {
-    "m_Version": 15,
+    "m_Version": 20,
     "AccuracyMin": 0.8199999928474426,
     "AccuracyMax": 0.9200000166893005,
     "ThreatDistanceLimit": 375.0,
     "NoiseInvestigationDistanceLimit": 750.0,
+    "MaxFlankingDistance": 200.0,
+    "EnableFlankingOutsideCombat": 0,
     "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,
+    "ShoryukenChance": 0.009999999776482582,
+    "ShoryukenDamageMultiplier": 3.0,
     "Admins": [
         "76561198081075225"
     ],
     "Vaulting": 1,
     "SniperProneDistanceThreshold": 0.0,
+    "AggressionTimeout": 120.0,
+    "GuardAggressionTimeout": 150.0,
     "Manners": 0,
     "MemeLevel": 1,
     "CanRecruitFriendly": 1,
     "CanRecruitGuards": 0,
+    "MaxRecruitableAI": 1,
     "PreventClimb": [],
     "FormationScale": 1.0,
     "PlayerFactions": [],
@@ -22,6 +29,8 @@
     "LogAIKilled": 1,
     "EnableZombieVehicleAttackHandler": 0,
     "EnableZombieVehicleAttackPhysics": 0,
+    "OverrideClientWeaponFiring": 1,
+    "RecreateWeaponNetworkRepresentation": 1,
     "LightingConfigMinNightVisibilityMeters": {
         "0": 100.0,
         "1": 10.0

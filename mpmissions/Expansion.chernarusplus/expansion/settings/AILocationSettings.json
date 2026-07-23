@@ -1,5 +1,5 @@
 {
-    "m_Version": 2,
+    "m_Version": 4,
     "RoamingLocations": [
         {
             "Name": "Settlement_Chernogorsk",
@@ -2554,7 +2554,9 @@
         "Land_Shed_W2",
         "Land_Tenement_Big",
         "Land_Misc_Toilet_Mobile",
-        "Land_Ship_Medium2"
+        "Land_Ship_Medium2",
+        "Land_Boat_",
+        "Land_Train_Wagon_Box"
     ],
     "NoGoAreas": []
 }
