@@ -86,7 +86,7 @@ if "%ENABLE_WORKSHOP_UPDATES%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :update_m
 start "DayZ Server" /min /wait DayZServer_x64.exe ^
   -config=%serverConfig% ^
   "-mod=%mods%" ^
-  "-serverMod=_@Heatmap;_@DayZ-Dynamic-AI-Addon" ^
+  "-serverMod=_@Heatmap" ^
   -port=%serverPort% ^
   -profiles=%serverProfile% ^
   -cpuCount=%serverCPU% ^
