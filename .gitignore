@@ -36,3 +36,8 @@ custom_scripts/*/output/*
 !custom_scripts/*/output/.gitkeep
 /tmp
 config/ExpansionMod/Settings/SocialMediaSettings.json
+
+# Exception: the custom Heatmap server mod is NOT on the workshop, so it can never
+# be re-downloaded or re-synced from Steam - git is the only backup. Track everything
+# in it (must come after the /_@*/*, *.pbo and *.bisign ignores above to override them).
+!/_@Heatmap/**

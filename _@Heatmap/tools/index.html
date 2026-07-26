@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>DayZ Heatmap</title>
+</head>
+
+<body>
+
+<style>
+#mapImage {
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  background-size: 100% 100%;
+  outline: black 3px solid;
+}
+
+html {
+  text-align: center;
+}
+
+#legend {
+  margin: 20px auto;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.legend-item {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.legend-color {
+  width: 30px;
+  height: 3px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+</style>
+
+<p>
+Select map:
+<select name="mapSelect", id="mapSelect", onchange="changeMap()">
+<option value="Chernarus">Chernarus</option>
+<option value="Enoch">Livonia</option>
+<option value="Esseker">Esseker</option>
+<option value="DeerIsle">DeerIsle</option>
+<option value="Hashima">Hashima</option>
+<option value="Local Map">Local Map</option>
+</select>
+</p>
+
+<p>
+Load session file:
+<input type="file" id="sessionFileInput" accept=".json" onchange="loadSessionFromFile()">
+</p>
+
+<p>
+Toggle Layers:
+<label><input type="checkbox" id="togglePlayers" checked onchange="redrawHeatmap()"> Player Paths</label>
+<label><input type="checkbox" id="toggleAI" checked onchange="redrawHeatmap()"> AI Paths</label>
+<label><input type="checkbox" id="toggleZombies" checked onchange="redrawHeatmap()"> Zombie Locations</label>
+<label><input type="checkbox" id="togglePlayerDeaths" checked onchange="redrawHeatmap()"> Player Deaths</label>
+<label><input type="checkbox" id="toggleAIDeaths" checked onchange="redrawHeatmap()"> AI Deaths</label>
+</p>
+
+<div>
+Time:
+<input id="timeSlider" type="range" min="0" max="1" value="1" step="0.01">
+</div>
+
+<div id="legend">
+  <strong>Legend:</strong>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: red; height: 3px;"></span>
+    <span>Player Paths</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: blue; height: 2px;"></span>
+    <span>AI Paths</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-dot" style="background-color: magenta;"></span>
+    <span>Zombie Locations</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-dot" style="border: 2px solid yellow;"></span>
+    <span>Player Deaths</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-dot" style="border: 2px solid orange;"></span>
+    <span>AI Deaths</span>
+  </div>
+</div>
+
+<br/>
+<div id="dropbox">
+<div id="mapImage">
+<canvas id="mapCanvas" width="1000" height="1000">
+</canvas>
+</div>
+<br/>
+<input type="button" onClick="save();" value="Merge Data and Map">
+</div>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script>
+var mapSize = new Map();
+mapSize.set("Chernarus", 15360);
+mapSize.set("Enoch", 12800);
+mapSize.set("Esseker", 12800);
+mapSize.set("DeerIsle", 16384);
+mapSize.set("Hashima", 5200);
+
+var mapImage = new Map();
+mapImage.set("Chernarus", "https://github.com/BohemiaInteractive/DayZ-Central-Economy/raw/master/CETool/ChernarusPlus/map.png");
+mapImage.set("Enoch", "https://github.com/BohemiaInteractive/DayZ-Central-Economy/raw/master/CETool/Enoch/map.png");
+mapImage.set("Esseker", "https://github.com/InclementDab/Esseker-Server/raw/main/Central%20Economy%20Tool/map.png");
+mapImage.set("DeerIsle", "deerisle.png");
+mapImage.set("Hashima", "hashima-map-background.png");
+
+var waypoints = new Array();
+var deathpoints = new Array();
+var aiwaypoints = new Array();
+var zombiepoints = new Array();
+var aideathpoints = new Array();
+var maxTime = 0.0;
+
+changeMap();
+
+let dropbox = document.getElementById("dropbox");
+
+dropbox.addEventListener('dragover', dragover, false);
+dropbox.addEventListener("drop", drop, false);
+
+// Helper function to redraw with current time slider value
+function redrawHeatmap() {
+  const timeSlider = document.getElementById('timeSlider');
+  drawHeatmap(parseFloat(timeSlider.value));
+}
+
+// Function to load the session file from file input
+function loadSessionFromFile() {
+  const fileInput = document.getElementById("sessionFileInput");
+  const file = fileInput.files[0];
+
+  if (!file) {
+    alert("Please select a session file first.");
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    try {
+      const jsn = JSON.parse(event.target.result);
+
+      // Clear existing data
+      waypoints = new Array();
+      deathpoints = new Array();
+      aiwaypoints = new Array();
+      zombiepoints = new Array();
+      aideathpoints = new Array();
+
+      // Load data from JSON
+      if(jsn.m_WayPoints) {
+        waypoints = jsn.m_WayPoints;
+      }
+
+      if(jsn.m_DeathPoints) {
+        deathpoints = jsn.m_DeathPoints;
+      }
+
+      if(jsn.m_AIWayPoints) {
+        aiwaypoints = jsn.m_AIWayPoints;
+      }
+
+      if(jsn.m_ZombiePoints) {
+        zombiepoints = jsn.m_ZombiePoints;
+      }
+
+      if(jsn.m_AIDeathPoints) {
+        aideathpoints = jsn.m_AIDeathPoints;
+      }
+
+      // Update display
+      document.getElementById("timeSlider").value = "1.0";
+      maxTime = getMaxTime();
+      drawHeatmap(1.0);
+
+      console.log("Loaded session:", file.name);
+      console.log("Waypoints:", waypoints.length);
+      console.log("AI Waypoints:", aiwaypoints.length);
+      console.log("Zombie Points:", zombiepoints.length);
+      console.log("Death Points:", deathpoints.length);
+      console.log("AI Death Points:", aideathpoints.length);
+    } catch (error) {
+      console.error("Error parsing session file:", error);
+      alert("Error parsing session file: " + error.message);
+    }
+  };
+
+  reader.onerror = function() {
+    alert("Error reading file");
+  };
+
+  reader.readAsText(file);
+}
+
+function changeMap() {
+  let canvas = document.getElementById("mapCanvas");
+  let ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  let mapSelect = document.getElementById("mapSelect");
+  let value = mapSelect.value;
+  let text = mapSelect.options[mapSelect.selectedIndex].value;
+  if (mapImage.has(text))
+  {
+    let url = mapImage.get(text);
+
+    document.getElementById("mapImage").style.backgroundImage = "url('"+url+"')";
+  }
+  else
+  {
+    loadLocalMap();
+
+     let size = prompt("Size of the map", "12800");
+     mapSize.set("Local Map", parseInt(size));
+  }
+}
+
+function loadLocalMap() {
+  let input = document.createElement("input");
+  input.type = "file";
+  input.accept=".jpg, .png, .jpeg"
+  input.onchange = _ => {
+    let files = Array.from(input.files);
+    const reader = new FileReader();
+    reader.onloadend = function() {
+      document.getElementById("mapImage").style.backgroundImage = "url('"+reader.result+"')";
+    }
+    if(files[0]) {
+      reader.readAsDataURL(files[0]);
+    }
+  };
+  input.click();
+}
+
+function dragover(e) {
+  e.preventDefault();
+}
+function drop(e) {
+  e.stopPropagation();
+  e.preventDefault();
+
+  const dt = e.dataTransfer;
+  const files = dt.files;
+
+  waypoints = new Array();
+  deathpoints = new Array();
+  aiwaypoints = new Array();
+  zombiepoints = new Array();
+  aideathpoints = new Array();
+
+  for(let i = 0; i < files.length; i++) {
+    const reader = new FileReader();
+    let lastFile = i == files.length-1;
+    reader.addEventListener('load', (event) => {
+      jsn = JSON.parse(event.target.result);
+
+      if(jsn.m_WayPoints) {
+        for(let i = 0; i < jsn.m_WayPoints.length; i++) {
+          waypoints.push(jsn.m_WayPoints[i]);
+        }
+      }
+
+      if(jsn.m_DeathPoints) {
+        for(let i = 0; i < jsn.m_DeathPoints.length; i++) {
+          deathpoints.push(jsn.m_DeathPoints[i]);
+        }
+      }
+
+      if(jsn.m_AIWayPoints) {
+        for(let i = 0; i < jsn.m_AIWayPoints.length; i++) {
+          aiwaypoints.push(jsn.m_AIWayPoints[i]);
+        }
+      }
+
+      if(jsn.m_ZombiePoints) {
+        for(let i = 0; i < jsn.m_ZombiePoints.length; i++) {
+          zombiepoints.push(jsn.m_ZombiePoints[i]);
+        }
+      }
+
+      if(jsn.m_AIDeathPoints) {
+        for(let i = 0; i < jsn.m_AIDeathPoints.length; i++) {
+          aideathpoints.push(jsn.m_AIDeathPoints[i]);
+        }
+      }
+
+      if(lastFile) {
+        document.getElementById("timeSlider").value = "1.0";
+        maxTime = getMaxTime();
+        drawHeatmap(1.0);
+      }
+    });
+    reader.readAsText(files[i]);
+  }
+}
+
+function getMaxTime()
+{
+  let max = 0.0;
+
+  for(let i = 0; i < waypoints.length; i++) {
+    let playerwaypoints = waypoints[i];
+    for(let j = 0; j < playerwaypoints.length; j++)
+    {
+      max = Math.max(max, playerwaypoints[j][1]);
+    }
+    for(let i = 0; i < deathpoints.length; i++) {
+      max = Math.max(max, deathpoints[i][1]);
+    }
+  }
+
+  console.log("Max time detected:", max);
+
+  // If max time is very small (< 1000), assume these are Y coordinates not timestamps
+  // In this case, return 1 to effectively disable time filtering
+  if (max < 1000) {
+    console.log("Small max value detected - assuming no timestamps, disabling time filter");
+    return 1.0;
+  }
+
+  return max;
+}
+
+var lastTimeValue = 1.0;
+var inp = document.getElementById('timeSlider'); 
+inp.addEventListener("mousemove", function () {
+  if(this.value != lastTimeValue)
+  {
+    lastTimeValue = this.value;
+    drawHeatmap(this.value);
+  }
+});
+
+function drawHeatmap(time)
+{
+  let mapSelect = document.getElementById("mapSelect");
+  let value = mapSelect.value;
+  let size = mapSize.get(value);
+
+  if (!size) {
+    console.error("Map size not found for:", value);
+    return;
+  }
+
+  let canvas = document.getElementById("mapCanvas");
+  let ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Debug logging (comment out for production)
+  // console.log("Drawing heatmap - Size:", size, "Time:", time);
+  // console.log("Data counts - Waypoints:", waypoints.length, "AI:", aiwaypoints.length, "Zombies:", zombiepoints.length, "Deaths:", deathpoints.length, "AI Deaths:", aideathpoints.length);
+
+  // Get toggle states
+  const showPlayers = document.getElementById("togglePlayers").checked;
+  const showAI = document.getElementById("toggleAI").checked;
+  const showZombies = document.getElementById("toggleZombies").checked;
+  const showPlayerDeaths = document.getElementById("togglePlayerDeaths").checked;
+  const showAIDeaths = document.getElementById("toggleAIDeaths").checked;
+
+  // Draw player waypoints (red)
+  if (showPlayers && waypoints.length > 0) {
+  ctx.globalAlpha = Math.max(1.0 / Math.sqrt(waypoints.length), 0.3);
+  for(let i = 0; i < waypoints.length; i++) {
+    let playerwaypoints = waypoints[i];
+    ctx.beginPath();
+    ctx.lineWidth = "2";
+    ctx.strokeStyle = "red";
+    let firstPoint = true;
+    for(let j = 0; j < playerwaypoints.length; j++)
+    {
+      let waypoint = playerwaypoints[j];
+      // Apply time filtering based on either timestamp or index position
+      if(maxTime > 1000) {
+        // Real timestamps exist
+        if(waypoint[1]/maxTime > time) {
+          continue;
+        }
+      } else {
+        // No timestamps - use index as relative time
+        if(j/playerwaypoints.length > time) {
+          continue;
+        }
+      }
+      let x = canvas.width / size * waypoint[0];
+      let y = canvas.height - (canvas.height / size * waypoint[2]);
+      if(firstPoint)
+      {
+        ctx.moveTo(x, y)
+        firstPoint = false;
+      }
+      else
+      {
+        ctx.lineTo(x, y);
+      }
+    }
+    ctx.stroke();
+  }
+  }
+
+  // Draw AI waypoints (blue)
+  if (showAI && aiwaypoints.length > 0) {
+  ctx.globalAlpha = 0.7; // Semi-transparent for better visibility with overlapping paths
+  for(let i = 0; i < aiwaypoints.length; i++) {
+    let aiwaypoint = aiwaypoints[i];
+    ctx.beginPath();
+    ctx.lineWidth = "2.5";
+    ctx.strokeStyle = "blue";
+    let firstPoint = true;
+    for(let j = 0; j < aiwaypoint.length; j++)
+    {
+      let waypoint = aiwaypoint[j];
+      // Apply time filtering based on either timestamp or index position
+      if(maxTime > 1000) {
+        // Real timestamps exist
+        if(waypoint[1]/maxTime > time) {
+          continue;
+        }
+      } else {
+        // No timestamps - use index as relative time
+        if(j/aiwaypoint.length > time) {
+          continue;
+        }
+      }
+      let x = canvas.width / size * waypoint[0];
+      let y = canvas.height - (canvas.height / size * waypoint[2]);
+      if(firstPoint)
+      {
+        ctx.moveTo(x, y)
+        firstPoint = false;
+      }
+      else
+      {
+        ctx.lineTo(x, y);
+      }
+    }
+    ctx.stroke();
+  }
+  }
+
+  // Draw zombie points (magenta dots)
+  if (showZombies && zombiepoints.length > 0) {
+  ctx.globalAlpha = 1.0;
+  for(let i = 0; i < zombiepoints.length; i++) {
+    let waypoint = zombiepoints[i];
+    let x = canvas.width / size * waypoint[0];
+    let y = canvas.height - (canvas.height / size * waypoint[2]);
+    ctx.beginPath();
+    ctx.fillStyle = "magenta";
+    ctx.arc(x, y, canvas.width*0.001, 0, 2 * Math.PI);
+    ctx.fill();
+  }
+  }
+
+  // Draw player death points (yellow)
+  if (showPlayerDeaths && deathpoints.length > 0) {
+  ctx.globalAlpha = 1.0;
+  for(let i = 0; i < deathpoints.length; i++) {
+    let waypoint = deathpoints[i];
+    let x = canvas.width / size * waypoint[0];
+    let y = canvas.height - (canvas.height / size * waypoint[2]);
+    ctx.beginPath();
+    ctx.lineWidth = "2";
+    ctx.strokeStyle = "yellow";
+    ctx.arc(x, y, canvas.width*0.0015, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+  }
+
+  // Draw AI death points (orange)
+  if (showAIDeaths && aideathpoints.length > 0) {
+  ctx.globalAlpha = 1.0;
+  for(let i = 0; i < aideathpoints.length; i++) {
+    let waypoint = aideathpoints[i];
+    let x = canvas.width / size * waypoint[0];
+    let y = canvas.height - (canvas.height / size * waypoint[2]);
+    ctx.beginPath();
+    ctx.lineWidth = "2";
+    ctx.strokeStyle = "orange";
+    ctx.arc(x, y, canvas.width*0.0012, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+  }
+}
+
+function save()
+{
+  // Remove any previously created merged canvas
+  let merged = document.getElementById("mergedCanvas");
+  if(merged) {
+    merged.remove();
+  }
+
+  // Create the merged canvas
+  html2canvas(document.getElementById("mapImage"), {
+    allowTaint: true,
+    useCORS: true,
+  }).then(canvas => {
+    canvas.id = "mergedCanvas";
+    canvas.style.display = "none"; // Hide the canvas to prevent duplicate display
+    document.body.appendChild(canvas);
+
+    // Convert canvas to blob and download
+    canvas.toBlob(function(blob) {
+      saveAs(blob, "heatmap_merged.png");
+    });
+  });
+}
+</script>
+
+</body>
+</html>

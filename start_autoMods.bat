@@ -58,7 +58,7 @@ if not defined VALIDATE_SERVER_FILES set "VALIDATE_SERVER_FILES=0"
 if not defined SERVER_SOURCE_PATH set "SERVER_SOURCE_PATH=C:\Program Files (x86)\Steam\steamapps\common\DayZServer"
 :: Local-copy mode only ever touches these known vendor game paths (never config/, mpmissions/, or mod folders)
 if not defined SERVER_UPDATE_DIRS set "SERVER_UPDATE_DIRS=dta addons battleye keys sakhal"
-if not defined SERVER_UPDATE_FILES set "SERVER_UPDATE_FILES=DayZServer_x64.exe *.dll"
+if not defined SERVER_UPDATE_FILES set "SERVER_UPDATE_FILES=DayZServer_x64.exe *.dll *.gproj"
 
 title %serverName% batch
 

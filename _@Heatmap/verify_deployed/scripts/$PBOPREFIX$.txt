@@ -1,0 +1,5 @@
+//<'scripts.pbo' properties via Mikero's dos tools, dll version 9.98>
+Mikero=DePbo.dll.9.98;
+version=25100119;
+//PboType=Arma Unknown pbo type (no config or mission). No prefix (pboname assumed);
+//</properties>
