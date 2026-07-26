@@ -7,6 +7,8 @@
 .env
 config/DataCache/cache.ch
 dayz.gproj
+# Heatmap session output - runtime data written every 2 min by the _@Heatmap server mod
+config/Heatmap/
 *.exe
 *.RPT
 *.ADM
