@@ -30,6 +30,7 @@ config/Heatmap/
 /logs
 sakhal/addons/
 /battleye
+/_CommonRedist
 .continueignore
 .vscode/
 __pycache__/
