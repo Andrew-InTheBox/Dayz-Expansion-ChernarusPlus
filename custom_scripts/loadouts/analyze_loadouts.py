@@ -22,8 +22,9 @@ def flatten_json(data, file_path, parent_element='', slot_name='none'):
     return rows
 
 def main():
-    input_directory = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\config\ExpansionMod\Loadouts'
-    output_csv = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\custom_scripts\loadouts_output.csv'
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    input_directory = os.path.join(base_path, 'config', 'ExpansionMod', 'Loadouts')
+    output_csv = os.path.join(base_path, 'custom_scripts', 'loadouts_output.csv')
 
 
     all_rows = []

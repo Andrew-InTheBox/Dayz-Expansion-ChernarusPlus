@@ -3,8 +3,9 @@ import json
 import os
 
 # File paths
-xml_path = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\mpmissions\Expansion.chernarusplus\db\mmg\mmg_types_atacs.xml"
-json_output_path = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\config\ExpansionMod\Market\MMG_ATACS_Market.json"
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+xml_path = os.path.join(base_path, "mpmissions", "Expansion.chernarusplus", "db", "mmg", "mmg_types_atacs.xml")
+json_output_path = os.path.join(base_path, "config", "ExpansionMod", "Market", "MMG_ATACS_Market.json")
 
 # Read the XML file
 tree = ET.parse(xml_path)

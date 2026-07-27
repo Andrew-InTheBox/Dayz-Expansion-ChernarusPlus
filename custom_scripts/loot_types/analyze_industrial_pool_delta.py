@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 FILES = [
     Path("mpmissions/Expansion.chernarusplus/db/types.xml"),
-    Path("mpmissions/Expansion.chernarusplus/db/expansion_ce/expansion_types.xml"),
+    Path("mpmissions/Expansion.chernarusplus/expansion_ce/expansion_types.xml"),
 ]
 
 

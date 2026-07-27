@@ -20,5 +20,5 @@ def validate_xml_files(directory):
                     print(f"Invalid XML: {file_path}")
 
 if __name__ == "__main__":
-    directory = "C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader"  # Replace with the actual directory path
+    directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     validate_xml_files(directory)

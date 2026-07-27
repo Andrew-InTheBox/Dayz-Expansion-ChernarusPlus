@@ -89,7 +89,8 @@ def process_xml_file(input_file: str, output_file: str):
         f.write(content)
 
 def main():
-    input_file = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\mpmissions\Expansion.chernarusplus\expansion_ce\expansion_types.xml"
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    input_file = os.path.join(base_path, "mpmissions", "Expansion.chernarusplus", "expansion_ce", "expansion_types.xml")
     output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output", "new_types.xml")
     
     try:

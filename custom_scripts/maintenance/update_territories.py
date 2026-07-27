@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 import math
+import os
 
 def is_inside_circle(x, z, circle_x, circle_z, circle_radius):
     distance = math.sqrt((x - circle_x)**2 + (z - circle_z)**2)
@@ -27,7 +28,8 @@ def update_xml_values(file_path, multiplier, circle_x, circle_z, circle_radius):
     tree.write(file_path, encoding='UTF-8', xml_declaration=True)
 
 # Example usage
-file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\env\zombie_territories.xml'
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+file_path = os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'env', 'zombie_territories.xml')
 multiplier = 1.1  # Set your desired multiplier here
 
 # Define the circle (center point and radius)

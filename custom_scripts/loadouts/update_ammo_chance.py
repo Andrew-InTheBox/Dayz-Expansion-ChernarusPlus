@@ -37,5 +37,6 @@ def process_directory(directory_path):
                     print(f"Error processing {json_file}: {str(e)}")
 
 # Usage
-directory_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\config\ExpansionMod\Loadouts'
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+directory_path = os.path.join(base_path, 'config', 'ExpansionMod', 'Loadouts')
 process_directory(directory_path)

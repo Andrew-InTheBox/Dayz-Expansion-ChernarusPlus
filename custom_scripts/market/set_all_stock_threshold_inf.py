@@ -23,8 +23,9 @@ def update_stock_thresholds(file_path, max_threshold, min_threshold):
         print(f"Error processing {file_path}: {e}")
 
 if __name__ == "__main__":
-    # Absolute path to the directory
-    directory = 'C:/Program Files (x86)/Steam/steamapps/common/DayZServerChernaTrader/config/ExpansionMod/Market/'
+    # Path to the Market directory, relative to the repo root
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    directory = os.path.join(base_path, 'config', 'ExpansionMod', 'Market')
     max_threshold = 1
     min_threshold = 1
 

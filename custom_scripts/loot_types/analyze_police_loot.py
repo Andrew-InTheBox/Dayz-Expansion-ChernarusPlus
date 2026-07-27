@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 DEFAULT_MISSION = Path("mpmissions/Expansion.chernarusplus")
-TYPE_FILES = ("db/types.xml", "db/expansion_ce/expansion_types.xml")
+TYPE_FILES = ("db/types.xml", "expansion_ce/expansion_types.xml")
 
 
 def as_int(value: str | None, default: int = 0) -> int:

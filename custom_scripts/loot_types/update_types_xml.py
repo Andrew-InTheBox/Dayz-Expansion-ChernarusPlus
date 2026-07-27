@@ -1,8 +1,10 @@
 import xml.etree.ElementTree as ET
 import math
+import os
 
 # Define the file path
-file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerSakhal\mpmissions\dayzOffline.sakhal\db\types.xml'
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+file_path = os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'db', 'types.xml')
 
 # Load the XML file
 tree = ET.parse(file_path)

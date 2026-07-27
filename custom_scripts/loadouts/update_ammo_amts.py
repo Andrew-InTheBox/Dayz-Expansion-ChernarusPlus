@@ -73,7 +73,8 @@ def process_directory_for_ammo_updates(directory_path, chance, min_quantity, max
     print(f"Total files updated: {files_updated}")
 
 # Configuration
-directory_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\config\ExpansionMod\Loadouts'
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+directory_path = os.path.join(base_path, 'config', 'ExpansionMod', 'Loadouts')
 
 # Usage - Update ammo properties for all Ammo_ items
 process_directory_for_ammo_updates(directory_path, chance=0.2, min_quantity=0.2, max_quantity=0.4)

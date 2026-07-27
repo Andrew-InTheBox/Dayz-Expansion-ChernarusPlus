@@ -10,17 +10,17 @@ ROOT = Path(__file__).resolve().parents[2]
 MISSION = ROOT / "mpmissions" / "Expansion.chernarusplus"
 
 EVENT_FILES = [
-    MISSION / "db" / "expansion_ce" / "expansion_events.xml",
+    MISSION / "expansion_ce" / "expansion_events.xml",
     MISSION / "db" / "events.xml",
 ]
 
 SPAWNABLE_FILES = [
-    MISSION / "db" / "expansion_ce" / "expansion_spawnabletypes.xml",
+    MISSION / "expansion_ce" / "expansion_spawnabletypes.xml",
     MISSION / "cfgspawnabletypes.xml",
 ]
 
 TYPE_FILES = [
-    MISSION / "db" / "expansion_ce" / "expansion_types.xml",
+    MISSION / "expansion_ce" / "expansion_types.xml",
     MISSION / "db" / "types.xml",
 ]
 

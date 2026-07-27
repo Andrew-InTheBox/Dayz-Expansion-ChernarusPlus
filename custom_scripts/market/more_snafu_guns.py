@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 import os
 
-# Specify the full path to the XML file
-file_path = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerDITrader\mpmissions\Expansion.deerisle\db\snafu\SNAFU_types.xml"
+# Specify the path to the XML file, relative to the repo root
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+file_path = os.path.join(base_path, "mpmissions", "Expansion.chernarusplus", "snafu", "SNAFU_types.xml")
 
 # Check if the file exists
 if not os.path.exists(file_path):

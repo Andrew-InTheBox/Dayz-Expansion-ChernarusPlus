@@ -2,6 +2,8 @@ import json
 import os
 import argparse
 
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 def modify_ammo_quantities(json_file):
     # Read the JSON file
     with open(json_file, 'r') as file:
@@ -57,7 +59,7 @@ def process_directory(directory_path, target_file=None):
 def main():
     parser = argparse.ArgumentParser(description='Modify ammo quantities in DayZ configuration files.')
     parser.add_argument('--directory', '-d', 
-                        default=r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\config\ExpansionMod\Loadouts',
+                        default=os.path.join(base_path, 'config', 'ExpansionMod', 'Loadouts'),
                         help='Directory containing loadout files')
     parser.add_argument('--file', '-f', help='Specific JSON file to process (filename only)')
 

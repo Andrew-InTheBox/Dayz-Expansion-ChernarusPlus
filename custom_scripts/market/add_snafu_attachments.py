@@ -48,7 +48,8 @@ def match_weapons_and_mags(weapons_data, mags_data):
 
 
 def main():
-    input_dir = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\config\ExpansionMod\Market"
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    input_dir = os.path.join(base_path, "config", "ExpansionMod", "Market")
     weapons_file = os.path.join(input_dir, "Snafu_Weapons.json")
     mags_file = os.path.join(input_dir, "Snafu_Mags.json")
     output_file = os.path.join(input_dir, "Snafu_Weapons_modified.json")

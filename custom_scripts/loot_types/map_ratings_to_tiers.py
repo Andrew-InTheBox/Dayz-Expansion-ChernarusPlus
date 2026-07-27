@@ -138,8 +138,8 @@ def main():
     
     # Input files
     types_xml = os.path.join(mission_base, "db", "types.xml")
-    expansion_types_xml = os.path.join(mission_base, "db", "expansion_ce", "expansion_types.xml")
-    snafu_types_xml = os.path.join(mission_base, "db", "snafu", "SNAFU_bare_types.xml")
+    expansion_types_xml = os.path.join(mission_base, "expansion_ce", "expansion_types.xml")
+    snafu_types_xml = os.path.join(mission_base, "snafu", "SNAFU_bare_types.xml")
     
     # Output files - maintain same directory structure
     output_base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")

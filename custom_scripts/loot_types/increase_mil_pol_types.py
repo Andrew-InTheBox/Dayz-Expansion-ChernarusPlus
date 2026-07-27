@@ -5,8 +5,9 @@ import sys
 import argparse
 
 def process_types_xml(item_type=None):
-    # Hard-coded input path
-    input_path = r"C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\mpmissions\Expansion.chernarusplus\db\expansion_ce\expansion_types.xml"
+    # Input path relative to the repo root
+    base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    input_path = os.path.join(base_path, "mpmissions", "Expansion.chernarusplus", "expansion_ce", "expansion_types.xml")
     
     print(f"Checking file at: {input_path}")
     

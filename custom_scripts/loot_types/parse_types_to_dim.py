@@ -134,8 +134,8 @@ if __name__ == "__main__":
     input_files = {
         'types': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'db', 'types.xml'),
         'mmg': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'db', 'mmg', 'mmg_bare_types.xml'),
-        'expansion': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'db', 'expansion_ce', 'expansion_types.xml'),
-        'snafu': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'db', 'snafu', 'SNAFU_bare_types.xml')
+        'expansion': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'expansion_ce', 'expansion_types.xml'),
+        'snafu': os.path.join(base_path, 'mpmissions', 'Expansion.chernarusplus', 'snafu', 'SNAFU_bare_types.xml')
     }
     
     output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output', 'dim_types')

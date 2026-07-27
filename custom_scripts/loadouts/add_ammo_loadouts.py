@@ -105,6 +105,7 @@ def process_directory(directory_path, ammo_list_file):
                     print(f"Error processing {json_file}: {str(e)}")
 
 # Usage
-directory_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerSakhal\config\ExpansionMod\Loadouts'
-ammo_list_file = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerSakhal\custom_scripts\ammo_list.txt'
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+directory_path = os.path.join(base_path, 'config', 'ExpansionMod', 'Loadouts')
+ammo_list_file = os.path.join(base_path, 'custom_scripts', 'ammo_list.txt')
 process_directory(directory_path, ammo_list_file)
