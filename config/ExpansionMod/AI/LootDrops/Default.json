@@ -1,11 +1,192 @@
 [
+    
+    {
+        "ClassName": "Mag_Deagle_9rnd",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Whetstone",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "GorkaEJacket_Summer",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "GorkaEJacket_Winter",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "FNP45_MRDSOptic",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Whetstone",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "PistolSuppressor",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
     {
         "ClassName": "Ammo_545x39",
         "Include": "",
-        "Chance": 0.5,
+        "Chance": 0.15,
         "Quantity": {
-            "Min": 0.4000000059604645,
-            "Max": 0.800000011920929
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_12gaPellets",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_12gaSlug",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
         },
         "Health": [
             {
@@ -22,10 +203,10 @@
     {
         "ClassName": "Ammo_545x39Tracer",
         "Include": "",
-        "Chance": 0.5,
+        "Chance": 0.15,
         "Quantity": {
-            "Min": 0.4000000059604645,
-            "Max": 0.800000011920929
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
         },
         "Health": [
             {
@@ -42,10 +223,70 @@
     {
         "ClassName": "Ammo_762x39",
         "Include": "",
-        "Chance": 0.25,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_357",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.5000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_9x19",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.5000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_380",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -62,10 +303,10 @@
     {
         "ClassName": "Ammo_762x39Tracer",
         "Include": "",
-        "Chance": 0.25,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -82,10 +323,10 @@
     {
         "ClassName": "Ammo_556x45",
         "Include": "",
-        "Chance": 0.5,
+        "Chance": 0.15,
         "Quantity": {
-            "Min": 0.4000000059604645,
-            "Max": 0.800000011920929
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
         },
         "Health": [
             {
@@ -102,10 +343,10 @@
     {
         "ClassName": "Ammo_556x45Tracer",
         "Include": "",
-        "Chance": 0.5,
+        "Chance": 0.15,
         "Quantity": {
-            "Min": 0.4000000059604645,
-            "Max": 0.800000011920929
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
         },
         "Health": [
             {
@@ -122,10 +363,10 @@
     {
         "ClassName": "Ammo_762x54",
         "Include": "",
-        "Chance": 0.15000000596046449,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -142,10 +383,10 @@
     {
         "ClassName": "Ammo_762x54Tracer",
         "Include": "",
-        "Chance": 0.15000000596046449,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -162,10 +403,10 @@
     {
         "ClassName": "Ammo_308Win",
         "Include": "",
-        "Chance": 0.15000000596046449,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -182,10 +423,10 @@
     {
         "ClassName": "Ammo_308WinTracer",
         "Include": "",
-        "Chance": 0.15000000596046449,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
-            "Max": 0.6000000238418579
+            "Max": 0.5000000238418579
         },
         "Health": [
             {
@@ -202,7 +443,7 @@
     {
         "ClassName": "FirstAidKit",
         "Include": "",
-        "Chance": 0.33000001311302187,
+        "Chance": 0.10,
         "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -239,7 +480,7 @@
             {
                 "ClassName": "BandageDressing",
                 "Include": "",
-                "Chance": 0.4000000059604645,
+                "Chance": 0.3,
                 "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
@@ -259,7 +500,7 @@
             {
                 "ClassName": "IodineTincture",
                 "Include": "",
-                "Chance": 0.25,
+                "Chance": 0.1,
                 "Quantity": {
                     "Min": 0.20000000298023225,
                     "Max": 1.0
@@ -279,7 +520,7 @@
             {
                 "ClassName": "Morphine",
                 "Include": "",
-                "Chance": 0.25,
+                "Chance": 0.10,
                 "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
@@ -299,7 +540,7 @@
             {
                 "ClassName": "Epinephrine",
                 "Include": "",
-                "Chance": 0.25,
+                "Chance": 0.10,
                 "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
