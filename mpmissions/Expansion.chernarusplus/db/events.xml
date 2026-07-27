@@ -784,8 +784,8 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>3</nominal>
-        <min>0</min>
+        <nominal>5</nominal>
+        <min>1</min>
         <max>0</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
@@ -803,7 +803,7 @@
     </event>
     <event name="StaticMilitaryConvoy">
         <nominal>5</nominal>
-        <min>0</min>
+        <min>1</min>
         <max>0</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
