@@ -65,7 +65,7 @@
         {
             "Name": "Wreck_UH1Y",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -113,7 +113,7 @@
         {
             "Name": "Wreck_Mi8_Crashed",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -161,7 +161,7 @@
         {
             "Name": "Police Car Wreck",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -209,7 +209,7 @@
         {
             "Name": "Police Car Wreck II",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "Raiders",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -257,7 +257,7 @@
         {
             "Name": "Contam area static",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 5.0,
@@ -305,7 +305,7 @@
         {
             "Name": "Contam area dynamic",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 5.0,
@@ -1817,7 +1817,7 @@
         {
             "Name": "SW of Vybor Countryside",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -1881,7 +1881,7 @@
         {
             "Name": "Vyshnaya Dubrovka",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -1945,7 +1945,7 @@
         {
             "Name": "Stary Sobor",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2004,7 +2004,7 @@
         {
             "Name": "Kumyrna - Guglovo",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2078,7 +2078,7 @@
         {
             "Name": "Guglovo-NE",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2147,7 +2147,7 @@
         {
             "Name": "MB-Kamensk",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2211,7 +2211,7 @@
         {
             "Name": "Vyshnaya Dubrovka Roadblock",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -2339,7 +2339,7 @@
         {
             "Name": "Kamehka",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,
@@ -2462,7 +2462,7 @@
         {
             "Name": "Kamehnka-Pavlovo",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,
@@ -2585,7 +2585,7 @@
         {
             "Name": "Soskanova",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 7.0,
@@ -2644,7 +2644,7 @@
         {
             "Name": "Severograd",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 7.0,
@@ -2708,7 +2708,7 @@
         {
             "Name": "Gorka",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2782,7 +2782,7 @@
         {
             "Name": "MB-VMC",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 10.0,
@@ -2846,7 +2846,7 @@
         {
             "Name": "Storozh-Prison-Island",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -2925,7 +2925,7 @@
         {
             "Name": "Novodimitrovsk",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -2999,7 +2999,7 @@
         {
             "Name": "Novoya-Petrovka",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 3.0,
@@ -3073,7 +3073,7 @@
         {
             "Name": "MB-Kamensk-II",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 8.0,
@@ -3137,7 +3137,7 @@
         {
             "Name": "MB-Tisy-I",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,
@@ -3201,7 +3201,7 @@
         {
             "Name": "MB-Tisy-II",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,
@@ -3265,7 +3265,7 @@
         {
             "Name": "MB-Tisy-III",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,
@@ -3359,7 +3359,7 @@
         {
             "Name": "Druzhba-Camp",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "RANDOM",
             "FormationScale": -1.0,
             "FormationLooseness": 15.0,

@@ -8,7 +8,7 @@
     "EnableFlankingOutsideCombat": 0,
     "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,
-    "ShoryukenChance": 0.01,
+    "ShoryukenChance": 0.05,
     "ShoryukenDamageMultiplier": 3.0,
     "Admins": [
         "76561198081075225"
@@ -24,7 +24,9 @@
     "MaxRecruitableAI": 1,
     "PreventClimb": [],
     "FormationScale": 1.0,
-    "PlayerFactions": [],
+    "PlayerFactions": [
+        "East"
+    ],
     "LogAIHitBy": 1,
     "LogAIKilled": 1,
     "EnableZombieVehicleAttackHandler": 0,
