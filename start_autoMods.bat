@@ -17,7 +17,7 @@ if exist "%SCRIPT_DIR%.env" (
 if not defined ENABLE_WORKSHOP_UPDATES set "ENABLE_WORKSHOP_UPDATES=1"
 
 ::Name for the CMD window
-set "serverName=KRONJON-Chernarus"
+set "serverName=KRONJON-Chernarus-PvE"
 ::Server Port
 set "serverPort=2302"
 ::Server config
