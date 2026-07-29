@@ -2,6 +2,8 @@ Overall project description
 
 This project is a DayZ server setup.  Configuration files tend to be in /config or /mpmissions/Expansion.chernarusplus.   We are using the core components of a mod called DayZ Expansion which has a set of docs pages at and under this url:  https://github.com/salutesh/DayZ-Expansion-Scripts/wiki
 
+Expansion mod docs are in docs\dayz-expansion
+
 AI aka bot patrols are configured in the file AIPatrolSettings.json located at mpmissions\Expansion.chernarusplus\expansion\settings\AIPatrolSettings.json
 
 The loadouts the patrols wear are located in a folder here and are all json files:  config\ExpansionMod\Loadouts
