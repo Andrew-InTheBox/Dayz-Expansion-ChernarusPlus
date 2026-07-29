@@ -8626,6 +8626,19 @@
                     "Sets": []
                 },
                 {
+                    "ClassName": "Ammo_40mm_Explosive",
+                    "Chance": 1.0,
+                    "Quantity": {
+                        "Min": 1.0,
+                        "Max": 1.0
+                    },
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
                     "ClassName": "Mag_FNX45_15Rnd",
                     "Chance": 1.0,
                     "Quantity": {

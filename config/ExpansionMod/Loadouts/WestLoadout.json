@@ -768,7 +768,7 @@
             "Items": [
                 {
                     "ClassName": "PlateCarrierVest",
-                    "Chance": 1.0,
+                    "Chance": 0.33,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
@@ -816,7 +816,12 @@
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
-                },
+                }
+            ]
+        },
+        {
+            "SlotName": "Vest",
+            "Items": [
                 {
                     "ClassName": "HighCapacityVest_Olive",
                     "Chance": 1.0,
