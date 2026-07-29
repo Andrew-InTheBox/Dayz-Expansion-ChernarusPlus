@@ -2,7 +2,7 @@
     "m_Version": 32,
     "Enabled": 1,
     "FormationScale": -1.0,
-    "DespawnTime": 1200.0,
+    "DespawnTime": 600.0,
     "RespawnTime": 2400.0,
     "MinDistRadius": 200.0,
     "MaxDistRadius": 850.0,
