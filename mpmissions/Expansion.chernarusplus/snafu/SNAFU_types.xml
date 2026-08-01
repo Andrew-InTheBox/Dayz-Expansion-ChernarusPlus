@@ -74,10 +74,10 @@
         <usage name="Village"/>
     </type>
     <type name="SNAFU_Ammo_500_SW">
-        <nominal>65</nominal>
+        <nominal>75</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>60</min>
+        <min>65</min>
         <quantmin>20</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -191,10 +191,10 @@
         <usage name="Town"/>
     </type>
     <type name="SNAFUMagnum500">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>6</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -417,10 +417,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_338">
-        <nominal>65</nominal>
+        <nominal>75</nominal>
         <restock>0</restock>
         <lifetime>7200</lifetime>
-        <min>60</min>
+        <min>72</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -433,10 +433,10 @@
         <value name="Tier4"/>
     </type>
     <type name="snafu_ammo_5_7x28mm">
-        <nominal>85</nominal>
+        <nominal>100</nominal>
         <restock>0</restock>
         <lifetime>7200</lifetime>
-        <min>80</min>
+        <min>90</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>

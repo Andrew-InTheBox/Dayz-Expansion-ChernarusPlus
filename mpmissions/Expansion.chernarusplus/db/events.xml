@@ -56,8 +56,8 @@
     </event>
     <event name="AnimalBear">
         <nominal>0</nominal>
-        <min>2</min>
-        <max>2</max>
+        <min>3</min>
+        <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -72,9 +72,9 @@
         </children>
     </event>
     <event name="AnimalCow">
-        <nominal>7</nominal>
-        <min>2</min>
-        <max>3</max>
+        <nominal>11</nominal>
+        <min>3</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -94,9 +94,9 @@
         </children>
     </event>
     <event name="AnimalDeer">
-        <nominal>9</nominal>
-        <min>2</min>
-        <max>4</max>
+        <nominal>14</nominal>
+        <min>3</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -112,9 +112,9 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>8</nominal>
-        <min>1</min>
-        <max>3</max>
+        <nominal>12</nominal>
+        <min>2</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -132,9 +132,9 @@
         </children>
     </event>
     <event name="AnimalPig">
-        <nominal>6</nominal>
-        <min>1</min>
-        <max>2</max>
+        <nominal>9</nominal>
+        <min>2</min>
+        <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -149,9 +149,9 @@
         </children>
     </event>
     <event name="AnimalRoeDeer">
-        <nominal>10</nominal>
-        <min>2</min>
-        <max>3</max>
+        <nominal>15</nominal>
+        <min>3</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -167,9 +167,9 @@
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>5</nominal>
-        <min>4</min>
-        <max>5</max>
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>7</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -185,9 +185,9 @@
         </children>
     </event>
     <event name="AnimalWildBoar">
-        <nominal>7</nominal>
-        <min>1</min>
-        <max>3</max>
+        <nominal>11</nominal>
+        <min>2</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -819,9 +819,9 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>5</nominal>
-        <min>1</min>
-        <max>0</max>
+        <nominal>7</nominal>
+        <min>2</min>
+        <max>8</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -837,9 +837,9 @@
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
-        <nominal>5</nominal>
-        <min>1</min>
-        <max>0</max>
+        <nominal>6</nominal>
+        <min>2</min>
+        <max>7</max>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -853,9 +853,9 @@
         <children/>
     </event>
     <event name="StaticPoliceCar">
-        <nominal>8</nominal>
-        <min>4</min>
-        <max>9</max>
+        <nominal>10</nominal>
+        <min>5</min>
+        <max>11</max>
         <lifetime>3200</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
