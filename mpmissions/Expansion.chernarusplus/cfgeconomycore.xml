@@ -48,5 +48,12 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="SNAFU_types.xml" type="types" />
 		<file name="snafuspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
-	
+
+	<!-- mmg -->
+	<ce folder="db/mmg">
+		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="mmg_types_ADMINGEAR.xml" type="types" />
+		<file name="mmg_bare_types.xml" type="types" />
+	</ce>
+
 </economycore>
