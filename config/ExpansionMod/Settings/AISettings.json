@@ -8,7 +8,7 @@
     "EnableFlankingOutsideCombat": 0,
     "DamageMultiplier": 1.0,
     "DamageReceivedMultiplier": 1.0,
-    "ShoryukenChance": 0.05,
+    "ShoryukenChance": 0.10,
     "ShoryukenDamageMultiplier": 3.0,
     "Admins": [
         "76561198081075225"

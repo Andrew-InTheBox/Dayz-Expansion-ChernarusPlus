@@ -3366,7 +3366,7 @@
             "Loadout": "BanditLoadout",
             "Units": [],
             "NumberOfAI": 1,
-            "NumberOfAIMax": 0,
+            "NumberOfAIMax": 1,
             "Behaviour": "LOOP",
             "LootingBehaviour": "DEFAULT",
             "Speed": "WALK",

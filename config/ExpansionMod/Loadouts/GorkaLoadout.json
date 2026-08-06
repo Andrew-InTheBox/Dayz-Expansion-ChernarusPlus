@@ -1947,7 +1947,7 @@
     "Sets": [
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.12,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2180,7 +2180,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.6,
+            "Chance": 0.3,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2349,7 +2349,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.12,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2595,7 +2595,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.15,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2718,7 +2718,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.12,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -2964,7 +2964,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.10,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3074,7 +3074,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.12,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3210,7 +3210,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 1.0,
+            "Chance": 0.35,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3495,7 +3495,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.2,
+            "Chance": 0.25,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3689,7 +3689,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.05,
+            "Chance": 0.10,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
