@@ -56,4 +56,16 @@
 			<item name="SNAFU_AWM_Mag" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="GCGN_BenelliM4">
+		<attachments chance="0.40">
+			<item name="SNAFU_Shotgunchoke_Black" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Blue" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Brown" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Green" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Purple" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Red" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Tur" chance="0.125" />
+			<item name="SNAFU_Shotgunchoke_Yellow" chance="0.125" />
+		</attachments>
+	</type>
 </spawnabletypes>
