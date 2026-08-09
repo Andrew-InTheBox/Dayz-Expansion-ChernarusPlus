@@ -66,6 +66,8 @@ MATRIX_FIELDS = [
     "NumberOfAIMax",
     "Formation",
     "Speed",
+    "ThreatDistanceLimit",
+    "NoiseInvestigationDistanceLimit",
     "CanBeLooted",
     "UnlimitedReload",
     "CanSpawnInContaminatedArea",
