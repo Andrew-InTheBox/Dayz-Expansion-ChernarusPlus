@@ -3070,7 +3070,7 @@
         },
         {
             "ClassName": "CLOTHING",
-            "Chance": 0.5,
+            "Chance": 0.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -3405,7 +3405,7 @@
         },
         {
             "ClassName": "CLOTHING",
-            "Chance": 0.5,
+            "Chance": 1.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
