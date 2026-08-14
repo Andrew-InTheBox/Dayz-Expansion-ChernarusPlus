@@ -62,6 +62,12 @@ if not defined SERVER_UPDATE_FILES set "SERVER_UPDATE_FILES=DayZServer_x64.exe *
 
 title %serverName% batch
 
+:loop
+echo (%time%) Starting %serverName%...
+
+if "%ENABLE_SERVER_UPDATE%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :server_file_update
+if "%ENABLE_WORKSHOP_UPDATES%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :update_mods
+
 ::Build mods list from folders starting with "@"
 setlocal enabledelayedexpansion
 set "mods="
@@ -75,12 +81,6 @@ for /d %%D in (@*) do (
 endlocal & set "mods=%mods%"
 
 echo Server mod list: %mods%
-
-:loop
-echo (%time%) Starting %serverName%...
-
-if "%ENABLE_SERVER_UPDATE%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :update_server_files
-if "%ENABLE_WORKSHOP_UPDATES%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :update_mods
 
 :: /wait = batch pauses until DayZServer_x64.exe exits (graceful shutdown)
 start "DayZ Server" /min /wait DayZServer_x64.exe ^
@@ -96,12 +96,12 @@ echo (%time%) Server process exited. Restarting in 3 seconds...
 timeout /t 3 /nobreak >nul
 goto loop
 
-:update_server_files
-if /i "%USE_STEAMCMD%"=="1" call :update_server_files_steamcmd
-if /i not "%USE_STEAMCMD%"=="1" call :update_server_files_copy
+:server_file_update
+if /i "%USE_STEAMCMD%"=="1" call :server_file_update_steamcmd
+if /i not "%USE_STEAMCMD%"=="1" call :server_file_update_copy
 goto :eof
 
-:update_server_files_steamcmd
+:server_file_update_steamcmd
 if not exist "%STEAMCMD%" goto :steamcmd_missing
 call :resolve_steam_login
 set "VALIDATE_ARG="
@@ -110,7 +110,7 @@ echo (%time%) Updating DayZ server files in "%GAME_INSTALL_DIR%" (appid %SERVER_
 "%STEAMCMD%" +force_install_dir "%GAME_INSTALL_DIR%" %LOGIN_ARGS% +app_update %SERVER_APPID% %VALIDATE_ARG% +quit
 goto :eof
 
-:update_server_files_copy
+:server_file_update_copy
 if not exist "%SERVER_SOURCE_PATH%" goto :server_source_missing
 echo (%time%) Syncing server files from local copy: "%SERVER_SOURCE_PATH%"
 robocopy "%SERVER_SOURCE_PATH%" "%GAME_INSTALL_DIR%" %SERVER_UPDATE_FILES% /FFT /Z /W:2 /R:2 >nul
