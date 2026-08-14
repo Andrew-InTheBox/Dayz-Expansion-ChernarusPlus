@@ -221,10 +221,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUP90_50rdMag">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>6</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -247,10 +247,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFURPD_100rdMag">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -260,10 +260,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFURPD">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -417,10 +417,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_338">
-        <nominal>75</nominal>
+        <nominal>85</nominal>
         <restock>0</restock>
         <lifetime>7200</lifetime>
-        <min>72</min>
+        <min>75</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -433,12 +433,12 @@
         <value name="Tier4"/>
     </type>
     <type name="snafu_ammo_5_7x28mm">
-        <nominal>100</nominal>
+        <nominal>120</nominal>
         <restock>0</restock>
         <lifetime>7200</lifetime>
-        <min>90</min>
-        <quantmin>20</quantmin>
-        <quantmax>40</quantmax>
+        <min>100</min>
+        <quantmin>30</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>

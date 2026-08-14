@@ -601,10 +601,10 @@
         <value name="Tier4"/>
     </type>
     <type name="AmmoBox_308Win_20Rnd">
-        <nominal>20</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -865,10 +865,10 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_308Win">
-        <nominal>60</nominal>
+        <nominal>75</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>45</min>
+        <min>65</min>
         <quantmin>30</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
