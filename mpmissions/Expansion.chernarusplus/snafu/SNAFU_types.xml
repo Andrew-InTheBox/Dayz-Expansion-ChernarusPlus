@@ -86,20 +86,6 @@
         <usage name="Hunting"/>
         <usage name="Village"/>
     </type>
-    <type name="SNAFU_GADAR">
-        <nominal>5</nominal>
-        <restock>1800</restock>
-        <lifetime>7200</lifetime>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-        <value name="Tier3"/>
-    </type>
     <type name="SNAFU_MTango6T_Black">
         <nominal>5</nominal>
         <restock>1800</restock>
@@ -144,21 +130,6 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="SNAFU_SADAR_Stock">
-        <nominal>30</nominal>
-        <restock>1800</restock>
-        <lifetime>7200</lifetime>
-        <min>25</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="1" count_in_map="0" count_in_cargo="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -574,6 +545,45 @@
         <usage name="Police"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFUTAR21_Green">
+        <nominal>1</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFUGevar_10rdMag">
+        <nominal>3</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFUGevar_Black">
+        <nominal>1</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
         <value name="Tier4"/>
     </type>
 </types>

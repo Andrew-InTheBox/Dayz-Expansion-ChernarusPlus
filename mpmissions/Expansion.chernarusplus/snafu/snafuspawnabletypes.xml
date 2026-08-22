@@ -56,6 +56,24 @@
 			<item name="SNAFU_AWM_Mag" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="SNAFUTAR21_Green">
+		<attachments chance="0.25">
+			<item name="SNAFU_Trijicon_Docter" chance="0.06" />
+			<item name="SNAFU_Tango6T_Black" chance="0.06" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SNAFUGevar_Black">
+		<attachments chance="0.50">
+			<item name="SNAFU_Trijicon_Docter" chance="0.70" />
+			<item name="SNAFU_Tango6T_Black" chance="0.70" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="SNAFUGevar_10rdMag" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="GCGN_BenelliM4">
 		<attachments chance="0.40">
 			<item name="SNAFU_Shotgunchoke_Black" chance="0.125" />

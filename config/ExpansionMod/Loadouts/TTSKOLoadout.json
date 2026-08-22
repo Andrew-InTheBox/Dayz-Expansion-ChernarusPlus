@@ -790,7 +790,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 0.5,
+            "Chance": 0.4,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -920,7 +920,7 @@
         },
         {
             "ClassName": "WEAPON",
-            "Chance": 0.5,
+            "Chance": 0.6,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1095,7 +1095,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 0.5,
+            "Chance": 0.35,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1358,7 +1358,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 0.75,
+            "Chance": 0.55,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1503,7 +1503,7 @@
         {
             "ClassName": "WEAPON",
             "Include": "",
-            "Chance": 0.75,
+            "Chance": 0.2,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
@@ -1522,7 +1522,27 @@
                                 "Max": 0.0
                             },
                             "Health": [],
-                            "InventoryAttachments": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "PUScopeOptic",
+                                            "Include": "",
+                                            "Chance": 0.33,
+                                            "Quantity": {
+                                                "Min": 0.0,
+                                                "Max": 0.0
+                                            },
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
                             "InventoryCargo": [],
                             "ConstructionPartsBuilt": [],
                             "Sets": []
