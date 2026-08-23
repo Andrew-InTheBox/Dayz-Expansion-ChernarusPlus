@@ -54,6 +54,9 @@ modded class KeyCard_Door_Base {
 
     float GetSumRewardChance(ref array< ref SecurityDoorRandomRewardConfig > rewards) {
         float sum = 0;
+        if (!rewards)
+            return sum;
+
         foreach( ref SecurityDoorRandomRewardConfig reward : rewards ) {
             sum += reward.chance;
         }
@@ -66,12 +69,34 @@ modded class KeyCard_Door_Base {
         AddRandomLoots(crate);
     }
 
+    protected void AddCargo(EntityAI crate, ref array< ref SecurityDoorCargoConfig > cargo)
+    {
+        if (!cargo)
+            return;
+
+        foreach (ref SecurityDoorCargoConfig cargoItem : cargo)
+        {
+            int itemCount = cargoItem.count;
+            if (itemCount < 1)
+                itemCount = 1;
+
+            for (int itemIndex = 0; itemIndex < itemCount; itemIndex++)
+                crate.GetInventory().CreateInInventory(cargoItem.className);
+        }
+    }
+
     void AddFixedLoots(EntityAI crate) {
         //add random rewards
+        if (!m_persistanceData.fixedRewards)
+            return;
+
         foreach( ref SecurityDoorRewardConfig reward : m_persistanceData.fixedRewards ) 
         {
             //add attachments
             EntityAI rewardObject = crate.GetInventory().CreateInInventory(reward.className);
+            if (!rewardObject)
+                continue;
+            AddCargo(crate, reward.cargo);
             foreach( ref SecurityDoorRewardConfig attachment : reward.attachments ) 
             {
                 EntityAI attachmentObject = rewardObject.GetInventory().CreateInInventory(attachment.className);
@@ -85,6 +110,9 @@ modded class KeyCard_Door_Base {
 
     void AddRandomLoots(EntityAI crate) {
         //add random rewards
+        if (!m_persistanceData.randomRewards)
+            return;
+
         float totalRewardChance = GetSumRewardChance(m_persistanceData.randomRewards);
         int rewardRnd = Math.Floor(Math.RandomFloat(0.0, 1.0) * (totalRewardChance * 100));
         Print("RND " + rewardRnd);
@@ -96,6 +124,9 @@ modded class KeyCard_Door_Base {
             {
                 //add attachments
                 EntityAI rewardObject = crate.GetInventory().CreateInInventory(reward.className);
+                if (!rewardObject)
+                    break;
+                AddCargo(crate, reward.cargo);
                 int attachmentsCounter = 0;
                 float totalAttachmentRewardChance = GetSumRewardChance(reward.attachments);
                 int rndAttachment = Math.Floor(Math.RandomFloat(0.0, 1.0) * (totalAttachmentRewardChance * 100));

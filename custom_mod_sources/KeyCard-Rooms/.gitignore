@@ -1,6 +1,8 @@
 deploy.bat
 dayz.gproj
 build/
+backups/
+verify-run.*/
 verify/
 
 # These unchanged client assets remain supplied by the installed vendor PBOs.

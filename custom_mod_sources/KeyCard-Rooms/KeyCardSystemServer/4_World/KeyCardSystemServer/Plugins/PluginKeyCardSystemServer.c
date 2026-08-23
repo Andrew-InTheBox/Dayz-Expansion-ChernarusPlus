@@ -1,12 +1,26 @@
+class SecurityDoorCargoConfig
+{
+    string className;
+    int count;
+
+    void SecurityDoorCargoConfig(string class_name, int item_count)
+    {
+        className = class_name;
+        count = item_count;
+    }
+}
+
 class SecurityDoorRewardConfig 
 {
     string className;
     ref array< ref SecurityDoorRewardConfig > attachments;
+    ref array< ref SecurityDoorCargoConfig > cargo;
 
-    void SecurityDoorRewardConfig( string class_name, ref array< ref SecurityDoorRewardConfig > attachments_obj) 
+    void SecurityDoorRewardConfig( string class_name, ref array< ref SecurityDoorRewardConfig > attachments_obj, ref array< ref SecurityDoorCargoConfig > cargo_obj = NULL)
     {
         className = class_name;
         attachments = attachments_obj;
+        cargo = cargo_obj;
     }
 }
 
@@ -15,11 +29,13 @@ class SecurityDoorRandomRewardConfig
     string className;
     float chance;
     ref array< ref SecurityDoorRandomRewardConfig > attachments;
+    ref array< ref SecurityDoorCargoConfig > cargo;
 
-    void SecurityDoorRandomRewardConfig( string class_name, float chance_obj, ref array< ref SecurityDoorRandomRewardConfig > attachments_obj) 
+    void SecurityDoorRandomRewardConfig( string class_name, float chance_obj, ref array< ref SecurityDoorRandomRewardConfig > attachments_obj, ref array< ref SecurityDoorCargoConfig > cargo_obj = NULL)
     {
         className = class_name;
         attachments = attachments_obj;
+        cargo = cargo_obj;
         chance = chance_obj;
     }
 }

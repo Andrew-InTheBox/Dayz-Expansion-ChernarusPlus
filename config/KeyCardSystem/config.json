@@ -5,7 +5,7 @@
             "className": "Land_KlimaX_T1Door",
             "location": [
                 2493.35009765625,
-                193.60000610351563,
+                193.60000610351562,
                 5081.330078125
             ],
             "dir": [
@@ -16,7 +16,7 @@
             "autoClose": 60.0,
             "crateLocation": [
                 2489.090087890625,
-                194.82000732421876,
+                194.82000732421875,
                 5074.33984375
             ],
             "crateDir": [
@@ -24,18 +24,20 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
             "location": [
                 9847.759765625,
-                283.29998779296877,
+                283.29998779296875,
                 8708.3798828125
             ],
             "dir": [
                 -96.00299835205078,
-                0.23080000281333924,
+                0.23080000281333923,
                 0.5893999934196472
             ],
             "autoClose": 60.0,
@@ -49,7 +51,9 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -66,7 +70,7 @@
             "autoClose": 60.0,
             "crateLocation": [
                 6200.30126953125,
-                301.13775634765627,
+                301.13775634765625,
                 7725.48779296875
             ],
             "crateDir": [
@@ -74,7 +78,9 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -84,7 +90,7 @@
                 12409.5
             ],
             "dir": [
-                1.0000200271606446,
+                1.0000200271606445,
                 0.0,
                 0.0
             ],
@@ -99,24 +105,26 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
             "location": [
                 7622.580078125,
-                214.85000610351563,
+                214.85000610351562,
                 5201.6298828125
             ],
             "dir": [
-                -1.0000200271606446,
+                -1.0000200271606445,
                 0.0,
                 0.0
             ],
             "autoClose": 60.0,
             "crateLocation": [
                 7622.51171875,
-                214.92361450195313,
+                214.92361450195312,
                 5202.89599609375
             ],
             "crateDir": [
@@ -124,13 +132,15 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
             "location": [
                 2840.070068359375,
-                270.74200439453127,
+                270.74200439453125,
                 9742.7099609375
             ],
             "dir": [
@@ -149,7 +159,9 @@
                 2.5,
                 4.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -160,13 +172,13 @@
             ],
             "dir": [
                 122.0,
-                0.07689999788999558,
+                0.07689999788999557,
                 0.04809999838471413
             ],
             "autoClose": 60.0,
             "crateLocation": [
                 6041.5400390625,
-                267.35101318359377,
+                267.35101318359375,
                 10396.599609375
             ],
             "crateDir": [
@@ -174,7 +186,9 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -185,8 +199,8 @@
             ],
             "dir": [
                 179.0,
-                -1.0002000331878663,
-                0.0017999999690800906
+                -1.0002000331878662,
+                0.0017999999690800905
             ],
             "autoClose": 60.0,
             "crateLocation": [
@@ -199,17 +213,19 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T3Door",
             "location": [
                 1747.739990234375,
-                450.29998779296877,
+                450.29998779296875,
                 14021.7998046875
             ],
             "dir": [
-                83.99099731445313,
+                83.99099731445312,
                 0.0,
                 0.0
             ],
@@ -224,7 +240,10 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 10.0,
+            "randomRewards": [],
+            "fixedRewards": []
         }
-    ]
+    ],
+    "disableMapEditsPreset": false
 }

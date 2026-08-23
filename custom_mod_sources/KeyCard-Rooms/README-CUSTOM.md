@@ -31,6 +31,20 @@ paths, and writes:
 The script does not deploy or overwrite live PBOs. Build and verification
 outputs are intentionally ignored by Git.
 
+## Custom reward cargo
+
+Both fixed and random reward objects accept an optional `cargo` array. Cargo is
+created directly in the reward crate only when its parent reward is spawned, so
+it can bundle non-attachment supplies with a selected weapon.
+
+```json
+"cargo": [
+  { "className": "AmmoBox_762x54_20Rnd", "count": 2 }
+]
+```
+
+An omitted `cargo` array adds nothing. A `count` below 1 is treated as 1.
+
 The build uses:
 
 ```text
