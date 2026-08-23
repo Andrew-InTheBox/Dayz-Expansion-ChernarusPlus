@@ -3,6 +3,7 @@ dayz.gproj
 build/
 backups/
 verify-run.*/
+vendor-inspect.*/
 verify/
 
 # These unchanged client assets remain supplied by the installed vendor PBOs.

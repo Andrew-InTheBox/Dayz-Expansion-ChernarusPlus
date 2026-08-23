@@ -37,7 +37,7 @@ set "WORKSHOP_APPID=221100"
 if not defined UPDATE_ON_RESTART set "UPDATE_ON_RESTART=1"
 if not defined USE_STEAMCMD set "USE_STEAMCMD=0"
 if not defined WORKSHOP_PATH set "WORKSHOP_PATH=E:\SteamLibrary\steamapps\workshop\content\221100"
-if not defined SKIP_MODS set "SKIP_MODS=_@Heatmap @KeyCard-Rooms"
+if not defined SKIP_MODS set "SKIP_MODS=_@Heatmap _@KeyCardRoomsServer"
 if not defined SKIP_MOD_IDS set "SKIP_MOD_IDS=2854246756"
 if defined USERNAME set "STEAM_LOGIN=%USERNAME%"
 if defined PASSWORD set "STEAM_PASS=%PASSWORD%"
@@ -86,7 +86,7 @@ echo Server mod list: %mods%
 start "DayZ Server" /min /wait DayZServer_x64.exe ^
   -config=%serverConfig% ^
   "-mod=%mods%" ^
-  "-serverMod=_@Heatmap" ^
+  "-serverMod=_@Heatmap;_@KeyCardRoomsServer" ^
   -port=%serverPort% ^
   -profiles=%serverProfile% ^
   -cpuCount=%serverCPU% ^

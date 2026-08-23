@@ -24,9 +24,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -51,9 +49,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -78,9 +74,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -105,9 +99,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -132,9 +124,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -159,9 +149,7 @@
                 2.5,
                 4.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -186,9 +174,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -213,9 +199,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         },
         {
             "className": "Land_KlimaX_T3Door",
@@ -240,10 +224,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0,
-            "randomRewards": [],
-            "fixedRewards": []
+            "closeDelay": 10.0
         }
-    ],
-    "disableMapEditsPreset": false
+    ]
 }

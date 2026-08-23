@@ -51,8 +51,12 @@ The build uses:
 C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe
 ```
 
-## Deployment plan
+## Deployment status
 
-Do not overwrite the live mod until the customized PBOs have been packed,
-re-extracted to verify their prefixes, and tested against a generated JSON
-configuration. Deployment should preserve backups of the installed PBOs.
+The rebuilt vendor PBO approach was tested and then retired because Workshop
+clients load `KeyCardSystemServer.pbo` and require the signed Workshop version.
+The live `@KeyCard-Rooms` folder must remain byte-for-byte vendor supplied.
+
+The active customization is now the uniquely named server-only companion in
+`../KeyCard-Rooms-Server`. It overrides the three door loot methods while being
+loaded through `-serverMod`, so clients continue using the normal Workshop mod.
