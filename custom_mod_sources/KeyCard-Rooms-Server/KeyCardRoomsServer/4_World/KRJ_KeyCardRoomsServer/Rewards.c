@@ -247,12 +247,12 @@ modded class PluginKeyCardSystemServer
 
         // The vendor preset references obsolete vbldr aircraft-door classes.
         // Fill both sides of the T3 hangar entrance with current BuilderItems tin walls.
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.469971 450.300011 14014.700195", "83.003548 0 0");
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.469971 452.300011 14014.700195", "83.003548 0 0");
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.469971 454.300011 14014.700195", "83.003548 0 0");
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.060059 450.300012 14028.200195", "83.003494 0 0");
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.060059 452.300012 14028.200195", "83.003494 0 0");
-        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.060059 454.300012 14028.200195", "83.003494 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.386371 450.300011 14015.495815", "83.003548 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.386371 452.300011 14015.495815", "83.003548 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1746.386371 454.300011 14015.495815", "83.003548 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 450.300012 14027.404575", "83.003494 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 452.300012 14027.404575", "83.003494 0 0");
+        KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 454.300012 14027.404575", "83.003494 0 0");
     }
 
     protected void KRJ_SpawnStaticObject(string className, vector position, vector orientation)
