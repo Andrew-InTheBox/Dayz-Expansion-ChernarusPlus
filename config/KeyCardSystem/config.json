@@ -13,7 +13,7 @@
                 0.0,
                 0.0
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 2489.090087890625,
                 194.82000732421875,
@@ -24,7 +24,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -38,7 +38,7 @@
                 0.23080000281333923,
                 0.5893999934196472
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 9844.94140625,
                 283.3477783203125,
@@ -49,7 +49,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -63,7 +63,7 @@
                 0.0,
                 0.0
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 6200.30126953125,
                 301.13775634765625,
@@ -74,7 +74,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -88,7 +88,7 @@
                 0.0,
                 0.0
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 7816.72119140625,
                 140.01303100585938,
@@ -99,7 +99,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T1Door",
@@ -113,7 +113,7 @@
                 0.0,
                 0.0
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 7622.51171875,
                 214.92361450195312,
@@ -124,7 +124,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -138,10 +138,10 @@
                 -0.5350000262260437,
                 -3.299999952316284
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 2835.419921875,
-                270.0,
+                270.6,
                 9749.2900390625
             ],
             "crateDir": [
@@ -149,7 +149,7 @@
                 2.5,
                 4.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -163,7 +163,7 @@
                 0.07689999788999557,
                 0.04809999838471413
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 6041.5400390625,
                 267.35101318359375,
@@ -174,7 +174,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T2Door",
@@ -188,7 +188,7 @@
                 -1.0002000331878662,
                 0.0017999999690800905
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 3966.502197265625,
                 311.5334777832031,
@@ -199,7 +199,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         },
         {
             "className": "Land_KlimaX_T3Door",
@@ -213,7 +213,7 @@
                 0.0,
                 0.0
             ],
-            "autoClose": 60.0,
+            "autoClose": 120.0,
             "crateLocation": [
                 1758.643798828125,
                 450.3038330078125,
@@ -224,7 +224,7 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 10.0
+            "closeDelay": 15.0
         }
     ]
 }

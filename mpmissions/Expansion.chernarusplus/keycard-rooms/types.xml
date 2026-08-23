@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="RedemptionKeyCard_01">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
         <min>1</min>
@@ -12,13 +12,15 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="RedemptionKeyCard_02">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27,9 +29,10 @@
         <tag name="floor"/>
         <usage name="Military"/>
         <value name="Tier4"/>
+        <value name="Tier3"/>
     </type>
     <type name="RedemptionKeyCard_03">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
         <min>1</min>

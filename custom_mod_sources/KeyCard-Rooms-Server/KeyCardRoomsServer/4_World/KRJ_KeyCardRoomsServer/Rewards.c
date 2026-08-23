@@ -21,11 +21,13 @@ class KRJ_KeyCardRewardConfig
 class KRJ_KeyCardTierConfig
 {
     string doorClassName;
+    int randomRewardCount;
     ref array<ref KRJ_KeyCardRewardConfig> randomRewards;
     ref array<ref KRJ_KeyCardRewardConfig> fixedRewards;
 
     void KRJ_KeyCardTierConfig()
     {
+        randomRewardCount = 1;
         randomRewards = new array<ref KRJ_KeyCardRewardConfig>;
         fixedRewards = new array<ref KRJ_KeyCardRewardConfig>;
     }
@@ -155,33 +157,43 @@ class KRJ_KeyCardRewardManager
             SpawnReward(crate, reward);
     }
 
-    protected void AddRandomReward(EntityAI crate, ref array<ref KRJ_KeyCardRewardConfig> rewards)
+    protected void AddRandomRewards(EntityAI crate, ref array<ref KRJ_KeyCardRewardConfig> rewards, int rewardCount)
     {
-        if (!rewards || rewards.Count() == 0)
+        if (!rewards || rewards.Count() == 0 || rewardCount < 1)
             return;
 
-        float totalChance = 0;
-        foreach (ref KRJ_KeyCardRewardConfig rewardForTotal : rewards)
+        ref array<ref KRJ_KeyCardRewardConfig> availableRewards = new array<ref KRJ_KeyCardRewardConfig>;
+        foreach (ref KRJ_KeyCardRewardConfig availableReward : rewards)
         {
-            if (rewardForTotal && rewardForTotal.chance > 0)
-                totalChance += rewardForTotal.chance;
+            if (availableReward && availableReward.chance > 0)
+                availableRewards.Insert(availableReward);
         }
 
-        if (totalChance <= 0)
-            return;
+        int rolls = rewardCount;
+        if (rolls > availableRewards.Count())
+            rolls = availableRewards.Count();
 
-        float selectedChance = Math.RandomFloat(0, totalChance);
-        float chanceCounter = 0;
-        foreach (ref KRJ_KeyCardRewardConfig reward : rewards)
+        for (int rollIndex = 0; rollIndex < rolls; rollIndex++)
         {
-            if (!reward || reward.chance <= 0)
-                continue;
+            float totalChance = 0;
+            foreach (ref KRJ_KeyCardRewardConfig rewardForTotal : availableRewards)
+                totalChance += rewardForTotal.chance;
 
-            chanceCounter += reward.chance;
-            if (selectedChance <= chanceCounter)
-            {
-                SpawnReward(crate, reward);
+            if (totalChance <= 0)
                 return;
+
+            float selectedChance = Math.RandomFloat(0, totalChance);
+            float chanceCounter = 0;
+            for (int rewardIndex = 0; rewardIndex < availableRewards.Count(); rewardIndex++)
+            {
+                ref KRJ_KeyCardRewardConfig reward = availableRewards[rewardIndex];
+                chanceCounter += reward.chance;
+                if (selectedChance <= chanceCounter)
+                {
+                    SpawnReward(crate, reward);
+                    availableRewards.Remove(rewardIndex);
+                    break;
+                }
             }
         }
     }
@@ -196,7 +208,29 @@ class KRJ_KeyCardRewardManager
         }
 
         AddFixedRewards(crate, tier.fixedRewards);
-        AddRandomReward(crate, tier.randomRewards);
+        int randomRewardCount = tier.randomRewardCount;
+        if (randomRewardCount < 1)
+            randomRewardCount = 1;
+
+        AddRandomRewards(crate, tier.randomRewards, randomRewardCount);
+    }
+}
+
+modded class KeyCard_Door_Base
+{
+    override void Open(int index)
+    {
+        OpenDoor(index);
+        m_persistanceData.SetIsOpen(index, true);
+        SetTimeTillAutoClose(index, m_persistanceData.GetAutoCloseTime() * 1000);
+        SpawnRewards();
+    }
+
+    override void InitiateClose(int index)
+    {
+        float delay = m_persistanceData.GetCloseDelay();
+        GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(Close, delay * 1000, false, index);
+        m_IsClosing = true;
     }
 }
 
