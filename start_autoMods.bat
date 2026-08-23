@@ -67,6 +67,7 @@ echo (%time%) Starting %serverName%...
 
 if "%ENABLE_SERVER_UPDATE%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :server_file_update
 if "%ENABLE_WORKSHOP_UPDATES%"=="1" if "%UPDATE_ON_RESTART%"=="1" call :update_mods
+call :sync_mod_keys
 
 ::Build mods list from folders starting with "@"
 setlocal enabledelayedexpansion
@@ -95,6 +96,27 @@ start "DayZ Server" /min /wait DayZServer_x64.exe ^
 echo (%time%) Server process exited. Restarting in 3 seconds...
 timeout /t 3 /nobreak >nul
 goto loop
+
+:sync_mod_keys
+if not exist "%SCRIPT_DIR%keys" mkdir "%SCRIPT_DIR%keys"
+setlocal EnableDelayedExpansion
+set /a KEY_COUNT=0
+set /a KEY_ERRORS=0
+for /d %%D in (@*) do (
+  for /r "%%D" %%K in (*.bikey) do (
+    copy /Y "%%~fK" "%SCRIPT_DIR%keys\%%~nxK" >nul
+    if errorlevel 1 (
+      echo ^(%time%^) WARNING: Could not copy mod key "%%~fK"
+      set /a KEY_ERRORS+=1
+    ) else (
+      set /a KEY_COUNT+=1
+    )
+  )
+)
+echo ^(%time%^) Synchronized !KEY_COUNT! mod key file^(s^) into "%SCRIPT_DIR%keys".
+if not "!KEY_ERRORS!"=="0" echo ^(%time%^) WARNING: !KEY_ERRORS! mod key copy operation^(s^) failed; startup will continue.
+endlocal
+goto :eof
 
 :server_file_update
 if /i "%USE_STEAMCMD%"=="1" call :server_file_update_steamcmd
