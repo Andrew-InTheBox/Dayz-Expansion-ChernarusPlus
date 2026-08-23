@@ -46,8 +46,8 @@ class KRJ_KeyCardRewardsConfig
 class KRJ_KeyCardRewardManager
 {
     protected static ref KRJ_KeyCardRewardManager s_Instance;
-    protected const string CONFIG_DIR = "$profile:KeyCardRoomsCompanion";
-    protected const string CONFIG_FILE = CONFIG_DIR + "/rewards.json";
+    protected static const string CONFIG_DIR = "$profile:KeyCardRoomsCompanion";
+    protected static const string CONFIG_FILE = CONFIG_DIR + "/rewards.json";
     protected ref KRJ_KeyCardRewardsConfig m_Config;
 
     static KRJ_KeyCardRewardManager GetInstance()
