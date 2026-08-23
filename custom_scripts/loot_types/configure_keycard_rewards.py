@@ -17,17 +17,26 @@ SPAWNABLE_FILES = (
     ROOT / "mpmissions/Expansion.chernarusplus/snafu/snafuspawnabletypes.xml",
 )
 REWARDS = ROOT / "config/KeyCardRoomsCompanion/rewards.json"
+EXCLUDED_STANDALONE_REWARDS = {
+    "M4_CQBBttstck",
+    "M4_MPBttstck",
+    "M4_MPHndgrd",
+    "M4_OEBttstck",
+    "M4_PlasticHndgrd",
+    "M4_RISHndgrd",
+}
 
 
 def cargo(class_name, count=1):
     return {"className": class_name, "count": count}
 
 
-def reward(class_name, attachments=(), cargo_items=(), chance=1.0):
+def reward(class_name, attachments=(), cargo_items=(), container_items=(), chance=1.0):
     return {
         "className": class_name,
         "chance": chance,
         "attachments": [reward(name) for name in attachments],
+        "containerCargo": list(container_items),
         "cargo": list(cargo_items),
     }
 
@@ -59,16 +68,18 @@ T3 = [
 ]
 
 T2 = [
-    reward("CZ75", ["Mag_CZ75_15Rnd", "PistolSuppressor", "TLRLight"], [cargo("AmmoBox_9x19_25rnd", 2), cargo("M4_CQBBttstck")]),
-    reward("AKS74U", ["AKS74U_Bttstck", "Mag_AK74_30Rnd"], [cargo("AmmoBox_545x39_20Rnd", 2), cargo("AK74_Hndgrd"), cargo("AK74_WoodBttstck")]),
-    reward("MP5K", ["MP5_RailHndgrd", "MP5k_StockBttstck", "Mag_MP5_30Rnd", "M68Optic", "PistolSuppressor"], [cargo("AmmoBox_9x19_25rnd", 2), cargo("M4_MPBttstck"), cargo("M4_MPHndgrd")]),
-    reward("Saiga", ["Saiga_Bttstck", "Mag_Saiga_8Rnd"], [cargo("AmmoBox_00buck_10rnd", 2), cargo("M4_OEBttstck")]),
-    reward("Engraved1911", ["PistolSuppressor", "Mag_1911_7Rnd"], [cargo("AmmoBox_45ACP_25rnd", 2), cargo("M4_PlasticHndgrd")]),
-    reward("M14", ["Mag_M14_20Rnd", "SNAFU_Tango6T_Black"], [cargo("AmmoBox_308Win_20Rnd", 2), cargo("M4_RISHndgrd"), cargo("PP19_Bttstck")]),
+    reward("CZ75", ["Mag_CZ75_15Rnd", "PistolSuppressor", "TLRLight"], [cargo("AmmoBox_9x19_25rnd", 2)]),
+    reward("AKS74U", ["AKS74U_Bttstck", "Mag_AK74_30Rnd"], [cargo("AmmoBox_545x39_20Rnd", 2)]),
+    reward("MP5K", ["MP5_RailHndgrd", "MP5k_StockBttstck", "Mag_MP5_30Rnd", "M68Optic", "PistolSuppressor"], [cargo("AmmoBox_9x19_25rnd", 2)]),
+    reward("Saiga", ["Saiga_Bttstck", "Mag_Saiga_8Rnd"], [cargo("AmmoBox_00buck_10rnd", 2)]),
+    reward("Engraved1911", ["PistolSuppressor", "Mag_1911_7Rnd"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
+    reward("M14", ["Mag_M14_20Rnd", "ACOGOptic_6x"], [cargo("AmmoBox_308Win_20Rnd", 2)]),
 ]
 
 T1 = [
-    reward("WeaponCleaningKit"), reward("FirstAidKit"), reward("Canteen"),
+    reward("WeaponCleaningKit"),
+    reward("FirstAidKit", container_items=[cargo("BandageDressing"), cargo("TetracyclineAntibiotics"), cargo("VitaminBottle")]),
+    reward("Canteen"),
     reward("CombatKnife"), reward("AmmoBox_762x39_20Rnd"),
     reward("AmmoBox_545x39_20Rnd"), reward("AmmoBox_556x45_20Rnd"),
     reward("AmmoBox_308Win_20Rnd"), reward("AmmoBox_9x19_25rnd"),
@@ -130,13 +141,13 @@ def main():
     config = {
         "version": 1,
         "tiers": [
-            {"doorClassName": "Land_KlimaX_T1Door", "randomRewardCount": 3, "randomRewards": T1, "fixedRewards": []},
-            {"doorClassName": "Land_KlimaX_T2Door", "randomRewardCount": 1, "randomRewards": T2, "fixedRewards": []},
-            {"doorClassName": "Land_KlimaX_T3Door", "randomRewardCount": 1, "randomRewards": T3, "fixedRewards": []},
+            {"doorClassName": "Land_KlimaX_T1Door", "randomRewardCount": 5, "randomRewards": T1, "fixedRewards": []},
+            {"doorClassName": "Land_KlimaX_T2Door", "randomRewardCount": 3, "randomRewards": T2, "fixedRewards": []},
+            {"doorClassName": "Land_KlimaX_T3Door", "randomRewardCount": 2, "randomRewards": T3, "fixedRewards": []},
         ],
     }
     encoded = json.dumps(config, indent=4) + "\n"
-    absent = sorted(name for name in selected if name not in encoded)
+    absent = sorted(name for name in selected - EXCLUDED_STANDALONE_REWARDS if name not in encoded)
     if absent:
         raise RuntimeError(f"Rated items absent from reward config: {absent}")
     disable_ce_items(selected)

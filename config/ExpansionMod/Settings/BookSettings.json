@@ -39,10 +39,10 @@
             "CategoryName": "Room Rewards",
             "Descriptions": [
                 {
-                    "DescriptionText": "Tier 1 rooms provide three different random selections from a pool of useful survival supplies and ammunition boxes."
+                    "DescriptionText": "Tier 1 rooms provide random selections from a pool of useful survival supplies and ammunition boxes."
                 },
                 {
-                    "DescriptionText": "Tier 2 rooms provide one random Rating 3 military weapon bundle. Tier 3 rooms provide one random Rating 4 military weapon bundle."
+                    "DescriptionText": "Tier 2 rooms provide random Rating 3 military weapon bundles. Tier 3 rooms provide random Rating 4 military weapon bundles."
                 },
                 {
                     "DescriptionText": "Weapon bundles include a compatible magazine, an optic when the weapon supports one, and ammunition. Some bundles also contain useful weapon attachments or accessories."
