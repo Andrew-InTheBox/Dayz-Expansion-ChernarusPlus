@@ -1,0 +1,10 @@
+deploy.bat
+dayz.gproj
+build/
+verify/
+
+# These unchanged client assets remain supplied by the installed vendor PBOs.
+# The local customization builds only the two server-side script PBOs.
+KlimaX_Doors/Data/
+RedemptionKeyCards/Data/
+KeyCardSystem/Assets/
