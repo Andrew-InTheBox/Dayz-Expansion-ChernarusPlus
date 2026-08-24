@@ -244,7 +244,7 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "Mag_Saiga_8Rnd",
+                            "className": "Mag_saiga_drum20rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -262,7 +262,7 @@
                     "cargo": [
                         {
                             "className": "AmmoBox_00buck_10rnd",
-                            "count": 2
+                            "count": 3
                         }
                     ]
                 },
@@ -289,30 +289,6 @@
                     "cargo": [
                         {
                             "className": "AmmoBox_45ACP_25rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "M14",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_M14_20Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "ACOGOptic_6x",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
                         }
                     ]
@@ -374,6 +350,30 @@
                         },
                         {
                             "className": "AmmoBox_9x19_25rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "M14",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_M14_20Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
                         }
                     ]
@@ -597,30 +597,6 @@
                     ]
                 },
                 {
-                    "className": "Vikhr",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_Vikhr_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "PSO1Optic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_9x39_20Rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
                     "className": "VSS",
                     "chance": 1.0,
                     "attachments": [
@@ -780,7 +756,7 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SNAFU_PMAG556_Black",
+                            "className": "Mag_CMAG_30Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -847,7 +823,7 @@
                         },
                         {
                             "className": "SNAFUP90_50rdMag",
-                            "count": 2
+                            "count": 1
                         }
                     ]
                 },
@@ -879,7 +855,7 @@
                     "cargo": [
                         {
                             "className": "AmmoBox_00buck_10rnd",
-                            "count": 2
+                            "count": 3
                         }
                     ]
                 },
@@ -928,6 +904,10 @@
                         {
                             "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
+                        },
+                        {
+                            "className": "SNAFUGevar_10rdMag",
+                            "count": 1
                         }
                     ]
                 }
