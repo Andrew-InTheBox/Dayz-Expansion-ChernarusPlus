@@ -118,7 +118,7 @@ class KRJ_KeyCardRewardManager
         }
     }
 
-    protected void AddAttachments(EntityAI parent, ref array<ref KRJ_KeyCardRewardConfig> attachments)
+    protected void AddAttachments(EntityAI parent, EntityAI fallbackCrate, ref array<ref KRJ_KeyCardRewardConfig> attachments)
     {
         if (!parent || !attachments)
             return;
@@ -128,11 +128,24 @@ class KRJ_KeyCardRewardManager
             if (!attachment || attachment.className == "")
                 continue;
 
-            EntityAI attachmentObject = parent.GetInventory().CreateInInventory(attachment.className);
-            if (attachmentObject)
-                AddAttachments(attachmentObject, attachment.attachments);
+            EntityAI attachmentObject;
+            ItemBase parentItem;
+
+            // Expansion's wrapper handles weapon magazines specially: it creates
+            // them in InventorySlots.MAGAZINE, restores the correct weapon FSM
+            // state, chambers a round, and synchronizes the weapon.
+            if (Class.CastTo(parentItem, parent))
+                attachmentObject = parentItem.ExpansionCreateAttachment(attachment.className);
             else
-                Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType());
+                attachmentObject = parent.GetInventory().CreateAttachment(attachment.className);
+            if (attachmentObject)
+                AddAttachments(attachmentObject, fallbackCrate, attachment.attachments);
+            else
+            {
+                Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType() + "; spawning it loose in the reward crate");
+                if (fallbackCrate)
+                    fallbackCrate.GetInventory().CreateInInventory(attachment.className);
+            }
         }
     }
 
@@ -148,7 +161,7 @@ class KRJ_KeyCardRewardManager
             return;
         }
 
-        AddAttachments(rewardObject, reward.attachments);
+        AddAttachments(rewardObject, crate, reward.attachments);
         AddCargo(rewardObject, reward.containerCargo);
         AddCargo(crate, reward.cargo);
     }

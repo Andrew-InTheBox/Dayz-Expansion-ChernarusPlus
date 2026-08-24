@@ -5,7 +5,7 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
-        requiredAddons[] = {"KeyCardSystemServerConfig", "BuilderItems_Walls"};
+        requiredAddons[] = {"KeyCardSystemServerConfig", "BuilderItems_Walls", "DayZExpansion_Core_Scripts"};
     };
 };
 

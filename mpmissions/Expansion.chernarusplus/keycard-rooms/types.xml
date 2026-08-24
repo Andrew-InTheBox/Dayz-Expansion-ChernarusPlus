@@ -4,7 +4,7 @@
         <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>21600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14,7 +14,6 @@
         <usage name="Military"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="RedemptionKeyCard_02">
         <nominal>3</nominal>

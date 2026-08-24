@@ -25,6 +25,44 @@ EXCLUDED_STANDALONE_REWARDS = {
     "M4_PlasticHndgrd",
     "M4_RISHndgrd",
 }
+LOOSE_OPTICS = {
+    "ACOGOptic",
+    "ACOGOptic_6x",
+    "FNP45_MRDSOptic",
+    "KashtanOptic",
+    "KobraOptic",
+    "M68Optic",
+    "PSO1Optic",
+    "PSO11Optic",
+    "PUScopeOptic",
+    "SNAFU_Tango6T_Black",
+}
+MAGAZINES = {
+    "Mag_1911_7Rnd",
+    "Mag_AK101_30Rnd",
+    "Mag_AK74_30Rnd",
+    "Mag_AK74_45Rnd",
+    "Mag_AKM_30Rnd",
+    "Mag_Aug_30Rnd",
+    "Mag_CMAG_30Rnd",
+    "Mag_CZ75_15Rnd",
+    "Mag_FAMAS_25Rnd",
+    "Mag_FNX45_15Rnd",
+    "Mag_M14_20Rnd",
+    "Mag_MP5_30Rnd",
+    "Mag_PP19_64Rnd",
+    "Mag_Saiga_8Rnd",
+    "Mag_SCARH_20Rnd",
+    "Mag_SVD_10Rnd",
+    "Mag_SV98_10Rnd",
+    "Mag_UMP_25Rnd",
+    "Mag_VAL_20Rnd",
+    "Mag_Vikhr_30Rnd",
+    "SNAFU_PMAG556_Black",
+    "SNAFUGevar_10rdMag",
+    "SNAFUP90_50rdMag",
+    "SNAFURPD_100rdMag",
+}
 
 
 def cargo(class_name, count=1):
@@ -32,45 +70,52 @@ def cargo(class_name, count=1):
 
 
 def reward(class_name, attachments=(), cargo_items=(), container_items=(), chance=1.0):
+    # Optics are always spawned loose. Direct optic attachment has proven
+    # unreliable, while ordinary crate cargo is dependable.
+    direct_attachments = [name for name in attachments if name not in LOOSE_OPTICS]
+    # Expansion's weapon FSM synchronization is most reliable when a magazine
+    # is created before stocks, handguards, suppressors, and other attachments.
+    direct_attachments.sort(key=lambda name: name not in MAGAZINES)
+    loose_optics = [cargo(name) for name in attachments if name in LOOSE_OPTICS]
     return {
         "className": class_name,
         "chance": chance,
-        "attachments": [reward(name) for name in attachments],
+        "attachments": [reward(name) for name in direct_attachments],
         "containerCargo": list(container_items),
-        "cargo": list(cargo_items),
+        "cargo": loose_optics + list(cargo_items),
     }
 
 
 T3 = [
     reward("SKS", ["PUScopeOptic"], [cargo("AmmoBox_762x39_20Rnd", 2)]),
-    reward("FNX45", ["Mag_FNX45_15Rnd", "FNP45_MRDSOptic", "PistolSuppressor"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
-    reward("PP19", ["PP19_Bttstck", "Mag_PP19_64Rnd", "KobraOptic", "PistolSuppressor"], [cargo("AmmoBox_9x19_25rnd", 2)]),
-    reward("UMP45", ["Mag_UMP_25Rnd", "ACOGOptic", "PistolSuppressor", "UniversalLight"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
+    reward("FNX45", ["Mag_FNX45_15Rnd", "PistolSuppressor", "FNP45_MRDSOptic"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
+    reward("PP19", ["PP19_Bttstck", "Mag_PP19_64Rnd", "PistolSuppressor", "KobraOptic"], [cargo("AmmoBox_9x19_25rnd", 2)]),
+    reward("UMP45", ["Mag_UMP_25Rnd", "PistolSuppressor", "UniversalLight", "ACOGOptic"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
     reward("AugShort", ["Mag_Aug_30Rnd"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
-    reward("AK101", ["AK_PlasticBttstck", "AK_PlasticHndgrd", "KashtanOptic", "Mag_AK101_30Rnd"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
+    reward("AK101", ["AK_PlasticBttstck", "AK_PlasticHndgrd", "Mag_AK101_30Rnd", "KashtanOptic"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
     reward("M79", cargo_items=[cargo("Ammo_40mm_Explosive", 4), cargo("Ammo_40mm_Smoke_White", 2), cargo("NVGoggles")]),
-    reward("AK74", ["AK74_WoodBttstck", "AK74_Hndgrd", "KashtanOptic", "Mag_AK74_45Rnd"], [cargo("AmmoBox_545x39_20Rnd", 2)]),
+    reward("AK74", ["AK74_WoodBttstck", "AK74_Hndgrd", "Mag_AK74_45Rnd", "KashtanOptic"], [cargo("AmmoBox_545x39_20Rnd", 2)]),
     reward("FAMAS", ["Mag_FAMAS_25Rnd"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
     reward("M16A2", ["Mag_CMAG_30Rnd"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
     reward("SVD", ["Mag_SVD_10Rnd", "PSO11Optic"], [cargo("AmmoBox_762x54_20Rnd", 2)]),
     reward("Vikhr", ["Mag_Vikhr_30Rnd", "PSO1Optic"], [cargo("AmmoBox_9x39_20Rnd", 2)]),
     reward("VSS", ["Mag_VAL_20Rnd", "PSO11Optic"], [cargo("AmmoBox_9x39_20Rnd", 2)]),
     reward("SV98", ["Mag_SV98_10Rnd", "ACOGOptic_6x"], [cargo("AmmoBox_762x54_20Rnd", 2)]),
-    reward("AKM", ["AK_PlasticBttstck", "AK_PlasticHndgrd", "PSO11Optic", "AK_Suppressor", "Mag_AKM_30Rnd"], [cargo("AmmoBox_762x39_20Rnd", 2)]),
-    reward("ASVAL", ["Mag_Vikhr_30Rnd", "ACOGOptic", "UniversalLight"], [cargo("AmmoBox_9x39_20Rnd", 2)]),
-    reward("SCARH", ["SCAR_PrecisionBttstck", "ACOGOptic_6x", "Mag_SCARH_20Rnd"], [cargo("AmmoBox_308Win_20Rnd", 2)]),
-    reward("SNAFU_ADAR_Modular16_GUN", ["SNAFU_MK15", "SNAFU_Tango6T_Black", "SNAFU_PRSGen3_Stock", "SNAFU_PistolGripColtA2", "SNAFU_FGCR_Grip", "SNAFU_PMAG556_Black"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
-    reward("SNAFUP90", ["SNAFU_Tango6T_Black", "SNAFUP90_50rdMag"], [cargo("SNAFUP90_50rdMag", 2)]),
+    reward("AKM", ["AK_PlasticBttstck", "AK_PlasticHndgrd", "AK_Suppressor", "Mag_AKM_30Rnd", "PSO11Optic"], [cargo("AmmoBox_762x39_20Rnd", 2)]),
+    reward("ASVAL", ["Mag_Vikhr_30Rnd", "UniversalLight", "ACOGOptic"], [cargo("AmmoBox_9x39_20Rnd", 2)]),
+    reward("SCARH", ["SCAR_PrecisionBttstck", "Mag_SCARH_20Rnd", "ACOGOptic_6x"], [cargo("AmmoBox_308Win_20Rnd", 2)]),
+    reward("SNAFU_ADAR_Modular16_GUN", ["SNAFU_MK15", "SNAFU_PRSGen3_Stock", "SNAFU_PistolGripColtA2", "SNAFU_FGCR_Grip", "SNAFU_PMAG556_Black", "SNAFU_Tango6T_Black"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
+    reward("SNAFUP90", ["SNAFUP90_50rdMag", "SNAFU_Tango6T_Black"], [cargo("SNAFUP90_50rdMag", 2)]),
     reward("SNAFURPD", ["SNAFURPD_100rdMag"], [cargo("AmmoBox_762x39_20Rnd", 2)]),
     reward("GCGN_BenelliM4", cargo_items=[cargo("AmmoBox_00buck_10rnd", 2)]),
-    reward("SNAFUTAR21_Green", ["SNAFU_Tango6T_Black", "Mag_CMAG_30Rnd"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
-    reward("SNAFUGevar_Black", ["SNAFU_Tango6T_Black", "SNAFUGevar_10rdMag"], [cargo("AmmoBox_308Win_20Rnd", 2)]),
+    reward("SNAFUTAR21_Green", ["Mag_CMAG_30Rnd", "SNAFU_Tango6T_Black"], [cargo("AmmoBox_556x45_20Rnd", 2)]),
+    reward("SNAFUGevar_Black", ["SNAFUGevar_10rdMag", "SNAFU_Tango6T_Black"], [cargo("AmmoBox_308Win_20Rnd", 2)]),
 ]
 
 T2 = [
     reward("CZ75", ["Mag_CZ75_15Rnd", "PistolSuppressor", "TLRLight"], [cargo("AmmoBox_9x19_25rnd", 2)]),
     reward("AKS74U", ["AKS74U_Bttstck", "Mag_AK74_30Rnd"], [cargo("AmmoBox_545x39_20Rnd", 2)]),
-    reward("MP5K", ["MP5_RailHndgrd", "MP5k_StockBttstck", "Mag_MP5_30Rnd", "M68Optic", "PistolSuppressor"], [cargo("AmmoBox_9x19_25rnd", 2)]),
+    reward("MP5K", ["MP5_RailHndgrd", "MP5k_StockBttstck", "Mag_MP5_30Rnd", "PistolSuppressor", "M68Optic"], [cargo("AmmoBox_9x19_25rnd", 2)]),
     reward("Saiga", ["Saiga_Bttstck", "Mag_Saiga_8Rnd"], [cargo("AmmoBox_00buck_10rnd", 2)]),
     reward("Engraved1911", ["PistolSuppressor", "Mag_1911_7Rnd"], [cargo("AmmoBox_45ACP_25rnd", 2)]),
     reward("M14", ["Mag_M14_20Rnd", "ACOGOptic_6x"], [cargo("AmmoBox_308Win_20Rnd", 2)]),

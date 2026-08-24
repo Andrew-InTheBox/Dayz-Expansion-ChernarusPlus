@@ -11,3 +11,5 @@ The loadouts the patrols wear are located in a folder here and are all json file
 Many of the xml and json config files are 3000 lines or more, so we shouldn't try to read the whole things into context, but instead try to find relevant sections, or write python scripts to help us work and analyze their contents.
 
 Important: when running python scripts, use the venv here:  C:\Users\andre\venv-dirs\venv-utils.  If needed we can pip install additional libraries into it.
+
+General DayZ mod info is also found here:  https://github.com/StarDZ-Team/DayZ-Modding-Wiki/tree/main

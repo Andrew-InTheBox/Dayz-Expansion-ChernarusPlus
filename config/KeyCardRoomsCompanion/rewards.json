@@ -47,6 +47,13 @@
                     "cargo": []
                 },
                 {
+                    "className": "Hatchet",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
                     "className": "AmmoBox_762x39_20Rnd",
                     "chance": 1.0,
                     "attachments": [],
@@ -134,14 +141,14 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "AKS74U_Bttstck",
+                            "className": "Mag_AK74_30Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
                         },
                         {
-                            "className": "Mag_AK74_30Rnd",
+                            "className": "AKS74U_Bttstck",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -157,32 +164,11 @@
                     ]
                 },
                 {
-                    "className": "MP5K",
+                    "className": "FNX45",
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "MP5_RailHndgrd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "MP5k_StockBttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "Mag_MP5_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "M68Optic",
+                            "className": "Mag_FNX45_15Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -199,6 +185,55 @@
                     "containerCargo": [],
                     "cargo": [
                         {
+                            "className": "FNP45_MRDSOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_45ACP_25rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "MP5K",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_MP5_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "MP5_RailHndgrd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "MP5k_StockBttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "PistolSuppressor",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "M68Optic",
+                            "count": 1
+                        },
+                        {
                             "className": "AmmoBox_9x19_25rnd",
                             "count": 2
                         }
@@ -209,14 +244,14 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "Saiga_Bttstck",
+                            "className": "Mag_Saiga_8Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
                         },
                         {
-                            "className": "Mag_Saiga_8Rnd",
+                            "className": "Saiga_Bttstck",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -236,14 +271,14 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "PistolSuppressor",
+                            "className": "Mag_1911_7Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
                         },
                         {
-                            "className": "Mag_1911_7Rnd",
+                            "className": "PistolSuppressor",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -268,17 +303,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "ACOGOptic_6x",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
@@ -295,53 +327,15 @@
                 {
                     "className": "SKS",
                     "chance": 1.0,
-                    "attachments": [
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
                         {
                             "className": "PUScopeOptic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_762x39_20Rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "FNX45",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_FNX45_15Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "FNP45_MRDSOptic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "PistolSuppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_45ACP_25rnd",
                             "count": 2
                         }
                     ]
@@ -351,13 +345,6 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "PP19_Bttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "Mag_PP19_64Rnd",
                             "chance": 1.0,
                             "attachments": [],
@@ -365,7 +352,7 @@
                             "cargo": []
                         },
                         {
-                            "className": "KobraOptic",
+                            "className": "PP19_Bttstck",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -381,6 +368,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "KobraOptic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_9x19_25rnd",
                             "count": 2
@@ -393,13 +384,6 @@
                     "attachments": [
                         {
                             "className": "Mag_UMP_25Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "ACOGOptic",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -422,6 +406,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "ACOGOptic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_45ACP_25rnd",
                             "count": 2
@@ -453,6 +441,13 @@
                     "chance": 1.0,
                     "attachments": [
                         {
+                            "className": "Mag_AK101_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
                             "className": "AK_PlasticBttstck",
                             "chance": 1.0,
                             "attachments": [],
@@ -465,24 +460,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "KashtanOptic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "Mag_AK101_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "KashtanOptic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_556x45_20Rnd",
                             "count": 2
@@ -514,6 +499,13 @@
                     "chance": 1.0,
                     "attachments": [
                         {
+                            "className": "Mag_AK74_45Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
                             "className": "AK74_WoodBttstck",
                             "chance": 1.0,
                             "attachments": [],
@@ -526,24 +518,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "KashtanOptic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "Mag_AK74_45Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "KashtanOptic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_545x39_20Rnd",
                             "count": 2
@@ -600,17 +582,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "PSO11Optic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "PSO11Optic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_762x54_20Rnd",
                             "count": 2
@@ -627,17 +606,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "PSO1Optic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "PSO1Optic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_9x39_20Rnd",
                             "count": 2
@@ -654,17 +630,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "PSO11Optic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "PSO11Optic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_9x39_20Rnd",
                             "count": 2
@@ -681,17 +654,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "ACOGOptic_6x",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_762x54_20Rnd",
                             "count": 2
@@ -702,6 +672,13 @@
                     "className": "AKM",
                     "chance": 1.0,
                     "attachments": [
+                        {
+                            "className": "Mag_AKM_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
                         {
                             "className": "AK_PlasticBttstck",
                             "chance": 1.0,
@@ -717,21 +694,7 @@
                             "cargo": []
                         },
                         {
-                            "className": "PSO11Optic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "AK_Suppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "Mag_AKM_30Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -740,6 +703,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "PSO11Optic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_762x39_20Rnd",
                             "count": 2
@@ -758,13 +725,6 @@
                             "cargo": []
                         },
                         {
-                            "className": "ACOGOptic",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "UniversalLight",
                             "chance": 1.0,
                             "attachments": [],
@@ -774,6 +734,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "ACOGOptic",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_9x39_20Rnd",
                             "count": 2
@@ -785,21 +749,14 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SCAR_PrecisionBttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "ACOGOptic_6x",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "Mag_SCARH_20Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "SCAR_PrecisionBttstck",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -808,6 +765,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
@@ -819,14 +780,14 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SNAFU_MK15",
+                            "className": "SNAFU_PMAG556_Black",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
                         },
                         {
-                            "className": "SNAFU_Tango6T_Black",
+                            "className": "SNAFU_MK15",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -852,17 +813,14 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
-                        },
-                        {
-                            "className": "SNAFU_PMAG556_Black",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "SNAFU_Tango6T_Black",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_556x45_20Rnd",
                             "count": 2
@@ -874,13 +832,6 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SNAFU_Tango6T_Black",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "SNAFUP90_50rdMag",
                             "chance": 1.0,
                             "attachments": [],
@@ -890,6 +841,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "SNAFU_Tango6T_Black",
+                            "count": 1
+                        },
                         {
                             "className": "SNAFUP90_50rdMag",
                             "count": 2
@@ -933,13 +888,6 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SNAFU_Tango6T_Black",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "Mag_CMAG_30Rnd",
                             "chance": 1.0,
                             "attachments": [],
@@ -949,6 +897,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "SNAFU_Tango6T_Black",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_556x45_20Rnd",
                             "count": 2
@@ -960,13 +912,6 @@
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "SNAFU_Tango6T_Black",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
                             "className": "SNAFUGevar_10rdMag",
                             "chance": 1.0,
                             "attachments": [],
@@ -976,6 +921,10 @@
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "SNAFU_Tango6T_Black",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_308Win_20Rnd",
                             "count": 2
