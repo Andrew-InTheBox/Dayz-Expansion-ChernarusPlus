@@ -1019,6 +1019,50 @@
             <btn name="kN" />
         </btn>
     </input>
+    <input name="UAExpansionMapDeleteMarker">
+        <btn name="kDelete" />
+    </input>
+    <input name="UAExpansionMapToggle">
+        <btn name="kM" />
+    </input>
+    <input name="UAExpansionGPSToggle">
+        <btn name="kN" />
+    </input>
+    <input name="UAExpansionCompassToggle">
+        <btn name="kI" />
+    </input>
+    <input name="UAExpansionGPSMapScaleDown">
+        <btn name="mWheelDown" />
+    </input>
+    <input name="UAExpansionGPSMapScaleUp">
+        <btn name="mWheelUp" />
+    </input>
+    <input name="UAExpansion3DMarkerToggle">
+        <btn name="kK" />
+    </input>
+    <input name="UAExpansionPersonalMarkersToggle">
+        <btn name="kLShift">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionServerMarkersToggle">
+        <btn name="kLControl">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionGroupMarkersToggle">
+        <btn name="kLMenu">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionPlayerMarkersToggle">
+        <btn name="kLMenu">
+            <btn name="kK" />
+        </btn>
+    </input>
+    <input name="UAExpansionQuickMarker">
+        <btn name="kH" />
+    </input>
     <input name="UAExpansionPlayerListToggle">
         <btn name="kPause" />
     </input>
@@ -1050,6 +1094,9 @@
     </input>
     <input name="eAITestUDDecrease">
         <btn name="kDown" />
+    </input>
+    <input name="UAExpansionBookToggle">
+        <btn name="kB" />
     </input>
     <controller name="PCKeyboard">
         <limit name="doubleclick" value="0.500000" />

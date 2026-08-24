@@ -49,6 +49,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="snafuspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 
+	<!-- keycard rooms -->
+	<ce folder="keycard-rooms">
+		<file name="types.xml" type="types" />
+	</ce>
+
 	<!-- mmg -->
 	<ce folder="db/mmg">
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />

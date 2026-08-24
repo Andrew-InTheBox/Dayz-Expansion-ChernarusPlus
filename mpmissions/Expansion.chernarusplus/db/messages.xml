@@ -4,7 +4,7 @@
   <message>
     <onconnect>1</onconnect>
     <delay>0</delay>
-    <text>Welcome to #name! FYI roaming bots may look like players, take care. Press B for more server info, rules, and the Discord link. And have fun!</text>
+    <text>Welcome to #name! FYI roaming bots may look like players, take care. Press B to open Books and see more server info, rules, and the Discord link. Have fun!</text>
   </message>
 
   <message>

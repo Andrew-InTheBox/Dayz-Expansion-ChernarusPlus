@@ -6,6 +6,8 @@
 !/_@*/meta.cpp
 .env
 config/DataCache/cache.ch
+# KeyCard Rooms runtime cache/persistence; config.json remains tracked.
+/config/KeyCardSystem/data/*.dat
 dayz.gproj
 # Heatmap session output - runtime data written every 2 min by the _@Heatmap server mod
 config/Heatmap/
@@ -44,3 +46,7 @@ config/ExpansionMod/Settings/SocialMediaSettings.json
 # be re-downloaded or re-synced from Steam - git is the only backup. Track everything
 # in it (must come after the /_@*/*, *.pbo and *.bisign ignores above to override them).
 !/_@Heatmap/**
+
+# Custom KeyCard Rooms companion is also server-only and has no Workshop copy.
+!/_@KeyCardRoomsServer/**
+/custom_mod_sources/heatmap-inspect.*/
