@@ -51,6 +51,18 @@ class KRJ_KeyCardRewardsConfig
     }
 }
 
+modded class SecurityDoorLocationConfig
+{
+    // Optional logical reward tier, independent of the physical door class.
+    // Supported values are T1, T2, and T3. Empty preserves vendor behavior.
+    string rewardTier;
+
+    string KRJ_GetRewardTier()
+    {
+        return rewardTier;
+    }
+}
+
 class KRJ_KeyCardRewardManager
 {
     protected static ref KRJ_KeyCardRewardManager s_Instance;
@@ -101,6 +113,41 @@ class KRJ_KeyCardRewardManager
         }
 
         return NULL;
+    }
+
+    protected string NormalizeRewardTier(string rewardTier, string fallbackDoorClass)
+    {
+        if (rewardTier == "T1")
+            return "Land_KlimaX_T1Door";
+        if (rewardTier == "T2")
+            return "Land_KlimaX_T2Door";
+        if (rewardTier == "T3")
+            return "Land_KlimaX_T3Door";
+
+        return fallbackDoorClass;
+    }
+
+    protected string FindDoorRewardTier(KeyCard_Door_Base door)
+    {
+        if (!door)
+            return "";
+
+        string fallbackDoorClass = door.GetType();
+        PluginKeyCardSystemServer plugin = PluginKeyCardSystemServer.Cast(GetPlugin(PluginKeyCardSystemServer));
+        if (!plugin || !plugin.m_config || !plugin.m_config.locations)
+            return fallbackDoorClass;
+
+        vector doorPosition = door.GetPosition();
+        foreach (ref SecurityDoorLocationConfig locationConfig : plugin.m_config.locations)
+        {
+            if (!locationConfig)
+                continue;
+
+            if (vector.Distance(locationConfig.GetPosition(), doorPosition) <= 0.1)
+                return NormalizeRewardTier(locationConfig.KRJ_GetRewardTier(), fallbackDoorClass);
+        }
+
+        return fallbackDoorClass;
     }
 
     protected void AddCargo(EntityAI crate, ref array<ref KRJ_KeyCardCargoConfig> cargo)
@@ -278,6 +325,11 @@ class KRJ_KeyCardRewardManager
 
         AddRandomRewards(crate, tier.randomRewards, randomRewardCount);
     }
+
+    void AddDoorLoot(EntityAI crate, KeyCard_Door_Base door)
+    {
+        AddTierLoot(crate, FindDoorRewardTier(door));
+    }
 }
 
 modded class KeyCard_Door_Base
@@ -334,7 +386,7 @@ modded class Land_KlimaX_T1Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T1Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }
 
@@ -342,7 +394,7 @@ modded class Land_KlimaX_T2Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T2Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }
 
@@ -350,6 +402,6 @@ modded class Land_KlimaX_T3Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T3Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }

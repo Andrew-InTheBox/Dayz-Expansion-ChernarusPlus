@@ -226,6 +226,32 @@
                 0.0
             ],
             "closeDelay": 15.0
+        },
+        {
+            "className": "Land_KlimaX_T1Door",
+            "rewardTier": "T3",
+            "location": [
+                7791.492399,
+                356.158006,
+                14781.284732
+            ],
+            "dir": [
+                -125.291,
+                0.0,
+                0.0
+            ],
+            "autoClose": 180.0,
+            "crateLocation": [
+                7787.515227,
+                357.378007,
+                14774.129791
+            ],
+            "crateDir": [
+                72.709,
+                0.0,
+                0.0
+            ],
+            "closeDelay": 15.0
         }
     ]
 }

@@ -12,6 +12,12 @@ optional `randomAttachments` group makes at most one weighted attachment choice
 after passing its parent item's `randomAttachmentChance` roll.
 Cargo is placed directly in the crate only when its parent reward is selected.
 
+Door locations may set an optional `rewardTier` value of `T1`, `T2`, or `T3`
+in `config/KeyCardSystem/config.json`. This selects the logical reward pool
+independently of `className`, which continues to select the physical door model
+and its keycard authorization. Locations without `rewardTier` fall back to the
+tier implied by their door class.
+
 `rewards.json` is maintained by hand (the old generator script
 `custom_scripts/loot_types/configure_keycard_rewards.py` would overwrite it).
 Authoring rules for `attachments`:

@@ -230,14 +230,7 @@
                             "count": 1
                         }
                     ]
-                }
-            ],
-            "fixedRewards": []
-        },
-        {
-            "doorClassName": "Land_KlimaX_T2Door",
-            "randomRewardCount": 3,
-            "randomRewards": [
+                },
                 {
                     "className": "SKS",
                     "chance": 1.0,
@@ -293,30 +286,6 @@
                     ]
                 },
                 {
-                    "className": "M14",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_M14_20Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "ACOGOptic_6x",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_308Win_20Rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
                     "className": "UMP45",
                     "chance": 1.0,
                     "attachments": [
@@ -353,7 +322,14 @@
                             "count": 2
                         }
                     ]
-                },
+                }
+            ],
+            "fixedRewards": []
+        },
+        {
+            "doorClassName": "Land_KlimaX_T2Door",
+            "randomRewardCount": 3,
+            "randomRewards": [
                 {
                     "className": "AugShort",
                     "chance": 1.0,
@@ -859,6 +835,30 @@
             "randomRewardCount": 3,
             "randomRewards": [
                 {
+                    "className": "M14",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_M14_20Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
                     "className": "M79",
                     "chance": 1.0,
                     "attachments": [],
@@ -955,7 +955,7 @@
                 },
                 {
                     "className": "NVGoggles",
-                    "chance": 0.50,
+                    "chance": 0.5,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": []
