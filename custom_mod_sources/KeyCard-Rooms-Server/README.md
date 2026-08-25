@@ -7,7 +7,9 @@ It leaves all vendor PBOs unchanged and replaces the hardcoded T1, T2, and T3
 Rewards are configured in `config/KeyCardRoomsCompanion/rewards.json`. Each door
 tier gets all `fixedRewards` plus `randomRewardCount` weighted selections from
 `randomRewards`, without selecting the same entry twice. The default count is one.
-Attachments are guaranteed and recursively attached to their parent item.
+Attachments are guaranteed and recursively attached to their parent item. An
+optional `randomAttachments` group makes at most one weighted attachment choice
+after passing its parent item's `randomAttachmentChance` roll.
 Cargo is placed directly in the crate only when its parent reward is selected.
 
 `rewards.json` is maintained by hand (the old generator script
@@ -20,6 +22,9 @@ Authoring rules for `attachments`:
   (e.g. `MP5_RailHndgrd` before `M68Optic`).
 - Optics are intentionally placed in `cargo` (loose in the crate), not
   attached; keep the `chance` field at 1.0 as it is ignored for attachments.
+- `randomAttachmentChance` is a probability from 0.0 through 1.0. When its roll
+  succeeds, exactly one valid entry from `randomAttachments` is selected using
+  the entries' relative `chance` weights. Ordinary `attachments` are unaffected.
 
 Run `build.bat`, then deploy the resulting PBO to
 `_@KeyCardRoomsServer/Addons/` and load that folder through `-serverMod` after

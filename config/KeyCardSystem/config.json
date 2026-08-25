@@ -1,5 +1,6 @@
 {
     "version": 9,
+    "disableMapEditsPreset": true,
     "locations": [
         {
             "className": "Land_KlimaX_T1Door",

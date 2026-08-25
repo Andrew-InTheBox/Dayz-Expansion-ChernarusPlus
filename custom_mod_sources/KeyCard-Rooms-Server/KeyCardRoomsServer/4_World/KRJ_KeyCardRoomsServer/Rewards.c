@@ -9,12 +9,16 @@ class KRJ_KeyCardRewardConfig
     string className;
     float chance;
     ref array<ref KRJ_KeyCardRewardConfig> attachments;
+    float randomAttachmentChance;
+    ref array<ref KRJ_KeyCardRewardConfig> randomAttachments;
     ref array<ref KRJ_KeyCardCargoConfig> containerCargo;
     ref array<ref KRJ_KeyCardCargoConfig> cargo;
 
     void KRJ_KeyCardRewardConfig()
     {
         attachments = new array<ref KRJ_KeyCardRewardConfig>;
+        randomAttachmentChance = 0;
+        randomAttachments = new array<ref KRJ_KeyCardRewardConfig>;
         containerCargo = new array<ref KRJ_KeyCardCargoConfig>;
         cargo = new array<ref KRJ_KeyCardCargoConfig>;
     }
@@ -118,33 +122,74 @@ class KRJ_KeyCardRewardManager
         }
     }
 
+    protected void AddAttachment(EntityAI parent, EntityAI fallbackCrate, ref KRJ_KeyCardRewardConfig attachment)
+    {
+        if (!parent || !attachment || attachment.className == "")
+            return;
+
+        EntityAI attachmentObject;
+        ItemBase parentItem;
+
+        // Expansion's wrapper handles weapon magazines specially: it creates
+        // them in InventorySlots.MAGAZINE, restores the correct weapon FSM
+        // state, chambers a round, and synchronizes the weapon.
+        if (Class.CastTo(parentItem, parent))
+            attachmentObject = parentItem.ExpansionCreateAttachment(attachment.className);
+        else
+            attachmentObject = parent.GetInventory().CreateAttachment(attachment.className);
+        if (attachmentObject)
+        {
+            AddAttachments(attachmentObject, fallbackCrate, attachment.attachments);
+            AddRandomAttachment(attachmentObject, fallbackCrate, attachment);
+        }
+        else
+        {
+            Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType() + "; spawning it loose in the reward crate");
+            if (fallbackCrate)
+                fallbackCrate.GetInventory().CreateInInventory(attachment.className);
+        }
+    }
+
     protected void AddAttachments(EntityAI parent, EntityAI fallbackCrate, ref array<ref KRJ_KeyCardRewardConfig> attachments)
     {
         if (!parent || !attachments)
             return;
 
         foreach (ref KRJ_KeyCardRewardConfig attachment : attachments)
+            AddAttachment(parent, fallbackCrate, attachment);
+    }
+
+    protected void AddRandomAttachment(EntityAI parent, EntityAI fallbackCrate, ref KRJ_KeyCardRewardConfig reward)
+    {
+        if (!parent || !reward || !reward.randomAttachments || reward.randomAttachments.Count() == 0)
+            return;
+
+        float groupChance = reward.randomAttachmentChance;
+        if (groupChance <= 0 || Math.RandomFloat01() > groupChance)
+            return;
+
+        float totalChance = 0;
+        foreach (ref KRJ_KeyCardRewardConfig candidateForTotal : reward.randomAttachments)
         {
-            if (!attachment || attachment.className == "")
+            if (candidateForTotal && candidateForTotal.className != "" && candidateForTotal.chance > 0)
+                totalChance += candidateForTotal.chance;
+        }
+
+        if (totalChance <= 0)
+            return;
+
+        float selectedChance = Math.RandomFloat(0, totalChance);
+        float chanceCounter = 0;
+        foreach (ref KRJ_KeyCardRewardConfig candidate : reward.randomAttachments)
+        {
+            if (!candidate || candidate.className == "" || candidate.chance <= 0)
                 continue;
 
-            EntityAI attachmentObject;
-            ItemBase parentItem;
-
-            // Expansion's wrapper handles weapon magazines specially: it creates
-            // them in InventorySlots.MAGAZINE, restores the correct weapon FSM
-            // state, chambers a round, and synchronizes the weapon.
-            if (Class.CastTo(parentItem, parent))
-                attachmentObject = parentItem.ExpansionCreateAttachment(attachment.className);
-            else
-                attachmentObject = parent.GetInventory().CreateAttachment(attachment.className);
-            if (attachmentObject)
-                AddAttachments(attachmentObject, fallbackCrate, attachment.attachments);
-            else
+            chanceCounter += candidate.chance;
+            if (selectedChance <= chanceCounter)
             {
-                Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType() + "; spawning it loose in the reward crate");
-                if (fallbackCrate)
-                    fallbackCrate.GetInventory().CreateInInventory(attachment.className);
+                AddAttachment(parent, fallbackCrate, candidate);
+                return;
             }
         }
     }
@@ -162,6 +207,7 @@ class KRJ_KeyCardRewardManager
         }
 
         AddAttachments(rewardObject, crate, reward.attachments);
+        AddRandomAttachment(rewardObject, crate, reward);
         AddCargo(rewardObject, reward.containerCargo);
         AddCargo(crate, reward.cargo);
     }
