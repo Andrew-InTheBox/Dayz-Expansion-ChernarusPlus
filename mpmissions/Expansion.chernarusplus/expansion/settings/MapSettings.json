@@ -93,6 +93,21 @@
             "m_Persist": 1
         },
         {
+            "m_UID": "KeycardRoom_T1_06",
+            "m_Visibility": 6,
+            "m_Is3D": 0,
+            "m_Text": "Tier 1 Keycard Room",
+            "m_IconName": "Skull",
+            "m_Color": -16711936,
+            "m_Position": [
+                7791.492399,
+                356.158006,
+                14781.284732
+            ],
+            "m_Locked": 1,
+            "m_Persist": 1
+        },
+        {
             "m_UID": "KeycardRoom_T2_01",
             "m_Visibility": 6,
             "m_Is3D": 0,

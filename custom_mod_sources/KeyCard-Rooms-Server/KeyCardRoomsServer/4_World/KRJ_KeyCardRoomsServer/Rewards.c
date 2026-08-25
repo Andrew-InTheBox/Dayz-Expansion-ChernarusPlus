@@ -9,12 +9,16 @@ class KRJ_KeyCardRewardConfig
     string className;
     float chance;
     ref array<ref KRJ_KeyCardRewardConfig> attachments;
+    float randomAttachmentChance;
+    ref array<ref KRJ_KeyCardRewardConfig> randomAttachments;
     ref array<ref KRJ_KeyCardCargoConfig> containerCargo;
     ref array<ref KRJ_KeyCardCargoConfig> cargo;
 
     void KRJ_KeyCardRewardConfig()
     {
         attachments = new array<ref KRJ_KeyCardRewardConfig>;
+        randomAttachmentChance = 0;
+        randomAttachments = new array<ref KRJ_KeyCardRewardConfig>;
         containerCargo = new array<ref KRJ_KeyCardCargoConfig>;
         cargo = new array<ref KRJ_KeyCardCargoConfig>;
     }
@@ -44,6 +48,18 @@ class KRJ_KeyCardRewardsConfig
     {
         version = 1;
         tiers = new array<ref KRJ_KeyCardTierConfig>;
+    }
+}
+
+modded class SecurityDoorLocationConfig
+{
+    // Optional logical reward tier, independent of the physical door class.
+    // Supported values are T1, T2, and T3. Empty preserves vendor behavior.
+    string rewardTier;
+
+    string KRJ_GetRewardTier()
+    {
+        return rewardTier;
     }
 }
 
@@ -99,6 +115,41 @@ class KRJ_KeyCardRewardManager
         return NULL;
     }
 
+    protected string NormalizeRewardTier(string rewardTier, string fallbackDoorClass)
+    {
+        if (rewardTier == "T1")
+            return "Land_KlimaX_T1Door";
+        if (rewardTier == "T2")
+            return "Land_KlimaX_T2Door";
+        if (rewardTier == "T3")
+            return "Land_KlimaX_T3Door";
+
+        return fallbackDoorClass;
+    }
+
+    protected string FindDoorRewardTier(KeyCard_Door_Base door)
+    {
+        if (!door)
+            return "";
+
+        string fallbackDoorClass = door.GetType();
+        PluginKeyCardSystemServer plugin = PluginKeyCardSystemServer.Cast(GetPlugin(PluginKeyCardSystemServer));
+        if (!plugin || !plugin.m_config || !plugin.m_config.locations)
+            return fallbackDoorClass;
+
+        vector doorPosition = door.GetPosition();
+        foreach (ref SecurityDoorLocationConfig locationConfig : plugin.m_config.locations)
+        {
+            if (!locationConfig)
+                continue;
+
+            if (vector.Distance(locationConfig.GetPosition(), doorPosition) <= 0.1)
+                return NormalizeRewardTier(locationConfig.KRJ_GetRewardTier(), fallbackDoorClass);
+        }
+
+        return fallbackDoorClass;
+    }
+
     protected void AddCargo(EntityAI crate, ref array<ref KRJ_KeyCardCargoConfig> cargo)
     {
         if (!cargo)
@@ -118,33 +169,74 @@ class KRJ_KeyCardRewardManager
         }
     }
 
+    protected void AddAttachment(EntityAI parent, EntityAI fallbackCrate, ref KRJ_KeyCardRewardConfig attachment)
+    {
+        if (!parent || !attachment || attachment.className == "")
+            return;
+
+        EntityAI attachmentObject;
+        ItemBase parentItem;
+
+        // Expansion's wrapper handles weapon magazines specially: it creates
+        // them in InventorySlots.MAGAZINE, restores the correct weapon FSM
+        // state, chambers a round, and synchronizes the weapon.
+        if (Class.CastTo(parentItem, parent))
+            attachmentObject = parentItem.ExpansionCreateAttachment(attachment.className);
+        else
+            attachmentObject = parent.GetInventory().CreateAttachment(attachment.className);
+        if (attachmentObject)
+        {
+            AddAttachments(attachmentObject, fallbackCrate, attachment.attachments);
+            AddRandomAttachment(attachmentObject, fallbackCrate, attachment);
+        }
+        else
+        {
+            Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType() + "; spawning it loose in the reward crate");
+            if (fallbackCrate)
+                fallbackCrate.GetInventory().CreateInInventory(attachment.className);
+        }
+    }
+
     protected void AddAttachments(EntityAI parent, EntityAI fallbackCrate, ref array<ref KRJ_KeyCardRewardConfig> attachments)
     {
         if (!parent || !attachments)
             return;
 
         foreach (ref KRJ_KeyCardRewardConfig attachment : attachments)
+            AddAttachment(parent, fallbackCrate, attachment);
+    }
+
+    protected void AddRandomAttachment(EntityAI parent, EntityAI fallbackCrate, ref KRJ_KeyCardRewardConfig reward)
+    {
+        if (!parent || !reward || !reward.randomAttachments || reward.randomAttachments.Count() == 0)
+            return;
+
+        float groupChance = reward.randomAttachmentChance;
+        if (groupChance <= 0 || Math.RandomFloat01() > groupChance)
+            return;
+
+        float totalChance = 0;
+        foreach (ref KRJ_KeyCardRewardConfig candidateForTotal : reward.randomAttachments)
         {
-            if (!attachment || attachment.className == "")
+            if (candidateForTotal && candidateForTotal.className != "" && candidateForTotal.chance > 0)
+                totalChance += candidateForTotal.chance;
+        }
+
+        if (totalChance <= 0)
+            return;
+
+        float selectedChance = Math.RandomFloat(0, totalChance);
+        float chanceCounter = 0;
+        foreach (ref KRJ_KeyCardRewardConfig candidate : reward.randomAttachments)
+        {
+            if (!candidate || candidate.className == "" || candidate.chance <= 0)
                 continue;
 
-            EntityAI attachmentObject;
-            ItemBase parentItem;
-
-            // Expansion's wrapper handles weapon magazines specially: it creates
-            // them in InventorySlots.MAGAZINE, restores the correct weapon FSM
-            // state, chambers a round, and synchronizes the weapon.
-            if (Class.CastTo(parentItem, parent))
-                attachmentObject = parentItem.ExpansionCreateAttachment(attachment.className);
-            else
-                attachmentObject = parent.GetInventory().CreateAttachment(attachment.className);
-            if (attachmentObject)
-                AddAttachments(attachmentObject, fallbackCrate, attachment.attachments);
-            else
+            chanceCounter += candidate.chance;
+            if (selectedChance <= chanceCounter)
             {
-                Print("[KRJ KeyCard Rooms] Could not attach " + attachment.className + " to " + parent.GetType() + "; spawning it loose in the reward crate");
-                if (fallbackCrate)
-                    fallbackCrate.GetInventory().CreateInInventory(attachment.className);
+                AddAttachment(parent, fallbackCrate, candidate);
+                return;
             }
         }
     }
@@ -162,6 +254,7 @@ class KRJ_KeyCardRewardManager
         }
 
         AddAttachments(rewardObject, crate, reward.attachments);
+        AddRandomAttachment(rewardObject, crate, reward);
         AddCargo(rewardObject, reward.containerCargo);
         AddCargo(crate, reward.cargo);
     }
@@ -232,6 +325,11 @@ class KRJ_KeyCardRewardManager
 
         AddRandomRewards(crate, tier.randomRewards, randomRewardCount);
     }
+
+    void AddDoorLoot(EntityAI crate, KeyCard_Door_Base door)
+    {
+        AddTierLoot(crate, FindDoorRewardTier(door));
+    }
 }
 
 modded class KeyCard_Door_Base
@@ -288,7 +386,7 @@ modded class Land_KlimaX_T1Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T1Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }
 
@@ -296,7 +394,7 @@ modded class Land_KlimaX_T2Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T2Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }
 
@@ -304,6 +402,6 @@ modded class Land_KlimaX_T3Door
 {
     override void AddLoot(EntityAI crate)
     {
-        KRJ_KeyCardRewardManager.GetInstance().AddTierLoot(crate, "Land_KlimaX_T3Door");
+        KRJ_KeyCardRewardManager.GetInstance().AddDoorLoot(crate, this);
     }
 }
