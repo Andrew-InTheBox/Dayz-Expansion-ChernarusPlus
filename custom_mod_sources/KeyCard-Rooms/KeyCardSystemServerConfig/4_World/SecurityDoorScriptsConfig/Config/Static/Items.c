@@ -2,7 +2,15 @@ modded class PluginKeyCardSystemServer
 {
     override bool StaticItemsSpawn()
     {
-        if ( !super.StaticItemsSpawn() ) return false; //! check for disableMapEditsPreset
+        if ( !super.StaticItemsSpawn() )
+        {
+            // The vendor's "map edits" preset mixes required room shells with
+            // decorative BuilderItems objects.  Keep the room buildings when
+            // the decorative preset is disabled, otherwise several configured
+            // doors and crates are left standing in empty space.
+            SpawnRoomStructures();
+            return true;
+        }
         
         SpawnObject( "vbldr_mil_aircraftshelter_door_r", "1746.469971 453.480011 14014.700195", "83.003548 0.000000 -0.000000" );
         SpawnObject( "vbldr_metal_plates_up", "1747.130005 454.799988 14019.799805", "-96.008247 0.000000 -0.000000" );
@@ -68,7 +76,18 @@ modded class PluginKeyCardSystemServer
         SpawnObject( "vbldr_wooden_log", "7621.890137 214.817001 5201.649902", "179.999985 -89.980209 -0.000000" );
         SpawnObject( "vbldr_wooden_log", "7623.200195 214.817001 5201.609863", "90.000000 -89.928673 -0.000000" );
 		
-		return true;
+        return true;
+    }
+
+    private void SpawnRoomStructures()
+    {
+        SpawnObject( "Land_Mil_Barracks2", "2488.370117 194.725006 5075.779785", "-32.998474 0.000000 0.000000" );
+        SpawnObject( "Land_Barn_Brick1", "6039.250000 272.399994 10398.000000", "31.999216 0.076935 -0.118628" );
+        SpawnObject( "Land_Mil_AircraftShelter", "1768.829956 450.200012 14024.000000", "83.991737 0.000000 -0.000000" );
+        SpawnObject( "Land_Mil_Barracks1", "2835.449951 272.670013 9748.820313", "54.001255 2.998346 -0.175660" );
+        SpawnObject( "Land_Workshop2", "9845.169922 284.500000 8709.179688", "173.998520 0.230806 0.744274" );
+        SpawnObject( "Land_Shed_M1", "7816.589844 141.199997 12410.299805", "1.000209 0.000000 -0.000000" );
+        SpawnObject( "Land_Shed_M3", "7622.680176 215.992996 5202.419922", "90.261948 1.528395 -0.685703" );
     }
 
     private void SpawnObject(string objType, vector objPos, vector objOrientation)

@@ -3,6 +3,10 @@
 This directory is a vendored snapshot of the public KeyCard Rooms source. The
 exact upstream revision is recorded in `UPSTREAM_COMMIT.txt`.
 
+Steam Workshop item:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3790655182
+
 ## Why this source is here
 
 The installed `@KeyCard-Rooms` package contains an older server implementation

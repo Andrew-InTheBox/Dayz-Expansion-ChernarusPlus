@@ -13,6 +13,7 @@ set "ADDONS_DIR=%MOD_ROOT%\Addons"
 set "KEYS_DIR=%MOD_ROOT%\Keys"
 set "PRIVATE_KEY_DIR=%SOURCE_ROOT%\private_keys"
 set "VENDOR_MOD=%SOURCE_ROOT%\..\..\@KeyCard-Rooms"
+if exist "%SOURCE_ROOT%\..\..\_@KeyCard-Rooms-VendorBackup\Addons" set "VENDOR_MOD=%SOURCE_ROOT%\..\..\_@KeyCard-Rooms-VendorBackup"
 
 if not exist "%MAKEPBO%" goto tool_missing
 if not exist "%KEYTOOLS%\DSCreateKey.exe" goto tool_missing
