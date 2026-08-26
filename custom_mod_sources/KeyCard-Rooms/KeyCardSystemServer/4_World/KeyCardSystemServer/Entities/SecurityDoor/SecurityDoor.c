@@ -36,6 +36,14 @@ modded class KeyCard_Door_Base {
         return m_persistanceData;
     }
 
+    string GetRewardTier()
+    {
+        if (!m_persistanceData)
+            return "";
+
+        return m_persistanceData.GetRewardTier();
+    }
+
 
     void SetTimeTillAutoClose( int index, float time ) 
     {

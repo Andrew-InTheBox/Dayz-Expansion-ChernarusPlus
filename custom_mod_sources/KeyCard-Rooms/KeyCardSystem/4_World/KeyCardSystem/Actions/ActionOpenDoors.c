@@ -26,12 +26,13 @@ modded class ActionOpenDoors
 
     protected bool CanAuthorize(Object target, KeyCard_ParentBase card) 
     {
-        if ( !target ) return false;
+        if ( !target || !card ) return false;
 
-        string doorType = target.GetType();
+        KeyCard_Door_Base door;
+        if (!Class.CastTo(door, target))
+            return false;
 
-        return card.CanAuthorizeDoor( doorType );
-
+        return card.CanAuthorizeDoor(door);
     }
 
     protected ItemBase GetItemInHands( PlayerBase player) {
@@ -73,19 +74,25 @@ modded class ActionOpenDoors
         if ( m_IsSecurityDoor ) 
         {
             m_ItemInHands = action_data.m_Player.GetItemInHands();
-            if ( !m_ItemInHands.IsInherited( KeyCard_ParentBase ) )
+            if ( !m_ItemInHands || !m_ItemInHands.IsInherited( KeyCard_ParentBase ) )
                 return;
             
-            m_ItemInHands.Delete();
-
             KeyCard_Door_Base door;
+            KeyCard_ParentBase keyCard;
 
-            if (Class.CastTo( door, action_data.m_Target.GetObject())) 
+            if (Class.CastTo(door, action_data.m_Target.GetObject()) && Class.CastTo(keyCard, m_ItemInHands))
             {
+                // Revalidate access on the authoritative server before the
+                // card is consumed. The client condition is only presentation.
+                if (!keyCard.CanAuthorizeDoor(door))
+                    return;
 
                 int doorIndex = door.GetDoorIndex(action_data.m_Target.GetComponentIndex());
                 if ( doorIndex != -1 )
+                {
+                    m_ItemInHands.Delete();
                     door.Open( doorIndex );
+                }
 
                 return;
             }

@@ -43,6 +43,8 @@ class SecurityDoorRandomRewardConfig
 class SecurityDoorLocationConfig 
 {
     string className;
+    string cardTier;
+    string rewardTier;
     vector location;
     vector dir;
     float autoClose;
@@ -52,9 +54,11 @@ class SecurityDoorLocationConfig
     ref array< ref SecurityDoorRandomRewardConfig > randomRewards;
     ref array< ref SecurityDoorRewardConfig > fixedRewards;
 
-    void SecurityDoorLocationConfig( string class_name, vector loc, vector direction, float autoclose_time, vector crate_location, vector crate_dir, float close_delay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards) 
+    void SecurityDoorLocationConfig( string class_name, vector loc, vector direction, float autoclose_time, vector crate_location, vector crate_dir, float close_delay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards, string card_tier = "", string reward_tier = "")
     {
         className = class_name;
+        cardTier = card_tier;
+        rewardTier = reward_tier;
         location = loc;
         dir = direction;
         autoClose = autoclose_time;
@@ -68,6 +72,36 @@ class SecurityDoorLocationConfig
     string GetClassName() 
     {
         return className;
+    }
+
+    int GetCardTier()
+    {
+        if (cardTier == "T1")
+            return 1;
+        if (cardTier == "T2")
+            return 2;
+        if (cardTier == "T3")
+            return 3;
+
+        if (className == "Land_KlimaX_T2Door")
+            return 2;
+        if (className == "Land_KlimaX_T3Door")
+            return 3;
+
+        return 1;
+    }
+
+    string GetRewardTier()
+    {
+        if (rewardTier == "T1" || rewardTier == "T2" || rewardTier == "T3")
+            return rewardTier;
+
+        if (className == "Land_KlimaX_T2Door")
+            return "T2";
+        if (className == "Land_KlimaX_T3Door")
+            return "T3";
+
+        return "T1";
     }
 
     vector GetPosition() 
@@ -137,7 +171,7 @@ class KeyCardSystemConfig
 
 class PluginKeyCardSystemServer : PluginBase 
 {
-    const static int VERSION = 9;
+    const static int VERSION = 10;
 
     const static string PROFILE = "$profile:KeyCardSystem";
     const static string CONFIG = PROFILE + "/config.json";
@@ -258,6 +292,12 @@ class PluginKeyCardSystemServer : PluginBase
             if ( currentConfig.GetClassName() != persistanceConfig.GetClassName() )
                 return true;
 
+            if ( currentConfig.GetCardTier() != persistanceConfig.GetCardTier() )
+                return true;
+
+            if ( currentConfig.GetRewardTier() != persistanceConfig.GetRewardTier() )
+                return true;
+
             /* Check for changes in position */
             if ( currentConfig.GetPosition() != persistanceConfig.GetPosition() )
                 return true;
@@ -335,6 +375,7 @@ class PluginKeyCardSystemServer : PluginBase
                 door.SetPosition( config.GetPosition() );
                 door.SetOrientation( config.GetDirection() );
                 door.SetOrientation( door.GetOrientation() );
+                door.SetKeyCardTier( config.GetCardTier() );
                 door.Update();
 
                 SecurityDoorPersistanceData persistanceData = new SecurityDoorPersistanceData;
@@ -345,6 +386,8 @@ class PluginKeyCardSystemServer : PluginBase
                 persistanceData.SetCrateOrientation( config.GetCrateDirection() );
                 persistanceData.SetCratePosition( config.GetCratePosition() );
                 persistanceData.SetCloseDelay( config.GetCloseDelay() );
+                persistanceData.SetCardTier( config.GetCardTier() );
+                persistanceData.SetRewardTier( config.GetRewardTier() );
                 persistanceData.SetRandomRewards( config.GetRandomRewards() );
                 persistanceData.SetFixedRewards( config.GetFixedRewards() );
 
@@ -389,6 +432,7 @@ class PluginKeyCardSystemServer : PluginBase
 			door.SetPosition( persistantitem.GetPosition() );
             door.SetOrientation( persistantitem.GetOrientation() );
             door.SetOrientation( door.GetOrientation() );
+			door.SetKeyCardTier( persistantitem.GetCardTier() );
             door.Update();
 			
 			door.SetPersistanceData( persistantitem );

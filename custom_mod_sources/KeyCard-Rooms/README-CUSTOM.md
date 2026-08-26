@@ -1,7 +1,11 @@
-# Local KeyCard Rooms source
+# ChernaTrader Secure Rooms source
 
 This directory is a vendored snapshot of the public KeyCard Rooms source. The
 exact upstream revision is recorded in `UPSTREAM_COMMIT.txt`.
+
+Steam Workshop item:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3790655182
 
 ## Why this source is here
 
@@ -11,25 +15,9 @@ vendored upstream revision moves reward definitions into
 `config/KeyCardSystem/config.json`, including nested attachments and weighted
 random rewards.
 
-Only these server-side script modules need to be customized and rebuilt:
-
-- `KeyCardSystemServer`
-- `KeyCardSystemServerConfig`
-
-The unchanged doors, keycards, models, textures, sounds, and common client
-scripts continue to come from the installed vendor PBOs.
-
-## Build
-
-Run `build_server_pbos.bat` from Windows. It temporarily maps this directory to
-`P:`, which Mikero's config validator needs in order to resolve prefixed script
-paths, and writes:
-
-- `build/KeyCardSystemServer.pbo`
-- `build/KeyCardSystemServerConfig.pbo`
-
-The script does not deploy or overwrite live PBOs. Build and verification
-outputs are intentionally ignored by Git.
+The project now builds a complete signed client/server replacement. The door
+and keycard asset PBOs remain byte-identical to upstream, while the shared and
+server script PBOs are rebuilt from this source.
 
 ## Custom reward cargo
 
@@ -51,12 +39,40 @@ The build uses:
 C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe
 ```
 
-## Deployment status
+## Independent room tiers
 
-The rebuilt vendor PBO approach was tested and then retired because Workshop
-clients load `KeyCardSystemServer.pbo` and require the signed Workshop version.
-The live `@KeyCard-Rooms` folder must remain byte-for-byte vendor supplied.
+Each entry in `$profile:KeyCardSystem/config.json` supports three independent
+settings:
 
-The active customization is now the uniquely named server-only companion in
-`../KeyCard-Rooms-Server`. It overrides the three door loot methods while being
-loaded through `-serverMod`, so clients continue using the normal Workshop mod.
+```json
+{
+  "className": "Land_KlimaX_T1Door",
+  "cardTier": "T3",
+  "rewardTier": "T3"
+}
+```
+
+- `className` selects the physical T1, T2, or T3 door model.
+- `cardTier` selects the required `T1`, `T2`, or `T3` keycard.
+- `rewardTier` selects the `T1`, `T2`, or `T3` pool in `rewards.json`.
+
+If `cardTier` or `rewardTier` is omitted or invalid, it falls back to the tier
+implied by `className`. The required card tier is network synchronized to the
+client and is revalidated by the server before a card is consumed.
+
+## Full branded build
+
+Run `build_full_mod.bat` to build and sign the combined client/server Workshop
+package under:
+
+```text
+build/ChernaTraderSecureRooms/@ChernaTrader-SecureRooms
+```
+
+The build creates `ChernaTraderSecureRooms_v1.biprivatekey` under the ignored
+`private_keys` directory. Never upload or distribute that private key. Only the
+public `.bikey` belongs in the Workshop package and the server `keys` folder.
+
+The combined package includes the customized server companion so the original
+`@KeyCard-Rooms` and `_@KeyCardRoomsServer` packages are not loaded alongside
+it.

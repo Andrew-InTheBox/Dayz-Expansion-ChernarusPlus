@@ -1,21 +1,28 @@
 class KeyCard_ParentBase : ItemBase {
-    bool CanAuthorizeDoor( string type ) {
-        return false;
+    int GetKeyCardTier() {
+        return 0;
+    }
+
+    bool CanAuthorizeDoor( KeyCard_Door_Base door ) {
+        if (!door)
+            return false;
+
+        return GetKeyCardTier() == door.GetKeyCardTier();
     }
 };
 
 class RedemptionKeyCard_01 : KeyCard_ParentBase {
-    override bool CanAuthorizeDoor( string type ) {
-        return type == "Land_KlimaX_T1Door";
+    override int GetKeyCardTier() {
+        return 1;
     }
 };
 class RedemptionKeyCard_02 : KeyCard_ParentBase {
-    override bool CanAuthorizeDoor( string type ) {
-        return type == "Land_KlimaX_T2Door";
+    override int GetKeyCardTier() {
+        return 2;
     }
 };
 class RedemptionKeyCard_03 : KeyCard_ParentBase {
-    override bool CanAuthorizeDoor( string type ) {
-        return type == "Land_KlimaX_T3Door";
+    override int GetKeyCardTier() {
+        return 3;
     }
 };

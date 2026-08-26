@@ -1,6 +1,7 @@
 deploy.bat
 dayz.gproj
 build/
+private_keys/
 backups/
 verify-run.*/
 vendor-inspect.*/

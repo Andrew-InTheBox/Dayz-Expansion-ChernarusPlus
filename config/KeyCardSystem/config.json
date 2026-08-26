@@ -1,12 +1,14 @@
 {
-    "version": 9,
-    "disableMapEditsPreset": true,
+    "version": 10,
+    "disableMapEditsPreset": 1,
     "locations": [
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 2493.35009765625,
-                193.60000610351562,
+                193.60000610351563,
                 5081.330078125
             ],
             "dir": [
@@ -17,7 +19,7 @@
             "autoClose": 180.0,
             "crateLocation": [
                 2489.090087890625,
-                194.82000732421875,
+                194.82000732421876,
                 5074.33984375
             ],
             "crateDir": [
@@ -25,18 +27,22 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 9847.759765625,
-                283.29998779296875,
+                283.29998779296877,
                 8708.3798828125
             ],
             "dir": [
                 -96.00299835205078,
-                0.23080000281333923,
+                0.23080000281333924,
                 0.5893999934196472
             ],
             "autoClose": 180.0,
@@ -50,10 +56,14 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 6198.2900390625,
                 301.010009765625,
@@ -67,7 +77,7 @@
             "autoClose": 180.0,
             "crateLocation": [
                 6200.30126953125,
-                301.13775634765625,
+                301.13775634765627,
                 7725.48779296875
             ],
             "crateDir": [
@@ -75,17 +85,21 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 7816.77001953125,
                 140.1439971923828,
                 12409.5
             ],
             "dir": [
-                1.0000200271606445,
+                1.0000200271606446,
                 0.0,
                 0.0
             ],
@@ -100,24 +114,28 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 7622.580078125,
-                214.85000610351562,
+                214.85000610351563,
                 5201.6298828125
             ],
             "dir": [
-                -1.0000200271606445,
+                -1.0000200271606446,
                 0.0,
                 0.0
             ],
             "autoClose": 180.0,
             "crateLocation": [
                 7622.51171875,
-                214.92361450195312,
+                214.92361450195313,
                 5202.89599609375
             ],
             "crateDir": [
@@ -125,13 +143,17 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 2840.070068359375,
-                270.74200439453125,
+                270.74200439453127,
                 9742.7099609375
             ],
             "dir": [
@@ -142,7 +164,7 @@
             "autoClose": 180.0,
             "crateLocation": [
                 2835.419921875,
-                270.6,
+                270.6000061035156,
                 9749.2900390625
             ],
             "crateDir": [
@@ -150,10 +172,14 @@
                 2.5,
                 4.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 6035.0498046875,
                 267.2850036621094,
@@ -161,13 +187,13 @@
             ],
             "dir": [
                 122.0,
-                0.07689999788999557,
+                0.07689999788999558,
                 0.04809999838471413
             ],
             "autoClose": 180.0,
             "crateLocation": [
                 6041.5400390625,
-                267.35101318359375,
+                267.35101318359377,
                 10396.599609375
             ],
             "crateDir": [
@@ -175,10 +201,14 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 3966.530029296875,
                 311.6199951171875,
@@ -186,8 +216,8 @@
             ],
             "dir": [
                 179.0,
-                -1.0002000331878662,
-                0.0017999999690800905
+                -1.0002000331878663,
+                0.0017999999690800906
             ],
             "autoClose": 180.0,
             "crateLocation": [
@@ -200,17 +230,21 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T3Door",
+            "cardTier": "T3",
+            "rewardTier": "T3",
             "location": [
                 1747.739990234375,
-                450.29998779296875,
+                450.29998779296877,
                 14021.7998046875
             ],
             "dir": [
-                83.99099731445312,
+                83.99099731445313,
                 0.0,
                 0.0
             ],
@@ -225,33 +259,38 @@
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T3",
             "rewardTier": "T3",
             "location": [
-                7791.492399,
-                356.158006,
-                14781.284732
+                7791.4921875,
+                356.15802001953127,
+                14781.28515625
             ],
             "dir": [
-                -125.291,
+                -125.29100036621094,
                 0.0,
                 0.0
             ],
             "autoClose": 180.0,
             "crateLocation": [
-                7787.515227,
-                357.378007,
-                14774.129791
+                7787.51513671875,
+                357.3780212402344,
+                14774.1298828125
             ],
             "crateDir": [
-                72.709,
+                72.70899963378906,
                 0.0,
                 0.0
             ],
-            "closeDelay": 15.0
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
         }
     ]
 }

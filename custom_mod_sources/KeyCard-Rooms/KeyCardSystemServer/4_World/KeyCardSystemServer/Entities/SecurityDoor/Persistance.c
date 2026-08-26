@@ -4,6 +4,8 @@ class SecurityDoorPersistanceData {
     vector dir;
     vector crateLocation;
     vector crateDir;
+    int cardTier;
+    string rewardTier;
 
     float autoClose;
     float closeDelay;
@@ -53,6 +55,16 @@ class SecurityDoorPersistanceData {
         return closeDelay;
     }
 
+    int GetCardTier()
+    {
+        return cardTier;
+    }
+
+    string GetRewardTier()
+    {
+        return rewardTier;
+    }
+
     bool IsOpen( int index ) {
         return m_DoorState[ index ];
     }
@@ -88,6 +100,16 @@ class SecurityDoorPersistanceData {
     void SetCloseDelay( float amount )
     {
         closeDelay = amount;
+    }
+
+    void SetCardTier(int tier)
+    {
+        cardTier = tier;
+    }
+
+    void SetRewardTier(string tier)
+    {
+        rewardTier = tier;
     }
 
     void SetRandomRewards(array< ref SecurityDoorRandomRewardConfig > rewards)
