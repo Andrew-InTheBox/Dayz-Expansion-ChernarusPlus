@@ -4,6 +4,8 @@
     "locations": [
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 2493.35009765625,
                 193.60000610351562,
@@ -29,6 +31,8 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 9847.759765625,
                 283.29998779296875,
@@ -54,6 +58,8 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 6198.2900390625,
                 301.010009765625,
@@ -79,6 +85,8 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 7816.77001953125,
                 140.1439971923828,
@@ -104,6 +112,8 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
             "location": [
                 7622.580078125,
                 214.85000610351562,
@@ -129,6 +139,8 @@
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 2840.070068359375,
                 270.74200439453125,
@@ -154,6 +166,8 @@
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 6035.0498046875,
                 267.2850036621094,
@@ -179,6 +193,8 @@
         },
         {
             "className": "Land_KlimaX_T2Door",
+            "cardTier": "T2",
+            "rewardTier": "T2",
             "location": [
                 3966.530029296875,
                 311.6199951171875,
@@ -204,6 +220,8 @@
         },
         {
             "className": "Land_KlimaX_T3Door",
+            "cardTier": "T3",
+            "rewardTier": "T3",
             "location": [
                 1747.739990234375,
                 450.29998779296875,
@@ -229,6 +247,7 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
+            "cardTier": "T3",
             "rewardTier": "T3",
             "location": [
                 7791.492399,

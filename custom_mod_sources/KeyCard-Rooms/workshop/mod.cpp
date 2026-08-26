@@ -1,0 +1,10 @@
+name = "ChernaTrader Secure Rooms - Keycard System";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "ChernaTrader Secure Rooms";
+overview = "Configurable keycard-secured rooms with independent door, access-card, and reward tiers.";
+action = "https://github.com/ManuShamil/DayZ-KeyCardSystem-Public";
+author = "ChernaTrader; based on KeyCard-Rooms by HellCat, ManuShamil, and contributors";
+version = "1.0.0";

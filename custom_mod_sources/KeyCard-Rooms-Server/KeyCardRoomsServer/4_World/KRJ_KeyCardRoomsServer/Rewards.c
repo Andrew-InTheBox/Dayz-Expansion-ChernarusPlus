@@ -51,18 +51,6 @@ class KRJ_KeyCardRewardsConfig
     }
 }
 
-modded class SecurityDoorLocationConfig
-{
-    // Optional logical reward tier, independent of the physical door class.
-    // Supported values are T1, T2, and T3. Empty preserves vendor behavior.
-    string rewardTier;
-
-    string KRJ_GetRewardTier()
-    {
-        return rewardTier;
-    }
-}
-
 class KRJ_KeyCardRewardManager
 {
     protected static ref KRJ_KeyCardRewardManager s_Instance;
@@ -132,22 +120,7 @@ class KRJ_KeyCardRewardManager
         if (!door)
             return "";
 
-        string fallbackDoorClass = door.GetType();
-        PluginKeyCardSystemServer plugin = PluginKeyCardSystemServer.Cast(GetPlugin(PluginKeyCardSystemServer));
-        if (!plugin || !plugin.m_config || !plugin.m_config.locations)
-            return fallbackDoorClass;
-
-        vector doorPosition = door.GetPosition();
-        foreach (ref SecurityDoorLocationConfig locationConfig : plugin.m_config.locations)
-        {
-            if (!locationConfig)
-                continue;
-
-            if (vector.Distance(locationConfig.GetPosition(), doorPosition) <= 0.1)
-                return NormalizeRewardTier(locationConfig.KRJ_GetRewardTier(), fallbackDoorClass);
-        }
-
-        return fallbackDoorClass;
+        return NormalizeRewardTier(door.GetRewardTier(), door.GetType());
     }
 
     protected void AddCargo(EntityAI crate, ref array<ref KRJ_KeyCardCargoConfig> cargo)
@@ -352,9 +325,9 @@ modded class KeyCard_Door_Base
 
 modded class PluginKeyCardSystemServer
 {
-    override void StaticItemsSpawn()
+    override bool StaticItemsSpawn()
     {
-        super.StaticItemsSpawn();
+        bool spawnedPreset = super.StaticItemsSpawn();
 
         // The vendor preset references obsolete vbldr aircraft-door classes.
         // Fill both sides of the T3 hangar entrance with current BuilderItems tin walls.
@@ -364,6 +337,8 @@ modded class PluginKeyCardSystemServer
         KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 450.300012 14027.404575", "83.003494 0 0");
         KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 452.300012 14027.404575", "83.003494 0 0");
         KRJ_SpawnStaticObject("bldr_wall_tin_5", "1745.143659 454.300012 14027.404575", "83.003494 0 0");
+
+        return spawnedPreset;
     }
 
     protected void KRJ_SpawnStaticObject(string className, vector position, vector orientation)
