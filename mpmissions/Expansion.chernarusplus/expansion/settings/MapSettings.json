@@ -22,7 +22,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 1 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -16711936,
             "m_Position": [
                 2493.35009765625,
@@ -37,7 +37,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 1 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -16711936,
             "m_Position": [
                 9847.759765625,
@@ -52,7 +52,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 1 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -16711936,
             "m_Position": [
                 6198.2900390625,
@@ -67,7 +67,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 1 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -16711936,
             "m_Position": [
                 7816.77001953125,
@@ -82,7 +82,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 1 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -16711936,
             "m_Position": [
                 7622.580078125,
@@ -97,8 +97,8 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 3 Keycard Room",
-            "m_IconName": "Skull",
-            "m_Color": -16711936,
+            "m_IconName": "Map Marker",
+            "m_Color": -65536,
             "m_Position": [
                 7791.492399,
                 356.158006,
@@ -112,7 +112,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 2 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
                 2840.070068359375,
@@ -127,7 +127,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 2 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
                 6035.0498046875,
@@ -142,7 +142,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 2 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
                 3966.530029296875,
@@ -157,7 +157,7 @@
             "m_Visibility": 6,
             "m_Is3D": 0,
             "m_Text": "Tier 3 Keycard Room",
-            "m_IconName": "Skull",
+            "m_IconName": "Map Marker",
             "m_Color": -65536,
             "m_Position": [
                 1747.739990234375,
