@@ -43,6 +43,20 @@ custom_scripts/*/output/*
 config/ExpansionMod/Settings/SocialMediaSettings.json
 .tmp/
 
+# Stock single-player offline mission files that ship with the game - not part of
+# the server config, and include multi-MB areaflags.map binaries.
+/mpmissions/dayzOffline.chernarusplus/
+/mpmissions/dayzOffline.enoch/
+/mpmissions/dayzOffline.sakhal/
+
+# PermissionsFramework runtime data - per-player permission/records written live.
+/config/PermissionsFramework/Permissions/
+/config/PermissionsFramework/Players/
+
+# Steam install artifacts
+/steamapps/
+/steam_appid.txt
+
 # Exception: the custom Heatmap server mod is NOT on the workshop, so it can never
 # be re-downloaded or re-synced from Steam - git is the only backup. Track everything
 # in it (must come after the /_@*/*, *.pbo and *.bisign ignores above to override them).
