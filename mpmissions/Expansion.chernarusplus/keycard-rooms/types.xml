@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="RedemptionKeyCard_01">
-        <nominal>12</nominal>
+        <nominal>25</nominal>
         <lifetime>10800</lifetime>
         <restock>3600</restock>
-        <min>8</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16,10 +16,10 @@
         <value name="Tier2"/>
     </type>
     <type name="RedemptionKeyCard_02">
-        <nominal>8</nominal>
+        <nominal>25</nominal>
         <lifetime>10800</lifetime>
         <restock>3600</restock>
-        <min>6</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
