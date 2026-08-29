@@ -110,6 +110,9 @@
 				<item name="CombatKnife" chance="0.05" />
 				<item name="Morphine" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
+				<item name="RedemptionKeyCard_01" chance="0.35" />
+				<item name="RedemptionKeyCard_02" chance="0.20" />
+				<item name="RedemptionKeyCard_03" chance="0.10" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHunter">
 				<item name="WeaponCleaningKit" chance="0.10" />

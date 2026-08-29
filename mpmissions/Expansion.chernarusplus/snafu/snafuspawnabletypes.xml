@@ -2,8 +2,6 @@
 <spawnabletypes>		
 <!-- Spawnable Types for Snafu - Created by Dirk -->
 	<type name="SNAFUAPS">
-		<attachments chance="0.25">
-		</attachments>
 		<attachments chance="0.33">
 			<item name="SNAFUAPS_20rdMag" chance="1.00" />
 		</attachments>

@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="RedemptionKeyCard_01">
-        <nominal>25</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>35</nominal>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>20</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <tag name="floor"/>
         <usage name="Military"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
     <type name="RedemptionKeyCard_02">
-        <nominal>25</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>35</nominal>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>20</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <tag name="floor"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="RedemptionKeyCard_03">
-        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>3</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 </types>

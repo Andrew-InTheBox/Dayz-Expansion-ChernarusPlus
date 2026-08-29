@@ -803,10 +803,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_12gaPellets">
-        <nominal>100</nominal>
+        <nominal>120</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>75</min>
+        <min>95</min>
         <quantmin>30</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -820,10 +820,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Ammo_12gaRubberSlug">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>15</min>
         <quantmin>30</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -834,10 +834,10 @@
         <usage name="Farm"/>
     </type>
     <type name="Ammo_12gaSlug">
-        <nominal>100</nominal>
+        <nominal>120</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>65</min>
+        <min>90</min>
         <quantmin>30</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -895,10 +895,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_357">
-        <nominal>90</nominal>
+        <nominal>110</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>65</min>
+        <min>90</min>
         <quantmin>30</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -909,10 +909,10 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_380">
-        <nominal>100</nominal>
+        <nominal>110</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>85</min>
+        <min>90</min>
         <quantmin>30</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>

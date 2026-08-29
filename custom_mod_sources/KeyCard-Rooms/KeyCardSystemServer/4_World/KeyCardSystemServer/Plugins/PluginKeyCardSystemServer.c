@@ -40,7 +40,21 @@ class SecurityDoorRandomRewardConfig
     }
 }
 
-class SecurityDoorLocationConfig 
+class SecurityDoorPanelConfig
+{
+    string className;
+    vector position;
+    vector orientation;
+
+    void SecurityDoorPanelConfig(string class_name, vector pos, vector orient)
+    {
+        className = class_name;
+        position = pos;
+        orientation = orient;
+    }
+}
+
+class SecurityDoorLocationConfig
 {
     string className;
     string cardTier;
@@ -53,8 +67,9 @@ class SecurityDoorLocationConfig
     float closeDelay;
     ref array< ref SecurityDoorRandomRewardConfig > randomRewards;
     ref array< ref SecurityDoorRewardConfig > fixedRewards;
+    ref array< ref SecurityDoorPanelConfig > panels;
 
-    void SecurityDoorLocationConfig( string class_name, vector loc, vector direction, float autoclose_time, vector crate_location, vector crate_dir, float close_delay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards, string card_tier = "", string reward_tier = "")
+    void SecurityDoorLocationConfig( string class_name, vector loc, vector direction, float autoclose_time, vector crate_location, vector crate_dir, float close_delay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards, string card_tier = "", string reward_tier = "", ref array< ref SecurityDoorPanelConfig > panels_obj = NULL)
     {
         className = class_name;
         cardTier = card_tier;
@@ -67,6 +82,10 @@ class SecurityDoorLocationConfig
         closeDelay = close_delay;
         randomRewards = random_rewards;
         fixedRewards = fixed_rewards;
+
+        panels = panels_obj;
+        if (!panels)
+            panels = new array< ref SecurityDoorPanelConfig >;
     }
 
     string GetClassName() 
@@ -143,6 +162,11 @@ class SecurityDoorLocationConfig
     {
         return fixedRewards;
     }
+
+    ref array< ref SecurityDoorPanelConfig > GetPanels()
+    {
+        return panels;
+    }
 }
 
 class KeyCardSystemConfig
@@ -158,9 +182,9 @@ class KeyCardSystemConfig
         locations = new array< ref SecurityDoorLocationConfig >;
     }
 
-    void InsertLocation( string className, vector pos, vector dir, float autoclose, vector cratePos, vector crateDir, float closeDelay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards)
+    void InsertLocation( string className, vector pos, vector dir, float autoclose, vector cratePos, vector crateDir, float closeDelay, ref array< ref SecurityDoorRandomRewardConfig > random_rewards, ref array< ref SecurityDoorRewardConfig > fixed_rewards, ref array< ref SecurityDoorPanelConfig > panels = NULL)
     {
-        locations.Insert( new SecurityDoorLocationConfig( className, pos, dir, autoclose, cratePos, crateDir, closeDelay, random_rewards, fixed_rewards) );
+        locations.Insert( new SecurityDoorLocationConfig( className, pos, dir, autoclose, cratePos, crateDir, closeDelay, random_rewards, fixed_rewards, "", "", panels) );
     }
 
     void SetVersion( int Version ) {

@@ -261,7 +261,29 @@
             ],
             "closeDelay": 15.0,
             "randomRewards": [],
-            "fixedRewards": []
+            "fixedRewards": [],
+            "panels": [
+                {
+                    "className": "vbldr_mil_aircraftshelter_door_r",
+                    "position": [1746.469971, 453.480011, 14014.700195],
+                    "orientation": [83.003548, 0.0, 0.0]
+                },
+                {
+                    "className": "vbldr_mil_aircraftshelter_door_l",
+                    "position": [1745.060059, 453.450012, 14028.200195],
+                    "orientation": [83.003494, 0.0, 0.0]
+                },
+                {
+                    "className": "vbldr_metal_plates_up",
+                    "position": [1747.130005, 454.799988, 14019.799805],
+                    "orientation": [-96.008247, 0.0, 0.0]
+                },
+                {
+                    "className": "vbldr_metal_plates_up",
+                    "position": [1746.800049, 454.799988, 14023.299805],
+                    "orientation": [-96.008247, 0.0, 0.0]
+                }
+            ]
         },
         {
             "className": "Land_KlimaX_T1Door",
