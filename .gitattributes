@@ -1,0 +1,3 @@
+# Steam Workshop copies these files with CRLF line endings. Normalize them in
+# Git so updater runs do not make every mod's metadata appear modified.
+**/meta.cpp text eol=lf
