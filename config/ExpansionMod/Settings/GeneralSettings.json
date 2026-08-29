@@ -63,7 +63,7 @@
             "SvetRoadForestNoCollision",
             "TisyNoCollision"
         ],
-        "BuildingInteriors": 1,
+        "BuildingInteriors": 0,
         "Interiors": [
             "Land_Barn_Brick2",
             "Land_Barn_Metal_Big",
