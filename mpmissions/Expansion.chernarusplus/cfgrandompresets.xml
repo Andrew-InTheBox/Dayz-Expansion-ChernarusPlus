@@ -233,6 +233,9 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="RedemptionKeyCard_01" chance="0.40" />
+				<item name="RedemptionKeyCard_02" chance="0.25" />
+				<item name="RedemptionKeyCard_03" chance="0.15" />
 		</cargo>
 		<cargo chance="0.04" name="grenades">
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
