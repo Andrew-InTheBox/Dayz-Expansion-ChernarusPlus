@@ -102,17 +102,17 @@
 				<item name="TetracyclineAntibiotics" chance="0.1" />
 				<item name="Thermometer" chance="0.05" />
 		</cargo>
-		<cargo chance="0.25" name="toolsPolice">
+		<cargo chance="0.35" name="toolsPolice">
 				<item name="Battery9V" chance="0.1" />
+				<item name="RedemptionKeyCard_01" chance="0.30" />
+				<item name="RedemptionKeyCard_02" chance="0.20" />
+				<item name="RedemptionKeyCard_03" chance="0.10" />
 				<item name="PersonalRadio" chance="0.1" />
 				<item name="Flashlight" chance="0.15" />
 				<item name="Roadflare" chance="0.2" />
 				<item name="CombatKnife" chance="0.05" />
 				<item name="Morphine" chance="0.05" />
 				<item name="BandageDressing" chance="0.05" />
-				<item name="RedemptionKeyCard_01" chance="0.35" />
-				<item name="RedemptionKeyCard_02" chance="0.20" />
-				<item name="RedemptionKeyCard_03" chance="0.10" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHunter">
 				<item name="WeaponCleaningKit" chance="0.10" />
@@ -216,10 +216,13 @@
 				<item name="SpaghettiCan" chance="0.09" />
 				<item name="BakedBeansCan" chance="0.09" />
 		</cargo>
-		<cargo chance="0.1" name="mixArmy">
+		<cargo chance="0.15" name="mixArmy">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
+				<item name="RedemptionKeyCard_01" chance="0.30" />
+				<item name="RedemptionKeyCard_02" chance="0.20" />
+				<item name="RedemptionKeyCard_03" chance="0.10" />
 				<item name="TunaCan" chance="0.1" />
 				<item name="SardinesCan" chance="0.05" />
 				<item name="PeachesCan" chance="0.05" />
@@ -233,9 +236,6 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-				<item name="RedemptionKeyCard_01" chance="0.40" />
-				<item name="RedemptionKeyCard_02" chance="0.25" />
-				<item name="RedemptionKeyCard_03" chance="0.15" />
 		</cargo>
 		<cargo chance="0.04" name="grenades">
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />

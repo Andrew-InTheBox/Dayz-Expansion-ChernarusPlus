@@ -148,6 +148,35 @@
             "fixedRewards": []
         },
         {
+            "className": "Land_KlimaX_T1Door",
+            "cardTier": "T1",
+            "rewardTier": "T1",
+            "location": [
+                10073.9,
+                246.682,
+                5477.0
+            ],
+            "dir": [
+                70.0,
+                0.0,
+                0.0
+            ],
+            "autoClose": 180.0,
+            "crateLocation": [
+                10076.479,
+                247.253,
+                5478.084
+            ],
+            "crateDir": [
+                162.0,
+                0.0,
+                0.0
+            ],
+            "closeDelay": 15.0,
+            "randomRewards": [],
+            "fixedRewards": []
+        },
+        {
             "className": "Land_KlimaX_T2Door",
             "cardTier": "T2",
             "rewardTier": "T2",

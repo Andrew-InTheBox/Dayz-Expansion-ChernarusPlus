@@ -96,6 +96,21 @@
             "m_UID": "KeycardRoom_T1_06",
             "m_Visibility": 6,
             "m_Is3D": 0,
+            "m_Text": "Tier 1 Keycard Room",
+            "m_IconName": "Map Marker",
+            "m_Color": -16711936,
+            "m_Position": [
+                10073.9,
+                246.682,
+                5477.0
+            ],
+            "m_Locked": 1,
+            "m_Persist": 1
+        },
+        {
+            "m_UID": "KeycardRoom_T3_02",
+            "m_Visibility": 6,
+            "m_Is3D": 0,
             "m_Text": "Tier 3 Keycard Room",
             "m_IconName": "Map Marker",
             "m_Color": -65536,

@@ -502,37 +502,6 @@
                     ]
                 },
                 {
-                    "className": "SVD",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_SVD_10Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK_Suppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "PSO11Optic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_762x54_20Rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
                     "className": "VSS",
                     "chance": 1.0,
                     "attachments": [
@@ -834,6 +803,37 @@
             "doorClassName": "Land_KlimaX_T3Door",
             "randomRewardCount": 3,
             "randomRewards": [
+                {
+                    "className": "SVD",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_SVD_10Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK_Suppressor",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "PSO11Optic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x54_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                },
                 {
                     "className": "M14",
                     "chance": 1.0,
