@@ -233,7 +233,7 @@
                 },
                 {
                     "className": "SKS",
-                    "chance": 1.0,
+                    "chance": 0.6,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": [
@@ -280,7 +280,7 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_9x19_25rnd",
+                            "className": "AmmoBox_380_35rnd",
                             "count": 2
                         }
                     ]
@@ -328,7 +328,7 @@
         },
         {
             "doorClassName": "Land_KlimaX_T2Door",
-            "randomRewardCount": 3,
+            "randomRewardCount": 2,
             "randomRewards": [
                 {
                     "className": "AugShort",
@@ -801,7 +801,7 @@
         },
         {
             "doorClassName": "Land_KlimaX_T3Door",
-            "randomRewardCount": 3,
+            "randomRewardCount": 2,
             "randomRewards": [
                 {
                     "className": "SVD",
@@ -860,7 +860,7 @@
                 },
                 {
                     "className": "M79",
-                    "chance": 1.0,
+                    "chance": 0.65,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": [
@@ -952,16 +952,17 @@
                             "count": 1
                         }
                     ]
-                },
+                }
+            ],
+            "fixedRewards": [
                 {
                     "className": "NVGoggles",
-                    "chance": 0.5,
+                    "chance": 1.0,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": []
                 }
-            ],
-            "fixedRewards": []
+            ]
         }
     ]
 }
