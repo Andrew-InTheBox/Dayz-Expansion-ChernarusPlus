@@ -61,10 +61,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_45_70mm">
-        <nominal>65</nominal>
+        <nominal>85</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>60</min>
+        <min>80</min>
         <quantmin>35</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -76,10 +76,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_500_SW">
-        <nominal>65</nominal>
+        <nominal>85</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>60</min>
+        <min>80</min>
         <quantmin>35</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -389,10 +389,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_338">
-        <nominal>60</nominal>
+        <nominal>85</nominal>
         <restock>0</restock>
         <lifetime>7200</lifetime>
-        <min>55</min>
+        <min>80</min>
         <quantmin>30</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>

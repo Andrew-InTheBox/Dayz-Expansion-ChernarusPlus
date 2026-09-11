@@ -324,7 +324,22 @@
                     ]
                 }
             ],
-            "fixedRewards": []
+            "fixedRewards": [
+                {
+                    "className": "Whetstone",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "CombatKnife",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                }
+            ]
         },
         {
             "doorClassName": "Land_KlimaX_T2Door",
@@ -797,7 +812,23 @@
                     ]
                 }
             ],
-            "fixedRewards": []
+            "fixedRewards": [
+                {
+                    "className": "Rangefinder",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Battery9V",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": []
+                }
+            ]
         },
         {
             "doorClassName": "Land_KlimaX_T3Door",
@@ -935,6 +966,20 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
+                        },
+                        {
+                            "className": "SNAFUGevar_Suppressor",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "SNAFU_Bipod",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
@@ -944,12 +989,8 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_308Win_20Rnd",
-                            "count": 2
-                        },
-                        {
                             "className": "SNAFUGevar_10rdMag",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -957,6 +998,20 @@
             "fixedRewards": [
                 {
                     "className": "NVGoggles",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "TacticalBaconCan",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "TacticalBaconCan",
                     "chance": 1.0,
                     "attachments": [],
                     "containerCargo": [],

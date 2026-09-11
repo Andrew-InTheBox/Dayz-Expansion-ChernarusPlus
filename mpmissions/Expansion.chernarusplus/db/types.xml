@@ -1191,10 +1191,10 @@
         <category name="weapons"/>
     </type>
     <type name="Ammo_Flare">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1207,10 +1207,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareBlue">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1223,10 +1223,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareGreen">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1239,10 +1239,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareRed">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -4582,10 +4582,10 @@
         <usage name="Village"/>
     </type>
     <type name="CarBattery">
-        <nominal>60</nominal>
+        <nominal>70</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>40</min>
+        <min>60</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4594,10 +4594,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="CarRadiator">
-        <nominal>60</nominal>
+        <nominal>70</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7926,10 +7926,10 @@
         <usage name="School"/>
     </type>
     <type name="Flaregun">
-        <nominal>0</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>35</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19300,10 +19300,10 @@
         <category name="food"/>
     </type>
     <type name="SparkPlug">
-        <nominal>60</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20831,10 +20831,10 @@
         <category name="tools"/>
     </type>
     <type name="TruckBattery">
-        <nominal>20</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>10</min>
+        <min>25</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

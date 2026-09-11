@@ -64,6 +64,12 @@
 		<attachments chance="0.50">
 			<item name="SNAFUGevar_10rdMag" chance="1.00" />
 		</attachments>
+		<attachments chance="0.40">
+			<item name="SNAFUGevar_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="SNAFU_Bipod" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="GCGN_BenelliM4">
 		<attachments chance="0.40">
