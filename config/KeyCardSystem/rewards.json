@@ -1,8 +1,8 @@
 {
-    "version": 1,
+    "version": 2,
     "tiers": [
         {
-            "doorClassName": "Land_KlimaX_T1Door",
+            "poolName": "T1",
             "randomRewardCount": 3,
             "randomRewards": [
                 {
@@ -342,7 +342,7 @@
             ]
         },
         {
-            "doorClassName": "Land_KlimaX_T2Door",
+            "poolName": "T2",
             "randomRewardCount": 2,
             "randomRewards": [
                 {
@@ -810,7 +810,7 @@
             ]
         },
         {
-            "doorClassName": "T3_HEAVY",
+            "poolName": "T3_HEAVY",
             "randomRewardCount": 1,
             "randomRewards": [
                 {
@@ -879,30 +879,6 @@
                             "count": 1
                         }
                     ]
-                },
-                {
-                    "className": "M14",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_M14_20Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "ACOGOptic_6x",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_308Win_20Rnd",
-                            "count": 1
-                        }
-                    ]
                 }
             ],
             "fixedRewards": [
@@ -916,7 +892,7 @@
             ]
         },
         {
-            "doorClassName": "T3_PRECISION",
+            "poolName": "T3_PRECISION",
             "randomRewardCount": 1,
             "randomRewards": [
                 {

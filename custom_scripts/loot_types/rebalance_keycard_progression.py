@@ -20,12 +20,18 @@ T2_SUPPRESSORS_TO_REMOVE = {
     "AK74",
     "M16A2",
 }
-HEAVY_WEAPONS = ("SCARH", "SNAFURPD", "M79", "M14")
+HEAVY_WEAPONS = ("SCARH", "SNAFURPD", "M79")
 PRECISION_WEAPONS = ("SVD", "SNAFUGevar_Black", "M14")
+LEGACY_POOL_NAMES = {
+    "Land_KlimaX_T1Door": "T1",
+    "Land_KlimaX_T2Door": "T2",
+    "Land_KlimaX_T3Door": "T3",
+}
 
 
 def pool_id(pool: dict) -> str:
-    return pool["doorClassName"]
+    identifier = pool.get("poolName", pool.get("doorClassName", ""))
+    return LEGACY_POOL_NAMES.get(identifier, identifier)
 
 
 def trim_package(reward: dict) -> dict:
@@ -40,7 +46,7 @@ def main() -> None:
     data = json.loads(REWARDS.read_text(encoding="utf-8"))
     pools = {pool_id(pool): pool for pool in data["tiers"]}
 
-    t2 = pools["Land_KlimaX_T2Door"]
+    t2 = pools["T2"]
     for reward in t2["randomRewards"]:
         reward["cargo"] = [
             {**cargo, "count": 1}
@@ -55,7 +61,7 @@ def main() -> None:
                 if attachment["className"] not in {"M4_Suppressor", "AK_Suppressor"}
             ]
 
-    source_t3 = pools.get("Land_KlimaX_T3Door")
+    source_t3 = pools.get("T3")
     if source_t3 is None:
         # Permit safe reruns after the shared T3 pool has already been replaced.
         candidates = pools.get("T3_HEAVY", {}).get("randomRewards", []) + pools.get(
@@ -95,13 +101,13 @@ def main() -> None:
         "cargo": [],
     }
     heavy = {
-        "doorClassName": "T3_HEAVY",
+        "poolName": "T3_HEAVY",
         "randomRewardCount": 1,
         "randomRewards": select(HEAVY_WEAPONS),
         "fixedRewards": [copy.deepcopy(optional_nvg)],
     }
     precision = {
-        "doorClassName": "T3_PRECISION",
+        "poolName": "T3_PRECISION",
         "randomRewardCount": 1,
         "randomRewards": select(PRECISION_WEAPONS),
         "fixedRewards": [copy.deepcopy(optional_nvg)],
@@ -110,7 +116,7 @@ def main() -> None:
     data["tiers"] = [
         pool
         for pool in data["tiers"]
-        if pool_id(pool) not in {"Land_KlimaX_T3Door", "T3_HEAVY", "T3_PRECISION"}
+        if pool_id(pool) not in {"T3", "T3_HEAVY", "T3_PRECISION"}
     ] + [heavy, precision]
     with REWARDS.open("w", encoding="utf-8", newline="\n") as handle:
         handle.write(json.dumps(data, indent=4) + "\n")

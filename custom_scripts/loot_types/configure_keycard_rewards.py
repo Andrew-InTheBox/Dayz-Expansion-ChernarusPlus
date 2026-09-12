@@ -190,11 +190,11 @@ def disable_ce_items(selected):
 def main():
     selected = rated_items()
     config = {
-        "version": 1,
+        "version": 2,
         "tiers": [
-            {"doorClassName": "Land_KlimaX_T1Door", "randomRewardCount": 5, "randomRewards": T1, "fixedRewards": []},
-            {"doorClassName": "Land_KlimaX_T2Door", "randomRewardCount": 3, "randomRewards": T2, "fixedRewards": []},
-            {"doorClassName": "Land_KlimaX_T3Door", "randomRewardCount": 2, "randomRewards": T3, "fixedRewards": []},
+            {"poolName": "T1", "randomRewardCount": 5, "randomRewards": T1, "fixedRewards": []},
+            {"poolName": "T2", "randomRewardCount": 3, "randomRewards": T2, "fixedRewards": []},
+            {"poolName": "T3", "randomRewardCount": 2, "randomRewards": T3, "fixedRewards": []},
         ],
     }
     encoded = json.dumps(config, indent=4) + "\n"

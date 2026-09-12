@@ -62,17 +62,21 @@ If `cardTier` or `rewardTier` is omitted, it falls back to the tier implied by
 a server-log warning. The required card tier is network synchronized to the
 client and is revalidated by the server before a card is consumed.
 
-In `rewards.json`, the legacy `doorClassName` property is the pool identifier.
-For example, a pool selected by `"rewardTier": "T3_HEAVY"` uses:
+In `rewards.json`, `poolName` is the reward-pool identifier. It is independent
+of both the physical door class and required card tier. For example, a pool
+selected by `"rewardTier": "T3_HEAVY"` uses:
 
 ```json
 {
-  "doorClassName": "T3_HEAVY",
+  "poolName": "T3_HEAVY",
   "randomRewardCount": 1,
   "randomRewards": [],
   "fixedRewards": []
 }
 ```
+
+The legacy `doorClassName` reward property remains accepted so existing server
+configurations continue to load, but new configurations should use `poolName`.
 
 Fixed rewards are guaranteed when `chance` is omitted, zero, or `1.0`. A value
 between zero and one makes that fixed reward an independent optional roll. This

@@ -26,6 +26,8 @@ class KRJ_KeyCardRewardConfig
 
 class KRJ_KeyCardTierConfig
 {
+    string poolName;
+    // Legacy identifier retained so existing rewards.json files still load.
     string doorClassName;
     int randomRewardCount;
     ref array<ref KRJ_KeyCardRewardConfig> randomRewards;
@@ -37,6 +39,14 @@ class KRJ_KeyCardTierConfig
         randomRewards = new array<ref KRJ_KeyCardRewardConfig>;
         fixedRewards = new array<ref KRJ_KeyCardRewardConfig>;
     }
+
+    string GetPoolName()
+    {
+        if (poolName != "")
+            return poolName;
+
+        return doorClassName;
+    }
 }
 
 class KRJ_KeyCardRewardsConfig
@@ -46,7 +56,7 @@ class KRJ_KeyCardRewardsConfig
 
     void KRJ_KeyCardRewardsConfig()
     {
-        version = 1;
+        version = 2;
         tiers = new array<ref KRJ_KeyCardTierConfig>;
     }
 }
@@ -89,14 +99,27 @@ class KRJ_KeyCardRewardManager
         }
     }
 
-    protected ref KRJ_KeyCardTierConfig FindTier(string doorClassName)
+    protected string NormalizePoolName(string poolName)
+    {
+        if (poolName == "Land_KlimaX_T1Door")
+            return "T1";
+        if (poolName == "Land_KlimaX_T2Door")
+            return "T2";
+        if (poolName == "Land_KlimaX_T3Door")
+            return "T3";
+
+        return poolName;
+    }
+
+    protected ref KRJ_KeyCardTierConfig FindTier(string poolName)
     {
         if (!m_Config || !m_Config.tiers)
             return NULL;
 
+        string normalizedPoolName = NormalizePoolName(poolName);
         foreach (ref KRJ_KeyCardTierConfig tier : m_Config.tiers)
         {
-            if (tier && tier.doorClassName == doorClassName)
+            if (tier && NormalizePoolName(tier.GetPoolName()) == normalizedPoolName)
                 return tier;
         }
 
@@ -105,20 +128,10 @@ class KRJ_KeyCardRewardManager
 
     protected string NormalizeRewardTier(string rewardTier, string fallbackDoorClass)
     {
-        if (rewardTier == "T1")
-            return "Land_KlimaX_T1Door";
-        if (rewardTier == "T2")
-            return "Land_KlimaX_T2Door";
-        if (rewardTier == "T3")
-            return "Land_KlimaX_T3Door";
-
-        // Custom pool names are matched directly against doorClassName in the
-        // reward configuration. The field keeps its legacy name for config
-        // compatibility even though it now identifies any named reward pool.
         if (rewardTier != "")
             return rewardTier;
 
-        return fallbackDoorClass;
+        return NormalizePoolName(fallbackDoorClass);
     }
 
     protected string FindDoorRewardTier(KeyCard_Door_Base door)
@@ -296,12 +309,12 @@ class KRJ_KeyCardRewardManager
         }
     }
 
-    void AddTierLoot(EntityAI crate, string doorClassName)
+    void AddTierLoot(EntityAI crate, string poolName)
     {
-        ref KRJ_KeyCardTierConfig tier = FindTier(doorClassName);
+        ref KRJ_KeyCardTierConfig tier = FindTier(poolName);
         if (!tier)
         {
-            Print("[KRJ KeyCard Rooms] No reward tier configured for " + doorClassName);
+            Print("[KRJ KeyCard Rooms] No reward pool configured for " + poolName);
             return;
         }
 
