@@ -1729,6 +1729,16 @@
             "UseRandomWaypointAsStartPoint": 1,
             "Waypoints": [
                 [
+                    4631.62,
+                    339.025,
+                    9490.08
+                ],
+                [
+                    4502.15,
+                    339.524,
+                    9451.41
+                ],
+                [
                     4439.60009765625,
                     338.8190002441406,
                     9482.0595703125
@@ -2619,7 +2629,7 @@
             "Formation": "RANDOM",
             "FormationScale": 2.0,
             "FormationLooseness": 0.5,
-            "Loadout": "EastLoadout",
+            "Loadout": "SniperLoadout",
             "Units": [],
             "NumberOfAI": 1,
             "NumberOfAIMax": 1,
@@ -2635,7 +2645,7 @@
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
             "AccuracyMax": -1.0,
-            "ThreatDistanceLimit": -1.0,
+            "ThreatDistanceLimit": 600.0,
             "NoiseInvestigationDistanceLimit": -1.0,
             "MaxFlankingDistance": -1.0,
             "EnableFlankingOutsideCombat": -1,

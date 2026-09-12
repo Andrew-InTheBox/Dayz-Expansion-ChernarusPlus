@@ -1607,64 +1607,7 @@
             "SlotName": "Vest",
             "Items": [
                 {
-                    "ClassName": "SmershVest",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [
-                        {
-                            "SlotName": "",
-                            "Items": [
-                                {
-                                    "ClassName": "SmershBag",
-                                    "Chance": 0.800000011920929,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [],
-                                    "InventoryAttachments": [],
-                                    "InventoryCargo": [],
-                                    "ConstructionPartsBuilt": [],
-                                    "Sets": []
-                                }
-                            ]
-                        }
-                    ],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "UKAssVest_Olive",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "HighCapacityVest_Olive",
+                    "ClassName": "PoliceVest",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -1688,7 +1631,7 @@
             "SlotName": "Headgear",
             "Items": [
                 {
-                    "ClassName": "Ssh68Helmet",
+                    "ClassName": "BallisticHelmet_Black",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -1707,7 +1650,7 @@
                     "Sets": []
                 },
                 {
-                    "ClassName": "",
+                    "ClassName": "BallisticHelmet_Green",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -1726,7 +1669,7 @@
                     "Sets": []
                 },
                 {
-                    "ClassName": "TankerHelmet",
+                    "ClassName": "Mich2001Helmet",
                     "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
@@ -1740,88 +1683,6 @@
                         }
                     ],
                     "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "PilotkaCap",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "OfficierHat",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "GorkaHelmet",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [
-                        {
-                            "SlotName": "Headgear",
-                            "Items": [
-                                {
-                                    "ClassName": "GorkaHelmetVisor",
-                                    "Chance": 0.4000000059604645,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [
-                                        {
-                                            "Min": 0.699999988079071,
-                                            "Max": 1.0,
-                                            "Zone": ""
-                                        }
-                                    ],
-                                    "InventoryAttachments": [],
-                                    "InventoryCargo": [],
-                                    "ConstructionPartsBuilt": [],
-                                    "Sets": []
-                                }
-                            ]
-                        }
-                    ],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []
@@ -2040,7 +1901,7 @@
                 },
                 {
                     "ClassName": "Mag_SVD_10Rnd",
-                    "Chance": 0.25,
+                    "Chance": 1.0,
                     "Quantity": {
                         "Min": 0.0,
                         "Max": 0.0
