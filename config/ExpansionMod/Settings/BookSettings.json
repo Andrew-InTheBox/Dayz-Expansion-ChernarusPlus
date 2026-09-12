@@ -25,10 +25,10 @@
             "CategoryName": "Keycard Loot Rooms",
             "Descriptions": [
                 {
-                    "DescriptionText": "Locked loot rooms are marked permanently on the Expansion map. Press M to view them. Green markers are Tier 1 rooms, orange markers are Tier 2 rooms, and the red marker is the Tier 3 room."
+                    "DescriptionText": "Locked loot rooms are marked permanently on the Expansion map. Press M to view them. Green markers are Tier 1 rooms, orange markers are Tier 2 rooms, and red markers are Tier 3 rooms."
                 },
                 {
-                    "DescriptionText": "There are three functional cards and three room tiers. Keycard 01 opens only Tier 1 doors, Keycard 02 opens only Tier 2 doors, and Keycard 03 opens only Tier 3 doors. There is no functional Tier 4 card or room."
+                    "DescriptionText": "There are three functional keycards and three access tiers. Keycard 01 opens Tier 1 rooms, Keycard 02 opens Tier 2 rooms, and Keycard 03 opens Tier 3 rooms. A door's physical appearance does not necessarily indicate its access tier; trust the room's map marker. There is no functional Tier 4 card or room."
                 },
                 {
                     "DescriptionText": "A keycard is consumed when it is swiped. Opening the door creates a temporary reward crate inside the room. Take everything you want before the door closes, because the crate is removed when the door shuts."
@@ -39,16 +39,16 @@
             "CategoryName": "Room Rewards",
             "Descriptions": [
                 {
-                    "DescriptionText": "Tier 1 rooms provide random selections from a pool of useful survival supplies and ammunition boxes."
+                    "DescriptionText": "Tier 1 rooms provide three random early-game weapon bundles. Bundles include appropriate magazines, ammunition, and selected attachments."
                 },
                 {
-                    "DescriptionText": "Tier 2 rooms provide random Rating 3 military weapon bundles. Tier 3 rooms provide random Rating 4 military weapon bundles."
+                    "DescriptionText": "Tier 2 rooms provide two random Rating 3 military weapon bundles with deliberately limited ammunition and attachments. They prepare you for harder military encounters without completing an endgame loadout."
                 },
                 {
-                    "DescriptionText": "Weapon bundles include a compatible magazine, an optic when the weapon supports one, and ammunition. Some bundles also contain useful weapon attachments or accessories."
+                    "DescriptionText": "Tier 3 rooms provide one specialized Rating 4 weapon bundle. Tisy offers the heavy pool: SCAR-H, RPD, or M79. The ski resort offers the precision pool: SVD, Gevar Black, or M14. Each T3 crate also has an independent 30 percent chance to contain NV goggles."
                 },
                 {
-                    "DescriptionText": "These Rating 3 and Rating 4 military items have been removed from ordinary map loot. A small dynamic-event exception remains: the AK-74, FAMAS, M79, NV goggles, SCAR-H, SKS, and SVD can still appear very rarely at helicopter crash events."
+                    "DescriptionText": "Many Rating 3 and Rating 4 military items have been removed from ordinary map loot, although selected weapons can still appear very rarely at dynamic events. Keycard rooms are the dependable progression path to these equipment tiers."
                 }
             ]
         },
@@ -56,7 +56,13 @@
             "CategoryName": "Finding Keycards",
             "Descriptions": [
                 {
-                    "DescriptionText": "Keycards spawn as military loot. Card 01 can appear in map loot tiers 1 through 3. Card 02 can appear in tiers 3 and 4. Card 03 appears only in tier 4 military areas."
+                    "DescriptionText": "Cards 01 and 02 can appear in military world loot and on police or army infected. Card 03 is not carried by police or ordinary army infected. It has only a very small natural military-loot population in map tiers 3 and 4."
+                },
+                {
+                    "DescriptionText": "The main route to Card 03 is the hostile AI force at Northwest Airfield. Eligible regular soldiers have a small chance to drop one, while the airfield sniper has a much higher chance. AI equipment itself cannot be looted; check the controlled rewards dropped beside defeated patrol members."
+                },
+                {
+                    "DescriptionText": "Northwest Airfield is the bridge to Tier 3, not the final reward destination. Survive the airfield, obtain Card 03, then travel to either Tisy for heavy weapons or the ski resort for precision weapons. A card is consumed on use, so obtaining another lets you pursue the other specialization."
                 },
                 {
                     "DescriptionText": "Room markers show the destination but the map does not show your player position, coordinates, or distance to the room. Navigate using landmarks and normal compass skills."
