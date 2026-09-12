@@ -1,5 +1,5 @@
 {
-    "version": 10,
+    "version": 11,
     "disableMapEditsPreset": 1,
     "locations": [
         {
@@ -266,7 +266,7 @@
         {
             "className": "Land_KlimaX_T3Door",
             "cardTier": "T3",
-            "rewardTier": "T3",
+            "rewardTier": "T3_HEAVY",
             "location": [
                 1747.739990234375,
                 450.29998779296877,
@@ -317,7 +317,7 @@
         {
             "className": "Land_KlimaX_T1Door",
             "cardTier": "T3",
-            "rewardTier": "T3",
+            "rewardTier": "T3_PRECISION",
             "location": [
                 7791.4921875,
                 356.15802001953127,

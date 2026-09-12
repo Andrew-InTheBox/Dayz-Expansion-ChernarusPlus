@@ -106,7 +106,6 @@
 				<item name="Battery9V" chance="0.1" />
 				<item name="RedemptionKeyCard_01" chance="0.30" />
 				<item name="RedemptionKeyCard_02" chance="0.20" />
-				<item name="RedemptionKeyCard_03" chance="0.10" />
 				<item name="PersonalRadio" chance="0.1" />
 				<item name="Flashlight" chance="0.15" />
 				<item name="Roadflare" chance="0.2" />
@@ -222,7 +221,6 @@
 				<item name="SodaCan_Spite" chance="0.05" />
 				<item name="RedemptionKeyCard_01" chance="0.30" />
 				<item name="RedemptionKeyCard_02" chance="0.20" />
-				<item name="RedemptionKeyCard_03" chance="0.10" />
 				<item name="TunaCan" chance="0.1" />
 				<item name="SardinesCan" chance="0.05" />
 				<item name="PeachesCan" chance="0.05" />

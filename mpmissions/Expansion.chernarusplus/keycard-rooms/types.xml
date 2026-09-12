@@ -33,10 +33,10 @@
         <value name="Tier3"/>
     </type>
     <type name="RedemptionKeyCard_03">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>6</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

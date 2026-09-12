@@ -1,6 +1,6 @@
 """Build keycard-room reward pools and disable their rated items in CE types.
 
-DEPRECATED for reward generation: config/KeyCardRoomsCompanion/rewards.json is
+DEPRECATED for reward generation: config/KeyCardSystem/rewards.json is
 maintained by hand since 2026-08-24. Running this script again OVERWRITES that
 file (and re-applies the CE types.xml/cfgspawnabletypes.xml edits), so do not
 rerun it unless a full regenerate is intended.
@@ -22,7 +22,7 @@ SPAWNABLE_FILES = (
     ROOT / "mpmissions/Expansion.chernarusplus/cfgspawnabletypes.xml",
     ROOT / "mpmissions/Expansion.chernarusplus/snafu/snafuspawnabletypes.xml",
 )
-REWARDS = ROOT / "config/KeyCardRoomsCompanion/rewards.json"
+REWARDS = ROOT / "config/KeyCardSystem/rewards.json"
 EXCLUDED_STANDALONE_REWARDS = {
     "M4_CQBBttstck",
     "M4_MPBttstck",
