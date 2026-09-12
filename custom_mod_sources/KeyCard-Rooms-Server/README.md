@@ -4,7 +4,9 @@ This is a server-only companion for the signed Workshop `@KeyCard-Rooms` mod.
 It leaves all vendor PBOs unchanged and replaces the hardcoded T1, T2, and T3
 `AddLoot` methods at runtime.
 
-Rewards are configured in `config/KeyCardRoomsCompanion/rewards.json`. Each door
+This code is bundled into the full ChernaTrader Secure Rooms Workshop build; it
+is not deployed as a separate server mod. Rewards are configured in
+`config/KeyCardSystem/rewards.json`. Each door
 tier gets all `fixedRewards` plus `randomRewardCount` weighted selections from
 `randomRewards`, without selecting the same entry twice. The default count is one.
 Attachments are guaranteed and recursively attached to their parent item. An
@@ -12,11 +14,16 @@ optional `randomAttachments` group makes at most one weighted attachment choice
 after passing its parent item's `randomAttachmentChance` roll.
 Cargo is placed directly in the crate only when its parent reward is selected.
 
-Door locations may set an optional `rewardTier` value of `T1`, `T2`, or `T3`
-in `config/KeyCardSystem/config.json`. This selects the logical reward pool
+Door locations may set an optional `rewardTier` value in
+`config/KeyCardSystem/config.json`. `T1`, `T2`, and `T3` retain their legacy
+behavior, while names such as `T3_HEAVY` select a location-specific pool. The
+setting selects the logical reward pool
 independently of `className`, which continues to select the physical door model
 and its keycard authorization. Locations without `rewardTier` fall back to the
 tier implied by their door class.
+
+Fixed rewards may use a `chance` between zero and one as an independent optional
+roll. Omitted, zero, and `1.0` values remain guaranteed for compatibility.
 
 `rewards.json` is maintained by hand (the old generator script
 `custom_scripts/loot_types/configure_keycard_rewards.py` would overwrite it).

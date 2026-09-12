@@ -54,7 +54,7 @@ class KRJ_KeyCardRewardsConfig
 class KRJ_KeyCardRewardManager
 {
     protected static ref KRJ_KeyCardRewardManager s_Instance;
-    protected static const string CONFIG_DIR = "$profile:KeyCardRoomsCompanion";
+    protected static const string CONFIG_DIR = "$profile:KeyCardSystem";
     protected static const string CONFIG_FILE = CONFIG_DIR + "/rewards.json";
     protected ref KRJ_KeyCardRewardsConfig m_Config;
 
@@ -111,6 +111,12 @@ class KRJ_KeyCardRewardManager
             return "Land_KlimaX_T2Door";
         if (rewardTier == "T3")
             return "Land_KlimaX_T3Door";
+
+        // Custom pool names are matched directly against doorClassName in the
+        // reward configuration. The field keeps its legacy name for config
+        // compatibility even though it now identifies any named reward pool.
+        if (rewardTier != "")
+            return rewardTier;
 
         return fallbackDoorClass;
     }
@@ -238,7 +244,15 @@ class KRJ_KeyCardRewardManager
             return;
 
         foreach (ref KRJ_KeyCardRewardConfig reward : rewards)
+        {
+            // Missing/zero chance remains guaranteed for compatibility with
+            // older fixed reward files. Values between zero and one are an
+            // independent spawn probability.
+            if (reward && reward.chance > 0 && reward.chance < 1 && Math.RandomFloat01() > reward.chance)
+                continue;
+
             SpawnReward(crate, reward);
+        }
     }
 
     protected void AddRandomRewards(EntityAI crate, ref array<ref KRJ_KeyCardRewardConfig> rewards, int rewardCount)

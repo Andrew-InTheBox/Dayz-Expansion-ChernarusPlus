@@ -112,7 +112,10 @@ class SecurityDoorLocationConfig
 
     string GetRewardTier()
     {
-        if (rewardTier == "T1" || rewardTier == "T2" || rewardTier == "T3")
+        // Reward pools are server-defined names. T1/T2/T3 remain the defaults,
+        // while descriptive names allow individual locations to select their
+        // own pools without changing the physical door or accepted keycard.
+        if (rewardTier != "")
             return rewardTier;
 
         if (className == "Land_KlimaX_T2Door")
@@ -195,7 +198,7 @@ class KeyCardSystemConfig
 
 class PluginKeyCardSystemServer : PluginBase 
 {
-    const static int VERSION = 10;
+    const static int VERSION = 11;
 
     const static string PROFILE = "$profile:KeyCardSystem";
     const static string CONFIG = PROFILE + "/config.json";

@@ -10,10 +10,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3790655182
 ## Why this source is here
 
 The installed `@KeyCard-Rooms` package contains an older server implementation
-whose reward contents are hardcoded in `KeyCardSystemServerConfig.pbo`. The
-vendored upstream revision moves reward definitions into
-`config/KeyCardSystem/config.json`, including nested attachments and weighted
-random rewards.
+whose reward contents are hardcoded in `KeyCardSystemServerConfig.pbo`. This
+custom build reads door locations from `config/KeyCardSystem/config.json` and
+reward pools from `config/KeyCardSystem/rewards.json`.
 
 The project now builds a complete signed client/server replacement. The door
 and keycard asset PBOs remain byte-identical to upstream, while the shared and
@@ -39,7 +38,7 @@ The build uses:
 C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe
 ```
 
-## Independent room tiers
+## Independent card tiers and named reward pools
 
 Each entry in `$profile:KeyCardSystem/config.json` supports three independent
 settings:
@@ -48,17 +47,37 @@ settings:
 {
   "className": "Land_KlimaX_T1Door",
   "cardTier": "T3",
-  "rewardTier": "T3"
+  "rewardTier": "T3_HEAVY"
 }
 ```
 
 - `className` selects the physical T1, T2, or T3 door model.
 - `cardTier` selects the required `T1`, `T2`, or `T3` keycard.
-- `rewardTier` selects the `T1`, `T2`, or `T3` pool in `rewards.json`.
+- `rewardTier` selects a named pool in `rewards.json`. `T1`, `T2`, and `T3`
+  remain supported defaults; descriptive names such as `T3_HEAVY` and
+  `T3_PRECISION` allow location-specific loot.
 
-If `cardTier` or `rewardTier` is omitted or invalid, it falls back to the tier
-implied by `className`. The required card tier is network synchronized to the
+If `cardTier` or `rewardTier` is omitted, it falls back to the tier implied by
+`className`. A named pool that has no matching entry produces an empty crate and
+a server-log warning. The required card tier is network synchronized to the
 client and is revalidated by the server before a card is consumed.
+
+In `rewards.json`, the legacy `doorClassName` property is the pool identifier.
+For example, a pool selected by `"rewardTier": "T3_HEAVY"` uses:
+
+```json
+{
+  "doorClassName": "T3_HEAVY",
+  "randomRewardCount": 1,
+  "randomRewards": [],
+  "fixedRewards": []
+}
+```
+
+Fixed rewards are guaranteed when `chance` is omitted, zero, or `1.0`. A value
+between zero and one makes that fixed reward an independent optional roll. This
+is useful for utility items such as NVGs without allowing them to replace the
+room's weapon draw.
 
 ## Full branded build
 
