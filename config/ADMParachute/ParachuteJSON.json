@@ -1,0 +1,244 @@
+{
+    "m_ParachuteInfo": [
+        {
+            "ClassName": "ADM_ParachuteBag_Base",
+            "CanopyName": "ADM_Parachute_Fabric",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Fabric",
+            "CanopyName": "ADM_Parachute_Fabric",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_RWB",
+            "CanopyName": "ADM_Parachute_RWB",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Target",
+            "CanopyName": "ADM_Parachute_Target",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Skull",
+            "CanopyName": "ADM_Parachute_Skull",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_ADM",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_INVIS",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Fabric_Speed",
+            "CanopyName": "ADM_Parachute_Fabric",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_RWB_Speed",
+            "CanopyName": "ADM_Parachute_RWB",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Target_Speed",
+            "CanopyName": "ADM_Parachute_Target",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_Skull_Speed",
+            "CanopyName": "ADM_Parachute_Skull",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParachuteBag_ADM_Speed",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_TactiParaBag_Camo",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_TactiParaBag_Camo_Speed",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 2.0,
+            "TopSpeedMultiplierZ": 4.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 1,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_JetPack_ColorBase",
+            "CanopyName": "",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_JetPack_Green",
+            "CanopyName": "",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_ColorBase",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_Fabric",
+            "CanopyName": "ADM_Parachute_Fabric",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_RWB",
+            "CanopyName": "ADM_Parachute_RWB",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_Target",
+            "CanopyName": "ADM_Parachute_Target",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_Skull",
+            "CanopyName": "ADM_Parachute_Skull",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_ParaMotor_ADM",
+            "CanopyName": "ADM_Parachute_ADM",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_Zepplin",
+            "CanopyName": "",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 0.5,
+            "AccelMultiplierZ": 0.5,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        },
+        {
+            "ClassName": "ADM_MagicBroom",
+            "CanopyName": "",
+            "TopSpeedMultiplierY": 1.0,
+            "TopSpeedMultiplierZ": 1.0,
+            "AccelMultiplierY": 1.0,
+            "AccelMultiplierZ": 1.0,
+            "ParachuteDamage": 0,
+            "LandingSpeedDamage": 1
+        }
+    ]
+}
