@@ -22,6 +22,23 @@
     ],
     "Descriptions": [
         {
+            "CategoryName": "Airborne AI",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Approximately every one to two hours, a hostile aircraft may fly over a player. When you receive an incoming-aircraft warning, take cover and stay out of sight. If the aircraft spots you, it will deploy hostile paratroopers to hunt players in the area."
+                },
+                {
+                    "DescriptionText": "Airborne AI reinforcement flares can be found as loot around the map. Load one into a flare gun and fire it to call a friendly reinforcement aircraft to your location."
+                },
+                {
+                    "DescriptionText": "The friendly aircraft will fly overhead and deploy friendly AI reinforcements near the location where the flare was fired. Approach the reinforcements and use the Recruit action on them. Once recruited, they will follow you and assist you in combat."
+                },
+                {
+                    "DescriptionText": "Remember the difference: hide from unrequested hostile aircraft, but remain near your reinforcement flare so you can locate and recruit the friendly troops it calls."
+                }
+            ]
+        },
+        {
             "CategoryName": "Keycard Loot Rooms",
             "Descriptions": [
                 {
@@ -39,13 +56,22 @@
             "CategoryName": "Room Rewards",
             "Descriptions": [
                 {
-                    "DescriptionText": "Tier 1 rooms provide three random early-game weapon bundles. Bundles include appropriate magazines, ammunition, and selected attachments."
+                    "DescriptionText": "Tier 1 rooms provide three random early-game weapon bundles. The weapon pool is: CZ 75, AKS-74U, FNX45, MP5-K, Saiga, engraved M1911, Desert Eagle, SKS, PP-19, and UMP45."
                 },
                 {
-                    "DescriptionText": "Tier 2 rooms provide two random Rating 3 military weapon bundles with deliberately limited ammunition and attachments. They prepare you for harder military encounters without completing an endgame loadout."
+                    "DescriptionText": "Tier 2 rooms provide two random intermediate weapon bundles. The rifle pool is: AUG Short, AK-101, AK-74, FAMAS, M16A2, VSS, SV-98, AKM, AS VAL, ADAR Modular 16, TAR-21, CZ 527, and Marlin 1895."
                 },
                 {
-                    "DescriptionText": "Tier 3 rooms provide one specialized Rating 4 weapon bundle. Tisy offers the heavy pool: SCAR-H, RPD, or M79. The ski resort offers the precision pool: SVD, Gevar Black, or M14. Each T3 crate also has an independent 30 percent chance to contain NV goggles."
+                    "DescriptionText": "The Tier 2 pool also includes the P90 and Benelli M4 shotgun. Bundles contain the appropriate magazine when the weapon uses one, limited ammunition, and selected attachments. Tier 2 prepares you for harder encounters without completing an endgame loadout."
+                },
+                {
+                    "DescriptionText": "Tier 3 rooms provide one specialized high-end weapon bundle. Tisy offers the heavy pool: SCAR-H, RPD, or M79 grenade launcher."
+                },
+                {
+                    "DescriptionText": "MB Kamensk offers the Tier 3 precision pool: SVD, Gevar Black, M14, CZ 550, M4A1, SNAFU AWM, or FAL. These bundles include a compatible magazine, scope where appropriate, and limited ammunition."
+                },
+                {
+                    "DescriptionText": "Each Tier 3 crate also has an independent 30 percent chance to contain NV goggles."
                 },
                 {
                     "DescriptionText": "Many Rating 3 and Rating 4 military items have been removed from ordinary map loot, although selected weapons can still appear very rarely at dynamic events. Keycard rooms are the dependable progression path to these equipment tiers."
@@ -62,7 +88,7 @@
                     "DescriptionText": "The main route to Card 03 is the hostile AI force at Northwest Airfield. Eligible regular soldiers have a small chance to drop one, while the airfield sniper has a much higher chance. AI equipment itself cannot be looted; check the controlled rewards dropped beside defeated patrol members."
                 },
                 {
-                    "DescriptionText": "Northwest Airfield is the bridge to Tier 3, not the final reward destination. Survive the airfield, obtain Card 03, then travel to either Tisy for heavy weapons or the ski resort for precision weapons. A card is consumed on use, so obtaining another lets you pursue the other specialization."
+                    "DescriptionText": "Northwest Airfield is the bridge to Tier 3, not the final reward destination. Survive the airfield, obtain Card 03, then travel to either Tisy for heavy weapons or MB Kamensk for precision weapons. A card is consumed on use, so obtaining another lets you pursue the other specialization."
                 },
                 {
                     "DescriptionText": "Room markers show the destination but the map does not show your player position, coordinates, or distance to the room. Navigate using landmarks and normal compass skills."

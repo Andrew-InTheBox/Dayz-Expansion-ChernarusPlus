@@ -789,6 +789,42 @@
                             "count": 1
                         }
                     ]
+                },
+                {
+                    "className": "CZ527",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_CZ527_5rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "HuntingOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x39_20Rnd",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "SNAFUMarlin1895",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "SNAFU_Ammo_45_70mm",
+                            "count": 1
+                        }
+                    ]
                 }
             ],
             "fixedRewards": [
@@ -976,6 +1012,102 @@
                     "cargo": [
                         {
                             "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "CZ550",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_CZ550_10rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "HuntingOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "M4A1",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_CMAG_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "SNAFU_AWM_Gun",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "SNAFU_AWM_Mag",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "SNAFU_Ammo_338",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "FAL",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_FAL_20Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic",
                             "count": 1
                         },
                         {

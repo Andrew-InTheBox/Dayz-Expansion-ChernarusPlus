@@ -1,0 +1,125 @@
+{
+    "readMe": "--> Be sure to check the config explanation on the workshop for option descriptions <--",
+    "Enabled": 1,
+    "minPlayersToSpawnAircraft": 1,
+    "maxActiveAircraft": 1,
+    "startDelayTime": 60.0,
+    "timeBetweenPlaneSpawns": 3600.0,
+    "maxTimeBetweenPlaneSpawns": 4500.0,
+    "allowNightFlights": 0,
+    "staticPlaneSpawnPosition": "",
+    "overflyRandomPlayer": 1,
+    "minPlayersForOverfly": 1,
+    "safeZonePositions": "",
+    "noOverflyOnTerritory": 0,
+    "aircraftFlightSpeed": 3.0,
+    "aircraftEngineNoiseSFX": 1,
+    "aircraftLoiterOnPlayer": 0,
+    "aircraftLoiterTime": 0.0,
+    "aircraftShootAtPlayer": 0,
+    "aircraftAccuracy": 35.0,
+    "aircraftCrew": "--> The settings below are for AI spawned at crash sites <--",
+    "aircraftMinCrew": 2,
+    "aircraftMaxCrew": 4,
+    "aircraftCrewFaction": "West",
+    "aircraftCrewLoadout": "EastLoadout",
+    "aircraftCrewChanceToBurn": 1.0,
+    "aircraftCrewChanceOfDeath": 1.0,
+    "paratroopers": "--> The settings below are for AI paratroopers <--",
+    "maxAmountAI": 3,
+    "minAmountAI": 2,
+    "aiLoadout": "EastLoadout",
+    "faction": "West",
+    "parachuteClassname": "ADM_ParachuteBag_Skull_Speed",
+    "aiFallSpeedMultiplier": -10.0,
+    "allAI": "--> The settings below are for all AI spawned by this mod <--",
+    "typeOfAI": 0,
+    "aiActivity": 2,
+    "canBeLooted": 0,
+    "unlimitedReload": 4,
+    "maxMoveSpeed": 2.0,
+    "minMoveSpeed": 1.0,
+    "noiseInvestigationRange": 850.0,
+    "maxAccuracy": 0.92,
+    "minAccuracy": 0.89,
+    "threatDetectionRange": 400.0,
+    "aiDespawnDistance": 500.0,
+    "messages": "--> The settings below are for player messages <--",
+    "warnMessageEnabled": 1,
+    "warnMessageTitle": "WARNING - Incoming Aircraft",
+    "warnMessageBody": "Take cover and hide! If they spot you paratroops will attack!",
+    "warnMessageIcon": "Helicopter",
+    "spottedMessageEnabled": 1,
+    "spottedMessageTitle": "OH SHIT - You were spotted!",
+    "spottedMessageBody": "Paratroopers are heading to your location, fight or run!",
+    "spottedMessageIcon": "Exclamationmark",
+    "airSupportWarnMessageEnabled": 1,
+    "airSupportWarnMessageTitle": "REINFORCEMENTS HAVE ARRIVED!!!",
+    "airSupportWarnMessageBody": "Make sure they see you and reinforcements will deploy",
+    "airSupportWarnMessageIcon": "Helicopter",
+    "airSupportSpottedMessageEnabled": 1,
+    "airSupportSpottedMessageTitle": "REINFORCEMENTS DEPLOYED",
+    "airSupportSpottedMessageBody": "They will rally near the location the flare was fired. Find and recruit them!",
+    "airSupportSpottedMessageIcon": "Exclamationmark",
+    "airSupport": "--> The setting below is for AI spawned using the green flare <--",
+    "airSupportLoadout": "ReinforcementsLoadout",
+    "dynamicItems": "--> The settings below are for dynamic aircraft spawn <--",
+    "dynamicItemClassname": "ExpansionAirdropContainer_Military, ExpansionAirdropContainer_Basebuilding, ExpansionAirdropContainer_Medical, ExpansionAirdropContainer_Grey",
+    "dynamicTriggerRadius": 50.0,
+    "dynamicCoolDown": 1800.0,
+    "crashLootItems": "--> The settings below are for loot that spawns around aircraft crash sites <--",
+    "minCrashLootItems": 8,
+    "maxCrashLootItems": 10,
+    "CrashLoot": [
+        {
+            "chance": 10.0,
+            "classname": "AYSA_blackBox",
+            "attachments": ""
+        },
+        {
+            "chance": 20.0,
+            "classname": "AKM",
+            "attachments": "Mag_AKM_30Rnd,AK_WoodBttstck,AK_WoodHndgrd"
+        },
+        {
+            "chance": 100.0,
+            "classname": "AmmoBox_308Win_20Rnd",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "AmmoBox_380_35Rnd",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "AmmoBox_762x54_20Rnd",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_camelback_alpine",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_camelback_black",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "AmmoBox",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_falcon_b1_belt_black",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_falcon_b1_belt_alpine",
+            "attachments": ""
+        }
+    ]
+}
