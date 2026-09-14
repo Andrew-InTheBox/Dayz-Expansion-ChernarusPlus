@@ -993,6 +993,10 @@
                         {
                             "className": "SNAFU_Tango6T_Black",
                             "count": 1
+                        },
+                        {
+                            "className": "SNAFU_Ammo_338",
+                            "count": 1
                         }
                     ]
                 },
