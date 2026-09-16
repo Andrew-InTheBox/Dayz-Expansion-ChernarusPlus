@@ -26,6 +26,9 @@
             "Descriptions": [
                 {
                     "DescriptionText": "This is a PvE server. Please keep encounters with other players friendly: no shooting on sight or non-consensual player kills."
+                },
+                {
+                    "DescriptionText": "High-value loot locations are heavily guarded by armed patrols. Come prepared with weapons, ammunition, and medical supplies."
                 }
             ]
         },
