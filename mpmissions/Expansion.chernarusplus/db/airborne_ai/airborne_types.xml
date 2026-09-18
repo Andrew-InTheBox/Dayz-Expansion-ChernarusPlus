@@ -83,10 +83,10 @@
 
     <!-- Green Flare Ammo -->
     <type name="AYSA_greenFlareAmmo">
-        <nominal>40</nominal>
+        <nominal>55</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>50</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
