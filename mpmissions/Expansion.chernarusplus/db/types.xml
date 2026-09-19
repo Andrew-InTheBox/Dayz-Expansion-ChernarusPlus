@@ -8690,10 +8690,10 @@
         <value name="Tier2"/>
     </type>
     <type name="GlowPlug">
-        <nominal>20</nominal>
+        <nominal>35</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
