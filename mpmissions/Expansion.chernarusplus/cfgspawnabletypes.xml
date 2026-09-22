@@ -2633,8 +2633,12 @@
 	<type name="M4A1">
 		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
+			<item name="M4_CQBBttstck" chance="0.50" />
+			<item name="M4_OEBttstck" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
+			<item name="M4_RISHndgrd" chance="0.50" />
+			<item name="M4_PlasticHndgrd" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="BUISOptic" chance="0.50" />

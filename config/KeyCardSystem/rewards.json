@@ -934,6 +934,20 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
+                        },
+                        {
+                            "className": "M4_OEBttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "M4_RISHndgrd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
