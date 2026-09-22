@@ -8690,10 +8690,10 @@
         <value name="Tier2"/>
     </type>
     <type name="GlowPlug">
-        <nominal>35</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20831,10 +20831,10 @@
         <category name="tools"/>
     </type>
     <type name="TruckBattery">
-        <nominal>30</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>25</min>
+        <min>35</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
