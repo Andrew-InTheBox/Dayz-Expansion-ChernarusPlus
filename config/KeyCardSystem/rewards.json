@@ -736,6 +736,10 @@
                         {
                             "className": "SNAFUP90_50rdMag",
                             "count": 1
+                        },
+                        {
+                            "className": "SNAFU_Ammo_5_7x28mm",
+                            "count": 1
                         }
                     ]
                 },
