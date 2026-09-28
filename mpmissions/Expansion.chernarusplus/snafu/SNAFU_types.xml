@@ -65,30 +65,24 @@
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>80</min>
-        <quantmin>35</quantmin>
-        <quantmax>50</quantmax>
+        <quantmin>50</quantmin>
+        <quantmax>70</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="SNAFU_Ammo_500_SW">
         <nominal>85</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>80</min>
-        <quantmin>35</quantmin>
-        <quantmax>50</quantmax>
+        <quantmin>50</quantmin>
+        <quantmax>70</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="SNAFU_MTango6T_Black">
         <nominal>5</nominal>
@@ -139,7 +133,20 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUAPS_20rdMag">
-        <nominal>25</nominal>
+        <nominal>32</nominal>
+        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <min>28</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="SNAFUAPS">
+        <nominal>24</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
         <min>20</min>
@@ -151,48 +158,29 @@
         <usage name="Military"/>
         <usage name="Police"/>
     </type>
-    <type name="SNAFUAPS">
-        <nominal>20</nominal>
-        <restock>1800</restock>
-        <lifetime>7200</lifetime>
-        <min>16</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
     <type name="SNAFUMagnum500">
-        <nominal>15</nominal>
+        <nominal>22</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>12</min>
+        <min>18</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="SNAFUMarlin1895">
-        <nominal>15</nominal>
+        <nominal>22</nominal>
         <restock>1800</restock>
         <lifetime>7200</lifetime>
-        <min>12</min>
+        <min>18</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="SNAFUP90_50rdMag">
         <nominal>4</nominal>
@@ -393,8 +381,8 @@
         <restock>0</restock>
         <lifetime>7200</lifetime>
         <min>85</min>
-        <quantmin>30</quantmin>
-        <quantmax>40</quantmax>
+        <quantmin>50</quantmin>
+        <quantmax>70</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -408,8 +396,8 @@
         <restock>0</restock>
         <lifetime>7200</lifetime>
         <min>100</min>
-        <quantmin>40</quantmin>
-        <quantmax>50</quantmax>
+        <quantmin>50</quantmin>
+        <quantmax>70</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
