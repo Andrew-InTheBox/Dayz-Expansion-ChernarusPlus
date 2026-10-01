@@ -2,7 +2,7 @@
     {
         "ClassName": "RedemptionKeyCard_03",
         "Include": "",
-        "Chance": 0.04,
+        "Chance": 0.10,
         "Quantity": {
             "Min": 1.0,
             "Max": 1.0
