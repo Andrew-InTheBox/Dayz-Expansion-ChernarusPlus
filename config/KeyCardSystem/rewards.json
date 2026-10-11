@@ -3,100 +3,8 @@
     "tiers": [
         {
             "poolName": "T1",
-            "randomRewardCount": 2,
+            "randomRewardCount": 1,
             "randomRewards": [
-                {
-                    "className": "CZ75",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_CZ75_15Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "PistolSuppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "TLRLight",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_9x19_25rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "AKS74U",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_AK74_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AKS74U_Bttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_545x39_20Rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "FNX45",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_FNX45_15Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "PistolSuppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "FNP45_MRDSOptic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_45ACP_25rnd",
-                            "count": 2
-                        }
-                    ]
-                },
                 {
                     "className": "MP5K",
                     "chance": 1.0,
@@ -137,44 +45,21 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_9x19_25rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "Saiga",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_saiga_drum20rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
+                            "className": "Mag_MP5_30Rnd",
+                            "count": 1
                         },
                         {
-                            "className": "Saiga_Bttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_00buck_10rnd",
+                            "className": "AmmoBox_9x19_25rnd",
                             "count": 3
                         }
                     ]
                 },
                 {
-                    "className": "Engraved1911",
+                    "className": "UMP45",
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "Mag_1911_7Rnd",
+                            "className": "Mag_UMP_25Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -186,48 +71,28 @@
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
+                        },
+                        {
+                            "className": "UniversalLight",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
                         }
                     ],
                     "containerCargo": [],
                     "cargo": [
+                        {
+                            "className": "M4_T3NRDSOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "Mag_UMP_25Rnd",
+                            "count": 1
+                        },
                         {
                             "className": "AmmoBox_45ACP_25rnd",
-                            "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "Deagle",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_Deagle_9rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "PistolSuppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "Mag_Deagle_9rnd",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_357_20Rnd",
-                            "count": 2
-                        },
-                        {
-                            "className": "FNP45_MRDSOptic",
-                            "count": 1
+                            "count": 3
                         }
                     ]
                 },
@@ -265,16 +130,156 @@
                         },
                         {
                             "className": "AmmoBox_380_35rnd",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "className": "AKS74U",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_AK74_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AKS74U_Bttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "Mag_AK74_30Rnd",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_545x39_20Rnd",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "className": "Saiga",
+                    "chance": 0.8,
+                    "attachments": [
+                        {
+                            "className": "Mag_saiga_drum20rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "Saiga_Bttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "AmmoBox_00buck_10rnd",
+                            "count": 2
+                        },
+                        {
+                            "className": "AmmoBox_12gaSlug_10Rnd",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "AK74",
+                    "chance": 0.5,
+                    "attachments": [
+                        {
+                            "className": "Mag_AK74_45Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK74_WoodBttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK74_Hndgrd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "KobraOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_545x39_20Rnd",
+                            "count": 3
+                        }
+                    ]
+                }
+            ],
+            "fixedRewards": [
+                {
+                    "className": "CombatKnife",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "FNX45",
+                    "chance": 0.25,
+                    "attachments": [
+                        {
+                            "className": "Mag_FNX45_15Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "PistolSuppressor",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "FNP45_MRDSOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_45ACP_25rnd",
                             "count": 2
                         }
                     ]
                 },
                 {
-                    "className": "UMP45",
-                    "chance": 1.0,
+                    "className": "CZ75",
+                    "chance": 0.2,
                     "attachments": [
                         {
-                            "className": "Mag_UMP_25Rnd",
+                            "className": "Mag_CZ75_15Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -288,7 +293,7 @@
                             "cargo": []
                         },
                         {
-                            "className": "UniversalLight",
+                            "className": "TLRLight",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -298,27 +303,55 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "ACOGOptic",
-                            "count": 1
+                            "className": "AmmoBox_9x19_25rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "Engraved1911",
+                    "chance": 0.1,
+                    "attachments": [
+                        {
+                            "className": "Mag_1911_7Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
                         },
+                        {
+                            "className": "PistolSuppressor",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
                         {
                             "className": "AmmoBox_45ACP_25rnd",
                             "count": 2
                         }
                     ]
-                }
-            ],
-            "fixedRewards": [
+                },
                 {
-                    "className": "Whetstone",
-                    "chance": 1.0,
+                    "className": "M67Grenade",
+                    "chance": 0.25,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": []
                 },
                 {
-                    "className": "CombatKnife",
-                    "chance": 1.0,
+                    "className": "BallisticHelmet_Green",
+                    "chance": 0.15,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "RedemptionKeyCard_02",
+                    "chance": 0.08,
                     "attachments": [],
                     "containerCargo": [],
                     "cargo": []
@@ -326,16 +359,37 @@
             ]
         },
         {
-            "poolName": "T2",
+            "poolName": "T2_ASSAULT",
             "randomRewardCount": 2,
             "randomRewards": [
                 {
-                    "className": "CZ550",
+                    "className": "AKM",
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "Mag_CZ550_10rnd",
-                            "chance": 0.5,
+                            "className": "Mag_AKM_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK_PlasticBttstck",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK_PlasticHndgrd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "AK_Suppressor",
+                            "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
                             "cargo": []
@@ -344,68 +398,16 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "HuntingOptic",
+                            "className": "KashtanOptic",
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_308Win_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "SKS",
-                    "chance": 1.0,
-                    "attachments": [],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "PUScopeOptic",
+                            "className": "Mag_AKM_30Rnd",
                             "count": 1
                         },
                         {
                             "className": "AmmoBox_762x39_20Rnd",
                             "count": 2
-                        }
-                    ]
-                },
-                {
-                    "className": "Aug",
-                    "chance": 0.7,
-                    "attachments": [
-                        {
-                            "className": "Mag_Aug_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_556x45_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "AugShort",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_Aug_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "AmmoBox_556x45_20Rnd",
-                            "count": 1
                         }
                     ]
                 },
@@ -449,31 +451,21 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_556x45_20Rnd",
+                            "className": "Mag_AK101_30Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
                 {
-                    "className": "AK74",
+                    "className": "Aug",
                     "chance": 1.0,
                     "attachments": [
                         {
-                            "className": "Mag_AK74_45Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK74_WoodBttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK74_Hndgrd",
+                            "className": "Mag_Aug_30Rnd",
                             "chance": 1.0,
                             "attachments": [],
                             "containerCargo": [],
@@ -483,12 +475,12 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "KashtanOptic",
+                            "className": "Mag_Aug_30Rnd",
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_545x39_20Rnd",
-                            "count": 1
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
@@ -514,13 +506,17 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "AmmoBox_556x45_20Rnd",
+                            "className": "Mag_FAMAS_25Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
                 {
-                    "className": "M16A2",
+                    "className": "SNAFUTAR21_Green",
                     "chance": 1.0,
                     "attachments": [
                         {
@@ -534,132 +530,16 @@
                     "containerCargo": [],
                     "cargo": [
                         {
+                            "className": "SNAFU_Tango6T_Black",
+                            "count": 1
+                        },
+                        {
+                            "className": "Mag_STANAG_30Rnd",
+                            "count": 1
+                        },
+                        {
                             "className": "AmmoBox_556x45_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "VSS",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_VAL_20Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "PSO11Optic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_9x39_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "SV98",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_SV98_10Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "ACOGOptic_6x",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_762x54_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "AKM",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_AKM_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK_PlasticBttstck",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK_PlasticHndgrd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "AK_Suppressor",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "PSO11Optic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_762x39_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "ASVAL",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_Vikhr_30Rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        },
-                        {
-                            "className": "UniversalLight",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "ACOGOptic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_9x39_20Rnd",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 },
@@ -710,11 +590,63 @@
                             "count": 1
                         },
                         {
+                            "className": "Mag_STANAG_30Rnd",
+                            "count": 1
+                        },
+                        {
                             "className": "AmmoBox_556x45_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                }
+            ],
+            "fixedRewards": [
+                {
+                    "className": "M67Grenade",
+                    "chance": 0.35,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "M67Grenade",
                             "count": 1
                         }
                     ]
                 },
+                {
+                    "className": "PlateCarrierVest",
+                    "chance": 0.15,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "MMG_JPC_Vest_dark_woodland",
+                    "chance": 0.1,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "NVGoggles",
+                    "chance": 0.05,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "RedemptionKeyCard_03",
+                    "chance": 0.06,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                }
+            ]
+        },
+        {
+            "poolName": "T2_CQB",
+            "randomRewardCount": 2,
+            "randomRewards": [
                 {
                     "className": "SNAFUP90",
                     "chance": 1.0,
@@ -739,7 +671,66 @@
                         },
                         {
                             "className": "SNAFU_Ammo_5_7x28mm",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "ASVAL",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_Vikhr_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        },
+                        {
+                            "className": "UniversalLight",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic",
                             "count": 1
+                        },
+                        {
+                            "className": "Mag_VAL_20Rnd",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_9x39_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "AugShort",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_Aug_30Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "Mag_Aug_30Rnd",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
@@ -810,12 +801,148 @@
                     "cargo": [
                         {
                             "className": "AmmoBox_00buck_10rnd",
+                            "count": 2
+                        },
+                        {
+                            "className": "AmmoBox_12gaSlug_10Rnd",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "fixedRewards": [
+                {
+                    "className": "M67Grenade",
+                    "chance": 0.35,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "M67Grenade",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "className": "SNAFUTAR21_Green",
+                    "className": "PlateCarrierVest",
+                    "chance": 0.15,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "MMG_JPC_Vest_dark_woodland",
+                    "chance": 0.1,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "NVGoggles",
+                    "chance": 0.05,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "RedemptionKeyCard_03",
+                    "chance": 0.06,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "FlashGrenade",
+                    "chance": 0.5,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "FlashGrenade",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "poolName": "T2_MARKSMAN",
+            "randomRewardCount": 2,
+            "randomRewards": [
+                {
+                    "className": "SV98",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_SV98_10Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "ACOGOptic_6x",
+                            "count": 1
+                        },
+                        {
+                            "className": "Mag_SV98_10Rnd",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x54_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "VSS",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Mag_VAL_20Rnd",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "PSO11Optic",
+                            "count": 1
+                        },
+                        {
+                            "className": "Mag_VSS_10Rnd",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_9x39_20Rnd",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "className": "SKS",
+                    "chance": 1.0,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "PUScopeOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x39_20Rnd",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "className": "M16A2",
                     "chance": 1.0,
                     "attachments": [
                         {
@@ -829,48 +956,16 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "SNAFU_Tango6T_Black",
+                            "className": "ACOGOptic",
+                            "count": 1
+                        },
+                        {
+                            "className": "Mag_CMAG_30Rnd",
                             "count": 1
                         },
                         {
                             "className": "AmmoBox_556x45_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "CZ527",
-                    "chance": 1.0,
-                    "attachments": [
-                        {
-                            "className": "Mag_CZ527_5rnd",
-                            "chance": 1.0,
-                            "attachments": [],
-                            "containerCargo": [],
-                            "cargo": []
-                        }
-                    ],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "HuntingOptic",
-                            "count": 1
-                        },
-                        {
-                            "className": "AmmoBox_762x39_20Rnd",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "className": "SNAFUMarlin1895",
-                    "chance": 1.0,
-                    "attachments": [],
-                    "containerCargo": [],
-                    "cargo": [
-                        {
-                            "className": "SNAFU_Ammo_45_70mm",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -888,6 +983,46 @@
                             "cargo": []
                         }
                     ],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "M67Grenade",
+                    "chance": 0.35,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "M67Grenade",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "PlateCarrierVest",
+                    "chance": 0.15,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "MMG_JPC_Vest_dark_woodland",
+                    "chance": 0.1,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "NVGoggles",
+                    "chance": 0.05,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "RedemptionKeyCard_03",
+                    "chance": 0.06,
+                    "attachments": [],
                     "containerCargo": [],
                     "cargo": []
                 }
@@ -923,8 +1058,12 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_308Win_20Rnd",
+                            "className": "Mag_SCARH_20Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
@@ -961,8 +1100,12 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_556x45_20Rnd",
+                            "className": "Mag_STANAG_60Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_556x45_20Rnd",
+                            "count": 3
                         }
                     ]
                 },
@@ -985,8 +1128,12 @@
                             "count": 1
                         },
                         {
-                            "className": "SNAFU_Ammo_338",
+                            "className": "SNAFU_AWM_Mag",
                             "count": 1
+                        },
+                        {
+                            "className": "SNAFU_Ammo_338",
+                            "count": 2
                         }
                     ]
                 },
@@ -1005,8 +1152,12 @@
                     "containerCargo": [],
                     "cargo": [
                         {
-                            "className": "AmmoBox_762x39_20Rnd",
+                            "className": "SNAFURPD_100rdMag",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x39_20Rnd",
+                            "count": 5
                         }
                     ]
                 }
@@ -1034,6 +1185,32 @@
                             "count": 1
                         }
                     ]
+                },
+                {
+                    "className": "PlateCarrierVest",
+                    "chance": 0.4,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "M67Grenade",
+                    "chance": 0.5,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "M67Grenade",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "MMG_tt_Vest_dark_woodland",
+                    "chance": 0.25,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
                 }
             ]
         },
@@ -1060,8 +1237,12 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_308Win_20Rnd",
+                            "className": "Mag_FAL_20Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
@@ -1084,8 +1265,12 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_308Win_20Rnd",
+                            "className": "Mag_M14_20Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_308Win_20Rnd",
+                            "count": 2
                         }
                     ]
                 },
@@ -1122,8 +1307,12 @@
                             "count": 1
                         },
                         {
-                            "className": "SNAFU_Ammo_338",
+                            "className": "SNAFUGevar_10rdMag",
                             "count": 1
+                        },
+                        {
+                            "className": "SNAFU_Ammo_338",
+                            "count": 2
                         }
                     ]
                 },
@@ -1153,8 +1342,12 @@
                             "count": 1
                         },
                         {
-                            "className": "AmmoBox_762x54_20Rnd",
+                            "className": "Mag_SVD_10Rnd",
                             "count": 1
+                        },
+                        {
+                            "className": "AmmoBox_762x54_20Rnd",
+                            "count": 2
                         }
                     ]
                 }
@@ -1182,6 +1375,40 @@
                             "count": 1
                         }
                     ]
+                },
+                {
+                    "className": "PlateCarrierVest",
+                    "chance": 0.4,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": []
+                },
+                {
+                    "className": "GhillieSuit_Woodland",
+                    "chance": 0.35,
+                    "attachments": [],
+                    "containerCargo": [],
+                    "cargo": [
+                        {
+                            "className": "GhillieHood_Woodland",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "className": "Rangefinder",
+                    "chance": 1.0,
+                    "attachments": [
+                        {
+                            "className": "Battery9V",
+                            "chance": 1.0,
+                            "attachments": [],
+                            "containerCargo": [],
+                            "cargo": []
+                        }
+                    ],
+                    "containerCargo": [],
+                    "cargo": []
                 }
             ]
         }

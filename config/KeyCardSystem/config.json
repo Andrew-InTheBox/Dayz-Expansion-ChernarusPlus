@@ -179,7 +179,7 @@
         {
             "className": "Land_KlimaX_T2Door",
             "cardTier": "T2",
-            "rewardTier": "T2",
+            "rewardTier": "T2_MARKSMAN",
             "location": [
                 2840.070068359375,
                 270.74200439453127,
@@ -208,7 +208,7 @@
         {
             "className": "Land_KlimaX_T2Door",
             "cardTier": "T2",
-            "rewardTier": "T2",
+            "rewardTier": "T2_CQB",
             "location": [
                 6035.0498046875,
                 267.2850036621094,
@@ -237,7 +237,7 @@
         {
             "className": "Land_KlimaX_T2Door",
             "cardTier": "T2",
-            "rewardTier": "T2",
+            "rewardTier": "T2_ASSAULT",
             "location": [
                 3966.530029296875,
                 311.6199951171875,

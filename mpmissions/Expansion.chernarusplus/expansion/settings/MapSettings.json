@@ -111,7 +111,7 @@
             "m_UID": "KeycardRoom_T3_02",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 3 Keycard Room",
+            "m_Text": "Tier 3 Room - Precision",
             "m_IconName": "Map Marker",
             "m_Color": -65536,
             "m_Position": [
@@ -126,7 +126,7 @@
             "m_UID": "KeycardRoom_T2_01",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 2 Keycard Room",
+            "m_Text": "Tier 2 Room - Marksman",
             "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
@@ -141,7 +141,7 @@
             "m_UID": "KeycardRoom_T2_02",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 2 Keycard Room",
+            "m_Text": "Tier 2 Room - CQB / SMG",
             "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
@@ -156,7 +156,7 @@
             "m_UID": "KeycardRoom_T2_03",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 2 Keycard Room",
+            "m_Text": "Tier 2 Room - Assault Rifle",
             "m_IconName": "Map Marker",
             "m_Color": -23296,
             "m_Position": [
@@ -171,7 +171,7 @@
             "m_UID": "KeycardRoom_T3_01",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 3 Keycard Room",
+            "m_Text": "Tier 3 Room - Heavy",
             "m_IconName": "Map Marker",
             "m_Color": -65536,
             "m_Position": [

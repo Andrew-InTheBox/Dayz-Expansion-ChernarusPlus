@@ -53,7 +53,7 @@
             "CategoryName": "Keycard Loot Rooms",
             "Descriptions": [
                 {
-                    "DescriptionText": "Locked loot rooms are marked permanently on the Expansion map. Press M to view them. Green markers are Tier 1 rooms, orange markers are Tier 2 rooms, and red markers are Tier 3 rooms."
+                    "DescriptionText": "Locked loot rooms are marked permanently on the Expansion map. Press M to view them. Green markers are Tier 1 rooms, orange markers are Tier 2 rooms, and red markers are Tier 3 rooms. Tier 2 and Tier 3 markers also name the room's weapon theme."
                 },
                 {
                     "DescriptionText": "There are three functional keycards and three access tiers. Keycard 01 opens Tier 1 rooms, Keycard 02 opens Tier 2 rooms, and Keycard 03 opens Tier 3 rooms. A door's physical appearance does not necessarily indicate its access tier; trust the room's map marker. There is no functional Tier 4 card or room."
@@ -67,22 +67,34 @@
             "CategoryName": "Room Rewards",
             "Descriptions": [
                 {
-                    "DescriptionText": "Tier 1 rooms provide two random early-game weapon bundles. The weapon pool is: CZ 75, AKS-74U, FNX45, MP5-K, Saiga, engraved M1911, Desert Eagle, PP-19, and UMP45."
+                    "DescriptionText": "Tier 1 rooms always provide one early-game primary weapon bundle: MP5-K, UMP45, PP-19, AKS-74U, or Saiga, with a rare chance of a full AK-74 instead. Most bundles include a spare magazine, a sight where it fits, and several boxes of ammunition."
                 },
                 {
-                    "DescriptionText": "Tier 2 rooms provide two random intermediate weapon bundles. The rifle pool is: SKS, AUG, AUG Short, AK-101, AK-74, FAMAS, M16A2, VSS, SV-98, AKM, AS VAL, ADAR Modular 16, TAR-21, CZ 527, CZ 550, and Marlin 1895. The AUG is slightly less likely than the AUG Short."
+                    "DescriptionText": "Every Tier 1 crate includes a combat knife and has independent bonus chances for a sidearm kit (FNX45 25 percent, CZ 75 20 percent, engraved M1911 10 percent), a frag grenade (25 percent), a ballistic helmet (15 percent), and an 8 percent chance of a Keycard 02 to take you up to Tier 2."
                 },
                 {
-                    "DescriptionText": "The Tier 2 pool also includes the P90 and Benelli M4 shotgun. Bundles contain the appropriate magazine when the weapon uses one, limited ammunition, and selected attachments. Tier 2 prepares you for harder encounters without completing an endgame loadout."
+                    "DescriptionText": "Each of the three Tier 2 rooms has its own theme, shown on its map marker, so you can target the weapon you want. Each Tier 2 crate provides two different weapon bundles from that room's pool, with a spare magazine and two boxes of ammunition."
                 },
                 {
-                    "DescriptionText": "Tier 3 rooms provide one random high-end weapon bundle from a pool unique to each site. Tisy offers SCAR-H, M4A1, SNAFU AWM, or RPD."
+                    "DescriptionText": "Tier 2 Marksman room (northwest of Vybor, near Lopatino): SV-98, VSS, SKS with PU scope, or M16A2 with ACOG. Always includes a rangefinder."
                 },
                 {
-                    "DescriptionText": "MB Kamensk offers FAL, M14, Gevar Black, or SVD. These Tier 3 bundles include a compatible magazine, scope where appropriate, and limited ammunition. Each site has exclusive weapons, giving you a reason to visit both."
+                    "DescriptionText": "Tier 2 CQB / SMG room (Grishino area): P90, AS VAL, AUG Short, or Benelli M4. Any one of these has a 50 percent chance per crate. Also has a 50 percent chance of a pair of flashbangs."
                 },
                 {
-                    "DescriptionText": "Each Tier 3 crate also has an independent 30 percent chance to contain NV goggles and an independent 20 percent chance to contain an M79 grenade launcher with two explosive rounds and one smoke round. These are bonus rewards alongside the main weapon bundle."
+                    "DescriptionText": "Tier 2 Assault Rifle room (Vybor area): AKM, AK-101, AUG, FAMAS, TAR-21, or ADAR Modular 16."
+                },
+                {
+                    "DescriptionText": "Every Tier 2 crate also has independent bonus chances for a pair of frag grenades (35 percent), a plate carrier (15 percent), an MMG JPC vest (10 percent), NV goggles (5 percent), and a 6 percent chance of a Keycard 03."
+                },
+                {
+                    "DescriptionText": "Tier 3 rooms provide one high-end weapon bundle from a pool unique to each site, with a spare magazine, scope where appropriate, and extra ammunition. The Tisy Heavy room offers SCAR-H, M4A1 with a 60-round magazine, SNAFU AWM, or RPD."
+                },
+                {
+                    "DescriptionText": "The MB Kamensk Precision room offers FAL, M14, Gevar Black, or SVD. Each site has exclusive weapons, giving you a reason to visit both."
+                },
+                {
+                    "DescriptionText": "Every Tier 3 crate has independent bonus chances for NV goggles (30 percent), an M79 grenade launcher with explosive and smoke rounds (20 percent), and a plate carrier (40 percent). Heavy crates add a pair of frag grenades (50 percent) and an MMG TT vest (25 percent). Precision crates add a ghillie suit with hood (35 percent) and always include a rangefinder."
                 },
                 {
                     "DescriptionText": "Many Rating 3 and Rating 4 military items have been removed from ordinary map loot, although selected weapons can still appear very rarely at dynamic events. Keycard rooms are the dependable progression path to these equipment tiers."
@@ -110,7 +122,7 @@
             "CategoryName": "Door Timing",
             "Descriptions": [
                 {
-                    "DescriptionText": "A keycard door remains open for 120 seconds, followed by a 15-second closing delay. The alarm is disabled, so there is no audible warning. Keep track of your time and leave the room before the door shuts."
+                    "DescriptionText": "A keycard door remains open for 180 seconds, followed by a 15-second closing delay. The alarm is disabled, so there is no audible warning. Keep track of your time and leave the room before the door shuts."
                 },
                 {
                     "DescriptionText": "The room can be used by anyone while its door is open."
