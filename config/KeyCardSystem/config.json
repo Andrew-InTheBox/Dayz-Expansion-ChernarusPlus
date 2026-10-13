@@ -62,8 +62,8 @@
         },
         {
             "className": "Land_KlimaX_T1Door",
-            "cardTier": "T1",
-            "rewardTier": "T1",
+            "cardTier": "T2",
+            "rewardTier": "T2_STARY",
             "location": [
                 6198.2900390625,
                 301.010009765625,
