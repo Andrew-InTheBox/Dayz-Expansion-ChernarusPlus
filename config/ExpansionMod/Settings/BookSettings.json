@@ -73,7 +73,7 @@
                     "DescriptionText": "Every Tier 1 crate includes a combat knife and has independent bonus chances for a sidearm kit (FNX45 25 percent, CZ 75 20 percent, engraved M1911 10 percent), a frag grenade (25 percent), a ballistic helmet (15 percent), and an 8 percent chance of a Keycard 02 to take you up to Tier 2."
                 },
                 {
-                    "DescriptionText": "Each of the three Tier 2 rooms has its own theme, shown on its map marker, so you can target the weapon you want. Each Tier 2 crate provides two different weapon bundles from that room's pool, with a spare magazine and two boxes of ammunition."
+                    "DescriptionText": "The four Tier 2 rooms have weapon themes shown on their map markers, so you can target the weapon you want. Each Tier 2 crate provides two different weapon bundles from that room's pool, with a spare magazine and two boxes of ammunition."
                 },
                 {
                     "DescriptionText": "Tier 2 Marksman room (northwest of Vybor, near Lopatino): SV-98, VSS, SKS with PU scope, or M16A2 with ACOG. Always includes a rangefinder."
@@ -82,7 +82,7 @@
                     "DescriptionText": "Tier 2 CQB / SMG room (Grishino area): P90, AS VAL, AUG Short, or Benelli M4. Any one of these has a 50 percent chance per crate. Also has a 50 percent chance of a pair of flashbangs."
                 },
                 {
-                    "DescriptionText": "Tier 2 Assault Rifle room (Vybor area): AKM, AK-101, AUG, FAMAS, TAR-21, or ADAR Modular 16."
+                    "DescriptionText": "Tier 2 Assault Rifle rooms (Vybor and Stary Sobor areas): AKM, AK-101, AUG, FAMAS, TAR-21, or ADAR Modular 16. FAMAS bundles include a hacksaw to cut off the carry handle."
                 },
                 {
                     "DescriptionText": "Every Tier 2 crate also has independent bonus chances for a pair of frag grenades (35 percent), a plate carrier (15 percent), an MMG JPC vest (10 percent), NV goggles (5 percent), and a 6 percent chance of a Keycard 03."

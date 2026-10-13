@@ -48,12 +48,12 @@
             "m_Persist": 1
         },
         {
-            "m_UID": "KeycardRoom_T1_03",
+            "m_UID": "KeycardRoom_T2_04",
             "m_Visibility": 6,
             "m_Is3D": 0,
-            "m_Text": "Tier 1 Keycard Room",
+            "m_Text": "Tier 2 Room - Assault Rifle",
             "m_IconName": "Map Marker",
-            "m_Color": -16711936,
+            "m_Color": -23296,
             "m_Position": [
                 6198.2900390625,
                 301.010009765625,
