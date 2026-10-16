@@ -58,10 +58,18 @@ modded class ActionOpenDoors
             if (inHandItem && !Class.CastTo( keyCard, inHandItem))
                 return false;
 
-            if( CanAuthorize( target.GetObject(), keyCard ) ) 
-                return super.ActionCondition( player, target, item );
-            else
+            if( !CanAuthorize( target.GetObject(), keyCard ) )
                 return false;
+
+            KeyCard_Door_Base door;
+            if (!Class.CastTo(door, target.GetObject()))
+                return false;
+
+            int doorIndex = door.GetDoorIndex(target.GetComponentIndex());
+            if (doorIndex == -1 || door.IsDoorOpen(doorIndex))
+                return false;
+
+            return IsInReach(player, target, UAMaxDistances.DEFAULT);
 
         }
 
@@ -71,7 +79,7 @@ modded class ActionOpenDoors
 
     override void OnStartServer( ActionData action_data )
 	{
-        if ( m_IsSecurityDoor ) 
+        if ( action_data.m_Target && IsSecurityDoor(action_data.m_Target.GetObject()) )
         {
             m_ItemInHands = action_data.m_Player.GetItemInHands();
             if ( !m_ItemInHands || !m_ItemInHands.IsInherited( KeyCard_ParentBase ) )
@@ -88,7 +96,7 @@ modded class ActionOpenDoors
                     return;
 
                 int doorIndex = door.GetDoorIndex(action_data.m_Target.GetComponentIndex());
-                if ( doorIndex != -1 )
+                if ( doorIndex != -1 && !door.IsDoorOpen(doorIndex) )
                 {
                     m_ItemInHands.Delete();
                     door.Open( doorIndex );
@@ -105,7 +113,7 @@ modded class ActionOpenDoors
 
     override void OnEndServer( ActionData action_data )
 	{
-        if ( !m_IsSecurityDoor ) 
+        if ( !action_data.m_Target || !IsSecurityDoor(action_data.m_Target.GetObject()) )
         {
             super.OnEndServer( action_data );
             return;
