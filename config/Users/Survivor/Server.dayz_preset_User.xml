@@ -135,7 +135,6 @@
     </input>
     <input name="UAToggleHeadlight">
         <btn name="kL" />
-        <btn name="x1Y" />
     </input>
     <input name="UAADSToggle">
         <btn name="kLShift">
@@ -458,6 +457,22 @@
         <btn name="kSpace" />
         <btn name="x1ShoulderRight" />
     </input>
+    <input name="UAToggleVehicleLights">
+        <btn name="kL" />
+        <btn name="x1Y" />
+    </input>
+    <input name="UAUICodeLockLeft">
+        <btn name="x1LeftThumbLeft" />
+    </input>
+    <input name="UAUICodeLockRight">
+        <btn name="x1LeftThumbRight" />
+    </input>
+    <input name="UAUICodeLockUp">
+        <btn name="x1LeftThumbUp" />
+    </input>
+    <input name="UAUICodeLockDown">
+        <btn name="x1LeftThumbDown" />
+    </input>
     <input name="UAUILeft">
         <btn name="kLeft" />
         <btn name="x1PadLeft" />
@@ -667,13 +682,13 @@
         <btn name="kNumpad0" />
     </input>
     <input name="UABuldTurbo">
-        <btn name="kU" />
+        <btn name="kLShift" />
     </input>
     <input name="UABuldSlow">
         <btn name="kJ" />
     </input>
     <input name="UABuldFreeLook">
-        <btn name="kNumpad5" />
+        <btn name="mBMiddle" />
     </input>
     <input name="UABuldRunScript">
         <btn name="kF10" />
@@ -909,6 +924,24 @@
     <input name="UABuldAlignToTerrain">
         <btn name="k9" />
     </input>
+    <input name="UABuldLinkCamToTerrain">
+        <btn name="k8" />
+    </input>
+    <input name="UABuldCopyTileCoord">
+        <btn name="kLControl">
+            <btn name="kT" />
+        </btn>
+    </input>
+    <input name="UABuldMarkUnderground">
+        <btn name="kLControl">
+            <btn name="kU" />
+        </btn>
+    </input>
+    <input name="UABuldRemoveUnderground">
+        <btn name="kLControl">
+            <btn name="kB" />
+        </btn>
+    </input>
     <input name="UACOTModuleToggleCOT">
         <btn name="kEnd" />
     </input>
@@ -1019,6 +1052,39 @@
             <btn name="kN" />
         </btn>
     </input>
+    <input name="UACOTToggleCompensations">
+        <btn name="kRMenu">
+            <btn name="kComma" />
+        </btn>
+    </input>
+    <input name="UACOTToggleWebhook">
+        <btn name="kRMenu">
+            <btn name="kPeriod" />
+        </btn>
+    </input>
+    <input name="UAMapEditorMoveForward">
+        <btn name="kW" />
+    </input>
+    <input name="UAMapEditorMoveBackward">
+        <btn name="kS" />
+    </input>
+    <input name="UAMapEditorMoveLeft">
+        <btn name="kA" />
+    </input>
+    <input name="UAMapEditorMoveRight">
+        <btn name="kD" />
+    </input>
+    <input name="UAMapEditorMoveUp">
+        <btn name="kE" />
+    </input>
+    <input name="UAMapEditorMoveDown">
+        <btn name="kQ" />
+    </input>
+    <input name="UAMapEditorBoost">
+        <btn name="kLShift" />
+    </input>
+    <input name="UAMapEditorSlow" />
+    <input name="UAMapEditorLook" />
     <input name="UAExpansionMapDeleteMarker">
         <btn name="kDelete" />
     </input>

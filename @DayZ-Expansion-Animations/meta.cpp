@@ -1,4 +1,4 @@
 protocol = 1;
 publishedid = 2793893086;
 name = "DayZ-Expansion-Animations";
-timestamp = 5250883102150000000;
+timestamp = 5250962589750000000;

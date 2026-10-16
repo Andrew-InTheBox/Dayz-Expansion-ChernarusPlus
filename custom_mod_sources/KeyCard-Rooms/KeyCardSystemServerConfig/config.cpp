@@ -19,12 +19,12 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"KeyCardSystemServerConfig\4_World"};
+				files[] = {"KeyCardSystemServerConfig/4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"KeyCardSystemServerConfig\5_Mission"};
+				files[] = {"KeyCardSystemServerConfig/5_Mission"};
 			};
 		};
 	};

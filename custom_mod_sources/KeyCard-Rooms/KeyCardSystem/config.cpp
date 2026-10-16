@@ -24,7 +24,7 @@ class CfgMods
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"KeyCardSystem\4_World"};
+				files[] = {"KeyCardSystem/4_World"};
 			};
 		};
 	};
