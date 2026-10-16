@@ -2312,6 +2312,34 @@
 			<item name="SparkPlug" chance="0.60" />
 		</attachments>
 	</type>
+	<type name="ExpansionTractor_Blue">
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="ExpansionTractor_Green">
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorFrontWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionTractorBackWheel" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="Expansion_Landrover">
 		<attachments chance="1.00">
 			<item name="Expansion_Landrover_Wheel" chance="1.00" />

@@ -41,14 +41,29 @@ def compact_vehicle_label(event_name):
     return label or event_name
 
 
-def load_vehicle_spawns(xml_file_path):
+def load_vehicle_spawns(xml_file_path, source="all", include_inactive=False, land_only=False):
     tree = ET.parse(xml_file_path)
     root = tree.getroot()
+    mission_dir = Path(xml_file_path).parent
+    event_sources = {}
+    for origin, event_file in (
+        ("vanilla", mission_dir / "db" / "events.xml"),
+        ("expansion", mission_dir / "expansion_ce" / "expansion_events.xml"),
+    ):
+        for event in ET.parse(event_file).getroot().findall("./event"):
+            event_sources[event.attrib["name"]] = (origin, event.findtext("active") == "1")
 
     points = []
     for event in root.findall("./event"):
         event_name = event.attrib.get("name", "")
         if not event_name.startswith("Vehicle"):
+            continue
+        event_info = event_sources.get(event_name)
+        if event_info is None or (source != "all" and event_info[0] != source):
+            continue
+        if not include_inactive and not event_info[1]:
+            continue
+        if land_only and any(word in event_name for word in ("Boat", "Helicopter")):
             continue
 
         for pos in event.findall("./pos"):
@@ -77,8 +92,11 @@ def plot_vehicle_spawns(
     focus_region=None,
     background_bounds=None,
     label_full_names=False,
+    source="all",
+    include_inactive=False,
+    land_only=False,
 ):
-    points = load_vehicle_spawns(xml_file_path)
+    points = load_vehicle_spawns(xml_file_path, source, include_inactive, land_only)
     if not points:
         print(f"No Vehicle* spawn points found in: {xml_file_path}")
         return
@@ -140,7 +158,8 @@ def plot_vehicle_spawns(
     ax.grid(True, alpha=0.3, linestyle="--")
     ax.set_xlabel("X Coordinate (meters)")
     ax.set_ylabel("Z Coordinate (meters)")
-    ax.set_title("Deer Isle Vehicle Event Spawns")
+    scope = "Ground vehicle" if land_only else "Vehicle"
+    ax.set_title(f"Chernarus {source.title()} {scope} Spawn Points")
     ax.legend(
         loc="upper left",
         bbox_to_anchor=(1.01, 1.0),
@@ -150,8 +169,9 @@ def plot_vehicle_spawns(
         framealpha=0.9,
     )
 
-    timestamp = datetime.now().strftime("%Y%m%d%H%M")
-    output_path = Path(output_dir) / f"VehicleSpawns-{timestamp}.png"
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    suffix = "ground" if land_only else "all"
+    output_path = Path(output_dir) / f"VehicleSpawns-{source}-{suffix}-{timestamp}.png"
 
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -166,7 +186,7 @@ def plot_vehicle_spawns(
 
 
 def main():
-    parser = ArgumentParser(description="Plot Vehicle* event spawns for Deer Isle.")
+    parser = ArgumentParser(description="Plot configured vehicle event spawns on Chernarus.")
     parser.add_argument(
         "--xml",
         type=Path,
@@ -184,6 +204,9 @@ def main():
         action="store_true",
         help="Do not label individual vehicle spawn points.",
     )
+    parser.add_argument("--source", choices=("all", "vanilla", "expansion"), default="all")
+    parser.add_argument("--land-only", action="store_true", help="Exclude boats and aircraft.")
+    parser.add_argument("--include-inactive", action="store_true", help="Show disabled vehicle events too.")
     parser.add_argument(
         "--full-labels",
         action="store_true",
@@ -215,6 +238,9 @@ def main():
         focus_region=tuple(args.focus_region) if args.focus_region else None,
         background_bounds=tuple(args.background_bounds) if args.background_bounds else None,
         label_full_names=args.full_labels,
+        source=args.source,
+        include_inactive=args.include_inactive,
+        land_only=args.land_only,
     )
 
 
