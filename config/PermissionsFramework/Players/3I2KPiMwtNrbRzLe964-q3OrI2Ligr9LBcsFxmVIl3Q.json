@@ -1,5 +1,15 @@
 {
     "Roles": [
         "admin"
-    ]
+    ],
+    "NameRestrictions": {},
+    "Stats": {
+        "TotalPlaytimeSec": 255,
+        "SessionCount": 1,
+        "FirstSeenUnix": 1792193284,
+        "LastSeenUnix": 1792193539,
+        "Deaths": 0,
+        "LongestLifeSec": 0,
+        "CurrentLifeStartUnix": 1792193284
+    }
 }

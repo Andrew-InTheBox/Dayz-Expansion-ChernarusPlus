@@ -1,154 +1,377 @@
 {
-    "Presets": [
+    "InitialPreset": "",
+    "Presets": [],
+    "DynamicEnabled": 0,
+    "States": [
         {
             "Name": "No Rain",
-            "Time": 0.0,
-            "PDate": {
-                "Year": -1,
-                "Month": -1,
-                "Day": -1,
-                "Hour": -1,
-                "Minute": -1
-            },
-            "Storm": {
-                "Density": -1.0,
-                "Threshold": -1.0,
-                "MinTimeBetweenLightning": -1.0
-            },
-            "PFog": {
-                "Forecast": 0.0,
-                "Time": 0.0,
-                "MinDuration": 0.0
-            },
-            "POvercast": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "PRain": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "RainThreshold": {
-                "OvercastMin": -1.0,
-                "OvercastMax": -1.0,
-                "Time": -1.0
-            },
-            "Wind": {
-                "Dir": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Speed": -1.0,
-                "MaxSpeed": -1.0
-            },
-            "WindFunc": {
-                "Min": -1.0,
-                "Max": -1.0,
-                "Speed": -1.0
-            }
+            "InRotation": 1,
+            "Phases": [
+                {
+                    "Name": "Phase 1",
+                    "Conditions": {
+                        "Name": "",
+                        "Time": 0.0,
+                        "PDate": {
+                            "Year": -1,
+                            "Month": -1,
+                            "Day": -1,
+                            "Hour": -1,
+                            "Minute": -1
+                        },
+                        "Storm": {
+                            "Density": 0.0,
+                            "Threshold": 0.0,
+                            "MinTimeBetweenLightning": 0.0,
+                            "DensityHi": 0.0,
+                            "ThresholdHi": 0.0,
+                            "MinTimeBetweenLightningHi": 0.0
+                        },
+                        "PSandstorm": {
+                            "Enabled": 0,
+                            "Duration": 0.0,
+                            "FadeInTime": -1.0,
+                            "OvercastValue": -1.0,
+                            "WindMagnitudeValue": -1.0,
+                            "DurationHi": 0.0,
+                            "FadeInTimeHi": 0.0,
+                            "OvercastValueHi": 0.0,
+                            "WindMagnitudeValueHi": 0.0
+                        },
+                        "POvercast": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PFog": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PDynFog": {
+                            "Distance": 0.0,
+                            "Height": 0.0,
+                            "Bias": 0.0,
+                            "Time": 0.0,
+                            "DistanceHi": 0.0,
+                            "HeightHi": 0.0,
+                            "BiasHi": 0.0
+                        },
+                        "PRain": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "RainThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PSnow": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "SnowThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PWindMagnitude": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PWindDirection": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "WindFunc": {
+                            "Min": 0.0,
+                            "Max": 0.0,
+                            "Speed": 0.0,
+                            "MinHi": 0.0,
+                            "MaxHi": 0.0,
+                            "SpeedHi": 0.0
+                        },
+                        "InRotation": 0,
+                        "DurationMin": 0,
+                        "DurationMax": 0,
+                        "TransitionMin": 0,
+                        "TransitionMax": 0,
+                        "NextStates": []
+                    },
+                    "Preset": "",
+                    "DurationMin": 600,
+                    "DurationMax": 1800,
+                    "TransitionMin": 60,
+                    "TransitionMax": 180,
+                    "Edges": [
+                        {
+                            "To": "",
+                            "Chance": 100
+                        }
+                    ]
+                }
+            ],
+            "Entry": [],
+            "NextStates": []
         },
         {
             "Name": "No Fog",
-            "Time": 0.0,
-            "PDate": {
-                "Year": -1,
-                "Month": -1,
-                "Day": -1,
-                "Hour": -1,
-                "Minute": -1
-            },
-            "Storm": {
-                "Density": -1.0,
-                "Threshold": -1.0,
-                "MinTimeBetweenLightning": -1.0
-            },
-            "PFog": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "POvercast": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "PRain": {
-                "Forecast": -1.0,
-                "Time": -1.0,
-                "MinDuration": -1.0
-            },
-            "RainThreshold": {
-                "OvercastMin": -1.0,
-                "OvercastMax": -1.0,
-                "Time": -1.0
-            },
-            "Wind": {
-                "Dir": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Speed": -1.0,
-                "MaxSpeed": -1.0
-            },
-            "WindFunc": {
-                "Min": -1.0,
-                "Max": -1.0,
-                "Speed": -1.0
-            }
+            "InRotation": 1,
+            "Phases": [
+                {
+                    "Name": "Phase 1",
+                    "Conditions": {
+                        "Name": "",
+                        "Time": 0.0,
+                        "PDate": {
+                            "Year": -1,
+                            "Month": -1,
+                            "Day": -1,
+                            "Hour": -1,
+                            "Minute": -1
+                        },
+                        "Storm": {
+                            "Density": 0.0,
+                            "Threshold": 0.0,
+                            "MinTimeBetweenLightning": 0.0,
+                            "DensityHi": 0.0,
+                            "ThresholdHi": 0.0,
+                            "MinTimeBetweenLightningHi": 0.0
+                        },
+                        "PSandstorm": {
+                            "Enabled": 0,
+                            "Duration": 0.0,
+                            "FadeInTime": -1.0,
+                            "OvercastValue": -1.0,
+                            "WindMagnitudeValue": -1.0,
+                            "DurationHi": 0.0,
+                            "FadeInTimeHi": 0.0,
+                            "OvercastValueHi": 0.0,
+                            "WindMagnitudeValueHi": 0.0
+                        },
+                        "POvercast": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PFog": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PDynFog": {
+                            "Distance": 0.0,
+                            "Height": 0.0,
+                            "Bias": 0.0,
+                            "Time": 0.0,
+                            "DistanceHi": 0.0,
+                            "HeightHi": 0.0,
+                            "BiasHi": 0.0
+                        },
+                        "PRain": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "RainThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PSnow": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "SnowThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PWindMagnitude": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PWindDirection": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "WindFunc": {
+                            "Min": 0.0,
+                            "Max": 0.0,
+                            "Speed": 0.0,
+                            "MinHi": 0.0,
+                            "MaxHi": 0.0,
+                            "SpeedHi": 0.0
+                        },
+                        "InRotation": 0,
+                        "DurationMin": 0,
+                        "DurationMax": 0,
+                        "TransitionMin": 0,
+                        "TransitionMax": 0,
+                        "NextStates": []
+                    },
+                    "Preset": "",
+                    "DurationMin": 600,
+                    "DurationMax": 1800,
+                    "TransitionMin": 60,
+                    "TransitionMax": 180,
+                    "Edges": [
+                        {
+                            "To": "",
+                            "Chance": 100
+                        }
+                    ]
+                }
+            ],
+            "Entry": [],
+            "NextStates": []
         },
         {
             "Name": "No Rain and Fog",
-            "Time": 0.0,
-            "PDate": {
-                "Year": -1,
-                "Month": -1,
-                "Day": -1,
-                "Hour": -1,
-                "Minute": -1
-            },
-            "Storm": {
-                "Density": -1.0,
-                "Threshold": -1.0,
-                "MinTimeBetweenLightning": -1.0
-            },
-            "PFog": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "POvercast": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "PRain": {
-                "Forecast": 0.0,
-                "Time": 120.0,
-                "MinDuration": 21600.0
-            },
-            "RainThreshold": {
-                "OvercastMin": -1.0,
-                "OvercastMax": -1.0,
-                "Time": -1.0
-            },
-            "Wind": {
-                "Dir": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Speed": -1.0,
-                "MaxSpeed": -1.0
-            },
-            "WindFunc": {
-                "Min": -1.0,
-                "Max": -1.0,
-                "Speed": -1.0
-            }
+            "InRotation": 1,
+            "Phases": [
+                {
+                    "Name": "Phase 1",
+                    "Conditions": {
+                        "Name": "",
+                        "Time": 0.0,
+                        "PDate": {
+                            "Year": -1,
+                            "Month": -1,
+                            "Day": -1,
+                            "Hour": -1,
+                            "Minute": -1
+                        },
+                        "Storm": {
+                            "Density": 0.0,
+                            "Threshold": 0.0,
+                            "MinTimeBetweenLightning": 0.0,
+                            "DensityHi": 0.0,
+                            "ThresholdHi": 0.0,
+                            "MinTimeBetweenLightningHi": 0.0
+                        },
+                        "PSandstorm": {
+                            "Enabled": 0,
+                            "Duration": 0.0,
+                            "FadeInTime": -1.0,
+                            "OvercastValue": -1.0,
+                            "WindMagnitudeValue": -1.0,
+                            "DurationHi": 0.0,
+                            "FadeInTimeHi": 0.0,
+                            "OvercastValueHi": 0.0,
+                            "WindMagnitudeValueHi": 0.0
+                        },
+                        "POvercast": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PFog": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PDynFog": {
+                            "Distance": 0.0,
+                            "Height": 0.0,
+                            "Bias": 0.0,
+                            "Time": 0.0,
+                            "DistanceHi": 0.0,
+                            "HeightHi": 0.0,
+                            "BiasHi": 0.0
+                        },
+                        "PRain": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "RainThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PSnow": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "SnowThreshold": {
+                            "OvercastMin": 0.0,
+                            "OvercastMax": 0.0,
+                            "Time": 0.0
+                        },
+                        "PWindMagnitude": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "PWindDirection": {
+                            "Forecast": 0.0,
+                            "ForecastHi": 0.0,
+                            "Time": 0.0,
+                            "MinDuration": 0.0
+                        },
+                        "WindFunc": {
+                            "Min": 0.0,
+                            "Max": 0.0,
+                            "Speed": 0.0,
+                            "MinHi": 0.0,
+                            "MaxHi": 0.0,
+                            "SpeedHi": 0.0
+                        },
+                        "InRotation": 0,
+                        "DurationMin": 0,
+                        "DurationMax": 0,
+                        "TransitionMin": 0,
+                        "TransitionMax": 0,
+                        "NextStates": []
+                    },
+                    "Preset": "",
+                    "DurationMin": 600,
+                    "DurationMax": 1800,
+                    "TransitionMin": 60,
+                    "TransitionMax": 180,
+                    "Edges": [
+                        {
+                            "To": "",
+                            "Chance": 100
+                        }
+                    ]
+                }
+            ],
+            "Entry": [],
+            "NextStates": []
         }
-    ]
+    ],
+    "StatesVersion": 2,
+    "CurrentPreset": "",
+    "DurationMin": 0,
+    "DurationMax": 0,
+    "TransitionMin": 0,
+    "TransitionMax": 0,
+    "Transitions": []
 }

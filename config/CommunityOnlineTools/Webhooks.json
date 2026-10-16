@@ -4,6 +4,8 @@
             "Name": "Main",
             "ContextURL": "",
             "Address": "",
+            "FilterGUID": "",
+            "FilterRole": "",
             "Types": [
                 {
                     "Name": "COTModule",
