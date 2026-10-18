@@ -102,8 +102,9 @@ if not exist "%SCRIPT_DIR%keys" mkdir "%SCRIPT_DIR%keys"
 setlocal EnableDelayedExpansion
 set /a KEY_COUNT=0
 set /a KEY_ERRORS=0
+:: FOR /R cannot take a FOR variable as its root, so list each mod's keys with dir instead
 for /d %%D in (@*) do (
-  for /r "%%D" %%K in (*.bikey) do (
+  for /f "delims=" %%K in ('dir /s /b /a-d "%%D\*.bikey" 2^>nul') do (
     copy /Y "%%~fK" "%SCRIPT_DIR%keys\%%~nxK" >nul
     if errorlevel 1 (
       echo ^(%time%^) WARNING: Could not copy mod key "%%~fK"
